@@ -15,6 +15,15 @@ import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 import java.util.ArrayList;
 
 
+<<<<<<< HEAD
+=======
+/**
+ * Created by ketan patel on 28/1/2019.
+ * ketan_patel25@yahoo.com
+ * Sharva Infotech PVT LTD
+ */
+
+>>>>>>> 1/30/2019
 public class AddServiceItemAdapter extends BaseAdapter {
 
 	private Context mActivity;

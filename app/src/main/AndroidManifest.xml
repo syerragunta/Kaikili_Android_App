@@ -55,7 +55,11 @@
             android:value="AIzaSyDV-siHexyTrxnqNq4HUFFcyEi8AXGAMZA" />
 
         <activity
+<<<<<<< HEAD
             android:name=".activity.SplashActivity"
+=======
+            android:name=".activity.HomeScreenActivity"
+>>>>>>> 1/30/2019
             android:label="@string/app_name"
             android:theme="@style/FullscreenTheme">
             <intent-filter>
@@ -119,7 +123,11 @@
             android:screenOrientation="portrait"
             android:theme="@style/FullscreenTheme" />
         <activity
+<<<<<<< HEAD
             android:name=".activity.HomeScreenActivity"
+=======
+            android:name=".activity.SplashActivity"
+>>>>>>> 1/30/2019
             android:label="@string/title_activity_home_screen"
             android:theme="@style/AppTheme.NoActionBar"></activity>
 
@@ -128,12 +136,18 @@
             android:label="@string/title_activity_home_screen"
             android:theme="@style/AppTheme.NoActionBar"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 1/30/2019
         <activity
             android:name=".activity.AddServiceDataActivity"
             android:label="@string/title_activity_home_screen"
             android:theme="@style/AppTheme.NoActionBar"/>
+<<<<<<< HEAD
 >>>>>>> 1/29/2019
+=======
+>>>>>>> 1/30/2019
     </application>
 
 </manifest>

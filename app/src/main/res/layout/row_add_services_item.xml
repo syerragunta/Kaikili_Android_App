@@ -30,7 +30,11 @@
         android:text="gsDDDsdgdsgs"
         android:layout_height="wrap_content"
         android:textColor="@color/text_coloer"
+<<<<<<< HEAD
         android:textSize="@dimen/fontsize14"
+=======
+        android:textSize="@dimen/fontsize16"
+>>>>>>> 1/30/2019
         />
 
 

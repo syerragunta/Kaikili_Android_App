@@ -10,30 +10,27 @@ import android.widget.LinearLayout;
 
 import com.sit.kaikiliService.KetanApplication;
 import com.sit.kaikiliService.R;
-import com.sit.kaikiliService.font.TextViewEuphemiaUCASBola;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
+import com.sit.kaikiliService.model.EarningsModel;
 
 import java.util.ArrayList;
 
 
-<<<<<<< HEAD
-=======
 /**
  * Created by ketan patel on 30/1/2019.
  * ketan_patel25@yahoo.com
  * Sharva Infotech PVT LTD
  */
 
->>>>>>> 1/30/2019
-public class ServiceCatalogueListAdapter extends BaseAdapter {
+public class EarningsListAdapter extends BaseAdapter {
 
 	private Context mActivity;
 	private LayoutInflater inflater;
-	private ArrayList<String > servicesList = new ArrayList<>();
+	private ArrayList<EarningsModel> earningList = new ArrayList<>();
     private KetanApplication application;
 
 
-	public ServiceCatalogueListAdapter(Context activity) {
+	public EarningsListAdapter(Context activity) {
 		// TODO Auto-generated constructor stub
 		mActivity = activity;
         application = (KetanApplication)mActivity.getApplicationContext();
@@ -44,13 +41,13 @@ public class ServiceCatalogueListAdapter extends BaseAdapter {
 	@Override
 	public int getCount() {
 		// TODO Auto-generated method stub
-		return servicesList.size();
+		return earningList.size();
 	}
 
 	@Override
 	public Object getItem(int position) {
 		// TODO Auto-generated method stub
-		return servicesList.get(position);
+		return earningList.get(position);
 	}
 
 	@Override
@@ -67,16 +64,14 @@ public class ServiceCatalogueListAdapter extends BaseAdapter {
 		final int post = position;
 
             holder = new RecordHolder();
-            row = inflater.inflate(R.layout.row_services_catalogue, null);
-            holder.tvName = (TextViewEuphemiaUCASRegular)row.findViewById( R.id.row_service_catalogue_tv_title );
-            holder.tvStatus = (TextViewEuphemiaUCASBola) row.findViewById( R.id.row_service_catalogue_tv_status );
-            holder.tvName.setText( servicesList.get( position ).toString());
-
-            if(position == 1 || position == 2 || position == 5 || position == 7 || position == 9){
-				holder.tvStatus.setText( "ON " );
-			}else {
-				holder.tvStatus.setText( "OFF " );
-			}
+            row = inflater.inflate(R.layout.row_earning_item, null);
+            holder.tvName = (TextViewEuphemiaUCASRegular)row.findViewById( R.id.row_earning_item_tv_title );
+            holder.tvTime = (TextViewEuphemiaUCASRegular)row.findViewById( R.id.row_earning_item_tv_time );
+            holder.tvAmount = (TextViewEuphemiaUCASRegular)row.findViewById( R.id.row_earning_item_tv_amount );
+            row.setTag(holder);
+            holder.tvName.setText( earningList.get( position ).getName());
+            holder.tvTime.setText( earningList.get( position ).getTime());
+            holder.tvAmount.setText( earningList.get( position ).getAmount());
 
 
 
@@ -84,11 +79,11 @@ public class ServiceCatalogueListAdapter extends BaseAdapter {
 			@Override
 			public void onClick(View v) {
 
-//				((MainActivity)mActivity).callGroupLink(servicesList.get(post).getCategory_title(),servicesList.get(post).getCategory_id());
+//				((MainActivity)mActivity).callGroupLink(earningList.get(post).getCategory_title(),earningList.get(post).getCategory_id());
 
 //				Intent intent = new Intent(mActivity, GroupListActivity.class);
-//				intent.putExtra("categoriesName",servicesList.get(post).getCategory_title());
-//				intent.putExtra("categoriesId",servicesList.get(post).getCategory_id());
+//				intent.putExtra("categoriesName",earningList.get(post).getCategory_title());
+//				intent.putExtra("categoriesId",earningList.get(post).getCategory_id());
 //				mActivity.startActivity(intent);
 			}
 		});
@@ -99,15 +94,14 @@ public class ServiceCatalogueListAdapter extends BaseAdapter {
 
 
 
-	public void setList(ArrayList<String > servicesList) {
+	public void setList(ArrayList<EarningsModel > earningList) {
 		// TODO Auto-generated method stub
-		this.servicesList = servicesList;
+		this.earningList = earningList;
 		notifyDataSetChanged();
 	}
 
 	static class RecordHolder {
-		TextViewEuphemiaUCASRegular tvName;
-		TextViewEuphemiaUCASBola tvStatus;
+		TextViewEuphemiaUCASRegular tvName,tvTime,tvAmount;
 
 	}
 

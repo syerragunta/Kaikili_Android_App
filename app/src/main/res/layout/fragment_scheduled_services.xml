@@ -5,10 +5,18 @@
     android:layout_height="match_parent"
     tools:context=".fragment.ScheduledServicesFragment">
 
+<<<<<<< HEAD
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="@string/hello_blank_fragment" />
 
+=======
+   <android.support.v7.widget.RecyclerView
+       android:layout_margin="@dimen/dim10"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/scheduled_services_fgm_recyclerView"></android.support.v7.widget.RecyclerView>
+>>>>>>> 1/30/2019
 </FrameLayout>

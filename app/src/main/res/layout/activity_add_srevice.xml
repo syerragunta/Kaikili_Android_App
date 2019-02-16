@@ -14,7 +14,10 @@
         <include layout="@layout/activity_hedar" />
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 1/30/2019
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_marginLeft="@dimen/dim20"
@@ -57,7 +60,10 @@
 
         </LinearLayout>
 
+<<<<<<< HEAD
 >>>>>>> 1/29/2019
+=======
+>>>>>>> 1/30/2019
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -68,6 +74,7 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
+<<<<<<< HEAD
 <<<<<<< HEAD
                <LinearLayout
                    android:layout_width="match_parent"
@@ -113,6 +120,9 @@
 =======
 
 >>>>>>> 1/29/2019
+=======
+
+>>>>>>> 1/30/2019
 
                 <com.sit.kaikiliService.comman.WithoutScrollListView
                     android:id="@+id/add_service_listView_searchList"
@@ -140,10 +150,14 @@
                     android:text="Kaikili Provided Services"
                     android:textColor="#FFFFFF"
 <<<<<<< HEAD
+<<<<<<< HEAD
                     android:textSize="@dimen/fontsize16" />
 =======
                     android:textSize="@dimen/fontsize20" />
 >>>>>>> 1/29/2019
+=======
+                    android:textSize="@dimen/fontsize16" />
+>>>>>>> 1/30/2019
 
 
                  <com.sit.kaikiliService.comman.WithoutScrollListView

@@ -40,7 +40,11 @@
                     android:layout_marginTop="@dimen/dim6"
                     android:text="Cost per item"
                     android:textColor="@color/text_coloer"
+<<<<<<< HEAD
                     android:textSize="@dimen/fontsize16" />
+=======
+                    android:textSize="@dimen/fontsize18" />
+>>>>>>> 1/30/2019
 
                 <View
                     android:id="@+id/add_service_data_view_costPerItem"
@@ -68,7 +72,11 @@
                     android:layout_marginTop="@dimen/dim16"
                     android:text="Cost per size"
                     android:textColor="@color/text_coloer"
+<<<<<<< HEAD
                     android:textSize="@dimen/fontsize16" />
+=======
+                    android:textSize="@dimen/fontsize18" />
+>>>>>>> 1/30/2019
 
                 <View
                     android:id="@+id/add_service_data_view_costPerSize"
@@ -110,6 +118,10 @@
                     android:gravity="top|left"
                     android:hint="Please provide more about your service"
                     android:maxLines="10"
+<<<<<<< HEAD
+=======
+                    android:textSize="@dimen/fontsize16"
+>>>>>>> 1/30/2019
                     android:minLines="10"
                     android:padding="@dimen/dim4"
                     android:visibility="visible" />
@@ -142,7 +154,11 @@
                         android:gravity="left|center_vertical"
                         android:text="Seasonal Offer"
                         android:textColor="@color/text_coloer"
+<<<<<<< HEAD
                         android:textSize="@dimen/fontsize14" />
+=======
+                        android:textSize="@dimen/fontsize16" />
+>>>>>>> 1/30/2019
 
 
                     <com.sit.kaikiliService.font.TextViewEuphemiaUCASBola

@@ -43,10 +43,16 @@
     <string name="nav_header_desc">Navigation header</string>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
 >>>>>>> 1/29/2019
+=======
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+>>>>>>> 1/30/2019
 
 </resources>

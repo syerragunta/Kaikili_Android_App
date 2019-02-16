@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
 =======
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
 >>>>>>> 1/29/2019
+=======
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> 1/30/2019
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
 <<<<<<< HEAD
     android:background="@drawable/app_bg"
     tools:context=".activity.HomeScreenActivity">
@@ -17,6 +23,11 @@
     android:background="@drawable/app_bg"
     >
 >>>>>>> 1/29/2019
+=======
+    android:orientation="vertical"
+    android:background="@drawable/app_bg"
+    >
+>>>>>>> 1/30/2019
 
 
     <android.support.v7.widget.Toolbar
@@ -50,11 +61,14 @@
     <!--</android.support.design.widget.AppBarLayout>-->
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     <include layout="@layout/content_home_screen" />
 
 
 </android.support.design.widget.CoordinatorLayout>
 =======
+=======
+>>>>>>> 1/30/2019
     <android.support.v4.view.ViewPager
         android:id="@+id/home_viewpager"
         android:layout_width="match_parent"
@@ -69,5 +83,9 @@
 
 
 
+<<<<<<< HEAD
 </LinearLayout>
 >>>>>>> 1/29/2019
+=======
+</LinearLayout>
+>>>>>>> 1/30/2019
