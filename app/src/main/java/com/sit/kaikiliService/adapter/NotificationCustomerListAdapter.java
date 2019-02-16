@@ -11,6 +11,7 @@ import android.widget.ImageView;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import com.sit.kaikiliService.KetanApplication;
 =======
 import com.sit.kaikiliService.KaikiliApplication;
@@ -21,6 +22,9 @@ import com.sit.kaikiliService.KaikiliApplication;
 =======
 import com.sit.kaikiliService.KaikiliApplication;
 >>>>>>> 2/9/2019
+=======
+import com.sit.kaikiliService.KaikiliApplication;
+>>>>>>> 2/14/2019
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.comman.CircularImageView;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASBola;
@@ -42,6 +46,7 @@ public class NotificationCustomerListAdapter extends RecyclerView.Adapter<Recycl
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     private KetanApplication application;
 =======
     private KaikiliApplication application;
@@ -52,11 +57,15 @@ public class NotificationCustomerListAdapter extends RecyclerView.Adapter<Recycl
 =======
     private KaikiliApplication application;
 >>>>>>> 2/9/2019
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/14/2019
     private ArrayList <NotificationModel> notificationList;
 
     public NotificationCustomerListAdapter(Context activity) {
         // TODO Auto-generated constructor stub
         mActivity = activity;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -70,6 +79,9 @@ public class NotificationCustomerListAdapter extends RecyclerView.Adapter<Recycl
 =======
         application = (KaikiliApplication) mActivity.getApplicationContext();
 >>>>>>> 2/9/2019
+=======
+        application = (KaikiliApplication) mActivity.getApplicationContext();
+>>>>>>> 2/14/2019
         notificationList = new ArrayList<>( );
     }
 
@@ -93,6 +105,7 @@ public class NotificationCustomerListAdapter extends RecyclerView.Adapter<Recycl
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         if(notificationList.get( position ).isReadStatus()){
             viewHolder.ivRead.setVisibility( View.VISIBLE );
@@ -109,6 +122,8 @@ public class NotificationCustomerListAdapter extends RecyclerView.Adapter<Recycl
 =======
 =======
 >>>>>>> 2/9/2019
+=======
+>>>>>>> 2/14/2019
         viewHolder.ivRead.setVisibility( View.GONE );
         if(notificationList.get( position ).isReadStatus()){
 //            viewHolder.ivRead.setVisibility( View.VISIBLE );
@@ -125,9 +140,12 @@ public class NotificationCustomerListAdapter extends RecyclerView.Adapter<Recycl
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/2/2019
 =======
 >>>>>>> 2/9/2019
+=======
+>>>>>>> 2/14/2019
 //        }
 
 //

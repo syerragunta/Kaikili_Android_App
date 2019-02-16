@@ -1,17 +1,33 @@
 package com.sit.kaikiliService.api;
 
+<<<<<<< HEAD
+=======
+import android.util.Log;
+
+import com.bluelinelabs.logansquare.LoganSquare;
+>>>>>>> 2/14/2019
 import com.google.gson.Gson;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+<<<<<<< HEAD
 import java.lang.reflect.Type;
+=======
+import java.lang.reflect.ParameterizedType;
+import java.lang.reflect.Type;
+import java.util.List;
+>>>>>>> 2/14/2019
 
 import retrofit.converter.ConversionException;
 import retrofit.converter.Converter;
 import retrofit.mime.TypedInput;
 import retrofit.mime.TypedOutput;
+<<<<<<< HEAD
+=======
+import retrofit.mime.TypedString;
+>>>>>>> 2/14/2019
 
 /**
  * Created by ketan patel on 9/2/2019.
@@ -58,7 +74,11 @@ public class LoganSquareConverter implements Converter {
         return out.toString();
     }
 
+<<<<<<< HEAD
 //
+=======
+
+>>>>>>> 2/14/2019
 //    @Override
 //    public Object fromBody(TypedInput body, Type type) throws ConversionException {
 //        try {
@@ -78,7 +98,11 @@ public class LoganSquareConverter implements Converter {
 //            throw new ConversionException(e);
 //        }
 //    }
+<<<<<<< HEAD
 //
+=======
+
+>>>>>>> 2/14/2019
 //    @SuppressWarnings("unchecked")
 //    @Override
 //    public TypedOutput toBody(Object object) {

@@ -9,6 +9,7 @@ import android.widget.ImageView;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.widget.Toast;
 
 import com.rilixtech.Country;
@@ -31,6 +32,11 @@ import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.KaikiliApplication;
 import com.sit.kaikiliService.R;
 >>>>>>> 2/9/2019
+=======
+
+import com.sit.kaikiliService.KaikiliApplication;
+import com.sit.kaikiliService.R;
+>>>>>>> 2/14/2019
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 import com.sit.kaikiliService.font.VerificationCodeEditText;
 
@@ -66,6 +72,7 @@ public class PhoneValidationCodeActivity extends BaseActivity implements View.On
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     private KetanApplication application;
 =======
     private KaikiliApplication application;
@@ -76,6 +83,9 @@ public class PhoneValidationCodeActivity extends BaseActivity implements View.On
 =======
     private KaikiliApplication application;
 >>>>>>> 2/9/2019
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/14/2019
     private SharedPreferences preferences;
 
 
@@ -89,6 +99,7 @@ public class PhoneValidationCodeActivity extends BaseActivity implements View.On
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         application = (KetanApplication) getApplicationContext();
 =======
         application = (KaikiliApplication) getApplicationContext();
@@ -99,6 +110,9 @@ public class PhoneValidationCodeActivity extends BaseActivity implements View.On
 =======
         application = (KaikiliApplication) getApplicationContext();
 >>>>>>> 2/9/2019
+=======
+        application = (KaikiliApplication) getApplicationContext();
+>>>>>>> 2/14/2019
         preferences = application.getSharedPreferences();
 
         top_title.setText( "Phone Number Validation" );

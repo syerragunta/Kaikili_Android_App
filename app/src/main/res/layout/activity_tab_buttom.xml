@@ -6,6 +6,7 @@
     android:layout_height="wrap_content"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     android:background="@drawable/tab_bg"
 
     android:orientation="vertical">
@@ -149,6 +150,8 @@
 =======
 =======
 >>>>>>> 2/9/2019
+=======
+>>>>>>> 2/14/2019
     android:orientation="vertical">
 
     <android.support.design.widget.BottomNavigationView
@@ -302,9 +305,12 @@
         <!--android:layout_height="1dp"-->
         <!--android:background="@color/text_coloer" />-->
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/2/2019
 =======
 >>>>>>> 2/9/2019
+=======
+>>>>>>> 2/14/2019
 
 
 </LinearLayout>

@@ -5,6 +5,7 @@ package com.sit.kaikiliService.fragment;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
@@ -36,6 +37,8 @@ public class ScheduledServicesFragment extends BaseFragment {
 >>>>>>> 2/2/2019
 =======
 >>>>>>> 2/9/2019
+=======
+>>>>>>> 2/14/2019
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -67,6 +70,7 @@ public class ScheduledServicesFragment extends BaseFragment {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1/30/2019
 =======
 >>>>>>> 1/31/2019
@@ -76,12 +80,15 @@ public class ScheduledServicesFragment extends BaseFragment {
 >>>>>>> 2/2/2019
 =======
 >>>>>>> 2/9/2019
+=======
+>>>>>>> 2/14/2019
 
     public ScheduledServicesFragment() {
         // Required empty public constructor
     }
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -106,10 +113,13 @@ public class ScheduledServicesFragment extends BaseFragment {
 >>>>>>> 2/2/2019
 =======
 >>>>>>> 2/9/2019
+=======
+>>>>>>> 2/14/2019
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -134,11 +144,15 @@ public class ScheduledServicesFragment extends BaseFragment {
 =======
 
 >>>>>>> 2/9/2019
+=======
+
+>>>>>>> 2/14/2019
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -155,10 +169,13 @@ public class ScheduledServicesFragment extends BaseFragment {
 >>>>>>> 2/2/2019
 =======
 >>>>>>> 2/9/2019
+=======
+>>>>>>> 2/14/2019
         final View rootView = inflater.inflate(R.layout.fragment_scheduled_services, container, false);
      //   initToolbar();
         ButterKnife.bind( this, rootView );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -172,10 +189,13 @@ public class ScheduledServicesFragment extends BaseFragment {
 >>>>>>> 2/2/2019
 =======
 >>>>>>> 2/9/2019
+=======
+>>>>>>> 2/14/2019
         initComponents(rootView);
         return rootView;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -195,10 +215,13 @@ public class ScheduledServicesFragment extends BaseFragment {
 >>>>>>> 2/2/2019
 =======
 >>>>>>> 2/9/2019
+=======
+>>>>>>> 2/14/2019
 
     @Override
     public void initComponents(View rootView) {
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -213,6 +236,8 @@ public class ScheduledServicesFragment extends BaseFragment {
 >>>>>>> 2/2/2019
 =======
 >>>>>>> 2/9/2019
+=======
+>>>>>>> 2/14/2019
         LinearLayoutManager mLayoutManager = new LinearLayoutManager( getActivity() );
         adapter = new ServiceListAdapter( getActivity());
         scheduled_services_fgm_recyclerView.setLayoutManager( mLayoutManager );
@@ -246,6 +271,7 @@ public class ScheduledServicesFragment extends BaseFragment {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1/30/2019
 =======
 >>>>>>> 1/31/2019
@@ -255,6 +281,8 @@ public class ScheduledServicesFragment extends BaseFragment {
 >>>>>>> 2/2/2019
 =======
 >>>>>>> 2/9/2019
+=======
+>>>>>>> 2/14/2019
     }
 
 }

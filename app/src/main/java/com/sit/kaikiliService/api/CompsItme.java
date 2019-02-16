@@ -30,7 +30,20 @@ public class CompsItme implements Serializable {
     @JsonField
     private String cc_check_box;
 
+<<<<<<< HEAD
 
+=======
+    public String getCc_rate() {
+        return cc_rate;
+    }
+
+    public void setCc_rate(String cc_rate) {
+        this.cc_rate = cc_rate;
+    }
+
+    @JsonField
+    private String cc_rate ="";
+>>>>>>> 2/14/2019
 
     public String getCc_id() {
         return cc_id;

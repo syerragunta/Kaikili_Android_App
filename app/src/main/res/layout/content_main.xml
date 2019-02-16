@@ -7,6 +7,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     tools:context=".MainActivity"
 =======
     android:background="@color/white"
@@ -14,6 +15,9 @@
 =======
     android:background="@color/white"
 >>>>>>> 2/9/2019
+=======
+    android:background="@color/white"
+>>>>>>> 2/14/2019
     tools:showIn="@layout/activity_main">
 
     <TextView

@@ -7,6 +7,7 @@ import android.widget.ImageView;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.widget.ListView;
 
 import com.sit.kaikiliService.KetanApplication;
@@ -27,6 +28,11 @@ import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.KaikiliApplication;
 import com.sit.kaikiliService.R;
 >>>>>>> 2/9/2019
+=======
+
+import com.sit.kaikiliService.KaikiliApplication;
+import com.sit.kaikiliService.R;
+>>>>>>> 2/14/2019
 import com.sit.kaikiliService.adapter.ServiceInfoItemAdapter;
 import com.sit.kaikiliService.comman.WithoutScrollListView;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
@@ -56,6 +62,7 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     private KetanApplication application;
 =======
     private KaikiliApplication application;
@@ -66,6 +73,9 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
 =======
     private KaikiliApplication application;
 >>>>>>> 2/9/2019
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/14/2019
     private SharedPreferences preferences;
     private ServiceInfoItemAdapter adapter;
     private ArrayList<ServiceInfoModel> serviceInfoList;
@@ -80,6 +90,7 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         application = (KetanApplication) getApplicationContext();
 =======
         application = (KaikiliApplication) getApplicationContext();
@@ -90,6 +101,9 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
 =======
         application = (KaikiliApplication) getApplicationContext();
 >>>>>>> 2/9/2019
+=======
+        application = (KaikiliApplication) getApplicationContext();
+>>>>>>> 2/14/2019
         preferences = application.getSharedPreferences();
 
         top_title.setText( "Service Detail" );
@@ -104,6 +118,7 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         model.setAmount( "625.00" );
 =======
         model.setAmount( "65.00" );
@@ -114,6 +129,9 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
 =======
         model.setAmount( "65.00" );
 >>>>>>> 2/9/2019
+=======
+        model.setAmount( "65.00" );
+>>>>>>> 2/14/2019
         serviceInfoList.add( model );
 
         ServiceInfoModel model1 = new ServiceInfoModel();

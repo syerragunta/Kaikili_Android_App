@@ -42,6 +42,7 @@ import android.widget.Toast;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import com.sit.kaikiliService.KetanApplication;
 =======
 import com.sit.kaikiliService.KaikiliApplication;
@@ -52,6 +53,9 @@ import com.sit.kaikiliService.KaikiliApplication;
 =======
 import com.sit.kaikiliService.KaikiliApplication;
 >>>>>>> 2/9/2019
+=======
+import com.sit.kaikiliService.KaikiliApplication;
+>>>>>>> 2/14/2019
 import com.sit.kaikiliService.R;
 
 import java.io.ByteArrayOutputStream;
@@ -98,6 +102,7 @@ public class Util {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         KetanApplication application = (KetanApplication)context.getApplicationContext();
 =======
         KaikiliApplication application = (KaikiliApplication)context.getApplicationContext();
@@ -108,6 +113,9 @@ public class Util {
 =======
         KaikiliApplication application = (KaikiliApplication)context.getApplicationContext();
 >>>>>>> 2/9/2019
+=======
+        KaikiliApplication application = (KaikiliApplication)context.getApplicationContext();
+>>>>>>> 2/14/2019
         SharedPreferences preferences = application.getSharedPreferences();
 
 
@@ -317,6 +325,35 @@ public class Util {
 		return isValid;
 	}
 
+<<<<<<< HEAD
+=======
+
+    public static boolean isDateValid(String date) {
+        boolean isValid = false;
+
+        // String expression = "^[\\w\\.-]+@([\\w\\-]+\\.)+[A-Z]{2,4}$";
+        // /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/
+        String expression = "([0-9]{2})/([0-9]{2})/([0-9]{4})";
+        CharSequence inputStr = date;
+
+        Pattern pattern = Pattern.compile(expression, Pattern.CASE_INSENSITIVE);
+        Matcher matcher = pattern.matcher(inputStr);
+        if (matcher.matches()) {
+            isValid = true;
+        }
+        return isValid;
+    }
+//
+//    boolean checkFormat;
+//
+//if (input.matches("([0-9]{2})/([0-9]{2})/([0-9]{4})"))
+//    checkFormat=true;
+//else
+//    checkFormat=false;
+
+
+
+>>>>>>> 2/14/2019
 	public static boolean isNumberValid(String valus) {
 		boolean isValid = false;
 
@@ -682,6 +719,7 @@ public class Util {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         KetanApplication application = (KetanApplication) context.getApplicationContext();
 =======
         KaikiliApplication application = (KaikiliApplication) context.getApplicationContext();
@@ -692,6 +730,9 @@ public class Util {
 =======
         KaikiliApplication application = (KaikiliApplication) context.getApplicationContext();
 >>>>>>> 2/9/2019
+=======
+        KaikiliApplication application = (KaikiliApplication) context.getApplicationContext();
+>>>>>>> 2/14/2019
         SharedPreferences preferences = application.getSharedPreferences();
         String ns = Context.NOTIFICATION_SERVICE;
         NotificationManager nMgr = (NotificationManager)context.getSystemService(ns);
@@ -708,6 +749,7 @@ public class Util {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //        KetanApplication application = (KetanApplication)context.getApplicationContext();
 =======
 //        KaikiliApplication application = (KaikiliApplication)context.getApplicationContext();
@@ -718,6 +760,9 @@ public class Util {
 =======
 //        KaikiliApplication application = (KaikiliApplication)context.getApplicationContext();
 >>>>>>> 2/9/2019
+=======
+//        KaikiliApplication application = (KaikiliApplication)context.getApplicationContext();
+>>>>>>> 2/14/2019
 //        SharedPreferences preferences = application.getSharedPreferences();
 //
 //        final Dialog dialog = new Dialog(context, R.style.TransparantBlackDialog);

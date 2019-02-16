@@ -26,6 +26,20 @@ public class Discount implements Serializable {
     private String ds_rate_num_field;
 
     @JsonField
+<<<<<<< HEAD
+=======
+    private String ds_rate = "";
+
+    public String getDs_rate() {
+        return ds_rate;
+    }
+
+    public void setDs_rate(String ds_rate) {
+        this.ds_rate = ds_rate;
+    }
+
+    @JsonField
+>>>>>>> 2/14/2019
     private String ds_check_box;
 
     public String getDs_id() {
