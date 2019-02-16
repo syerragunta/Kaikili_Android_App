@@ -3,7 +3,10 @@ package com.sit.kaikiliService.activity;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.DatePickerDialog;
+<<<<<<< HEAD
 import android.content.Context;
+=======
+>>>>>>> 2/1/2019
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -11,10 +14,13 @@ import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
+<<<<<<< HEAD
 import android.graphics.drawable.Drawable;
 import android.location.Address;
 import android.location.Geocoder;
 import android.location.LocationManager;
+=======
+>>>>>>> 2/1/2019
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -23,6 +29,7 @@ import android.view.View;
 import android.widget.CheckBox;
 import android.widget.DatePicker;
 import android.widget.ImageView;
+<<<<<<< HEAD
 import android.widget.TextView;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -31,6 +38,13 @@ import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.camera.Config;
 import com.sit.kaikiliService.camera.ImagePickerActivity;
 import com.sit.kaikiliService.comman.AppLog;
+=======
+
+import com.sit.kaikiliService.KaikiliApplication;
+import com.sit.kaikiliService.R;
+import com.sit.kaikiliService.camera.Config;
+import com.sit.kaikiliService.camera.ImagePickerActivity;
+>>>>>>> 2/1/2019
 import com.sit.kaikiliService.comman.Util;
 import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
@@ -40,8 +54,11 @@ import org.adw.library.widgets.discreteseekbar.DiscreteSeekBar;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Calendar;
+<<<<<<< HEAD
 import java.util.List;
 import java.util.Locale;
+=======
+>>>>>>> 2/1/2019
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -172,7 +189,11 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
             "android.permission.WRITE_EXTERNAL_STORAGE",
             "android.permission.READ_EXTERNAL_STORAGE"};
 
+<<<<<<< HEAD
     private KetanApplication application;
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/1/2019
     private SharedPreferences preferences;
     private Calendar calendar;
     private int year, month, day;
@@ -194,7 +215,11 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
         month = calendar.get( Calendar.MONTH );
         day = calendar.get( Calendar.DAY_OF_MONTH );
 
+<<<<<<< HEAD
         application = (KetanApplication) getApplicationContext();
+=======
+        application = (KaikiliApplication) getApplicationContext();
+>>>>>>> 2/1/2019
         preferences = application.getSharedPreferences();
 
         imgPicturePath1 = null;

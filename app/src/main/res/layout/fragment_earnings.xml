@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -17,6 +18,8 @@
 =======
 =======
 >>>>>>> 1/31/2019
+=======
+>>>>>>> 2/1/2019
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -84,8 +87,12 @@
         android:layout_height="match_parent"/>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 </LinearLayout>
 >>>>>>> 1/30/2019
 =======
 </LinearLayout>
 >>>>>>> 1/31/2019
+=======
+</LinearLayout>
+>>>>>>> 2/1/2019

@@ -32,6 +32,7 @@
         android:textColor="@color/text_coloer"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:textSize="@dimen/fontsize14"
 =======
         android:textSize="@dimen/fontsize16"
@@ -39,6 +40,9 @@
 =======
         android:textSize="@dimen/fontsize16"
 >>>>>>> 1/31/2019
+=======
+        android:textSize="@dimen/fontsize16"
+>>>>>>> 2/1/2019
         />
 
 

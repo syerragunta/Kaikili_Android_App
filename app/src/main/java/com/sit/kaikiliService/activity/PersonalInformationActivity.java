@@ -5,17 +5,25 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
+<<<<<<< HEAD
 import android.support.annotation.Nullable;
+=======
+>>>>>>> 2/1/2019
 import android.support.design.widget.FloatingActionButton;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.DatePicker;
 import android.widget.ImageView;
 
+<<<<<<< HEAD
 import com.sit.kaikiliService.KetanApplication;
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.activity.BaseActivity;
 import com.sit.kaikiliService.activity.PhoneNoValidationActivity;
+=======
+import com.sit.kaikiliService.KaikiliApplication;
+import com.sit.kaikiliService.R;
+>>>>>>> 2/1/2019
 import com.sit.kaikiliService.comman.BetterSpinner;
 import com.sit.kaikiliService.comman.Util;
 import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
@@ -55,7 +63,11 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
     @Bind(R.id.personal_info_fb_next)
     FloatingActionButton personal_info_fb_next;
 
+<<<<<<< HEAD
     private KetanApplication application;
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/1/2019
     private SharedPreferences preferences;
 
     private Calendar calendar;
@@ -71,7 +83,11 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
         setContentView( R.layout.activity_personal_information );
         ButterKnife.bind( this, this );
 
+<<<<<<< HEAD
         application = (KetanApplication) getApplicationContext();
+=======
+        application = (KaikiliApplication) getApplicationContext();
+>>>>>>> 2/1/2019
         preferences = application.getSharedPreferences();
 
         top_title.setText( "Enter Personal Information" );

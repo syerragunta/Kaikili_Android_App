@@ -11,7 +11,11 @@
         android:background="@drawable/app_bg"
         android:orientation="vertical">
 
+<<<<<<< HEAD
         <include layout="@layout/activity_hedar" />
+=======
+        <include layout="@layout/activity_header" />
+>>>>>>> 2/1/2019
 
         <ScrollView
             android:layout_width="match_parent"

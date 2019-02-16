@@ -2,18 +2,27 @@ package com.sit.kaikiliService.activity;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
+<<<<<<< HEAD
 import android.text.Editable;
 import android.text.TextWatcher;
+=======
+>>>>>>> 2/1/2019
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.ListView;
 
+<<<<<<< HEAD
 import com.sit.kaikiliService.KetanApplication;
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.adapter.AddServiceListAdapter;
 import com.sit.kaikiliService.adapter.ServiceCatalogueListAdapter;
 import com.sit.kaikiliService.comman.WithoutScrollListView;
 import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
+=======
+import com.sit.kaikiliService.KaikiliApplication;
+import com.sit.kaikiliService.R;
+import com.sit.kaikiliService.adapter.ServiceCatalogueListAdapter;
+>>>>>>> 2/1/2019
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 
 import java.util.ArrayList;
@@ -39,7 +48,11 @@ public class ServiceCatalogueActivity extends BaseActivity implements View.OnCli
 
 
 
+<<<<<<< HEAD
     private KetanApplication application;
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/1/2019
     private SharedPreferences preferences;
     private ArrayList<String> serviceList;
     private ServiceCatalogueListAdapter adapter;
@@ -53,7 +66,11 @@ public class ServiceCatalogueActivity extends BaseActivity implements View.OnCli
         setContentView( R.layout.activity_srevice_catalogue );
         ButterKnife.bind( this, this );
 
+<<<<<<< HEAD
         application = (KetanApplication) getApplicationContext();
+=======
+        application = (KaikiliApplication) getApplicationContext();
+>>>>>>> 2/1/2019
         preferences = application.getSharedPreferences();
 
         top_title.setText( "Service Catalogue" );

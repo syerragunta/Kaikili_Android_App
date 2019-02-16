@@ -1,9 +1,14 @@
 package com.sit.kaikiliService.activity;
 
+<<<<<<< HEAD
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.Typeface;
+=======
+import android.content.SharedPreferences;
+import android.graphics.Color;
+>>>>>>> 2/1/2019
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.content.ContextCompat;
@@ -17,9 +22,14 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+<<<<<<< HEAD
 import com.sit.kaikiliService.KetanApplication;
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
+=======
+import com.sit.kaikiliService.KaikiliApplication;
+import com.sit.kaikiliService.R;
+>>>>>>> 2/1/2019
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 
 import butterknife.Bind;
@@ -44,7 +54,11 @@ public class TermsConditionsActivity extends BaseActivity implements View.OnClic
 
     @Bind(R.id.terms_next)  FloatingActionButton terms_next;
 
+<<<<<<< HEAD
     private KetanApplication application;
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/1/2019
     private SharedPreferences preferences;
 
 
@@ -55,7 +69,11 @@ public class TermsConditionsActivity extends BaseActivity implements View.OnClic
         setContentView(R.layout.activity_terms_conditions);
         ButterKnife.bind( this,this );
 
+<<<<<<< HEAD
         application = (KetanApplication) getApplicationContext();
+=======
+        application = (KaikiliApplication) getApplicationContext();
+>>>>>>> 2/1/2019
         preferences = application.getSharedPreferences();
 
         top_title.setText( "Terms and Conditions" );

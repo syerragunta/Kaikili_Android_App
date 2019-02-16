@@ -5,7 +5,11 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+<<<<<<< HEAD
     <include layout="@layout/activity_hedar" />
+=======
+    <include layout="@layout/activity_header" />
+>>>>>>> 2/1/2019
 
 
     <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
@@ -138,6 +142,10 @@
             android:textSize="@dimen/fontsize18" />
 
         <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+<<<<<<< HEAD
+=======
+            android:id="@+id/cash_out_tv_changed"
+>>>>>>> 2/1/2019
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"

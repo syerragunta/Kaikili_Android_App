@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.view.View;
 import android.widget.ImageView;
+<<<<<<< HEAD
 import android.widget.Toast;
 
 import com.rilixtech.Country;
@@ -13,6 +14,11 @@ import com.rilixtech.CountryCodePicker;
 import com.sit.kaikiliService.KetanApplication;
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
+=======
+
+import com.sit.kaikiliService.KaikiliApplication;
+import com.sit.kaikiliService.R;
+>>>>>>> 2/1/2019
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 import com.sit.kaikiliService.font.VerificationCodeEditText;
 
@@ -45,7 +51,11 @@ public class PhoneValidationCodeActivity extends BaseActivity implements View.On
 
     @Bind(R.id.phone_code_fb_next)  FloatingActionButton phone_code_fb_next;
 
+<<<<<<< HEAD
     private KetanApplication application;
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/1/2019
     private SharedPreferences preferences;
 
 
@@ -56,7 +66,11 @@ public class PhoneValidationCodeActivity extends BaseActivity implements View.On
         setContentView(R.layout.activity_phone_validation_code);
         ButterKnife.bind( this,this );
 
+<<<<<<< HEAD
         application = (KetanApplication) getApplicationContext();
+=======
+        application = (KaikiliApplication) getApplicationContext();
+>>>>>>> 2/1/2019
         preferences = application.getSharedPreferences();
 
         top_title.setText( "Phone Number Validation" );

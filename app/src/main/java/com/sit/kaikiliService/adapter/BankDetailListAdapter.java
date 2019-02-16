@@ -2,64 +2,39 @@ package com.sit.kaikiliService.adapter;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.LinearLayout;
 
-<<<<<<< HEAD
-import com.sit.kaikiliService.KetanApplication;
-=======
 import com.sit.kaikiliService.KaikiliApplication;
->>>>>>> 2/1/2019
 import com.sit.kaikiliService.R;
+import com.sit.kaikiliService.activity.AddServiceDataActivity;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 
 import java.util.ArrayList;
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 1/31/2019
-=======
->>>>>>> 2/1/2019
 /**
- * Created by ketan patel on 28/1/2019.
+ * Created by ketan patel on 30/1/2019.
  * ketan_patel25@yahoo.com
  * Sharva Infotech PVT LTD
  */
 
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 1/30/2019
-=======
->>>>>>> 1/31/2019
-=======
->>>>>>> 2/1/2019
-public class AddServiceItemAdapter extends BaseAdapter {
+public class BankDetailListAdapter extends BaseAdapter {
 
 	private Context mActivity;
 	private LayoutInflater inflater;
 	private ArrayList<String > servicesList = new ArrayList<>();
-<<<<<<< HEAD
-    private KetanApplication application;
-=======
     private KaikiliApplication application;
->>>>>>> 2/1/2019
 
 
-	public AddServiceItemAdapter(Context activity) {
+	public BankDetailListAdapter(Context activity) {
 		// TODO Auto-generated constructor stub
 		mActivity = activity;
-<<<<<<< HEAD
-        application = (KetanApplication)mActivity.getApplicationContext();
-=======
         application = (KaikiliApplication)mActivity.getApplicationContext();
->>>>>>> 2/1/2019
 		inflater = (LayoutInflater) mActivity.getSystemService(Activity.LAYOUT_INFLATER_SERVICE);
 
 	}
@@ -90,26 +65,23 @@ public class AddServiceItemAdapter extends BaseAdapter {
 		final int post = position;
 
             holder = new RecordHolder();
-            row = inflater.inflate(R.layout.row_add_services_item, null);
-            holder.tvName = (TextViewEuphemiaUCASRegular)row.findViewById( R.id.row_add_service_item_tv_title );
-            holder.frameLayout = (LinearLayout)row.findViewById( R.id.row_add_service_item_ll_row );
-            row.setTag(holder);
-            holder.tvName.setText( servicesList.get( position ).toString());
+            row = inflater.inflate(R.layout.row_bank_info_item, null);
+//            holder.tvName = (TextViewEuphemiaUCASRegular)row.findViewById( R.id.row_add_service_tv_title );
+//            holder.frameLayout = (LinearLayout)row.findViewById( R.id.row_add_service_ll_row );
+//            row.setTag(holder);
+//            holder.tvName.setText( servicesList.get( position ).toString());
 
 
 
-		row.setOnClickListener(new View.OnClickListener() {
-			@Override
-			public void onClick(View v) {
-
-//				((MainActivity)mActivity).callGroupLink(servicesList.get(post).getCategory_title(),servicesList.get(post).getCategory_id());
-
-//				Intent intent = new Intent(mActivity, GroupListActivity.class);
-//				intent.putExtra("categoriesName",servicesList.get(post).getCategory_title());
-//				intent.putExtra("categoriesId",servicesList.get(post).getCategory_id());
+//		row.setOnClickListener(new View.OnClickListener() {
+//			@Override
+//			public void onClick(View v) {
+//
+//				Intent intent = new Intent(mActivity, AddServiceDataActivity.class);
+//				intent.putExtra("serviceName",servicesList.get(post).toString());
 //				mActivity.startActivity(intent);
-			}
-		});
+//			}
+//		});
 
 
         return row;

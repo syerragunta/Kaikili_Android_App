@@ -39,7 +39,11 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+<<<<<<< HEAD
 import com.sit.kaikiliService.KetanApplication;
+=======
+import com.sit.kaikiliService.KaikiliApplication;
+>>>>>>> 2/1/2019
 import com.sit.kaikiliService.R;
 
 import java.io.ByteArrayOutputStream;
@@ -83,7 +87,11 @@ public class Util {
 
     public static void displayDialog(String title, String msg, final Context context, final boolean isFinsActivity) {
 
+<<<<<<< HEAD
         KetanApplication application = (KetanApplication)context.getApplicationContext();
+=======
+        KaikiliApplication application = (KaikiliApplication)context.getApplicationContext();
+>>>>>>> 2/1/2019
         SharedPreferences preferences = application.getSharedPreferences();
 
 
@@ -655,7 +663,11 @@ public class Util {
 
     public static void ClearAllNotification(Context context){
 
+<<<<<<< HEAD
         KetanApplication application = (KetanApplication) context.getApplicationContext();
+=======
+        KaikiliApplication application = (KaikiliApplication) context.getApplicationContext();
+>>>>>>> 2/1/2019
         SharedPreferences preferences = application.getSharedPreferences();
         String ns = Context.NOTIFICATION_SERVICE;
         NotificationManager nMgr = (NotificationManager)context.getSystemService(ns);
@@ -669,7 +681,11 @@ public class Util {
 
 //    public static void displayDialog(String url, final Context context) {
 //
+<<<<<<< HEAD
 //        KetanApplication application = (KetanApplication)context.getApplicationContext();
+=======
+//        KaikiliApplication application = (KaikiliApplication)context.getApplicationContext();
+>>>>>>> 2/1/2019
 //        SharedPreferences preferences = application.getSharedPreferences();
 //
 //        final Dialog dialog = new Dialog(context, R.style.TransparantBlackDialog);

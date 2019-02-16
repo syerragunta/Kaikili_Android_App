@@ -16,7 +16,11 @@ import android.provider.Settings;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
+<<<<<<< HEAD
 import com.sit.kaikiliService.KetanApplication;
+=======
+import com.sit.kaikiliService.KaikiliApplication;
+>>>>>>> 2/1/2019
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.comman.AppLog;
 import com.sit.kaikiliService.comman.Util;
@@ -32,9 +36,15 @@ import com.sit.kaikiliService.comman.Util;
 public class SplashActivity extends BaseActivity {
     private static final short SPLASH_TIME = 2000;
 
+<<<<<<< HEAD
 //    private KetanApplication application;
     private ProgressDialog mDialog = null;
     private KetanApplication application;
+=======
+//    private KaikiliApplication application;
+    private ProgressDialog mDialog = null;
+    private KaikiliApplication application;
+>>>>>>> 2/1/2019
     private SharedPreferences preferences;
     private String gcmRegistrationId = "";
     private static final int PERMISSION_REQUEST_CODE = 200;
@@ -56,7 +66,11 @@ public class SplashActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
+<<<<<<< HEAD
         application = (KetanApplication) getApplicationContext();
+=======
+        application = (KaikiliApplication) getApplicationContext();
+>>>>>>> 2/1/2019
         preferences = application.getSharedPreferences();
 
         if(checkPlayServices()) {

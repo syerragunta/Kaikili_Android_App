@@ -2,6 +2,7 @@ package com.sit.kaikiliService.activity;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
+<<<<<<< HEAD
 import android.support.design.widget.FloatingActionButton;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -20,6 +21,14 @@ import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.comman.Util;
 import com.sit.kaikiliService.font.CustomEditText;
 import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
+=======
+import android.view.View;
+import android.widget.ImageView;
+
+import com.sit.kaikiliService.KaikiliApplication;
+import com.sit.kaikiliService.R;
+import com.sit.kaikiliService.font.CustomEditText;
+>>>>>>> 2/1/2019
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 
 import butterknife.Bind;
@@ -44,7 +53,11 @@ public class SelectLocationActivity extends BaseActivity implements View.OnClick
     @Bind(R.id.user_location_tv_setLocation)    TextViewEuphemiaUCASRegular user_location_tv_setLocation;
 
 
+<<<<<<< HEAD
     private KetanApplication application;
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/1/2019
     private SharedPreferences preferences;
 
 
@@ -54,7 +67,11 @@ public class SelectLocationActivity extends BaseActivity implements View.OnClick
         setContentView( R.layout.activity_user_location );
         ButterKnife.bind( this, this );
 
+<<<<<<< HEAD
         application = (KetanApplication) getApplicationContext();
+=======
+        application = (KaikiliApplication) getApplicationContext();
+>>>>>>> 2/1/2019
         preferences = application.getSharedPreferences();
 
         top_title.setText( "Set Your Work Location" );

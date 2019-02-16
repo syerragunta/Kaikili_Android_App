@@ -4,11 +4,17 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+<<<<<<< HEAD
 import android.widget.ListView;
 
 import com.sit.kaikiliService.KetanApplication;
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.adapter.AddServiceListAdapter;
+=======
+
+import com.sit.kaikiliService.KaikiliApplication;
+import com.sit.kaikiliService.R;
+>>>>>>> 2/1/2019
 import com.sit.kaikiliService.adapter.ServiceInfoItemAdapter;
 import com.sit.kaikiliService.comman.WithoutScrollListView;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
@@ -35,7 +41,11 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
     @Bind(R.id.service_info_listView)
     WithoutScrollListView service_info_listView;
 
+<<<<<<< HEAD
     private KetanApplication application;
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/1/2019
     private SharedPreferences preferences;
     private ServiceInfoItemAdapter adapter;
     private ArrayList<ServiceInfoModel> serviceInfoList;
@@ -47,7 +57,11 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
         setContentView( R.layout.activity_service_info );
         ButterKnife.bind( this, this );
 
+<<<<<<< HEAD
         application = (KetanApplication) getApplicationContext();
+=======
+        application = (KaikiliApplication) getApplicationContext();
+>>>>>>> 2/1/2019
         preferences = application.getSharedPreferences();
 
         top_title.setText( "Service Detail" );
@@ -59,7 +73,11 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
         serviceInfoList = new ArrayList<>();
         ServiceInfoModel model = new ServiceInfoModel();
         model.setName( "Int Wall Painting 2500/$0.25" );
+<<<<<<< HEAD
         model.setAmount( "625.00" );
+=======
+        model.setAmount( "65.00" );
+>>>>>>> 2/1/2019
         serviceInfoList.add( model );
 
         ServiceInfoModel model1 = new ServiceInfoModel();

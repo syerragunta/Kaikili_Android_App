@@ -8,14 +8,21 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+<<<<<<< HEAD
 import com.sit.kaikiliService.KetanApplication;
+=======
+import com.sit.kaikiliService.KaikiliApplication;
+>>>>>>> 2/1/2019
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 
 import java.util.ArrayList;
 
 import com.sit.kaikiliService.model.NotificationModel;
+<<<<<<< HEAD
 import com.sit.kaikiliService.model.ServiceModel;
+=======
+>>>>>>> 2/1/2019
 
 
 /**
@@ -27,13 +34,21 @@ import com.sit.kaikiliService.model.ServiceModel;
 public class NotificationListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     private Context mActivity;
+<<<<<<< HEAD
     private KetanApplication application;
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/1/2019
     private ArrayList <NotificationModel> notificationList;
 
     public NotificationListAdapter(Context activity) {
         // TODO Auto-generated constructor stub
         mActivity = activity;
+<<<<<<< HEAD
         application = (KetanApplication) mActivity.getApplicationContext();
+=======
+        application = (KaikiliApplication) mActivity.getApplicationContext();
+>>>>>>> 2/1/2019
         notificationList = new ArrayList<>( );
     }
 

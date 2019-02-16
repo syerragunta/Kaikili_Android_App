@@ -1,5 +1,6 @@
 package com.sit.kaikiliService.activity;
 
+<<<<<<< HEAD
 import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -22,6 +23,18 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
+=======
+import android.content.SharedPreferences;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
+
+import com.sit.kaikiliService.KaikiliApplication;
+import com.sit.kaikiliService.R;
+import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
+import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
+
+>>>>>>> 2/1/2019
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
@@ -49,7 +62,11 @@ public class BackgroundFormActivity extends BaseActivity implements View.OnClick
         @Bind( R.id.background_form_tv_submit) TextViewEuphemiaUCASRegular background_form_tv_submit;
 
 
+<<<<<<< HEAD
     private KetanApplication application;
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/1/2019
     private SharedPreferences preferences;
 
 
@@ -60,7 +77,11 @@ public class BackgroundFormActivity extends BaseActivity implements View.OnClick
         setContentView( R.layout.activity_background_form );
         ButterKnife.bind( this, this );
 
+<<<<<<< HEAD
         application = (KetanApplication) getApplicationContext();
+=======
+        application = (KaikiliApplication) getApplicationContext();
+>>>>>>> 2/1/2019
         preferences = application.getSharedPreferences();
 
         top_title.setText( "Background Check Form" );

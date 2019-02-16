@@ -13,7 +13,11 @@
     android:background="@drawable/app_bg"
    >
 
+<<<<<<< HEAD
     <include layout="@layout/activity_hedar" />
+=======
+    <include layout="@layout/activity_header" />
+>>>>>>> 2/1/2019
 
   <ImageView
       android:layout_margin="@dimen/dim30"

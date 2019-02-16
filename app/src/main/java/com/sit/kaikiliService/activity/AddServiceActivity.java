@@ -7,7 +7,11 @@ import android.text.TextWatcher;
 import android.view.View;
 import android.widget.ImageView;
 
+<<<<<<< HEAD
 import com.sit.kaikiliService.KetanApplication;
+=======
+import com.sit.kaikiliService.KaikiliApplication;
+>>>>>>> 2/1/2019
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.adapter.AddServiceListAdapter;
 import com.sit.kaikiliService.comman.WithoutScrollListView;
@@ -41,7 +45,11 @@ public class AddServiceActivity extends BaseActivity implements View.OnClickList
 
 
 
+<<<<<<< HEAD
     private KetanApplication application;
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/1/2019
     private SharedPreferences preferences;
     private ArrayList<String> serviceList;
     private ArrayList<String> filterList;
@@ -56,7 +64,11 @@ public class AddServiceActivity extends BaseActivity implements View.OnClickList
         setContentView( R.layout.activity_add_srevice );
         ButterKnife.bind( this, this );
 
+<<<<<<< HEAD
         application = (KetanApplication) getApplicationContext();
+=======
+        application = (KaikiliApplication) getApplicationContext();
+>>>>>>> 2/1/2019
         preferences = application.getSharedPreferences();
 
         top_title.setText( "Add Services" );

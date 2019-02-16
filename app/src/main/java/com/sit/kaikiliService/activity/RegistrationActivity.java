@@ -6,7 +6,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
+<<<<<<< HEAD
 import com.sit.kaikiliService.KetanApplication;
+=======
+import com.sit.kaikiliService.KaikiliApplication;
+>>>>>>> 2/1/2019
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 
@@ -37,7 +41,11 @@ public class RegistrationActivity extends BaseActivity implements View.OnClickLi
     @Bind(R.id.reg_tv_personalInformation) TextViewEuphemiaUCASRegular reg_tv_personalInformation;
     @Bind(R.id.reg_tv_phoneVerification) TextViewEuphemiaUCASRegular reg_tv_phoneVerification;
 
+<<<<<<< HEAD
     private KetanApplication application;
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/1/2019
     private SharedPreferences preferences;
 
 
@@ -46,7 +54,11 @@ public class RegistrationActivity extends BaseActivity implements View.OnClickLi
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration);
         ButterKnife.bind(this, this);
+<<<<<<< HEAD
         application = (KetanApplication) getApplicationContext();
+=======
+        application = (KaikiliApplication) getApplicationContext();
+>>>>>>> 2/1/2019
         preferences = application.getSharedPreferences();
 
         reg_tv_addServices.setOnClickListener( this );
