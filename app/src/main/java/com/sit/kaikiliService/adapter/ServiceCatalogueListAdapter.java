@@ -17,14 +17,20 @@ import java.util.ArrayList;
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 1/31/2019
 /**
  * Created by ketan patel on 30/1/2019.
  * ketan_patel25@yahoo.com
  * Sharva Infotech PVT LTD
  */
 
+<<<<<<< HEAD
 >>>>>>> 1/30/2019
+=======
+>>>>>>> 1/31/2019
 public class ServiceCatalogueListAdapter extends BaseAdapter {
 
 	private Context mActivity;

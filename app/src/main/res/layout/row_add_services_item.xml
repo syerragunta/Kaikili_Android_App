@@ -31,10 +31,14 @@
         android:layout_height="wrap_content"
         android:textColor="@color/text_coloer"
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:textSize="@dimen/fontsize14"
 =======
         android:textSize="@dimen/fontsize16"
 >>>>>>> 1/30/2019
+=======
+        android:textSize="@dimen/fontsize16"
+>>>>>>> 1/31/2019
         />
 
 

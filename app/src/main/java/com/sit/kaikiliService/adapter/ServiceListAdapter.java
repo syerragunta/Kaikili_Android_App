@@ -1,7 +1,13 @@
 package com.sit.kaikiliService.adapter;
 
 import android.content.Context;
+<<<<<<< HEAD
 import android.support.annotation.NonNull;
+=======
+import android.content.Intent;
+import android.support.annotation.NonNull;
+import android.support.v7.widget.CardView;
+>>>>>>> 1/31/2019
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,6 +15,10 @@ import android.view.ViewGroup;
 
 import com.sit.kaikiliService.KetanApplication;
 import com.sit.kaikiliService.R;
+<<<<<<< HEAD
+=======
+import com.sit.kaikiliService.activity.ServiceInfoActivity;
+>>>>>>> 1/31/2019
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 
 import java.util.ArrayList;
@@ -55,6 +65,7 @@ public class ServiceListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
 //
 //        viewHolder.cardView.setTag( position );
 //
+<<<<<<< HEAD
 //        viewHolder.cardView.setOnClickListener( new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {
@@ -65,6 +76,17 @@ public class ServiceListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
 //            }
 //        } );
 ////
+=======
+        viewHolder.cardView.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent( mActivity, ServiceInfoActivity.class );
+                 mActivity.startActivity( intent );
+
+            }
+        } );
+//
+>>>>>>> 1/31/2019
 //        viewHolder.mainLinLayout.setOnLongClickListener( new View.OnLongClickListener() {
 //            @Override
 //            public boolean onLongClick(View view) {
@@ -94,7 +116,11 @@ public class ServiceListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
     public class MyViewHolder extends RecyclerView.ViewHolder {
 
         private TextViewEuphemiaUCASRegular tvTitle,tvTime;
+<<<<<<< HEAD
 //        private CardView cardView;
+=======
+        private CardView cardView;
+>>>>>>> 1/31/2019
 
 
         public MyViewHolder(View itemView) {
@@ -102,7 +128,13 @@ public class ServiceListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
 
             tvTitle = (TextViewEuphemiaUCASRegular) itemView.findViewById( R.id.row_service_book_item_tv_title );
             tvTime = (TextViewEuphemiaUCASRegular) itemView.findViewById( R.id.row_service_book_item_tv_time );
+<<<<<<< HEAD
 //            cardView = (CardView) itemView.findViewById( R.id.row_service_cardView );
+=======
+            cardView = (CardView) itemView.findViewById( R.id.row_service_book_cardView );
+
+
+>>>>>>> 1/31/2019
 
 
 

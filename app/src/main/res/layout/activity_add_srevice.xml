@@ -15,9 +15,12 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 1/30/2019
+=======
+>>>>>>> 1/31/2019
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_marginLeft="@dimen/dim20"
@@ -61,9 +64,12 @@
         </LinearLayout>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1/29/2019
 =======
 >>>>>>> 1/30/2019
+=======
+>>>>>>> 1/31/2019
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -74,6 +80,7 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                <LinearLayout
@@ -123,6 +130,9 @@
 =======
 
 >>>>>>> 1/30/2019
+=======
+
+>>>>>>> 1/31/2019
 
                 <com.sit.kaikiliService.comman.WithoutScrollListView
                     android:id="@+id/add_service_listView_searchList"
@@ -151,6 +161,7 @@
                     android:textColor="#FFFFFF"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     android:textSize="@dimen/fontsize16" />
 =======
                     android:textSize="@dimen/fontsize20" />
@@ -158,6 +169,9 @@
 =======
                     android:textSize="@dimen/fontsize16" />
 >>>>>>> 1/30/2019
+=======
+                    android:textSize="@dimen/fontsize16" />
+>>>>>>> 1/31/2019
 
 
                  <com.sit.kaikiliService.comman.WithoutScrollListView

@@ -2,6 +2,7 @@ package com.sit.kaikiliService.activity;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -21,6 +22,8 @@ import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 =======
 =======
 >>>>>>> 1/30/2019
+=======
+>>>>>>> 1/31/2019
 import android.app.Fragment;
 import android.content.Context;
 import android.content.Intent;
@@ -43,9 +46,12 @@ import com.sit.kaikiliService.fragment.NotificationFragment;
 import com.sit.kaikiliService.fragment.ProfileFragment;
 import com.sit.kaikiliService.fragment.ScheduledServicesFragment;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1/29/2019
 =======
 >>>>>>> 1/30/2019
+=======
+>>>>>>> 1/31/2019
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -59,6 +65,7 @@ import butterknife.ButterKnife;
 public class HomeScreenActivity extends BaseActivity {
 //        implements NavigationView.OnNavigationItemSelectedListener {
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 //    @Bind(R.id.menu_top_civ_profile) CircularImageView menu_top_civ_profile;
@@ -77,14 +84,19 @@ public class HomeScreenActivity extends BaseActivity {
 =======
 =======
 >>>>>>> 1/30/2019
+=======
+>>>>>>> 1/31/2019
     @Bind(R.id.home_viewpager)ViewPager home_viewpager;
     @Bind(R.id.top_title)TextViewEuphemiaUCASRegular top_title;
 
     private Toolbar toolbar;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1/29/2019
 =======
 >>>>>>> 1/30/2019
+=======
+>>>>>>> 1/31/2019
 
 
     @Override
@@ -95,6 +107,7 @@ public class HomeScreenActivity extends BaseActivity {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Toolbar toolbar = (Toolbar) findViewById( R.id.toolbar );
 =======
         toolbar = (Toolbar) findViewById( R.id.toolbar );
@@ -102,6 +115,9 @@ public class HomeScreenActivity extends BaseActivity {
 =======
         toolbar = (Toolbar) findViewById( R.id.toolbar );
 >>>>>>> 1/30/2019
+=======
+        toolbar = (Toolbar) findViewById( R.id.toolbar );
+>>>>>>> 1/31/2019
         setSupportActionBar( toolbar );
 
 
@@ -113,6 +129,7 @@ public class HomeScreenActivity extends BaseActivity {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //        NavigationView navigationView = (NavigationView) findViewById( R.id.nav_view );
 //        navigationView.setNavigationItemSelectedListener( this );
     }
@@ -120,6 +137,8 @@ public class HomeScreenActivity extends BaseActivity {
 =======
 =======
 >>>>>>> 1/30/2019
+=======
+>>>>>>> 1/31/2019
 
 
 
@@ -161,9 +180,12 @@ public class HomeScreenActivity extends BaseActivity {
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1/29/2019
 =======
 >>>>>>> 1/30/2019
+=======
+>>>>>>> 1/31/2019
 
     @Override
     public void onBackPressed() {
@@ -187,6 +209,7 @@ public class HomeScreenActivity extends BaseActivity {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 //    @Override
 //    public boolean onOptionsItemSelected(MenuItem item) {
@@ -206,6 +229,8 @@ public class HomeScreenActivity extends BaseActivity {
 =======
 =======
 >>>>>>> 1/30/2019
+=======
+>>>>>>> 1/31/2019
     public void callTabHome(View view) {
         home_viewpager.setCurrentItem( 0 );
         top_title.setText("Home");
@@ -264,7 +289,10 @@ public class HomeScreenActivity extends BaseActivity {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1/29/2019
 =======
 >>>>>>> 1/30/2019
+=======
+>>>>>>> 1/31/2019
 }

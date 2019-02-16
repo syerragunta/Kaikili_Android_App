@@ -4,12 +4,16 @@ import android.app.Activity;
 import android.content.Context;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import android.content.Intent;
 >>>>>>> 1/29/2019
 =======
 import android.content.Intent;
 >>>>>>> 1/30/2019
+=======
+import android.content.Intent;
+>>>>>>> 1/31/2019
 import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -25,26 +29,36 @@ import com.sit.kaikiliService.KetanApplication;
 import com.sit.kaikiliService.R;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import com.sit.kaikiliService.activity.AddServiceDataActivity;
 >>>>>>> 1/29/2019
 =======
 import com.sit.kaikiliService.activity.AddServiceDataActivity;
 >>>>>>> 1/30/2019
+=======
+import com.sit.kaikiliService.activity.AddServiceDataActivity;
+>>>>>>> 1/31/2019
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 
 import java.util.ArrayList;
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 1/31/2019
 /**
  * Created by ketan patel on 30/1/2019.
  * ketan_patel25@yahoo.com
  * Sharva Infotech PVT LTD
  */
 
+<<<<<<< HEAD
 >>>>>>> 1/30/2019
+=======
+>>>>>>> 1/31/2019
 public class AddServiceListAdapter extends BaseAdapter {
 
 	private Context mActivity;
@@ -101,6 +115,7 @@ public class AddServiceListAdapter extends BaseAdapter {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //				((MainActivity)mActivity).callGroupLink(servicesList.get(post).getCategory_title(),servicesList.get(post).getCategory_id());
 
 //				Intent intent = new Intent(mActivity, GroupListActivity.class);
@@ -117,6 +132,11 @@ public class AddServiceListAdapter extends BaseAdapter {
 				intent.putExtra("serviceName",servicesList.get(post).toString());
 				mActivity.startActivity(intent);
 >>>>>>> 1/30/2019
+=======
+				Intent intent = new Intent(mActivity, AddServiceDataActivity.class);
+				intent.putExtra("serviceName",servicesList.get(post).toString());
+				mActivity.startActivity(intent);
+>>>>>>> 1/31/2019
 			}
 		});
 

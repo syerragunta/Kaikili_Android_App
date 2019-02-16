@@ -1,6 +1,7 @@
 package com.sit.kaikiliService.fragment;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
@@ -23,6 +24,8 @@ public class NotificationFragment extends BaseFragment {
     private String mParam2;
 
 =======
+=======
+>>>>>>> 1/31/2019
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -63,12 +66,16 @@ public class NotificationFragment extends BaseFragment {
     private NotificationListAdapter adapter;
     private NotificationCustomerListAdapter adapterCustomer;
     private ArrayList<NotificationModel> notificationList,notificationList2;
+<<<<<<< HEAD
 >>>>>>> 1/30/2019
+=======
+>>>>>>> 1/31/2019
 
     public NotificationFragment() {
         // Required empty public constructor
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public static NotificationFragment newInstance(String param1, String param2) {
         NotificationFragment fragment = new NotificationFragment();
@@ -80,10 +87,13 @@ public class NotificationFragment extends BaseFragment {
     }
 =======
 >>>>>>> 1/30/2019
+=======
+>>>>>>> 1/31/2019
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
+<<<<<<< HEAD
 <<<<<<< HEAD
         if (getArguments() != null) {
             mParam1 = getArguments().getString( ARG_PARAM1 );
@@ -91,11 +101,14 @@ public class NotificationFragment extends BaseFragment {
         }
 =======
 >>>>>>> 1/30/2019
+=======
+>>>>>>> 1/31/2019
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+<<<<<<< HEAD
 <<<<<<< HEAD
         final View rootView = inflater.inflate(R.layout.fragment_earnings, container, false);
        // initToolbar();
@@ -104,10 +117,16 @@ public class NotificationFragment extends BaseFragment {
        // initToolbar();
         ButterKnife.bind( this,rootView);
 >>>>>>> 1/30/2019
+=======
+        final View rootView = inflater.inflate(R.layout.fragment_notification, container, false);
+       // initToolbar();
+        ButterKnife.bind( this,rootView);
+>>>>>>> 1/31/2019
         initComponents(rootView);
         return rootView;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     public void initToolbar() {
         ((HomeScreenActivity) getActivity()).setUpToolbar("Notification");
@@ -115,16 +134,21 @@ public class NotificationFragment extends BaseFragment {
     }
 =======
 >>>>>>> 1/30/2019
+=======
+>>>>>>> 1/31/2019
 
     @Override
     public void initComponents(View rootView) {
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     }
 
 
 
 =======
+=======
+>>>>>>> 1/31/2019
         fag_noti_ll_kaikili.setBackgroundColor(getResources().getColor(R.color.colorAccent));
         fag_noti_ll_customer.setBackgroundColor(getResources().getColor(R.color.transparent));
         fag_noti_tv_kaikili.setTextColor(getResources().getColor(R.color.white));
@@ -266,5 +290,8 @@ public class NotificationFragment extends BaseFragment {
 
         adapter.setList( notificationList );
     }
+<<<<<<< HEAD
 >>>>>>> 1/30/2019
+=======
+>>>>>>> 1/31/2019
 }

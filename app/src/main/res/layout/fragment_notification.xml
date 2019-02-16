@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -14,6 +15,8 @@
 
 </FrameLayout>
 =======
+=======
+>>>>>>> 1/31/2019
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -78,5 +81,9 @@
 
    </android.support.v7.widget.RecyclerView>
 
+<<<<<<< HEAD
 </LinearLayout>
 >>>>>>> 1/30/2019
+=======
+</LinearLayout>
+>>>>>>> 1/31/2019
