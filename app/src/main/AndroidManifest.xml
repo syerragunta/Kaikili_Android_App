@@ -33,6 +33,7 @@
     <application
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:name=".KetanApplication"
 =======
         android:name=".KaikiliApplication"
@@ -40,6 +41,9 @@
 =======
         android:name=".KaikiliApplication"
 >>>>>>> 2/2/2019
+=======
+        android:name=".KaikiliApplication"
+>>>>>>> 2/9/2019
         android:allowBackup="false"
         android:appComponentFactory="whateverString"
         android:fullBackupContent="false"
@@ -67,6 +71,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             android:name=".activity.SplashActivity"
 =======
             android:name=".activity.HomeScreenActivity"
@@ -80,6 +85,9 @@
 =======
             android:name=".activity.SplashActivity"
 >>>>>>> 2/2/2019
+=======
+            android:name=".activity.SplashActivity"
+>>>>>>> 2/9/2019
             android:label="@string/app_name"
             android:theme="@style/FullscreenTheme">
             <intent-filter>
@@ -147,6 +155,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             android:name=".activity.HomeScreenActivity"
 =======
             android:name=".activity.SplashActivity"
@@ -160,6 +169,9 @@
 =======
             android:name=".activity.HomeScreenActivity"
 >>>>>>> 2/2/2019
+=======
+            android:name=".activity.HomeScreenActivity"
+>>>>>>> 2/9/2019
             android:label="@string/title_activity_home_screen"
             android:theme="@style/AppTheme.NoActionBar"></activity>
 
@@ -172,6 +184,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 1/30/2019
@@ -181,10 +194,13 @@
 >>>>>>> 2/1/2019
 =======
 >>>>>>> 2/2/2019
+=======
+>>>>>>> 2/9/2019
         <activity
             android:name=".activity.AddServiceDataActivity"
             android:label="@string/title_activity_home_screen"
             android:theme="@style/AppTheme.NoActionBar"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -197,6 +213,8 @@
 >>>>>>> 2/1/2019
 =======
 >>>>>>> 2/2/2019
+=======
+>>>>>>> 2/9/2019
 
         <activity
             android:name=".activity.ServiceInfoActivity"
@@ -209,19 +227,25 @@
             android:theme="@style/AppTheme.NoActionBar"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1/31/2019
 =======
 =======
 >>>>>>> 2/2/2019
+=======
+>>>>>>> 2/9/2019
 
         <activity
             android:name=".activity.BankDetailsActivity"
             android:label="@string/title_activity_home_screen"
             android:theme="@style/AppTheme.NoActionBar"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/1/2019
 =======
 >>>>>>> 2/2/2019
+=======
+>>>>>>> 2/9/2019
     </application>
 
 </manifest>

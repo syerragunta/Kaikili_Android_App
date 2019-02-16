@@ -21,12 +21,17 @@
         android:text="gsDDDsdgdsgs"
         android:layout_height="wrap_content"
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:textColor="@color/text_coloer"
         android:textSize="@dimen/fontsize14"
 =======
         android:textColor="@color/black_87"
         android:textSize="@dimen/fontsize16"
 >>>>>>> 2/2/2019
+=======
+        android:textColor="@color/black_87"
+        android:textSize="@dimen/fontsize16"
+>>>>>>> 2/9/2019
         />
 
     <com.sit.kaikiliService.font.TextViewEuphemiaUCASBola
@@ -38,10 +43,14 @@
         android:layout_height="wrap_content"
         android:textColor="@color/black_54"
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:textSize="@dimen/fontsize14"
 =======
         android:textSize="@dimen/fontsize16"
 >>>>>>> 2/2/2019
+=======
+        android:textSize="@dimen/fontsize16"
+>>>>>>> 2/9/2019
         />
 
     <ImageView

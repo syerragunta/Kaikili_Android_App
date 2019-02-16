@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 <<<<<<< HEAD
+<<<<<<< HEAD
     tools:context=".fragment.ScheduledServicesFragment">
 
 <<<<<<< HEAD
@@ -33,6 +34,8 @@
 =======
 >>>>>>> 2/1/2019
 =======
+=======
+>>>>>>> 2/9/2019
     android:background="@color/white"
     tools:context=".fragment.ScheduledServicesFragment">
 
@@ -53,5 +56,8 @@
     </android.support.v7.widget.RecyclerView>
 
 
+<<<<<<< HEAD
 >>>>>>> 2/2/2019
+=======
+>>>>>>> 2/9/2019
 </FrameLayout>

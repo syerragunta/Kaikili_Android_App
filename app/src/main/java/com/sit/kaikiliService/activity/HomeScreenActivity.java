@@ -5,6 +5,7 @@ package com.sit.kaikiliService.activity;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -30,15 +31,22 @@ import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 >>>>>>> 2/1/2019
 =======
 >>>>>>> 2/2/2019
+=======
+>>>>>>> 2/9/2019
 import android.app.Fragment;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 >>>>>>> 2/2/2019
+=======
+import android.support.annotation.NonNull;
+import android.support.design.widget.BottomNavigationView;
+>>>>>>> 2/9/2019
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -49,9 +57,13 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import android.view.MenuItem;
 >>>>>>> 2/2/2019
+=======
+import android.view.MenuItem;
+>>>>>>> 2/9/2019
 import android.view.View;
 
 import com.sit.kaikiliService.R;
@@ -60,6 +72,7 @@ import com.sit.kaikiliService.fragment.EarningsFragment;
 import com.sit.kaikiliService.fragment.NotificationFragment;
 import com.sit.kaikiliService.fragment.ProfileFragment;
 import com.sit.kaikiliService.fragment.ScheduledServicesFragment;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -73,6 +86,8 @@ import com.sit.kaikiliService.fragment.ScheduledServicesFragment;
 >>>>>>> 2/1/2019
 =======
 >>>>>>> 2/2/2019
+=======
+>>>>>>> 2/9/2019
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -86,6 +101,7 @@ import butterknife.ButterKnife;
 public class HomeScreenActivity extends BaseActivity {
 //        implements NavigationView.OnNavigationItemSelectedListener {
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -126,6 +142,8 @@ public class HomeScreenActivity extends BaseActivity {
 =======
 >>>>>>> 2/1/2019
 =======
+=======
+>>>>>>> 2/9/2019
     @Bind(R.id.home_viewpager)
     ViewPager home_viewpager;
     @Bind(R.id.top_title)
@@ -133,7 +151,10 @@ public class HomeScreenActivity extends BaseActivity {
 
     private Toolbar toolbar;
     private BottomNavigationView navigation;
+<<<<<<< HEAD
 >>>>>>> 2/2/2019
+=======
+>>>>>>> 2/9/2019
 
 
     @Override
@@ -142,6 +163,7 @@ public class HomeScreenActivity extends BaseActivity {
         setContentView( R.layout.activity_home_screen );
         ButterKnife.bind( this, this );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -163,13 +185,18 @@ public class HomeScreenActivity extends BaseActivity {
         setSupportActionBar( toolbar );
 
 =======
+=======
+>>>>>>> 2/9/2019
         toolbar = (Toolbar) findViewById( R.id.toolbar );
         setSupportActionBar( toolbar );
 
          navigation = (BottomNavigationView) findViewById( R.id.navigation );
         navigation.setOnNavigationItemSelectedListener( mOnNavigationItemSelectedListener );
 
+<<<<<<< HEAD
 >>>>>>> 2/2/2019
+=======
+>>>>>>> 2/9/2019
 
         DrawerLayout drawer = (DrawerLayout) findViewById( R.id.drawer_layout );
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -177,6 +204,7 @@ public class HomeScreenActivity extends BaseActivity {
         drawer.addDrawerListener( toggle );
         toggle.syncState();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -206,6 +234,8 @@ public class HomeScreenActivity extends BaseActivity {
     public void setUpToolbar(final String title) {
         top_title.setText(title);
 =======
+=======
+>>>>>>> 2/9/2019
 
         // Create an adapter that knows which fragment should be shown on each page
         SimpleFragmentPagerAdapter adapter = new SimpleFragmentPagerAdapter( this, getSupportFragmentManager() );
@@ -239,15 +269,22 @@ public class HomeScreenActivity extends BaseActivity {
 
     public void setUpToolbar(final String title) {
         top_title.setText( title );
+<<<<<<< HEAD
 >>>>>>> 2/2/2019
+=======
+>>>>>>> 2/9/2019
 
     }
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 2/2/2019
+=======
+
+>>>>>>> 2/9/2019
 //    private void setupTabIcons() {
 //
 //        TextViewEuphemiaUCASRegular tabOne = (TextViewEuphemiaUCASRegular) LayoutInflater.from(this).inflate(R.layout.custom_tab, null);
@@ -276,6 +313,7 @@ public class HomeScreenActivity extends BaseActivity {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1/29/2019
 =======
 >>>>>>> 1/30/2019
@@ -286,6 +324,8 @@ public class HomeScreenActivity extends BaseActivity {
 
 =======
 >>>>>>> 2/2/2019
+=======
+>>>>>>> 2/9/2019
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById( R.id.drawer_layout );
@@ -306,6 +346,7 @@ public class HomeScreenActivity extends BaseActivity {
         startActivity( intent );
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -360,6 +401,8 @@ public class HomeScreenActivity extends BaseActivity {
 
 =======
 >>>>>>> 2/2/2019
+=======
+>>>>>>> 2/9/2019
 
     public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
 
@@ -367,10 +410,14 @@ public class HomeScreenActivity extends BaseActivity {
 
         public SimpleFragmentPagerAdapter(Context context, FragmentManager fm) {
 <<<<<<< HEAD
+<<<<<<< HEAD
             super(fm);
 =======
             super( fm );
 >>>>>>> 2/2/2019
+=======
+            super( fm );
+>>>>>>> 2/9/2019
             mContext = context;
         }
 
@@ -380,18 +427,24 @@ public class HomeScreenActivity extends BaseActivity {
             if (position == 0) {
                 return new ScheduledServicesFragment();
 <<<<<<< HEAD
+<<<<<<< HEAD
             } else if (position == 1){
                 return new NotificationFragment();
             } else if (position == 2){
                 return new EarningsFragment();
             } else if (position == 3){
 =======
+=======
+>>>>>>> 2/9/2019
             } else if (position == 1) {
                 return new NotificationFragment();
             } else if (position == 2) {
                 return new EarningsFragment();
             } else if (position == 3) {
+<<<<<<< HEAD
 >>>>>>> 2/2/2019
+=======
+>>>>>>> 2/9/2019
                 return new ProfileFragment();
             } else {
                 return new ScheduledServicesFragment();
@@ -409,6 +462,7 @@ public class HomeScreenActivity extends BaseActivity {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1/29/2019
 =======
 >>>>>>> 1/30/2019
@@ -417,6 +471,8 @@ public class HomeScreenActivity extends BaseActivity {
 =======
 >>>>>>> 2/1/2019
 =======
+=======
+>>>>>>> 2/9/2019
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
 
@@ -455,5 +511,8 @@ public class HomeScreenActivity extends BaseActivity {
 
 
 
+<<<<<<< HEAD
 >>>>>>> 2/2/2019
+=======
+>>>>>>> 2/9/2019
 }

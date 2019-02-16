@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 <<<<<<< HEAD
+<<<<<<< HEAD
     android:orientation="vertical">
 
 <<<<<<< HEAD
@@ -12,11 +13,16 @@
     <include layout="@layout/activity_header" />
 >>>>>>> 2/1/2019
 =======
+=======
+>>>>>>> 2/9/2019
     android:background="@color/white"
     android:orientation="vertical">
 
     <include layout="@layout/activity_header" />
+<<<<<<< HEAD
 >>>>>>> 2/2/2019
+=======
+>>>>>>> 2/9/2019
 
 
     <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
@@ -151,12 +157,16 @@
         <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             android:id="@+id/cash_out_tv_changed"
 >>>>>>> 2/1/2019
 =======
             android:id="@+id/cash_out_tv_changed"
 >>>>>>> 2/2/2019
+=======
+            android:id="@+id/cash_out_tv_changed"
+>>>>>>> 2/9/2019
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"

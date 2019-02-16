@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -23,15 +24,21 @@
 >>>>>>> 2/1/2019
 =======
 >>>>>>> 2/2/2019
+=======
+>>>>>>> 2/9/2019
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     android:background="@color/white"
 >>>>>>> 2/2/2019
+=======
+    android:background="@color/white"
+>>>>>>> 2/9/2019
    >
 
     <LinearLayout
@@ -54,10 +61,14 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
 <<<<<<< HEAD
+<<<<<<< HEAD
                 android:text="Customer"
 =======
                 android:text="Inbox"
 >>>>>>> 2/2/2019
+=======
+                android:text="Inbox"
+>>>>>>> 2/9/2019
                 android:textSize="@dimen/fontsize20" />
         </LinearLayout>
 
@@ -75,10 +86,14 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
 <<<<<<< HEAD
+<<<<<<< HEAD
                 android:text="Kaikili"
 =======
                 android:text="Alerts"
 >>>>>>> 2/2/2019
+=======
+                android:text="Alerts"
+>>>>>>> 2/9/2019
                 android:textSize="@dimen/fontsize20" />
         </LinearLayout>
     </LinearLayout>
@@ -102,6 +117,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 </LinearLayout>
 >>>>>>> 1/30/2019
 =======
@@ -113,3 +129,6 @@
 =======
 </LinearLayout>
 >>>>>>> 2/2/2019
+=======
+</LinearLayout>
+>>>>>>> 2/9/2019

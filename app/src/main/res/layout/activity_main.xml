@@ -4,9 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     android:background="@color/white"
 >>>>>>> 2/2/2019
+=======
+    android:background="@color/white"
+>>>>>>> 2/9/2019
     android:layout_height="match_parent"
     >
 

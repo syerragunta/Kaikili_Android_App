@@ -4,6 +4,7 @@ package com.sit.kaikiliService.fragment;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
@@ -38,6 +39,8 @@ public class ProfileFragment extends BaseFragment {
 =======
 =======
 >>>>>>> 2/2/2019
+=======
+>>>>>>> 2/9/2019
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
@@ -61,9 +64,12 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/1/2019
 =======
 >>>>>>> 2/2/2019
+=======
+>>>>>>> 2/9/2019
 
 /**
  * Created by ketan patel on 30/1/2019.
@@ -75,6 +81,7 @@ public class ProfileFragment extends BaseFragment {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1/30/2019
 =======
 >>>>>>> 1/31/2019
@@ -82,6 +89,8 @@ public class ProfileFragment extends BaseFragment {
 =======
 =======
 >>>>>>> 2/2/2019
+=======
+>>>>>>> 2/9/2019
 
     @Bind(R.id.profile_frag_tv_userAbout )TextViewReadMoreEuphemiaUCASRegular profile_frag_tv_userAbout;
     @Bind(R.id.profile_frag_civ_profile )CircularImageView profile_frag_civ_profile;
@@ -173,15 +182,19 @@ public class ProfileFragment extends BaseFragment {
 
     private int postion = 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/1/2019
 =======
 >>>>>>> 2/2/2019
+=======
+>>>>>>> 2/9/2019
 
     public ProfileFragment() {
         // Required empty public constructor
     }
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -202,10 +215,13 @@ public class ProfileFragment extends BaseFragment {
 >>>>>>> 2/1/2019
 =======
 >>>>>>> 2/2/2019
+=======
+>>>>>>> 2/9/2019
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -226,11 +242,15 @@ public class ProfileFragment extends BaseFragment {
 =======
 
 >>>>>>> 2/2/2019
+=======
+
+>>>>>>> 2/9/2019
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -253,12 +273,17 @@ public class ProfileFragment extends BaseFragment {
         final View rootView = inflater.inflate( R.layout.fragment_profile, container, false );
         ButterKnife.bind( this,rootView);
 >>>>>>> 2/2/2019
+=======
+        final View rootView = inflater.inflate( R.layout.fragment_profile, container, false );
+        ButterKnife.bind( this,rootView);
+>>>>>>> 2/9/2019
         initComponents( rootView );
         return rootView;
     }
 
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -275,15 +300,20 @@ public class ProfileFragment extends BaseFragment {
 >>>>>>> 2/1/2019
 =======
 >>>>>>> 2/2/2019
+=======
+>>>>>>> 2/9/2019
 
     @Override
     public void initComponents(View rootView) {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2/2/2019
+=======
+>>>>>>> 2/9/2019
         ArrayList<String> imageURL = new ArrayList<>();
         imageURL.add( "https://certapro.com/wp-content/uploads/cache//Screen-Shot-2018-04-02-at-10_49_06-PM/2936591281.png" );
         imageURL.add( "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7S_Uqp2RaN1cp3ow1Nevm3ZYXlX4UFLHT8K5g2oz3UAF3LdVx" );
@@ -297,9 +327,12 @@ public class ProfileFragment extends BaseFragment {
         profile_frag_indicator.setViewPager(profile_frag_viewPager);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/1/2019
 =======
 >>>>>>> 2/2/2019
+=======
+>>>>>>> 2/9/2019
     }
 
 }

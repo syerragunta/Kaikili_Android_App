@@ -4,9 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     android:background="@color/white"
 >>>>>>> 2/2/2019
+=======
+    android:background="@color/white"
+>>>>>>> 2/9/2019
     android:orientation="vertical">
 
     <include layout="@layout/activity_header" />

@@ -4,10 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 <<<<<<< HEAD
+<<<<<<< HEAD
     android:background="@drawable/app_bg"
 =======
     android:background="@color/white"
 >>>>>>> 2/2/2019
+=======
+    android:background="@color/white"
+>>>>>>> 2/9/2019
     android:orientation="vertical">
 
     <ScrollView
@@ -44,16 +48,22 @@
         android:layout_marginTop="@dimen/dim8"
         android:layout_marginRight="@dimen/dim20"
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:gravity="left"
         android:layout_marginBottom="@dimen/dim4"
         android:text="The platform for better opportunities.."
         android:textColor="#500b02"
 =======
+=======
+>>>>>>> 2/9/2019
         android:gravity="center"
         android:layout_marginBottom="@dimen/dim4"
         android:text="The platform for better opportunities.."
         android:textColor="@color/black_87"
+<<<<<<< HEAD
 >>>>>>> 2/2/2019
+=======
+>>>>>>> 2/9/2019
         android:textSize="@dimen/fontsize14" />
 
 

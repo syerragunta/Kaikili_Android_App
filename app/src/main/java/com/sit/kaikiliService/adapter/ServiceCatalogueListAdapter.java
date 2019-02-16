@@ -8,6 +8,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.widget.LinearLayout;
 
 import com.sit.kaikiliService.KetanApplication;
@@ -19,6 +20,10 @@ import com.sit.kaikiliService.KaikiliApplication;
 
 import com.sit.kaikiliService.KaikiliApplication;
 >>>>>>> 2/2/2019
+=======
+
+import com.sit.kaikiliService.KaikiliApplication;
+>>>>>>> 2/9/2019
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASBola;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
@@ -30,6 +35,7 @@ import java.util.ArrayList;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 1/31/2019
@@ -37,12 +43,15 @@ import java.util.ArrayList;
 >>>>>>> 2/1/2019
 =======
 >>>>>>> 2/2/2019
+=======
+>>>>>>> 2/9/2019
 /**
  * Created by ketan patel on 30/1/2019.
  * ketan_patel25@yahoo.com
  * Sharva Infotech PVT LTD
  */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53,11 +62,14 @@ import java.util.ArrayList;
 >>>>>>> 2/1/2019
 =======
 >>>>>>> 2/2/2019
+=======
+>>>>>>> 2/9/2019
 public class ServiceCatalogueListAdapter extends BaseAdapter {
 
 	private Context mActivity;
 	private LayoutInflater inflater;
 	private ArrayList<String > servicesList = new ArrayList<>();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     private KetanApplication application;
@@ -67,11 +79,15 @@ public class ServiceCatalogueListAdapter extends BaseAdapter {
 =======
     private KaikiliApplication application;
 >>>>>>> 2/2/2019
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/9/2019
 
 
 	public ServiceCatalogueListAdapter(Context activity) {
 		// TODO Auto-generated constructor stub
 		mActivity = activity;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         application = (KetanApplication)mActivity.getApplicationContext();
@@ -81,6 +97,9 @@ public class ServiceCatalogueListAdapter extends BaseAdapter {
 =======
         application = (KaikiliApplication)mActivity.getApplicationContext();
 >>>>>>> 2/2/2019
+=======
+        application = (KaikiliApplication)mActivity.getApplicationContext();
+>>>>>>> 2/9/2019
 		inflater = (LayoutInflater) mActivity.getSystemService(Activity.LAYOUT_INFLATER_SERVICE);
 
 	}

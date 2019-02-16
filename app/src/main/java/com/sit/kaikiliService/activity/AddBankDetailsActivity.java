@@ -10,6 +10,7 @@ import android.widget.ImageView;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import com.sit.kaikiliService.KetanApplication;
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.font.CreditCardEditText;
@@ -21,6 +22,10 @@ import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.KaikiliApplication;
 import com.sit.kaikiliService.R;
 >>>>>>> 2/2/2019
+=======
+import com.sit.kaikiliService.KaikiliApplication;
+import com.sit.kaikiliService.R;
+>>>>>>> 2/9/2019
 import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 
@@ -48,6 +53,7 @@ public class AddBankDetailsActivity extends BaseActivity implements View.OnClick
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     private KetanApplication application;
 =======
     private KaikiliApplication application;
@@ -55,6 +61,9 @@ public class AddBankDetailsActivity extends BaseActivity implements View.OnClick
 =======
     private KaikiliApplication application;
 >>>>>>> 2/2/2019
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/9/2019
     private SharedPreferences preferences;
 
 
@@ -66,6 +75,7 @@ public class AddBankDetailsActivity extends BaseActivity implements View.OnClick
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         application = (KetanApplication) getApplicationContext();
 =======
         application = (KaikiliApplication) getApplicationContext();
@@ -73,6 +83,9 @@ public class AddBankDetailsActivity extends BaseActivity implements View.OnClick
 =======
         application = (KaikiliApplication) getApplicationContext();
 >>>>>>> 2/2/2019
+=======
+        application = (KaikiliApplication) getApplicationContext();
+>>>>>>> 2/9/2019
         preferences = application.getSharedPreferences();
 
         top_title.setText( "Add Bank Details" );

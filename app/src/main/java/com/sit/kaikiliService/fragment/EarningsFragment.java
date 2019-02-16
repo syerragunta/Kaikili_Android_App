@@ -4,6 +4,7 @@ package com.sit.kaikiliService.fragment;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
@@ -35,6 +36,9 @@ import android.content.Intent;
 =======
 import android.content.Intent;
 >>>>>>> 2/2/2019
+=======
+import android.content.Intent;
+>>>>>>> 2/9/2019
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -42,6 +46,7 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 
 import com.sit.kaikiliService.R;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -54,6 +59,9 @@ import com.sit.kaikiliService.activity.CashOutActivity;
 =======
 import com.sit.kaikiliService.activity.CashOutActivity;
 >>>>>>> 2/2/2019
+=======
+import com.sit.kaikiliService.activity.CashOutActivity;
+>>>>>>> 2/9/2019
 import com.sit.kaikiliService.adapter.EarningsListAdapter;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 import com.sit.kaikiliService.model.EarningsModel;
@@ -65,6 +73,7 @@ import butterknife.ButterKnife;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 import butterknife.OnClick;
@@ -75,6 +84,9 @@ import butterknife.OnClick;
 =======
 import butterknife.OnClick;
 >>>>>>> 2/2/2019
+=======
+import butterknife.OnClick;
+>>>>>>> 2/9/2019
 
 
 /**
@@ -95,6 +107,7 @@ public class EarningsFragment extends BaseFragment {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1/30/2019
 =======
 >>>>>>> 1/31/2019
@@ -102,12 +115,15 @@ public class EarningsFragment extends BaseFragment {
 >>>>>>> 2/1/2019
 =======
 >>>>>>> 2/2/2019
+=======
+>>>>>>> 2/9/2019
 
     public EarningsFragment() {
         // Required empty public constructor
     }
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -148,11 +164,17 @@ public class EarningsFragment extends BaseFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
 >>>>>>> 2/2/2019
+=======
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate( savedInstanceState );
+>>>>>>> 2/9/2019
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         final View rootView = inflater.inflate(R.layout.fragment_earnings, container, false);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -170,10 +192,14 @@ public class EarningsFragment extends BaseFragment {
 =======
         ButterKnife.bind( this,rootView);
 >>>>>>> 2/2/2019
+=======
+        ButterKnife.bind( this,rootView);
+>>>>>>> 2/9/2019
         initComponents(rootView);
         return rootView;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -189,6 +215,8 @@ public class EarningsFragment extends BaseFragment {
 >>>>>>> 2/1/2019
 =======
 >>>>>>> 2/2/2019
+=======
+>>>>>>> 2/9/2019
 
 
     @Override
@@ -197,6 +225,7 @@ public class EarningsFragment extends BaseFragment {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         adapter = new EarningsListAdapter( getActivity());
         fag_earnings_listView.setAdapter(adapter);
@@ -206,6 +235,8 @@ public class EarningsFragment extends BaseFragment {
 >>>>>>> 2/1/2019
 =======
 >>>>>>> 2/2/2019
+=======
+>>>>>>> 2/9/2019
         adapter = new EarningsListAdapter( getActivity());
         fag_earnings_listView.setAdapter(adapter);
 
@@ -213,11 +244,14 @@ public class EarningsFragment extends BaseFragment {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1/31/2019
 =======
 >>>>>>> 2/1/2019
 =======
 >>>>>>> 2/2/2019
+=======
+>>>>>>> 2/9/2019
         earningList = new ArrayList<>();
 
         EarningsModel model = new EarningsModel();
@@ -259,6 +293,7 @@ public class EarningsFragment extends BaseFragment {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1/30/2019
 
     }
@@ -268,6 +303,8 @@ public class EarningsFragment extends BaseFragment {
 >>>>>>> 2/1/2019
 =======
 >>>>>>> 2/2/2019
+=======
+>>>>>>> 2/9/2019
 
     }
 
@@ -283,9 +320,12 @@ public class EarningsFragment extends BaseFragment {
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1/31/2019
 =======
 >>>>>>> 2/1/2019
 =======
 >>>>>>> 2/2/2019
+=======
+>>>>>>> 2/9/2019
 }

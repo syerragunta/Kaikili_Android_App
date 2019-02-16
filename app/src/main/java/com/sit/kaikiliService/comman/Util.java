@@ -41,6 +41,7 @@ import android.widget.Toast;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import com.sit.kaikiliService.KetanApplication;
 =======
 import com.sit.kaikiliService.KaikiliApplication;
@@ -48,6 +49,9 @@ import com.sit.kaikiliService.KaikiliApplication;
 =======
 import com.sit.kaikiliService.KaikiliApplication;
 >>>>>>> 2/2/2019
+=======
+import com.sit.kaikiliService.KaikiliApplication;
+>>>>>>> 2/9/2019
 import com.sit.kaikiliService.R;
 
 import java.io.ByteArrayOutputStream;
@@ -93,6 +97,7 @@ public class Util {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         KetanApplication application = (KetanApplication)context.getApplicationContext();
 =======
         KaikiliApplication application = (KaikiliApplication)context.getApplicationContext();
@@ -100,6 +105,9 @@ public class Util {
 =======
         KaikiliApplication application = (KaikiliApplication)context.getApplicationContext();
 >>>>>>> 2/2/2019
+=======
+        KaikiliApplication application = (KaikiliApplication)context.getApplicationContext();
+>>>>>>> 2/9/2019
         SharedPreferences preferences = application.getSharedPreferences();
 
 
@@ -673,6 +681,7 @@ public class Util {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         KetanApplication application = (KetanApplication) context.getApplicationContext();
 =======
         KaikiliApplication application = (KaikiliApplication) context.getApplicationContext();
@@ -680,6 +689,9 @@ public class Util {
 =======
         KaikiliApplication application = (KaikiliApplication) context.getApplicationContext();
 >>>>>>> 2/2/2019
+=======
+        KaikiliApplication application = (KaikiliApplication) context.getApplicationContext();
+>>>>>>> 2/9/2019
         SharedPreferences preferences = application.getSharedPreferences();
         String ns = Context.NOTIFICATION_SERVICE;
         NotificationManager nMgr = (NotificationManager)context.getSystemService(ns);
@@ -695,6 +707,7 @@ public class Util {
 //
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //        KetanApplication application = (KetanApplication)context.getApplicationContext();
 =======
 //        KaikiliApplication application = (KaikiliApplication)context.getApplicationContext();
@@ -702,6 +715,9 @@ public class Util {
 =======
 //        KaikiliApplication application = (KaikiliApplication)context.getApplicationContext();
 >>>>>>> 2/2/2019
+=======
+//        KaikiliApplication application = (KaikiliApplication)context.getApplicationContext();
+>>>>>>> 2/9/2019
 //        SharedPreferences preferences = application.getSharedPreferences();
 //
 //        final Dialog dialog = new Dialog(context, R.style.TransparantBlackDialog);

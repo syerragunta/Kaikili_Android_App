@@ -1,5 +1,9 @@
 package com.sit.kaikiliService.activity;
 
+<<<<<<< HEAD
+=======
+import android.accounts.NetworkErrorException;
+>>>>>>> 2/9/2019
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -12,8 +16,17 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Toast;
 
+<<<<<<< HEAD
 import com.sit.kaikiliService.R;
 
+=======
+import com.bluelinelabs.logansquare.annotation.JsonField;
+import com.bluelinelabs.logansquare.annotation.JsonObject;
+import com.sit.kaikiliService.R;
+
+import retrofit.RetrofitError;
+
+>>>>>>> 2/9/2019
 
 /**
  * Created by ketan patel on 21/1/2019.
@@ -96,5 +109,60 @@ public class BaseActivity extends AppCompatActivity {
         Toast.makeText(this, msgRes, Toast.LENGTH_SHORT).show();
     }
 
+<<<<<<< HEAD
+=======
+    public static String handleError(final RetrofitError error) {
+
+        try {
+            if (error != null) {
+                if (error.getBody() != null) {
+                    RestError body = (RestError) error.getBodyAs(RestError.class);
+
+                    if (body.message != null) {
+                        //CommonMethods.toast(body.message, true);
+                        return body.message;
+                    } else {
+                        return "Something went wrong or may be you have lost the internet connection.";
+                    }
+
+                } else {
+                    if (error.getMessage() != null) {
+                        //CommonMethods.toast(error.getMessage(), true);
+                        //return error.getMessage();
+                        return "Something went wrong or may be you have lost the internet connection.";
+                    } else {
+                        // CommonMethods.toast(Commonmessage.NETWORK_ERROR, true);
+                        return "Something went wrong or may be you have lost the internet connection.";
+                    }
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+            if (e instanceof NetworkErrorException) {
+                //System.out.println("ERROR NETWORK_ERROR == " + Commonmessage.NETWORK_ERROR);
+                //CommonMethods.toast(Commonmessage.NETWORK_ERROR, true);
+                return "Something went wrong or may be you have lost the internet connection.";
+            } else {
+                //System.out.println("ERROR UNKNOWN_ERROR == " + Commonmessage.UNKNOWN_ERROR);
+                //CommonMethods.toast(Commonmessage.UNKNOWN_ERROR, true);
+                return "Something went wrong or may be you have lost the internet connection.";
+            }
+        }
+
+
+        return "Something went wrong or may be you have lost the internet connection.";
+    }
+
+
+    @JsonObject
+    static class RestError {
+        @JsonField
+        public int status;
+
+        @JsonField
+        public String message;
+
+    }
+>>>>>>> 2/9/2019
 
 }
