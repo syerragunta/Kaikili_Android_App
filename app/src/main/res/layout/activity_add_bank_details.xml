@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/app_bg"
+        android:orientation="vertical">
+
+        <include layout="@layout/activity_hedar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/dim20">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/add_card_layout_holderName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dim30"
+                android:layout_marginRight="@dimen/dim30">
+
+                <com.sit.kaikiliService.font.EditTextEupheminUCASRegular
+                    android:id="@+id/add_card_edit_holderName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Card holder name"
+                    android:textSize="@dimen/fontsize14"
+                    android:maxLength="50"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/add_card_layout_bankName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dim30"
+                android:layout_marginTop="@dimen/dim8"
+                android:layout_marginRight="@dimen/dim30">
+
+                <com.sit.kaikiliService.font.EditTextEupheminUCASRegular
+                    android:id="@+id/add_card_edit_bankName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Bank Name"
+                    android:textSize="@dimen/fontsize14"
+                    android:maxLength="50"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/add_card_layout_cardNumbers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dim30"
+                android:layout_marginTop="@dimen/dim8"
+                android:layout_marginRight="@dimen/dim30">
+
+                <!--<morxander.editcard.EditCard-->
+                    <!--android:id="@+id/add_card_edit_cardNumbers"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent" />-->
+
+                <com.sit.kaikiliService.font.EditTextEupheminUCASRegular
+                    android:id="@+id/add_card_edit_cardNumbers"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Card Numbers"
+                    android:textSize="@dimen/fontsize14"
+                    android:inputType="number"
+                    android:digits=" -1234567890"
+                    android:maxLength="19"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/add_card_layout_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dim30"
+                    android:layout_marginTop="@dimen/dim8"
+                    android:layout_marginRight="@dimen/dim30">
+
+                    <com.sit.kaikiliService.font.EditTextEupheminUCASRegular
+                        android:id="@+id/add_card_edit_date"
+                        android:layout_width="@dimen/extra_padding_x100"
+                        android:layout_height="wrap_content"
+                        android:hint="MM/YY"
+                        android:textSize="@dimen/fontsize14"
+                        android:inputType="number"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/dim6"
+                        android:paddingRight="@dimen/dim6"
+                        android:digits=" /1234567890"
+                        android:maxLength="5"
+                        android:singleLine="true" />
+                </android.support.design.widget.TextInputLayout>
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/add_card_layout_cvc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dim8"
+                    android:layout_marginRight="@dimen/dim30">
+
+                    <com.sit.kaikiliService.font.EditTextEupheminUCASRegular
+                        android:id="@+id/add_card_edit_cvc"
+                        android:layout_width="@dimen/extra_padding_x50"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/dim6"
+                        android:paddingRight="@dimen/dim6"
+                        android:gravity="center"
+                        android:hint="CVC"
+                        android:textSize="@dimen/fontsize14"
+                        android:inputType="numberPassword"
+                        android:digits="1234567890"
+                        android:maxLength="3"
+                        android:singleLine="true" />
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/personal_info_fb_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/icon_next" />
+
+</android.support.design.widget.CoordinatorLayout>

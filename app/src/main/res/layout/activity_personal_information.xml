@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/app_bg"
+        android:orientation="vertical">
+
+        <include layout="@layout/activity_hedar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/dim20">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dim30"
+                android:layout_marginRight="@dimen/dim30">
+
+                <com.sit.kaikiliService.font.EditTextEupheminUCASRegular
+                    android:id="@+id/personal_info_edit_first"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="First"
+                    android:textSize="@dimen/fontsize14"
+                    android:maxLength="50"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_last"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dim30"
+                android:layout_marginTop="@dimen/dim8"
+                android:layout_marginRight="@dimen/dim30">
+
+                <com.sit.kaikiliService.font.EditTextEupheminUCASRegular
+                    android:id="@+id/personal_info_edit_last"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Last"
+                    android:textSize="@dimen/fontsize14"
+                    android:maxLength="50"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dim30"
+                android:layout_marginTop="@dimen/dim8"
+                android:layout_marginRight="@dimen/dim30">
+
+                <com.sit.kaikiliService.font.EditTextEupheminUCASRegular
+                    android:id="@+id/personal_info_edit_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    android:textSize="@dimen/fontsize14"
+                    android:maxLength="100"
+                    android:singleLine="true" />
+            </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_dob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dim30"
+                android:layout_marginTop="@dimen/dim8"
+                android:layout_marginRight="@dimen/dim30">
+
+                <com.sit.kaikiliService.font.EditTextEupheminUCASRegular
+                    android:id="@+id/personal_info_edit_dob"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:editable="false"
+                    android:hint="DOB"
+                    android:textSize="@dimen/fontsize14"
+                    android:singleLine="true"
+                    android:text="MM/DD/YYYY" />
+            </android.support.design.widget.TextInputLayout>
+
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dim30"
+                android:layout_marginTop="@dimen/dim8"
+                android:layout_marginRight="@dimen/dim30">
+
+                <com.sit.kaikiliService.comman.BetterSpinner
+                    android:paddingTop="@dimen/dim4"
+                    android:id="@+id/personal_info_bs_gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dim2"
+                    android:hint="Gender  "
+                    android:singleLine="true"
+                    android:textSize="@dimen/fontsize14"
+                    android:textColor="@color/text_coloer" />
+
+
+    </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/personal_info_fb_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@drawable/icon_next" />
+
+</android.support.design.widget.CoordinatorLayout>
