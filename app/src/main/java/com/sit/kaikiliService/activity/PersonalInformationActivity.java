@@ -6,15 +6,19 @@ import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.support.annotation.Nullable;
 =======
 >>>>>>> 2/1/2019
+=======
+>>>>>>> 2/2/2019
 import android.support.design.widget.FloatingActionButton;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.DatePicker;
 import android.widget.ImageView;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 import com.sit.kaikiliService.KetanApplication;
 import com.sit.kaikiliService.R;
@@ -24,6 +28,10 @@ import com.sit.kaikiliService.activity.PhoneNoValidationActivity;
 import com.sit.kaikiliService.KaikiliApplication;
 import com.sit.kaikiliService.R;
 >>>>>>> 2/1/2019
+=======
+import com.sit.kaikiliService.KaikiliApplication;
+import com.sit.kaikiliService.R;
+>>>>>>> 2/2/2019
 import com.sit.kaikiliService.comman.BetterSpinner;
 import com.sit.kaikiliService.comman.Util;
 import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
@@ -64,10 +72,14 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
     FloatingActionButton personal_info_fb_next;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     private KetanApplication application;
 =======
     private KaikiliApplication application;
 >>>>>>> 2/1/2019
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/2/2019
     private SharedPreferences preferences;
 
     private Calendar calendar;
@@ -84,10 +96,14 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
         ButterKnife.bind( this, this );
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         application = (KetanApplication) getApplicationContext();
 =======
         application = (KaikiliApplication) getApplicationContext();
 >>>>>>> 2/1/2019
+=======
+        application = (KaikiliApplication) getApplicationContext();
+>>>>>>> 2/2/2019
         preferences = application.getSharedPreferences();
 
         top_title.setText( "Enter Personal Information" );
@@ -100,7 +116,11 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 
         top_back.setOnClickListener( this );
         personal_info_fb_next.setOnClickListener( this );
+<<<<<<< HEAD
         personal_info_edit_dob.setOnClickListener( this );
+=======
+//        personal_info_edit_dob.setOnClickListener( this );
+>>>>>>> 2/2/2019
 
         List<String> nameList = new ArrayList<>();
         nameList.add( "Male" );

@@ -9,10 +9,14 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import com.sit.kaikiliService.KetanApplication;
 =======
 import com.sit.kaikiliService.KaikiliApplication;
 >>>>>>> 2/1/2019
+=======
+import com.sit.kaikiliService.KaikiliApplication;
+>>>>>>> 2/2/2019
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 
@@ -20,9 +24,12 @@ import java.util.ArrayList;
 
 import com.sit.kaikiliService.model.NotificationModel;
 <<<<<<< HEAD
+<<<<<<< HEAD
 import com.sit.kaikiliService.model.ServiceModel;
 =======
 >>>>>>> 2/1/2019
+=======
+>>>>>>> 2/2/2019
 
 
 /**
@@ -35,20 +42,28 @@ public class NotificationListAdapter extends RecyclerView.Adapter<RecyclerView.V
 
     private Context mActivity;
 <<<<<<< HEAD
+<<<<<<< HEAD
     private KetanApplication application;
 =======
     private KaikiliApplication application;
 >>>>>>> 2/1/2019
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/2/2019
     private ArrayList <NotificationModel> notificationList;
 
     public NotificationListAdapter(Context activity) {
         // TODO Auto-generated constructor stub
         mActivity = activity;
 <<<<<<< HEAD
+<<<<<<< HEAD
         application = (KetanApplication) mActivity.getApplicationContext();
 =======
         application = (KaikiliApplication) mActivity.getApplicationContext();
 >>>>>>> 2/1/2019
+=======
+        application = (KaikiliApplication) mActivity.getApplicationContext();
+>>>>>>> 2/2/2019
         notificationList = new ArrayList<>( );
     }
 
@@ -69,6 +84,7 @@ public class NotificationListAdapter extends RecyclerView.Adapter<RecyclerView.V
         viewHolder.tvTitle.setText( notificationList.get( position ).getTitle());
         viewHolder.tvTime.setText( notificationList.get( position ).getTime());
 
+<<<<<<< HEAD
 
         if(notificationList.get( position ).isReadStatus()){
             viewHolder.ivRead.setVisibility( View.VISIBLE );
@@ -76,6 +92,15 @@ public class NotificationListAdapter extends RecyclerView.Adapter<RecyclerView.V
             viewHolder.tvTime.setTextColor(mActivity.getResources().getColor(R.color.message_unread));
         }else {
             viewHolder.ivRead.setVisibility( View.INVISIBLE );
+=======
+        viewHolder.ivRead.setVisibility( View.GONE );
+        if(notificationList.get( position ).isReadStatus()){
+//            viewHolder.ivRead.setVisibility( View.VISIBLE );
+            viewHolder.tvTitle.setTextColor(mActivity.getResources().getColor(R.color.message_unread));
+            viewHolder.tvTime.setTextColor(mActivity.getResources().getColor(R.color.message_unread));
+        }else {
+//            viewHolder.ivRead.setVisibility( View.INVISIBLE );
+>>>>>>> 2/2/2019
             viewHolder.tvTitle.setTextColor(mActivity.getResources().getColor(R.color.black_87));
             viewHolder.tvTime.setTextColor(mActivity.getResources().getColor(R.color.black_87));
         }

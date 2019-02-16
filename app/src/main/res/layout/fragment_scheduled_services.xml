@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     tools:context=".fragment.ScheduledServicesFragment">
 
 <<<<<<< HEAD
@@ -31,4 +32,26 @@
 >>>>>>> 1/31/2019
 =======
 >>>>>>> 2/1/2019
+=======
+    android:background="@color/white"
+    tools:context=".fragment.ScheduledServicesFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:scaleType="fitXY"
+        android:src="@drawable/image_bg" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/scheduled_services_fgm_recyclerView"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dim10">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+>>>>>>> 2/2/2019
 </FrameLayout>

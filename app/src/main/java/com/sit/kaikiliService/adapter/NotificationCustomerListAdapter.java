@@ -9,10 +9,14 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import com.sit.kaikiliService.KetanApplication;
 =======
 import com.sit.kaikiliService.KaikiliApplication;
 >>>>>>> 2/1/2019
+=======
+import com.sit.kaikiliService.KaikiliApplication;
+>>>>>>> 2/2/2019
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.comman.CircularImageView;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASBola;
@@ -32,20 +36,28 @@ public class NotificationCustomerListAdapter extends RecyclerView.Adapter<Recycl
 
     private Context mActivity;
 <<<<<<< HEAD
+<<<<<<< HEAD
     private KetanApplication application;
 =======
     private KaikiliApplication application;
 >>>>>>> 2/1/2019
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/2/2019
     private ArrayList <NotificationModel> notificationList;
 
     public NotificationCustomerListAdapter(Context activity) {
         // TODO Auto-generated constructor stub
         mActivity = activity;
 <<<<<<< HEAD
+<<<<<<< HEAD
         application = (KetanApplication) mActivity.getApplicationContext();
 =======
         application = (KaikiliApplication) mActivity.getApplicationContext();
 >>>>>>> 2/1/2019
+=======
+        application = (KaikiliApplication) mActivity.getApplicationContext();
+>>>>>>> 2/2/2019
         notificationList = new ArrayList<>( );
     }
 
@@ -67,6 +79,7 @@ public class NotificationCustomerListAdapter extends RecyclerView.Adapter<Recycl
         viewHolder.tvTime.setText( notificationList.get( position ).getTime());
         viewHolder.tvMessage.setText( notificationList.get( position ).getMessage());
 
+<<<<<<< HEAD
 
         if(notificationList.get( position ).isReadStatus()){
             viewHolder.ivRead.setVisibility( View.VISIBLE );
@@ -80,6 +93,23 @@ public class NotificationCustomerListAdapter extends RecyclerView.Adapter<Recycl
             viewHolder.tvTitle.setTextColor(mActivity.getResources().getColor(R.color.black_87));
             viewHolder.tvTime.setTextColor(mActivity.getResources().getColor(R.color.black_87));
             viewHolder.tvMessage.setTextColor(mActivity.getResources().getColor(R.color.black_87));
+=======
+        viewHolder.ivRead.setVisibility( View.GONE );
+        if(notificationList.get( position ).isReadStatus()){
+//            viewHolder.ivRead.setVisibility( View.VISIBLE );
+            viewHolder.tvTitle.setTextColor(mActivity.getResources().getColor(R.color.message_unread));
+            viewHolder.tvTime.setTextColor(mActivity.getResources().getColor(R.color.message_unread));
+            viewHolder.tvMessage.setTextColor(mActivity.getResources().getColor(R.color.message_unread));
+        }else {
+//            viewHolder.ivRead.setVisibility( View.INVISIBLE );
+            viewHolder.tvTitle.setTextColor(mActivity.getResources().getColor(R.color.black_87));
+            viewHolder.tvTime.setTextColor(mActivity.getResources().getColor(R.color.black_87));
+            viewHolder.tvMessage.setTextColor(mActivity.getResources().getColor(R.color.black_87));
+        }
+//        else {
+
+
+>>>>>>> 2/2/2019
 //        }
 
 //

@@ -21,12 +21,17 @@
             <ImageView
                 android:id="@+id/row_noti_cus_iv_read"
                 android:layout_width="@dimen/dim12"
+<<<<<<< HEAD
                 android:layout_marginRight="@dimen/dim12"
 <<<<<<< HEAD
                 android:layout_height="@dimen/dim10"
 =======
                 android:layout_height="@dimen/dim12"
 >>>>>>> 2/1/2019
+=======
+                android:layout_marginRight="@dimen/dim8"
+                android:layout_height="@dimen/dim12"
+>>>>>>> 2/2/2019
                 android:src="@drawable/round_notification"/>
 
             <com.sit.kaikiliService.comman.CircularImageView

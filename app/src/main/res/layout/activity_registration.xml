@@ -3,7 +3,11 @@
     android:id="@+id/start_activity_ll_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     android:background="@drawable/app_bg"
+=======
+    android:background="@color/white"
+>>>>>>> 2/2/2019
     android:orientation="vertical">
 
     <ScrollView
@@ -39,10 +43,17 @@
         android:layout_marginLeft="@dimen/dim20"
         android:layout_marginTop="@dimen/dim8"
         android:layout_marginRight="@dimen/dim20"
+<<<<<<< HEAD
         android:gravity="left"
         android:layout_marginBottom="@dimen/dim4"
         android:text="The platform for better opportunities.."
         android:textColor="#500b02"
+=======
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/dim4"
+        android:text="The platform for better opportunities.."
+        android:textColor="@color/black_87"
+>>>>>>> 2/2/2019
         android:textSize="@dimen/fontsize14" />
 
 

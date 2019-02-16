@@ -5,9 +5,12 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.graphics.drawable.Drawable;
 =======
 >>>>>>> 2/1/2019
+=======
+>>>>>>> 2/2/2019
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -19,9 +22,12 @@ import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.style.ForegroundColorSpan;
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.view.MenuItem;
 =======
 >>>>>>> 2/1/2019
+=======
+>>>>>>> 2/2/2019
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
@@ -33,18 +39,25 @@ import android.widget.Toast;
 import com.commonsware.cwac.camera.CameraHost;
 import com.commonsware.cwac.camera.CameraHostProvider;
 <<<<<<< HEAD
+<<<<<<< HEAD
 import com.sit.kaikiliService.KetanApplication;
 =======
 import com.sit.kaikiliService.KaikiliApplication;
 >>>>>>> 2/1/2019
+=======
+import com.sit.kaikiliService.KaikiliApplication;
+>>>>>>> 2/2/2019
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.activity.BaseActivity;
 import com.sit.kaikiliService.camera.adapter.SpacesItemDecoration;
 import com.sit.kaikiliService.camera.util.Util;
 <<<<<<< HEAD
+<<<<<<< HEAD
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 =======
 >>>>>>> 2/1/2019
+=======
+>>>>>>> 2/2/2019
 
 import java.util.ArrayList;
 
@@ -82,10 +95,14 @@ public class ImagePickerActivity extends BaseActivity implements CameraHostProvi
     PagerAdapter_Picker adapter;
     Adapter_SelectedPhotoCamera adapter_selectedPhoto;
 <<<<<<< HEAD
+<<<<<<< HEAD
     private KetanApplication application;
 =======
     private KaikiliApplication application;
 >>>>>>> 2/1/2019
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/2/2019
     private SharedPreferences preferences;
 
     private LinearLayout headerBar;
@@ -116,10 +133,14 @@ public class ImagePickerActivity extends BaseActivity implements CameraHostProvi
         setContentView(R.layout.picker_activity_main_pp);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         application = (KetanApplication)getApplicationContext();
 =======
         application = (KaikiliApplication)getApplicationContext();
 >>>>>>> 2/1/2019
+=======
+        application = (KaikiliApplication)getApplicationContext();
+>>>>>>> 2/2/2019
         preferences = application.getSharedPreferences();
 
         initView();

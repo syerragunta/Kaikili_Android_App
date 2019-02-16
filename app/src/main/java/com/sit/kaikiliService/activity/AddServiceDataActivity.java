@@ -3,6 +3,7 @@ package com.sit.kaikiliService.activity;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.View;
@@ -13,13 +14,18 @@ import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.adapter.AddServiceItemAdapter;
 import com.sit.kaikiliService.adapter.AddServiceListAdapter;
 =======
+=======
+>>>>>>> 2/2/2019
 import android.view.View;
 import android.widget.ImageView;
 
 import com.sit.kaikiliService.KaikiliApplication;
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.adapter.AddServiceItemAdapter;
+<<<<<<< HEAD
 >>>>>>> 2/1/2019
+=======
+>>>>>>> 2/2/2019
 import com.sit.kaikiliService.comman.WithoutScrollListView;
 import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASBola;
@@ -61,10 +67,14 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     private KetanApplication application;
 =======
     private KaikiliApplication application;
 >>>>>>> 2/1/2019
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/2/2019
     private SharedPreferences preferences;
     private AddServiceItemAdapter adapterCostPerItme;
     private AddServiceItemAdapter adapterCostPerSize;
@@ -83,10 +93,14 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
         ButterKnife.bind( this, this );
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         application = (KetanApplication) getApplicationContext();
 =======
         application = (KaikiliApplication) getApplicationContext();
 >>>>>>> 2/1/2019
+=======
+        application = (KaikiliApplication) getApplicationContext();
+>>>>>>> 2/2/2019
         preferences = application.getSharedPreferences();
 
 

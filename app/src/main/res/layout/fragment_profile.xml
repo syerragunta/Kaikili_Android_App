@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -17,15 +18,23 @@
 =======
 =======
 >>>>>>> 2/1/2019
+=======
+>>>>>>> 2/2/2019
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+<<<<<<< HEAD
     android:layout_height="match_parent">
+=======
+    android:layout_height="match_parent"
+    android:background="@color/white">
+>>>>>>> 2/2/2019
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+<<<<<<< HEAD
         android:background="@drawable/app_bg"
         android:orientation="vertical">
 
@@ -34,6 +43,11 @@
 
 =======
 >>>>>>> 2/1/2019
+=======
+        android:orientation="vertical">
+
+
+>>>>>>> 2/2/2019
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -41,7 +55,10 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+<<<<<<< HEAD
                 android:background="@drawable/app_bg"
+=======
+>>>>>>> 2/2/2019
                 android:orientation="vertical">
 
 
@@ -64,10 +81,14 @@
 
                         <com.sit.kaikiliService.comman.CircularImageView
 <<<<<<< HEAD
+<<<<<<< HEAD
                             android:id="@+id/about_profile_civ_profile"
 =======
                             android:id="@+id/profile_frag_civ_profile"
 >>>>>>> 2/1/2019
+=======
+                            android:id="@+id/profile_frag_civ_profile"
+>>>>>>> 2/2/2019
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:layout_gravity="center|top"
@@ -77,20 +98,29 @@
 
                         <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                             android:id="@+id/profile_frag_tv_userName"
 >>>>>>> 2/1/2019
+=======
+                            android:id="@+id/profile_frag_tv_userName"
+>>>>>>> 2/2/2019
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="left"
                             android:singleLine="true"
                             android:text="User Name"
 <<<<<<< HEAD
+<<<<<<< HEAD
                             android:textColor="@color/text_coloer"
 =======
                             android:textColor="@color/black_87"
 >>>>>>> 2/1/2019
                             android:textSize="@dimen/fontsize14" />
+=======
+                            android:textColor="@color/black_87"
+                            android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/2/2019
 
 
 
@@ -109,10 +139,14 @@
 
                     <com.sit.kaikiliService.font.TextViewReadMoreEuphemiaUCASRegular
 <<<<<<< HEAD
+<<<<<<< HEAD
                         android:id="@+id/about_profile_tv_userName"
 =======
                         android:id="@+id/profile_frag_tv_userAbout"
 >>>>>>> 2/1/2019
+=======
+                        android:id="@+id/profile_frag_tv_userAbout"
+>>>>>>> 2/2/2019
                         android:layout_width="match_parent"
                         android:layout_marginLeft="@dimen/dim30"
                         android:layout_marginRight="@dimen/dim30"
@@ -122,7 +156,11 @@
                         android:singleLine="false"
                         android:text="I install bathroom tile, vanities , cabinets, tile(  porcelain, ceramic, and marble), backsplash, crown moldings, baseboards, quarter rounds, flooring (laminate, tile, vinyl, hardwood), exterior and Tiles are a great way to bring color and style to a bathroom renovation. If you can do the tiling yourself, the whole project will be a lot more affordable.   "
                         android:textColor="@color/black_87"
+<<<<<<< HEAD
                         android:textSize="@dimen/fontsize14"
+=======
+                        android:textSize="@dimen/fontsize16"
+>>>>>>> 2/2/2019
                        />
 
 
@@ -138,6 +176,7 @@
                         android:textSize="@dimen/fontsize14" />
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -156,6 +195,8 @@
 
                     </LinearLayout>
 =======
+=======
+>>>>>>> 2/2/2019
                     <FrameLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -182,7 +223,10 @@
                             android:layout_marginBottom="@dimen/dim6"
                             android:padding="@dimen/dim4" />
                     </FrameLayout>
+<<<<<<< HEAD
 >>>>>>> 2/1/2019
+=======
+>>>>>>> 2/2/2019
 
 
                     <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
@@ -196,17 +240,28 @@
 
                     <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                         android:id="@+id/profile_frag_tv_website"
 >>>>>>> 2/1/2019
+=======
+                        android:id="@+id/profile_frag_tv_website"
+>>>>>>> 2/2/2019
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dim30"
                         android:layout_marginTop="@dimen/dim4"
+<<<<<<< HEAD
                         android:text="www.kaikili.com"
                         android:textSize="@dimen/fontsize16"
                         android:textColor="@color/message_unread"
                         android:layout_marginRight="@dimen/dim30"/>
+=======
+                        android:layout_marginRight="@dimen/dim30"
+                        android:text="www.kaikili.com"
+                        android:textColor="@color/message_unread"
+                        android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/2/2019
 
                     <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
                         android:layout_width="match_parent"
@@ -220,9 +275,13 @@
                     <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
                         android:layout_width="match_parent"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                         android:id="@+id/profile_frag_tv_Linkedin"
 >>>>>>> 2/1/2019
+=======
+                        android:id="@+id/profile_frag_tv_Linkedin"
+>>>>>>> 2/2/2019
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dim30"
                         android:layout_marginTop="@dimen/dim4"
@@ -233,6 +292,7 @@
 
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
                     <android.support.design.widget.TextInputLayout
                         android:id="@+id/about_profile_layout_area"
@@ -257,6 +317,8 @@
                             android:textSize="@dimen/fontsize14" />
                     </android.support.design.widget.TextInputLayout>
 =======
+=======
+>>>>>>> 2/2/2019
                     <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -277,6 +339,7 @@
                         android:textColor="@color/message_unread"
                         android:layout_marginRight="@dimen/dim30"/>
 
+<<<<<<< HEAD
 >>>>>>> 2/1/2019
 
                     <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
@@ -330,6 +393,14 @@
                         android:layout_marginTop="@dimen/dim10"
                         android:layout_marginRight="@dimen/dim30"></fragment>
 =======
+=======
+
+                    <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dim30"
+                        android:layout_marginTop="@dimen/dim10"
+>>>>>>> 2/2/2019
                         android:text="Phone No."
                         android:textSize="@dimen/fontsize14"
                         android:layout_marginRight="@dimen/dim30"/>
@@ -394,6 +465,7 @@
 
 
 
+<<<<<<< HEAD
                     <!--<fragment-->
                         <!--android:id="@+id/profile_frag_mappView"-->
                         <!--class="com.google.android.gms.maps.MapFragment"-->
@@ -403,6 +475,16 @@
                         <!--android:layout_marginTop="@dimen/dim10"-->
                         <!--android:layout_marginRight="@dimen/dim30"></fragment>-->
 >>>>>>> 2/1/2019
+=======
+                    <fragment
+                        android:id="@+id/profile_frag_mappView"
+                        class="com.google.android.gms.maps.SupportMapFragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:layout_marginLeft="@dimen/dim30"
+                        android:layout_marginTop="@dimen/dim10"
+                        android:layout_marginRight="@dimen/dim30"></fragment>
+>>>>>>> 2/2/2019
 
 
                     <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
@@ -417,10 +499,14 @@
 
                     <RadioGroup
 <<<<<<< HEAD
+<<<<<<< HEAD
                         android:id="@+id/about_profile_radioGroup_work"
 =======
                         android:id="@+id/profile_frag_radioGroup_work"
 >>>>>>> 2/1/2019
+=======
+                        android:id="@+id/profile_frag_radioGroup_work"
+>>>>>>> 2/2/2019
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dim30"
@@ -428,6 +514,7 @@
                         android:layout_marginRight="@dimen/dim30">
 
                         <RadioButton
+<<<<<<< HEAD
 <<<<<<< HEAD
                             android:id="@+id/about_profile_rb_fullWeek"
 =======
@@ -448,6 +535,20 @@
                             android:layout_height="wrap_content"
                             android:text="Select working days and hours"
                             android:textSize="@dimen/fontsize14" />
+=======
+                            android:id="@+id/profile_frag_rb_fullWeek"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="24 Hours x 7 days "
+                            android:textSize="@dimen/fontsize16" />
+
+                        <RadioButton
+                            android:id="@+id/profile_frag_rb_workDay"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Select working days and hours"
+                            android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/2/2019
 
 
                     </RadioGroup>
@@ -455,7 +556,11 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+<<<<<<< HEAD
                         android:layout_marginLeft="@dimen/dim10"
+=======
+                        android:layout_marginLeft="@dimen/dim6"
+>>>>>>> 2/2/2019
                         android:orientation="vertical">
 
                         <LinearLayout
@@ -469,10 +574,14 @@
 
                             <CheckBox
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 android:id="@+id/about_profile_cb_mon"
 =======
                                 android:id="@+id/profile_frag_cb_mon"
 >>>>>>> 2/1/2019
+=======
+                                android:id="@+id/profile_frag_cb_mon"
+>>>>>>> 2/2/2019
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:checked="false"
@@ -480,16 +589,24 @@
                                 android:theme="@style/BrandedCheckBox" />
 
                             <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+<<<<<<< HEAD
 <<<<<<< HEAD
                                 android:id="@+id/about_profile_tv_mon"
 =======
                                 android:id="@+id/profile_frag_tv_mon"
 >>>>>>> 2/1/2019
+=======
+                                android:id="@+id/profile_frag_tv_mon"
+>>>>>>> 2/2/2019
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Mon"
                                 android:textColor="@color/black_87"
+<<<<<<< HEAD
                                 android:textSize="@dimen/fontsize14" />
+=======
+                                android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/2/2019
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -499,11 +616,15 @@
                                 android:orientation="horizontal">
 
                                 <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+<<<<<<< HEAD
 <<<<<<< HEAD
                                     android:id="@+id/about_profile_tv_monStart"
 =======
                                     android:id="@+id/profile_frag_tv_monStart"
 >>>>>>> 2/1/2019
+=======
+                                    android:id="@+id/profile_frag_tv_monStart"
+>>>>>>> 2/2/2019
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:background="@drawable/box_full_radius_bg"
@@ -520,17 +641,25 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="@dimen/dim4"
                                     android:layout_marginRight="@dimen/dim4"
+<<<<<<< HEAD
                                     android:padding="@dimen/dim4"
+=======
+                                    android:padding="@dimen/dim2"
+>>>>>>> 2/2/2019
                                     android:text="To"
                                     android:textColor="@color/black_87"
                                     android:textSize="@dimen/fontsize14" />
 
                                 <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+<<<<<<< HEAD
 <<<<<<< HEAD
                                     android:id="@+id/about_profile_tv_monEnd"
 =======
                                     android:id="@+id/profile_frag_tv_monEnd"
 >>>>>>> 2/1/2019
+=======
+                                    android:id="@+id/profile_frag_tv_monEnd"
+>>>>>>> 2/2/2019
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:background="@drawable/box_full_radius_bg"
@@ -554,11 +683,15 @@
                             android:orientation="horizontal">
 
                             <CheckBox
+<<<<<<< HEAD
 <<<<<<< HEAD
                                 android:id="@+id/about_profile_cb_tue"
 =======
                                 android:id="@+id/profile_frag_cb_tue"
 >>>>>>> 2/1/2019
+=======
+                                android:id="@+id/profile_frag_cb_tue"
+>>>>>>> 2/2/2019
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:checked="false"
@@ -566,16 +699,24 @@
                                 android:theme="@style/BrandedCheckBox" />
 
                             <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+<<<<<<< HEAD
 <<<<<<< HEAD
                                 android:id="@+id/about_profile_tv_tue"
 =======
                                 android:id="@+id/profile_frag_tv_tue"
 >>>>>>> 2/1/2019
+=======
+                                android:id="@+id/profile_frag_tv_tue"
+>>>>>>> 2/2/2019
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Tue"
                                 android:textColor="@color/black_87"
+<<<<<<< HEAD
                                 android:textSize="@dimen/fontsize14" />
+=======
+                                android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/2/2019
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -585,11 +726,15 @@
                                 android:orientation="horizontal">
 
                                 <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+<<<<<<< HEAD
 <<<<<<< HEAD
                                     android:id="@+id/about_profile_tv_tueStart"
 =======
                                     android:id="@+id/profile_frag_tv_tueStart"
 >>>>>>> 2/1/2019
+=======
+                                    android:id="@+id/profile_frag_tv_tueStart"
+>>>>>>> 2/2/2019
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:background="@drawable/box_full_radius_bg"
@@ -606,17 +751,25 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="@dimen/dim4"
                                     android:layout_marginRight="@dimen/dim4"
+<<<<<<< HEAD
                                     android:padding="@dimen/dim4"
+=======
+                                    android:padding="@dimen/dim2"
+>>>>>>> 2/2/2019
                                     android:text="To"
                                     android:textColor="@color/black_87"
                                     android:textSize="@dimen/fontsize14" />
 
                                 <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+<<<<<<< HEAD
 <<<<<<< HEAD
                                     android:id="@+id/about_profile_tv_tueEnd"
 =======
                                     android:id="@+id/profile_frag_tv_tueEnd"
 >>>>>>> 2/1/2019
+=======
+                                    android:id="@+id/profile_frag_tv_tueEnd"
+>>>>>>> 2/2/2019
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:background="@drawable/box_full_radius_bg"
@@ -640,11 +793,15 @@
                             android:orientation="horizontal">
 
                             <CheckBox
+<<<<<<< HEAD
 <<<<<<< HEAD
                                 android:id="@+id/about_profile_cb_wed"
 =======
                                 android:id="@+id/profile_frag_cb_wed"
 >>>>>>> 2/1/2019
+=======
+                                android:id="@+id/profile_frag_cb_wed"
+>>>>>>> 2/2/2019
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:checked="false"
@@ -652,16 +809,24 @@
                                 android:theme="@style/BrandedCheckBox" />
 
                             <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+<<<<<<< HEAD
 <<<<<<< HEAD
                                 android:id="@+id/about_profile_tv_wed"
 =======
                                 android:id="@+id/profile_frag_tv_wed"
 >>>>>>> 2/1/2019
+=======
+                                android:id="@+id/profile_frag_tv_wed"
+>>>>>>> 2/2/2019
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Wed"
                                 android:textColor="@color/black_87"
+<<<<<<< HEAD
                                 android:textSize="@dimen/fontsize14" />
+=======
+                                android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/2/2019
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -671,11 +836,15 @@
                                 android:orientation="horizontal">
 
                                 <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+<<<<<<< HEAD
 <<<<<<< HEAD
                                     android:id="@+id/about_profile_tv_wedStart"
 =======
                                     android:id="@+id/profile_frag_tv_wedStart"
 >>>>>>> 2/1/2019
+=======
+                                    android:id="@+id/profile_frag_tv_wedStart"
+>>>>>>> 2/2/2019
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:background="@drawable/box_full_radius_bg"
@@ -692,17 +861,25 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="@dimen/dim4"
                                     android:layout_marginRight="@dimen/dim4"
+<<<<<<< HEAD
                                     android:padding="@dimen/dim4"
+=======
+                                    android:padding="@dimen/dim2"
+>>>>>>> 2/2/2019
                                     android:text="To"
                                     android:textColor="@color/black_87"
                                     android:textSize="@dimen/fontsize14" />
 
                                 <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+<<<<<<< HEAD
 <<<<<<< HEAD
                                     android:id="@+id/about_profile_tv_wedEnd"
 =======
                                     android:id="@+id/profile_frag_tv_wedEnd"
 >>>>>>> 2/1/2019
+=======
+                                    android:id="@+id/profile_frag_tv_wedEnd"
+>>>>>>> 2/2/2019
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:background="@drawable/box_full_radius_bg"
@@ -726,11 +903,15 @@
                             android:orientation="horizontal">
 
                             <CheckBox
+<<<<<<< HEAD
 <<<<<<< HEAD
                                 android:id="@+id/about_profile_cb_thu"
 =======
                                 android:id="@+id/profile_frag_cb_thu"
 >>>>>>> 2/1/2019
+=======
+                                android:id="@+id/profile_frag_cb_thu"
+>>>>>>> 2/2/2019
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:checked="false"
@@ -738,16 +919,24 @@
                                 android:theme="@style/BrandedCheckBox" />
 
                             <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+<<<<<<< HEAD
 <<<<<<< HEAD
                                 android:id="@+id/about_profile_tv_thu"
 =======
                                 android:id="@+id/profile_frag_tv_thu"
 >>>>>>> 2/1/2019
+=======
+                                android:id="@+id/profile_frag_tv_thu"
+>>>>>>> 2/2/2019
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Thu"
                                 android:textColor="@color/black_87"
+<<<<<<< HEAD
                                 android:textSize="@dimen/fontsize14" />
+=======
+                                android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/2/2019
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -757,11 +946,15 @@
                                 android:orientation="horizontal">
 
                                 <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+<<<<<<< HEAD
 <<<<<<< HEAD
                                     android:id="@+id/about_profile_tv_thuStart"
 =======
                                     android:id="@+id/profile_frag_tv_thuStart"
 >>>>>>> 2/1/2019
+=======
+                                    android:id="@+id/profile_frag_tv_thuStart"
+>>>>>>> 2/2/2019
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:background="@drawable/box_full_radius_bg"
@@ -778,17 +971,25 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="@dimen/dim4"
                                     android:layout_marginRight="@dimen/dim4"
+<<<<<<< HEAD
                                     android:padding="@dimen/dim4"
+=======
+                                    android:padding="@dimen/dim2"
+>>>>>>> 2/2/2019
                                     android:text="To"
                                     android:textColor="@color/black_87"
                                     android:textSize="@dimen/fontsize14" />
 
                                 <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+<<<<<<< HEAD
 <<<<<<< HEAD
                                     android:id="@+id/about_profile_tv_thuEnd"
 =======
                                     android:id="@+id/profile_frag_tv_thuEnd"
 >>>>>>> 2/1/2019
+=======
+                                    android:id="@+id/profile_frag_tv_thuEnd"
+>>>>>>> 2/2/2019
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:background="@drawable/box_full_radius_bg"
@@ -812,11 +1013,15 @@
                             android:orientation="horizontal">
 
                             <CheckBox
+<<<<<<< HEAD
 <<<<<<< HEAD
                                 android:id="@+id/about_profile_cb_fri"
 =======
                                 android:id="@+id/profile_frag_cb_fri"
 >>>>>>> 2/1/2019
+=======
+                                android:id="@+id/profile_frag_cb_fri"
+>>>>>>> 2/2/2019
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:checked="false"
@@ -824,16 +1029,24 @@
                                 android:theme="@style/BrandedCheckBox" />
 
                             <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+<<<<<<< HEAD
 <<<<<<< HEAD
                                 android:id="@+id/about_profile_tv_fri"
 =======
                                 android:id="@+id/profile_frag_tv_fri"
 >>>>>>> 2/1/2019
+=======
+                                android:id="@+id/profile_frag_tv_fri"
+>>>>>>> 2/2/2019
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Fri"
                                 android:textColor="@color/black_87"
+<<<<<<< HEAD
                                 android:textSize="@dimen/fontsize14" />
+=======
+                                android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/2/2019
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -843,11 +1056,15 @@
                                 android:orientation="horizontal">
 
                                 <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+<<<<<<< HEAD
 <<<<<<< HEAD
                                     android:id="@+id/about_profile_tv_friStart"
 =======
                                     android:id="@+id/profile_frag_tv_friStart"
 >>>>>>> 2/1/2019
+=======
+                                    android:id="@+id/profile_frag_tv_friStart"
+>>>>>>> 2/2/2019
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:background="@drawable/box_full_radius_bg"
@@ -864,17 +1081,25 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="@dimen/dim4"
                                     android:layout_marginRight="@dimen/dim4"
+<<<<<<< HEAD
                                     android:padding="@dimen/dim4"
+=======
+                                    android:padding="@dimen/dim2"
+>>>>>>> 2/2/2019
                                     android:text="To"
                                     android:textColor="@color/black_87"
                                     android:textSize="@dimen/fontsize14" />
 
                                 <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+<<<<<<< HEAD
 <<<<<<< HEAD
                                     android:id="@+id/about_profile_tv_friEnd"
 =======
                                     android:id="@+id/profile_frag_tv_friEnd"
 >>>>>>> 2/1/2019
+=======
+                                    android:id="@+id/profile_frag_tv_friEnd"
+>>>>>>> 2/2/2019
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:background="@drawable/box_full_radius_bg"
@@ -898,11 +1123,15 @@
                             android:orientation="horizontal">
 
                             <CheckBox
+<<<<<<< HEAD
 <<<<<<< HEAD
                                 android:id="@+id/about_profile_cb_sat"
 =======
                                 android:id="@+id/profile_frag_cb_sat"
 >>>>>>> 2/1/2019
+=======
+                                android:id="@+id/profile_frag_cb_sat"
+>>>>>>> 2/2/2019
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:checked="false"
@@ -911,15 +1140,23 @@
 
                             <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 android:id="@+id/about_profile_tv_sat"
 =======
                                 android:id="@+id/profile_frag_tv_sat"
 >>>>>>> 2/1/2019
+=======
+                                android:id="@+id/profile_frag_tv_sat"
+>>>>>>> 2/2/2019
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Sat"
                                 android:textColor="@color/black_87"
+<<<<<<< HEAD
                                 android:textSize="@dimen/fontsize14" />
+=======
+                                android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/2/2019
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -930,10 +1167,14 @@
 
                                 <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     android:id="@+id/about_profile_tv_satStart"
 =======
                                     android:id="@+id/profile_frag_tv_satStart"
 >>>>>>> 2/1/2019
+=======
+                                    android:id="@+id/profile_frag_tv_satStart"
+>>>>>>> 2/2/2019
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:background="@drawable/box_full_radius_bg"
@@ -950,17 +1191,25 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="@dimen/dim4"
                                     android:layout_marginRight="@dimen/dim4"
+<<<<<<< HEAD
                                     android:padding="@dimen/dim4"
+=======
+                                    android:padding="@dimen/dim2"
+>>>>>>> 2/2/2019
                                     android:text="To"
                                     android:textColor="@color/black_87"
                                     android:textSize="@dimen/fontsize14" />
 
                                 <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     android:id="@+id/about_profile_tv_satEnd"
 =======
                                     android:id="@+id/profile_frag_tv_satEnd"
 >>>>>>> 2/1/2019
+=======
+                                    android:id="@+id/profile_frag_tv_satEnd"
+>>>>>>> 2/2/2019
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:background="@drawable/box_full_radius_bg"
@@ -985,10 +1234,14 @@
 
                             <CheckBox
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 android:id="@+id/about_profile_cb_sun"
 =======
                                 android:id="@+id/profile_frag_cb_sun"
 >>>>>>> 2/1/2019
+=======
+                                android:id="@+id/profile_frag_cb_sun"
+>>>>>>> 2/2/2019
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:checked="false"
@@ -997,15 +1250,23 @@
 
                             <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 android:id="@+id/about_profile_tv_sun"
 =======
                                 android:id="@+id/profile_frag_tv_sun"
 >>>>>>> 2/1/2019
+=======
+                                android:id="@+id/profile_frag_tv_sun"
+>>>>>>> 2/2/2019
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Sun"
                                 android:textColor="@color/black_87"
+<<<<<<< HEAD
                                 android:textSize="@dimen/fontsize14" />
+=======
+                                android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/2/2019
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -1016,10 +1277,14 @@
 
                                 <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     android:id="@+id/about_profile_tv_sunStart"
 =======
                                     android:id="@+id/profile_frag_tv_sunStart"
 >>>>>>> 2/1/2019
+=======
+                                    android:id="@+id/profile_frag_tv_sunStart"
+>>>>>>> 2/2/2019
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:background="@drawable/box_full_radius_bg"
@@ -1036,17 +1301,25 @@
                                     android:layout_height="wrap_content"
                                     android:layout_marginLeft="@dimen/dim4"
                                     android:layout_marginRight="@dimen/dim4"
+<<<<<<< HEAD
                                     android:padding="@dimen/dim4"
+=======
+                                    android:padding="@dimen/dim2"
+>>>>>>> 2/2/2019
                                     android:text="To"
                                     android:textColor="@color/black_87"
                                     android:textSize="@dimen/fontsize14" />
 
                                 <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     android:id="@+id/about_profile_tv_sunEnd"
 =======
                                     android:id="@+id/profile_frag_tv_sunEnd"
 >>>>>>> 2/1/2019
+=======
+                                    android:id="@+id/profile_frag_tv_sunEnd"
+>>>>>>> 2/2/2019
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:background="@drawable/box_full_radius_bg"
@@ -1071,7 +1344,11 @@
                         android:layout_marginRight="@dimen/dim30"
                         android:text="Offers Selections"
                         android:textColor="@android:color/darker_gray"
+<<<<<<< HEAD
                         android:textSize="@dimen/fontsize14" />
+=======
+                        android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/2/2019
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -1090,10 +1367,14 @@
 
                             <CheckBox
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 android:id="@+id/about_profile_cb_nearByLastMin"
 =======
                                 android:id="@+id/profile_frag_cb_nearByLastMin"
 >>>>>>> 2/1/2019
+=======
+                                android:id="@+id/profile_frag_cb_nearByLastMin"
+>>>>>>> 2/2/2019
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:checked="false"
@@ -1102,15 +1383,23 @@
 
                             <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 android:id="@+id/about_profile_tv_nearByLastMin"
 =======
                                 android:id="@+id/profile_frag_tv_nearByLastMin"
 >>>>>>> 2/1/2019
+=======
+                                android:id="@+id/profile_frag_tv_nearByLastMin"
+>>>>>>> 2/2/2019
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Near by Last min offer"
                                 android:textColor="@color/black_87"
+<<<<<<< HEAD
                                 android:textSize="@dimen/fontsize14" />
+=======
+                                android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/2/2019
 
 
                         </LinearLayout>
@@ -1126,10 +1415,14 @@
 
                             <com.sit.kaikiliService.font.EditTextEupheminUCASRegular
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 android:id="@+id/about_profile_edt_nearMiles"
 =======
                                 android:id="@+id/profile_frag_edt_nearMiles"
 >>>>>>> 2/1/2019
+=======
+                                android:id="@+id/profile_frag_edt_nearMiles"
+>>>>>>> 2/2/2019
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="@dimen/dim20"
@@ -1150,6 +1443,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="Miles"
                                 android:textColor="@color/black_87"
+<<<<<<< HEAD
                                 android:textSize="@dimen/fontsize14" />
 
                             <com.sit.kaikiliService.font.EditTextEupheminUCASRegular
@@ -1162,6 +1456,16 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="@dimen/dim8"
                                 android:layout_marginRight="@dimen/dim10"
+=======
+                                android:textSize="@dimen/fontsize16" />
+
+                            <com.sit.kaikiliService.font.EditTextEupheminUCASRegular
+                                android:id="@+id/profile_frag_edt_nearOff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dim6"
+                                android:layout_marginRight="@dimen/dim6"
+>>>>>>> 2/2/2019
                                 android:background="@drawable/box_full_radius_bg"
                                 android:hint="00"
                                 android:inputType="number"
@@ -1178,7 +1482,11 @@
                                 android:layout_height="wrap_content"
                                 android:text="% Off"
                                 android:textColor="@color/black_87"
+<<<<<<< HEAD
                                 android:textSize="@dimen/fontsize14" />
+=======
+                                android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/2/2019
                         </LinearLayout>
 
                         <LinearLayout
@@ -1192,10 +1500,14 @@
 
                             <CheckBox
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 android:id="@+id/about_profile_cb_leisureDay"
 =======
                                 android:id="@+id/profile_frag_cb_leisureDay"
 >>>>>>> 2/1/2019
+=======
+                                android:id="@+id/profile_frag_cb_leisureDay"
+>>>>>>> 2/2/2019
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:checked="false"
@@ -1204,14 +1516,19 @@
 
                             <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 android:id="@+id/about_profile_tv_leisureDay"
 =======
                                 android:id="@+id/profile_frag_tv_leisureDay"
 >>>>>>> 2/1/2019
+=======
+                                android:id="@+id/profile_frag_tv_leisureDay"
+>>>>>>> 2/2/2019
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Leisure day offer"
                                 android:textColor="@color/black_87"
+<<<<<<< HEAD
                                 android:textSize="@dimen/fontsize14" />
 
                             <com.sit.kaikiliService.font.EditTextEupheminUCASRegular
@@ -1224,6 +1541,16 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="@dimen/dim8"
                                 android:layout_marginRight="@dimen/dim10"
+=======
+                                android:textSize="@dimen/fontsize16" />
+
+                            <com.sit.kaikiliService.font.EditTextEupheminUCASRegular
+                                android:id="@+id/profile_frag_edt_leisureDayOff"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dim6"
+                                android:layout_marginRight="@dimen/dim6"
+>>>>>>> 2/2/2019
                                 android:background="@drawable/box_full_radius_bg"
                                 android:hint="00"
                                 android:inputType="number"
@@ -1240,7 +1567,11 @@
                                 android:layout_height="wrap_content"
                                 android:text="% Off"
                                 android:textColor="@color/black_87"
+<<<<<<< HEAD
                                 android:textSize="@dimen/fontsize14" />
+=======
+                                android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/2/2019
 
 
                         </LinearLayout>
@@ -1257,10 +1588,14 @@
 
                             <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 android:id="@+id/about_profile_tv_leisureDayStartDate"
 =======
                                 android:id="@+id/profile_frag_tv_leisureDayStartDate"
 >>>>>>> 2/1/2019
+=======
+                                android:id="@+id/profile_frag_tv_leisureDayStartDate"
+>>>>>>> 2/2/2019
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginRight="@dimen/dim10"
@@ -1275,10 +1610,14 @@
 
                             <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 android:id="@+id/about_profile_tv_leisureDayStartTime"
 =======
                                 android:id="@+id/profile_frag_tv_leisureDayStartTime"
 >>>>>>> 2/1/2019
+=======
+                                android:id="@+id/profile_frag_tv_leisureDayStartTime"
+>>>>>>> 2/2/2019
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:background="@drawable/box_full_radius_bg"
@@ -1296,7 +1635,11 @@
                                 android:layout_marginLeft="@dimen/dim10"
                                 android:text="To"
                                 android:textColor="@color/black_87"
+<<<<<<< HEAD
                                 android:textSize="@dimen/fontsize14" />
+=======
+                                android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/2/2019
 
 
                         </LinearLayout>
@@ -1308,9 +1651,13 @@
                             android:layout_marginLeft="@dimen/dim30"
                             android:layout_marginTop="@dimen/dim8"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                             android:layout_marginBottom="@dimen/dim60"
 >>>>>>> 2/1/2019
+=======
+                            android:layout_marginBottom="@dimen/dim60"
+>>>>>>> 2/2/2019
                             android:layout_marginRight="@dimen/dim30"
                             android:gravity="center_vertical|right"
 
@@ -1319,10 +1666,14 @@
 
                             <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 android:id="@+id/about_profile_tv_leisureDayEndDate"
 =======
                                 android:id="@+id/profile_frag_tv_leisureDayEndDate"
 >>>>>>> 2/1/2019
+=======
+                                android:id="@+id/profile_frag_tv_leisureDayEndDate"
+>>>>>>> 2/2/2019
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginRight="@dimen/dim10"
@@ -1337,10 +1688,14 @@
 
                             <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 android:id="@+id/about_profile_tv_leisureDayEndTime"
 =======
                                 android:id="@+id/profile_frag_tv_leisureDayEndTime"
 >>>>>>> 2/1/2019
+=======
+                                android:id="@+id/profile_frag_tv_leisureDayEndTime"
+>>>>>>> 2/2/2019
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:background="@drawable/box_full_radius_bg"
@@ -1355,6 +1710,7 @@
                         </LinearLayout>
                     </LinearLayout>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
                     <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
                         android:id="@+id/about_profile_tv_backgroundCheck"
@@ -1371,6 +1727,9 @@
 =======
 
 >>>>>>> 2/1/2019
+=======
+
+>>>>>>> 2/2/2019
                 </LinearLayout>
             </LinearLayout>
         </ScrollView>
@@ -1385,8 +1744,12 @@
     <!--android:layout_margin="@dimen/fab_margin"-->
     <!--app:srcCompat="@drawable/icon_next" />-->
 <<<<<<< HEAD
+<<<<<<< HEAD
 </android.support.design.widget.CoordinatorLayout>
 >>>>>>> 1/31/2019
 =======
 </android.support.design.widget.CoordinatorLayout>
 >>>>>>> 2/1/2019
+=======
+</android.support.design.widget.CoordinatorLayout>
+>>>>>>> 2/2/2019

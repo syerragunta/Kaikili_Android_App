@@ -19,6 +19,7 @@
             android:orientation="horizontal">
 
             <ImageView
+<<<<<<< HEAD
                 android:id="@+id/row_noti_iv_read"
                 android:layout_width="@dimen/dim12"
 <<<<<<< HEAD
@@ -28,6 +29,13 @@
                 android:layout_marginRight="@dimen/dim8"
                 android:layout_height="@dimen/dim12"
 >>>>>>> 2/1/2019
+=======
+
+                android:id="@+id/row_noti_iv_read"
+                android:layout_width="@dimen/dim12"
+                android:layout_marginRight="@dimen/dim8"
+                android:layout_height="@dimen/dim12"
+>>>>>>> 2/2/2019
                 android:src="@drawable/round_notification"/>
 
             <ImageView

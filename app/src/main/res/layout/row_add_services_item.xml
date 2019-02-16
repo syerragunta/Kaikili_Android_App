@@ -29,6 +29,7 @@
         android:layout_marginLeft="@dimen/dim4"
         android:text="gsDDDsdgdsgs"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:textColor="@color/text_coloer"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -43,6 +44,10 @@
 =======
         android:textSize="@dimen/fontsize16"
 >>>>>>> 2/1/2019
+=======
+        android:textColor="@color/black_87"
+        android:textSize="@dimen/fontsize16"
+>>>>>>> 2/2/2019
         />
 
 
@@ -65,11 +70,19 @@
          android:layout_width="wrap_content"
          android:layout_height="wrap_content"
          android:maxLength="6"
+<<<<<<< HEAD
          android:gravity="center"
          android:inputType="number|numberDecimal"
          android:hint="00.00"
          android:padding="@dimen/dim2"
          android:textSize="@dimen/fontsize14"
+=======
+         android:gravity="right"
+         android:inputType="number|numberDecimal"
+         android:hint="00.00"
+         android:textSize="@dimen/fontsize16"
+         android:padding="@dimen/dim4"
+>>>>>>> 2/2/2019
          android:textColor="@color/black_87"
          android:layout_marginLeft="@dimen/dim2"
          android:layout_marginRight="@dimen/dim2"

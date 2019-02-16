@@ -3,8 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/start_activity_ll_main"
     android:layout_width="match_parent"
+<<<<<<< HEAD
     android:layout_height="match_parent"
     android:background="@drawable/app_bg"
+=======
+    android:background="@color/white"
+    android:layout_height="match_parent"
+>>>>>>> 2/2/2019
     android:orientation="vertical"
    >
 

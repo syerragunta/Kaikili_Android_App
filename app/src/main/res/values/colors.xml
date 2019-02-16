@@ -6,6 +6,10 @@
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2/2/2019
     <color name="text_coloer">#500b02</color>
 
 
@@ -21,6 +25,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <color name="white">#FFFFFF</color>
     <color name="transparent">#07000000</color>
@@ -33,6 +38,10 @@
     <color name="white">#FFFFFF</color>
     <color name="transparent">#07000000</color>
 >>>>>>> 2/1/2019
+=======
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#07000000</color>
+>>>>>>> 2/2/2019
     <color name="black_87">#de000000</color>
     <color name="black_54">#8a000000</color>
     <color name="black_20">#14000000</color>
@@ -51,6 +60,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <color name="message_unread">#064ff2</color>
 >>>>>>> 1/30/2019
@@ -64,5 +74,12 @@
 
     <color name="accent">#064ff2</color>
 >>>>>>> 2/1/2019
+=======
+    <color name="message_unread">#064ff2</color>
+
+    <color name="accent">#064ff2</color>
+
+    <color name="tab_colour">#4a7be9</color>
+>>>>>>> 2/2/2019
 
 </resources>

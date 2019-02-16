@@ -67,10 +67,13 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
 >>>>>>> 2/1/2019
+=======
+>>>>>>> 2/2/2019
     <declare-styleable name="ReadMoreTextView">
         <attr name="trimExpandedText" format="string" />
         <attr name="trimCollapsedText" format="string" />
@@ -84,9 +87,12 @@
         </attr>
     </declare-styleable>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1/31/2019
 =======
 >>>>>>> 2/1/2019
+=======
+>>>>>>> 2/2/2019
 
 
 

@@ -3,11 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+<<<<<<< HEAD
+=======
+    android:background="@color/white"
+>>>>>>> 2/2/2019
     android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+<<<<<<< HEAD
         android:background="@drawable/app_bg"
         android:orientation="vertical">
 
@@ -16,6 +21,11 @@
 =======
         <include layout="@layout/activity_header" />
 >>>>>>> 2/1/2019
+=======
+        android:orientation="vertical">
+
+        <include layout="@layout/activity_header" />
+>>>>>>> 2/2/2019
 
         <ScrollView
             android:layout_width="match_parent"
@@ -46,8 +56,14 @@
                             android:layout_height="wrap_content"
                             android:hint="First"
                             android:maxLength="50"
+<<<<<<< HEAD
                             android:singleLine="true"
                             android:textSize="@dimen/fontsize14" />
+=======
+                            android:textColor="@color/black_87"
+                            android:singleLine="true"
+                            android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/2/2019
                     </android.support.design.widget.TextInputLayout>
 
                     <android.support.design.widget.TextInputLayout
@@ -64,8 +80,14 @@
                             android:layout_height="wrap_content"
                             android:hint="Middle"
                             android:maxLength="50"
+<<<<<<< HEAD
                             android:singleLine="true"
                             android:textSize="@dimen/fontsize14" />
+=======
+                            android:textColor="@color/black_87"
+                            android:singleLine="true"
+                            android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/2/2019
                     </android.support.design.widget.TextInputLayout>
 
                     <android.support.design.widget.TextInputLayout
@@ -81,9 +103,16 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:hint="Last"
+<<<<<<< HEAD
                             android:maxLength="50"
                             android:singleLine="true"
                             android:textSize="@dimen/fontsize14" />
+=======
+                            android:textColor="@color/black_87"
+                            android:maxLength="50"
+                            android:singleLine="true"
+                            android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/2/2019
                     </android.support.design.widget.TextInputLayout>
 
                     <android.support.design.widget.TextInputLayout
@@ -103,8 +132,14 @@
                             android:maxLength="100"
                             android:maxLines="2"
                             android:minLines="2"
+<<<<<<< HEAD
                             android:singleLine="false"
                             android:textSize="@dimen/fontsize14" />
+=======
+                            android:textColor="@color/black_87"
+                            android:singleLine="false"
+                            android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/2/2019
                     </android.support.design.widget.TextInputLayout>
 
 
@@ -128,9 +163,16 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:hint="City"
+<<<<<<< HEAD
                                 android:maxLength="30"
                                 android:singleLine="true"
                                 android:textSize="@dimen/fontsize14" />
+=======
+                                android:textColor="@color/black_87"
+                                android:maxLength="30"
+                                android:singleLine="true"
+                                android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/2/2019
                         </android.support.design.widget.TextInputLayout>
 
                         <View
@@ -149,9 +191,16 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:hint="ST"
+<<<<<<< HEAD
                                 android:maxLength="100"
                                 android:singleLine="true"
                                 android:textSize="@dimen/fontsize14" />
+=======
+                                android:textColor="@color/black_87"
+                                android:maxLength="100"
+                                android:singleLine="true"
+                                android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/2/2019
                         </android.support.design.widget.TextInputLayout>
 
                     </LinearLayout>
@@ -169,9 +218,16 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:hint="Zip"
+<<<<<<< HEAD
                             android:maxLength="8"
                             android:singleLine="true"
                             android:textSize="@dimen/fontsize14" />
+=======
+                            android:textColor="@color/black_87"
+                            android:maxLength="8"
+                            android:singleLine="true"
+                            android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/2/2019
                     </android.support.design.widget.TextInputLayout>
 
                     <android.support.design.widget.TextInputLayout
@@ -188,8 +244,14 @@
                             android:layout_height="wrap_content"
                             android:hint="SSN"
                             android:maxLength="50"
+<<<<<<< HEAD
                             android:singleLine="true"
                             android:textSize="@dimen/fontsize14" />
+=======
+                            android:textColor="@color/black_87"
+                            android:singleLine="true"
+                            android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/2/2019
                     </android.support.design.widget.TextInputLayout>
 
 
