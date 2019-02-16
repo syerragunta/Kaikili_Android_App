@@ -2,33 +2,20 @@ package com.sit.kaikiliService.adapter;
 
 import android.app.Activity;
 import android.content.Context;
-<<<<<<< HEAD
-=======
-import android.content.Intent;
->>>>>>> 1/29/2019
-import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.FrameLayout;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.TextView;
-
 
 import com.sit.kaikiliService.KetanApplication;
 import com.sit.kaikiliService.R;
-<<<<<<< HEAD
-=======
-import com.sit.kaikiliService.activity.AddServiceDataActivity;
->>>>>>> 1/29/2019
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 
 import java.util.ArrayList;
 
 
-public class AddServiceListAdapter extends BaseAdapter {
+public class AddServiceItemAdapter extends BaseAdapter {
 
 	private Context mActivity;
 	private LayoutInflater inflater;
@@ -36,7 +23,7 @@ public class AddServiceListAdapter extends BaseAdapter {
     private KetanApplication application;
 
 
-	public AddServiceListAdapter(Context activity) {
+	public AddServiceItemAdapter(Context activity) {
 		// TODO Auto-generated constructor stub
 		mActivity = activity;
         application = (KetanApplication)mActivity.getApplicationContext();
@@ -70,9 +57,9 @@ public class AddServiceListAdapter extends BaseAdapter {
 		final int post = position;
 
             holder = new RecordHolder();
-            row = inflater.inflate(R.layout.row_add_services, null);
-            holder.tvName = (TextViewEuphemiaUCASRegular)row.findViewById( R.id.row_add_service_tv_title );
-            holder.frameLayout = (LinearLayout)row.findViewById( R.id.row_add_service_ll_row );
+            row = inflater.inflate(R.layout.row_add_services_item, null);
+            holder.tvName = (TextViewEuphemiaUCASRegular)row.findViewById( R.id.row_add_service_item_tv_title );
+            holder.frameLayout = (LinearLayout)row.findViewById( R.id.row_add_service_item_ll_row );
             row.setTag(holder);
             holder.tvName.setText( servicesList.get( position ).toString());
 
@@ -82,18 +69,12 @@ public class AddServiceListAdapter extends BaseAdapter {
 			@Override
 			public void onClick(View v) {
 
-<<<<<<< HEAD
 //				((MainActivity)mActivity).callGroupLink(servicesList.get(post).getCategory_title(),servicesList.get(post).getCategory_id());
 
 //				Intent intent = new Intent(mActivity, GroupListActivity.class);
 //				intent.putExtra("categoriesName",servicesList.get(post).getCategory_title());
 //				intent.putExtra("categoriesId",servicesList.get(post).getCategory_id());
 //				mActivity.startActivity(intent);
-=======
-				Intent intent = new Intent(mActivity, AddServiceDataActivity.class);
-				intent.putExtra("serviceName",servicesList.get(post).toString());
-				mActivity.startActivity(intent);
->>>>>>> 1/29/2019
 			}
 		});
 

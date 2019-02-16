@@ -127,6 +127,13 @@
             android:name=".activity.ServiceCatalogueActivity"
             android:label="@string/title_activity_home_screen"
             android:theme="@style/AppTheme.NoActionBar"/>
+<<<<<<< HEAD
+=======
+        <activity
+            android:name=".activity.AddServiceDataActivity"
+            android:label="@string/title_activity_home_screen"
+            android:theme="@style/AppTheme.NoActionBar"/>
+>>>>>>> 1/29/2019
     </application>
 
 </manifest>

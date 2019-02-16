@@ -1,5 +1,6 @@
 package com.sit.kaikiliService.activity;
 
+<<<<<<< HEAD
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -16,6 +17,29 @@ import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.comman.CircularImageView;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASBola;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
+=======
+import android.app.Fragment;
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.design.widget.TabLayout;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.view.GravityCompat;
+import android.support.v4.view.ViewPager;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.widget.Toolbar;
+import android.view.LayoutInflater;
+import android.view.View;
+
+import com.sit.kaikiliService.R;
+import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
+import com.sit.kaikiliService.fragment.EarningsFragment;
+import com.sit.kaikiliService.fragment.NotificationFragment;
+import com.sit.kaikiliService.fragment.ProfileFragment;
+import com.sit.kaikiliService.fragment.ScheduledServicesFragment;
+>>>>>>> 1/29/2019
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -29,6 +53,7 @@ import butterknife.ButterKnife;
 public class HomeScreenActivity extends BaseActivity {
 //        implements NavigationView.OnNavigationItemSelectedListener {
 
+<<<<<<< HEAD
 //    @Bind(R.id.menu_top_civ_profile) CircularImageView menu_top_civ_profile;
 //    @Bind(R.id.menu_tv_top_userName) TextViewEuphemiaUCASRegular menu_tv_top_userName;
 //    @Bind(R.id.menu_tv_top_ratingCount) TextViewEuphemiaUCASBola menu_tv_top_ratingCount;
@@ -42,6 +67,12 @@ public class HomeScreenActivity extends BaseActivity {
 //    @Bind(R.id.menu_tv_profile) TextViewEuphemiaUCASRegular menu_tv_profile;
 //    @Bind(R.id.menu_tv_contactUs) TextViewEuphemiaUCASRegular menu_tv_contactUs;
 //    @Bind(R.id.menu_tv_logout) TextViewEuphemiaUCASRegular menu_tv_logout;
+=======
+    @Bind(R.id.home_viewpager)ViewPager home_viewpager;
+    @Bind(R.id.top_title)TextViewEuphemiaUCASRegular top_title;
+
+    private Toolbar toolbar;
+>>>>>>> 1/29/2019
 
 
     @Override
@@ -50,7 +81,11 @@ public class HomeScreenActivity extends BaseActivity {
         setContentView( R.layout.activity_home_screen );
         ButterKnife.bind( this, this );
 
+<<<<<<< HEAD
         Toolbar toolbar = (Toolbar) findViewById( R.id.toolbar );
+=======
+        toolbar = (Toolbar) findViewById( R.id.toolbar );
+>>>>>>> 1/29/2019
         setSupportActionBar( toolbar );
 
 
@@ -60,10 +95,53 @@ public class HomeScreenActivity extends BaseActivity {
         drawer.addDrawerListener( toggle );
         toggle.syncState();
 
+<<<<<<< HEAD
 //        NavigationView navigationView = (NavigationView) findViewById( R.id.nav_view );
 //        navigationView.setNavigationItemSelectedListener( this );
     }
 
+=======
+
+
+
+        // Create an adapter that knows which fragment should be shown on each page
+        SimpleFragmentPagerAdapter adapter = new SimpleFragmentPagerAdapter(this, getSupportFragmentManager());
+        home_viewpager.setAdapter(adapter);
+        home_viewpager.setCurrentItem( 0 );
+        setUpToolbar("Home");
+    }
+
+    public void setUpToolbar(final String title) {
+        top_title.setText(title);
+
+    }
+
+
+//    private void setupTabIcons() {
+//
+//        TextViewEuphemiaUCASRegular tabOne = (TextViewEuphemiaUCASRegular) LayoutInflater.from(this).inflate(R.layout.custom_tab, null);
+//        tabOne.setText("Home");
+//        tabOne.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.tab_home, 0, 0);
+//        home_sliding_tabs.getTabAt(0).setCustomView(tabOne);
+//
+//        TextViewEuphemiaUCASRegular tabTwo = (TextViewEuphemiaUCASRegular) LayoutInflater.from(this).inflate(R.layout.custom_tab, null);
+//        tabTwo.setText("Notification");
+//        tabTwo.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.tab_notification, 0, 0);
+//        home_sliding_tabs.getTabAt(1).setCustomView(tabTwo);
+//
+//        TextViewEuphemiaUCASRegular tabThree = (TextViewEuphemiaUCASRegular) LayoutInflater.from(this).inflate(R.layout.custom_tab, null);
+//        tabThree.setText("Earnings");
+//        tabThree.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.earnings, 0, 0);
+//        home_sliding_tabs.getTabAt(2).setCustomView(tabThree);
+//
+//        TextViewEuphemiaUCASRegular tabFore = (TextViewEuphemiaUCASRegular) LayoutInflater.from(this).inflate(R.layout.custom_tab, null);
+//        tabFore.setText("Profile");
+//        tabFore.setCompoundDrawablesWithIntrinsicBounds(0, R.drawable.profile, 0, 0);
+//        home_sliding_tabs.getTabAt(3).setCustomView(tabFore);
+//    }
+
+
+>>>>>>> 1/29/2019
 
     @Override
     public void onBackPressed() {
@@ -85,6 +163,7 @@ public class HomeScreenActivity extends BaseActivity {
         startActivity( intent );
     }
 
+<<<<<<< HEAD
 
 //    @Override
 //    public boolean onOptionsItemSelected(MenuItem item) {
@@ -101,4 +180,63 @@ public class HomeScreenActivity extends BaseActivity {
 //        drawer.closeDrawer( GravityCompat.START );
 //        return true;
 //    }
+=======
+    public void callTabHome(View view) {
+        home_viewpager.setCurrentItem( 0 );
+        top_title.setText("Home");
+
+    }
+
+    public void callTabNotification(View view) {
+        home_viewpager.setCurrentItem(1);
+        top_title.setText("Notification");
+
+    }
+
+    public void callTabEarnings(View view) {
+        home_viewpager.setCurrentItem(2);
+        top_title.setText("Earnings");
+
+    }
+
+    public void callTabProfile(View view) {
+        home_viewpager.setCurrentItem(3);
+        top_title.setText("Profile");
+
+    }
+
+
+    public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
+
+        private Context mContext;
+
+        public SimpleFragmentPagerAdapter(Context context, FragmentManager fm) {
+            super(fm);
+            mContext = context;
+        }
+
+        // This determines the fragment for each tab
+        @Override
+        public android.support.v4.app.Fragment getItem(int position) {
+            if (position == 0) {
+                return new ScheduledServicesFragment();
+            } else if (position == 1){
+                return new NotificationFragment();
+            } else if (position == 2){
+                return new EarningsFragment();
+            } else if (position == 3){
+                return new ProfileFragment();
+            } else {
+                return new ScheduledServicesFragment();
+            }
+        }
+
+        // This determines the number of tabs
+        @Override
+        public int getCount() {
+            return 4;
+        }
+    }
+
+>>>>>>> 1/29/2019
 }
