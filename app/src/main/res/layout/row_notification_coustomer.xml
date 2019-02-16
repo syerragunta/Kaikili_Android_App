@@ -24,6 +24,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 android:layout_marginRight="@dimen/dim12"
 <<<<<<< HEAD
                 android:layout_height="@dimen/dim10"
@@ -42,6 +43,10 @@
                 android:layout_marginRight="@dimen/dim8"
                 android:layout_height="@dimen/dim12"
 >>>>>>> 2/14/2019
+=======
+                android:layout_marginRight="@dimen/dim8"
+                android:layout_height="@dimen/dim12"
+>>>>>>> 2/15/2019
                 android:src="@drawable/round_notification"/>
 
             <com.sit.kaikiliService.comman.CircularImageView

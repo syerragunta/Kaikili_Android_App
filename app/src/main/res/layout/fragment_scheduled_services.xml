@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     tools:context=".fragment.ScheduledServicesFragment">
 
 <<<<<<< HEAD
@@ -39,6 +40,8 @@
 >>>>>>> 2/9/2019
 =======
 >>>>>>> 2/14/2019
+=======
+>>>>>>> 2/15/2019
     android:background="@color/white"
     tools:context=".fragment.ScheduledServicesFragment">
 
@@ -61,9 +64,12 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/2/2019
 =======
 >>>>>>> 2/9/2019
 =======
 >>>>>>> 2/14/2019
+=======
+>>>>>>> 2/15/2019
 </FrameLayout>

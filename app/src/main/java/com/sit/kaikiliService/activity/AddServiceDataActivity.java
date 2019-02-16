@@ -1,6 +1,7 @@
 package com.sit.kaikiliService.activity;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.content.SharedPreferences;
 import android.os.Bundle;
 <<<<<<< HEAD
@@ -36,6 +37,8 @@ import com.sit.kaikiliService.adapter.AddServiceItemAdapter;
 import com.sit.kaikiliService.api.ServiceList;
 >>>>>>> 2/9/2019
 =======
+=======
+>>>>>>> 2/15/2019
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -63,21 +66,35 @@ import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.api.Apiresponse;
 import com.sit.kaikiliService.api.CompsItme;
 import com.sit.kaikiliService.api.ServiceList;
+<<<<<<< HEAD
 import com.sit.kaikiliService.api.WebApi;
 import com.sit.kaikiliService.api.WebUtil;
 import com.sit.kaikiliService.comman.Util;
 >>>>>>> 2/14/2019
+=======
+import com.sit.kaikiliService.api.UserServiceGetAPI;
+import com.sit.kaikiliService.api.WebApi;
+import com.sit.kaikiliService.api.WebUtil;
+import com.sit.kaikiliService.comman.Util;
+>>>>>>> 2/15/2019
 import com.sit.kaikiliService.comman.WithoutScrollListView;
 import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASBola;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import org.json.JSONArray;
 import org.json.JSONObject;
 
 >>>>>>> 2/14/2019
+=======
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+>>>>>>> 2/15/2019
 import java.util.ArrayList;
 
 import butterknife.Bind;
@@ -98,6 +115,7 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
     TextViewEuphemiaUCASRegular top_title;
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     @Bind(R.id.add_service_data_iv_switch) ImageView add_service_data_iv_switch;
@@ -127,6 +145,8 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 =======
 =======
 >>>>>>> 2/14/2019
+=======
+>>>>>>> 2/15/2019
     @Bind(R.id.add_service_data_iv_switch)
     ImageView add_service_data_iv_switch;
     @Bind(R.id.add_service_data_listView_costPerItem)
@@ -149,6 +169,7 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
     TextViewEuphemiaUCASRegular add_service_data_tv_quote;
     @Bind(R.id.add_service_data_tv_costHelper)
     TextViewEuphemiaUCASRegular add_service_data_tv_costHelper;
+<<<<<<< HEAD
 <<<<<<< HEAD
     @Bind(R.id.add_service_data_tv_note)
     TextViewEuphemiaUCASBola add_service_data_tv_note;
@@ -173,6 +194,8 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
     private ServiceList serviceList;
 >>>>>>> 2/9/2019
 =======
+=======
+>>>>>>> 2/15/2019
 
     @Bind(R.id.add_service_data_tv_note)
     TextViewEuphemiaUCASBola add_service_data_tv_note;
@@ -194,10 +217,17 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
     private SharedPreferences preferences;
     private AddServiceItemAdapterItem adapterCostPerItme;
     private AddServiceItemAdapterSize adapterCostPerSize;
+<<<<<<< HEAD
 
 
     private ServiceList serviceList;
 >>>>>>> 2/14/2019
+=======
+    private String SP_ID = "SP00001";
+
+
+    private ServiceList serviceList;
+>>>>>>> 2/15/2019
 
 
     @Override
@@ -206,6 +236,7 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
         setContentView( R.layout.activity_add_srevice_data );
         ButterKnife.bind( this, this );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -257,6 +288,8 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 =======
 =======
 >>>>>>> 2/14/2019
+=======
+>>>>>>> 2/15/2019
         application = (KaikiliApplication) getApplicationContext();
         preferences = application.getSharedPreferences();
 
@@ -266,6 +299,7 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
         top_title.setText( serviceList.getSr_title() );
         top_back.setOnClickListener( this );
 <<<<<<< HEAD
+<<<<<<< HEAD
         add_service_data_iv_switch.setOnClickListener( this );
         add_service_data_iv_switch.setTag( "1" );
 
@@ -274,19 +308,29 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
         adapterCostPerItme = new AddServiceItemAdapter( this );
         adapterCostPerSize = new AddServiceItemAdapter( this );
 =======
+=======
+>>>>>>> 2/15/2019
         add_service_data_floaButton_save.setOnClickListener( this );
         add_service_data_iv_switch.setOnClickListener( this );
         add_service_data_iv_switch.setTag( "1" );
 
+<<<<<<< HEAD
 
         adapterCostPerItme = new AddServiceItemAdapterItem( this );
         adapterCostPerSize = new AddServiceItemAdapterSize( this );
 >>>>>>> 2/14/2019
+=======
+        new GetServiceDataTask( this ).execute();
+
+        adapterCostPerItme = new AddServiceItemAdapterItem( this );
+        adapterCostPerSize = new AddServiceItemAdapterSize( this );
+>>>>>>> 2/15/2019
 
         add_service_data_listView_costPerItem.setAdapter( adapterCostPerItme );
         add_service_data_listView_costPerSize.setAdapter( adapterCostPerSize );
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -345,6 +389,8 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 
 =======
 >>>>>>> 2/14/2019
+=======
+>>>>>>> 2/15/2019
         add_service_data_edt_quoteService.setVisibility( View.GONE );
         add_service_data_tv_quote.setVisibility( View.GONE );
         add_service_data_listView_costPerSize.setVisibility( View.GONE );
@@ -354,6 +400,7 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
         add_service_data_tv_costPerItem.setVisibility( View.GONE );
         add_service_data_view_costPerItem.setVisibility( View.GONE );
 
+<<<<<<< HEAD
 
 <<<<<<< HEAD
         if (serviceList.getCost_comps_pro_rated().size()>0) {
@@ -398,6 +445,37 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
             add_service_data_edt_offer.setText( "" );
         }
 
+=======
+//
+//        if (serviceList.getCost_comps_pro_rated().size() > 0) {
+//            add_service_data_listView_costPerSize.setVisibility( View.VISIBLE );
+//            add_service_data_tv_costPerSize.setVisibility( View.VISIBLE );
+//            add_service_data_view_costPerSize.setVisibility( View.VISIBLE );
+//        }
+//
+//        if (serviceList.getCost_comps_per_item().size() > 0) {
+//            add_service_data_listView_costPerItem.setVisibility( View.VISIBLE );
+//            add_service_data_tv_costPerItem.setVisibility( View.VISIBLE );
+//            add_service_data_view_costPerItem.setVisibility( View.VISIBLE );
+//        }
+//
+//        add_service_offer_tv_title.setText( serviceList.getDiscount().getDs_title() );
+//
+//        if (serviceList.getDiscount().getDs_check_box().equalsIgnoreCase( "ON" )) {
+//            add_service_data_ch_offer.setChecked( true );
+//        } else {
+//            add_service_data_ch_offer.setChecked( false );
+//        }
+//
+//        if (Util.isNotEmpaty( serviceList.getDiscount().getDs_rate() )) {
+//            add_service_data_edt_offer.setText( serviceList.getDiscount().getDs_rate() );
+//        } else {
+//            add_service_data_edt_offer.setText( "" );
+//        }
+//
+//        adapterCostPerItme.setList( serviceList.getCost_comps_per_item() );
+//        adapterCostPerSize.setList( serviceList.getCost_comps_pro_rated() );
+>>>>>>> 2/15/2019
 
         add_service_data_ch_offer.setOnCheckedChangeListener(
                 new CompoundButton.OnCheckedChangeListener() {
@@ -432,7 +510,10 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
         } );
 
 
+<<<<<<< HEAD
 >>>>>>> 2/14/2019
+=======
+>>>>>>> 2/15/2019
     }
 
 
@@ -442,6 +523,7 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
         if (view == top_back) {
             finish();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         }else if(view ==add_service_data_iv_switch ){
@@ -454,6 +536,8 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 =======
 =======
 >>>>>>> 2/14/2019
+=======
+>>>>>>> 2/15/2019
         } else if (view == add_service_data_iv_switch) {
             if (view.getTag().toString().equalsIgnoreCase( "1" )) {
                 add_service_data_iv_switch.setTag( "0" );
@@ -462,9 +546,12 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
                 add_service_data_iv_switch.setTag( "1" );
                 add_service_data_iv_switch.setImageDrawable( getDrawable( R.drawable.icon_on_swich ) );
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/9/2019
             }
 =======
+=======
+>>>>>>> 2/15/2019
             }
         } else if (add_service_data_floaButton_save == view) {
             savedata();
@@ -522,7 +609,11 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 
 
             JSONObject jsonObject = new JSONObject();
+<<<<<<< HEAD
             jsonObject.put( "sp_id", "SP00001" );
+=======
+            jsonObject.put( "sp_id", SP_ID );
+>>>>>>> 2/15/2019
             jsonObject.put( "sr_id", serviceList.getSr_id() );
             jsonObject.put( "minimum_charge", "100.00" );
             jsonObject.put( "sr_type", serviceList.getSr_type() );
@@ -535,6 +626,7 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 
             Log.e( "----------------------", jsonObject.toString() );
 
+<<<<<<< HEAD
 //            RequestBody requestBody = RequestBody.create(MediaType.parse("text/plain"),jsonObject.toString());
 ////            RequestBody body = RequestBody.create( MediaType.parse("application/json; charset=utf-8"),jsonObject.toString());
 
@@ -563,6 +655,10 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 //                            Toast.makeText( AddServiceDataActivity.this, handleError( error ), Toast.LENGTH_SHORT ).show();
 //                        }
 //                    } );
+=======
+            new PostApiTask( this, jsonObject.toString() ).execute();
+
+>>>>>>> 2/15/2019
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -626,6 +722,133 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
         }
     }
 
+<<<<<<< HEAD
+=======
+    public class GetServiceDataTask extends AsyncTask<Void, Void, String> {
+
+        private ProgressDialog mDialog = null;
+        private Activity mActivity;
+
+
+        public GetServiceDataTask(Activity activity) {
+            mActivity = activity;
+
+            // TODO Auto-generated constructor stub
+        }
+
+        @Override
+        protected void onPreExecute() {
+            // TODO Auto-generated method stub
+            super.onPreExecute();
+
+            mDialog = ProgressDialog.show( mActivity, null, "please_wait.....", true, true );
+            mDialog.getWindow().clearFlags( WindowManager.LayoutParams.FLAG_DIM_BEHIND );
+            mDialog.setCanceledOnTouchOutside( false );
+        }
+
+        @Override
+        protected String doInBackground(Void... params) {
+            // TODO Auto-generated method stub
+            try {
+                JSONObject jsonObject = new JSONObject();
+                jsonObject.put( "sp_id", SP_ID );
+                jsonObject.put( "sr_id", serviceList.getSr_id() );
+                Log.e( "--------------Post", jsonObject.toString() );
+                String response = new WebUtil().postMethod( jsonObject.toString(), WebApi.URL_USER_SERVICE_DATA_GET );
+                return response;
+            } catch (JSONException e) {
+                e.printStackTrace();
+                return "";
+            }
+        }
+
+        @Override
+        protected void onPostExecute(String response) {
+            // TODO Auto-generated method stub
+            super.onPostExecute( response );
+            if (mDialog.isShowing()) {
+                mDialog.dismiss();
+            }
+
+            Log.e( "------- Response ", "-------------" + response );
+            Gson gson = new Gson(); // Or use new GsonBuilder().create();
+            UserServiceGetAPI target2 = gson.fromJson( response, UserServiceGetAPI.class );
+
+            if (target2 != null) {
+                    if (target2.getData().size()>0) {
+
+                        if (target2.getData().get( 0 ).getCost_comps_per_item_on() != null) {
+                            for (int i = 0; i < target2.getData().get( 0 ).getCost_comps_per_item_on().size(); i++) {
+                                for (int j = 0; j < serviceList.getCost_comps_per_item().size(); j++) {
+                                    if (serviceList.getCost_comps_per_item().get( j ).getCc_id().equalsIgnoreCase( target2.getData().get( 0 ).getCost_comps_per_item_on().get( i ).getCc_id() )) {
+                                        serviceList.getCost_comps_per_item().get( j ).setCc_check_box( "ON" );
+                                        serviceList.getCost_comps_per_item().get( j ).setCc_rate( target2.getData().get( 0 ).getCost_comps_per_item_on().get( i ).getCc_rate_per_item() );
+                                    }
+                                }
+                            }
+                        }
+
+                        if (target2.getData().get( 0 ).getCost_comps_pro_rate_on() != null) {
+                            for (int i = 0; i < target2.getData().get( 0 ).getCost_comps_pro_rate_on().size(); i++) {
+                                for (int j = 0; j < serviceList.getCost_comps_pro_rated().size(); j++) {
+                                    if (serviceList.getCost_comps_pro_rated().get( j ).getCc_id().equalsIgnoreCase( target2.getData().get( 0 ).getCost_comps_pro_rate_on().get( i ).getCc_id() )) {
+                                        serviceList.getCost_comps_pro_rated().get( j ).setCc_check_box( "ON" );
+                                        serviceList.getCost_comps_pro_rated().get( j ).setCc_rate( target2.getData().get( 0 ).getCost_comps_pro_rate_on().get( i ).getCc_rate_per_item() );
+                                    }
+                                }
+                            }
+                        }
+
+                        serviceList.getDiscount().setDs_rate( target2.getData().get( 0 ).getDiscount().getDs_rate_per_item() );
+                        serviceList.getDiscount().setDs_check_box( target2.getData().get( 0 ).getDiscount().getDs_check_box() );
+                        Log.e( "---------Data save", "---------------------------new Data ---" );
+
+                        setDataInfo();
+                    }else {
+                        setDataInfo();
+                    }
+            }else {
+                setDataInfo();
+            }
+
+        }
+
+
+    }
+
+    private void setDataInfo() {
+
+        if (serviceList.getCost_comps_pro_rated().size() > 0) {
+            add_service_data_listView_costPerSize.setVisibility( View.VISIBLE );
+            add_service_data_tv_costPerSize.setVisibility( View.VISIBLE );
+            add_service_data_view_costPerSize.setVisibility( View.VISIBLE );
+        }
+
+        if (serviceList.getCost_comps_per_item().size() > 0) {
+            add_service_data_listView_costPerItem.setVisibility( View.VISIBLE );
+            add_service_data_tv_costPerItem.setVisibility( View.VISIBLE );
+            add_service_data_view_costPerItem.setVisibility( View.VISIBLE );
+        }
+
+        add_service_offer_tv_title.setText( serviceList.getDiscount().getDs_title() );
+
+        if (serviceList.getDiscount().getDs_check_box().equalsIgnoreCase( "ON" )) {
+            add_service_data_ch_offer.setChecked( true );
+        } else {
+            add_service_data_ch_offer.setChecked( false );
+        }
+
+        if (Util.isNotEmpaty( serviceList.getDiscount().getDs_rate() )) {
+            add_service_data_edt_offer.setText( serviceList.getDiscount().getDs_rate() );
+        } else {
+            add_service_data_edt_offer.setText( "" );
+        }
+
+        adapterCostPerItme.setList( serviceList.getCost_comps_per_item() );
+        adapterCostPerSize.setList( serviceList.getCost_comps_pro_rated() );
+    }
+
+>>>>>>> 2/15/2019
 
     public class AddServiceItemAdapterItem extends BaseAdapter {
 
@@ -854,7 +1077,10 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
             LinearLayout frameLayout;
             CheckBox checkBox;
             EditTextEupheminUCASRegular edtAmount;
+<<<<<<< HEAD
 >>>>>>> 2/14/2019
+=======
+>>>>>>> 2/15/2019
         }
     }
 }

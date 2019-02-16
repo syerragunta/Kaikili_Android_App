@@ -6,6 +6,7 @@ import android.os.Bundle;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.text.Editable;
 import android.text.TextWatcher;
 =======
@@ -16,10 +17,13 @@ import android.text.TextWatcher;
 >>>>>>> 2/9/2019
 =======
 >>>>>>> 2/14/2019
+=======
+>>>>>>> 2/15/2019
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.ListView;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -50,6 +54,11 @@ import com.sit.kaikiliService.KaikiliApplication;
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.adapter.ServiceCatalogueListAdapter;
 >>>>>>> 2/14/2019
+=======
+import com.sit.kaikiliService.KaikiliApplication;
+import com.sit.kaikiliService.R;
+import com.sit.kaikiliService.adapter.ServiceCatalogueListAdapter;
+>>>>>>> 2/15/2019
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 
 import java.util.ArrayList;
@@ -79,6 +88,7 @@ public class ServiceCatalogueActivity extends BaseActivity implements View.OnCli
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     private KetanApplication application;
 =======
     private KaikiliApplication application;
@@ -92,6 +102,9 @@ public class ServiceCatalogueActivity extends BaseActivity implements View.OnCli
 =======
     private KaikiliApplication application;
 >>>>>>> 2/14/2019
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/15/2019
     private SharedPreferences preferences;
     private ArrayList<String> serviceList;
     private ServiceCatalogueListAdapter adapter;
@@ -109,6 +122,7 @@ public class ServiceCatalogueActivity extends BaseActivity implements View.OnCli
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         application = (KetanApplication) getApplicationContext();
 =======
         application = (KaikiliApplication) getApplicationContext();
@@ -122,6 +136,9 @@ public class ServiceCatalogueActivity extends BaseActivity implements View.OnCli
 =======
         application = (KaikiliApplication) getApplicationContext();
 >>>>>>> 2/14/2019
+=======
+        application = (KaikiliApplication) getApplicationContext();
+>>>>>>> 2/15/2019
         preferences = application.getSharedPreferences();
 
         top_title.setText( "Service Catalogue" );

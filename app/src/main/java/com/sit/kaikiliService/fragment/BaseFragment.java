@@ -14,6 +14,7 @@ import com.sit.kaikiliService.R;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 1/31/2019
@@ -25,11 +26,14 @@ import com.sit.kaikiliService.R;
 >>>>>>> 2/9/2019
 =======
 >>>>>>> 2/14/2019
+=======
+>>>>>>> 2/15/2019
 /**
  * Created by ketan patel on 30/1/2019.
  * ketan_patel25@yahoo.com
  * Sharva Infotech PVT LTD
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -46,6 +50,8 @@ import com.sit.kaikiliService.R;
 >>>>>>> 2/9/2019
 =======
 >>>>>>> 2/14/2019
+=======
+>>>>>>> 2/15/2019
 
 public abstract class BaseFragment extends Fragment implements View.OnClickListener {
 

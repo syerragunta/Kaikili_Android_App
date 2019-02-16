@@ -23,6 +23,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:textColor="@color/text_coloer"
         android:textSize="@dimen/fontsize14"
 =======
@@ -37,6 +38,10 @@
         android:textColor="@color/black_87"
         android:textSize="@dimen/fontsize16"
 >>>>>>> 2/14/2019
+=======
+        android:textColor="@color/black_87"
+        android:textSize="@dimen/fontsize16"
+>>>>>>> 2/15/2019
         />
 
     <com.sit.kaikiliService.font.TextViewEuphemiaUCASBola
@@ -50,6 +55,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:textSize="@dimen/fontsize14"
 =======
         android:textSize="@dimen/fontsize16"
@@ -60,6 +66,9 @@
 =======
         android:textSize="@dimen/fontsize16"
 >>>>>>> 2/14/2019
+=======
+        android:textSize="@dimen/fontsize16"
+>>>>>>> 2/15/2019
         />
 
     <ImageView
