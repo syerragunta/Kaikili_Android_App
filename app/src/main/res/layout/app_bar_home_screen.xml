@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
 =======
 <LinearLayout
@@ -45,10 +46,15 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
 >>>>>>> 2/16/2019
+=======
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> 2/16/2019 V1
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -105,6 +111,11 @@
     android:background="@color/white"
     >
 >>>>>>> 2/16/2019
+=======
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+>>>>>>> 2/16/2019 V1
 
 
     <android.support.v7.widget.Toolbar
@@ -146,6 +157,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <include layout="@layout/content_home_screen" />
 
 
@@ -167,6 +179,8 @@
 >>>>>>> 2/15/2019
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
     <android.support.v4.view.ViewPager
         android:id="@+id/home_viewpager"
         android:layout_width="match_parent"
@@ -174,6 +188,7 @@
         android:layout_weight="1"
         android:background="@android:color/transparent"/>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -209,6 +224,8 @@
 >>>>>>> 2/15/2019
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
 
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/navigation"
@@ -233,6 +250,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 </LinearLayout>
 >>>>>>> 2/2/2019
 =======
@@ -247,3 +265,6 @@
 =======
 </LinearLayout>
 >>>>>>> 2/16/2019
+=======
+</LinearLayout>
+>>>>>>> 2/16/2019 V1

@@ -10,6 +10,7 @@ import android.graphics.Color;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.graphics.drawable.Drawable;
 =======
 >>>>>>> 2/1/2019
@@ -23,6 +24,8 @@ import android.graphics.drawable.Drawable;
 >>>>>>> 2/15/2019
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -33,6 +36,7 @@ import android.support.v7.widget.Toolbar;
 import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.style.ForegroundColorSpan;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -52,6 +56,8 @@ import android.view.MenuItem;
 >>>>>>> 2/15/2019
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
@@ -62,6 +68,7 @@ import android.widget.Toast;
 
 import com.commonsware.cwac.camera.CameraHost;
 import com.commonsware.cwac.camera.CameraHostProvider;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -87,10 +94,14 @@ import com.sit.kaikiliService.KaikiliApplication;
 =======
 import com.sit.kaikiliService.KaikiliApplication;
 >>>>>>> 2/16/2019
+=======
+import com.sit.kaikiliService.KaikiliApplication;
+>>>>>>> 2/16/2019 V1
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.activity.BaseActivity;
 import com.sit.kaikiliService.camera.adapter.SpacesItemDecoration;
 import com.sit.kaikiliService.camera.util.Util;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -110,6 +121,8 @@ import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 >>>>>>> 2/15/2019
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
 
 import java.util.ArrayList;
 
@@ -152,6 +165,7 @@ public class ImagePickerActivity extends BaseActivity implements CameraHostProvi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     private KetanApplication application;
 =======
     private KaikiliApplication application;
@@ -171,6 +185,9 @@ public class ImagePickerActivity extends BaseActivity implements CameraHostProvi
 =======
     private KaikiliApplication application;
 >>>>>>> 2/16/2019
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/16/2019 V1
     private SharedPreferences preferences;
 
     private LinearLayout headerBar;
@@ -206,6 +223,7 @@ public class ImagePickerActivity extends BaseActivity implements CameraHostProvi
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         application = (KetanApplication)getApplicationContext();
 =======
         application = (KaikiliApplication)getApplicationContext();
@@ -225,6 +243,9 @@ public class ImagePickerActivity extends BaseActivity implements CameraHostProvi
 =======
         application = (KaikiliApplication)getApplicationContext();
 >>>>>>> 2/16/2019
+=======
+        application = (KaikiliApplication)getApplicationContext();
+>>>>>>> 2/16/2019 V1
         preferences = application.getSharedPreferences();
 
         initView();

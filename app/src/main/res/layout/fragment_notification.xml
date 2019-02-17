@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -35,11 +36,14 @@
 >>>>>>> 2/15/2019
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -60,6 +64,9 @@
 =======
     android:background="@color/white"
 >>>>>>> 2/16/2019
+=======
+    android:background="@color/white"
+>>>>>>> 2/16/2019 V1
    >
 
     <LinearLayout
@@ -86,6 +93,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 android:text="Customer"
 =======
                 android:text="Inbox"
@@ -102,6 +110,9 @@
 =======
                 android:text="Inbox"
 >>>>>>> 2/16/2019
+=======
+                android:text="Inbox"
+>>>>>>> 2/16/2019 V1
                 android:textSize="@dimen/fontsize20" />
         </LinearLayout>
 
@@ -123,6 +134,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 android:text="Kaikili"
 =======
                 android:text="Alerts"
@@ -139,6 +151,9 @@
 =======
                 android:text="Alerts"
 >>>>>>> 2/16/2019
+=======
+                android:text="Alerts"
+>>>>>>> 2/16/2019 V1
                 android:textSize="@dimen/fontsize20" />
         </LinearLayout>
     </LinearLayout>
@@ -159,6 +174,7 @@
 
    </android.support.v7.widget.RecyclerView>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -189,3 +205,6 @@
 =======
 </LinearLayout>
 >>>>>>> 2/16/2019
+=======
+</LinearLayout>
+>>>>>>> 2/16/2019 V1

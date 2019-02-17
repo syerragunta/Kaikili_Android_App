@@ -3,6 +3,7 @@ package com.sit.kaikiliService.activity;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.content.SharedPreferences;
 import android.os.Bundle;
 <<<<<<< HEAD
@@ -42,6 +43,8 @@ import com.sit.kaikiliService.api.ServiceList;
 >>>>>>> 2/15/2019
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -71,6 +74,7 @@ import com.sit.kaikiliService.api.CompsItme;
 import com.sit.kaikiliService.api.ServiceList;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import com.sit.kaikiliService.api.WebApi;
 import com.sit.kaikiliService.api.WebUtil;
 import com.sit.kaikiliService.comman.Util;
@@ -78,14 +82,19 @@ import com.sit.kaikiliService.comman.Util;
 =======
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
 import com.sit.kaikiliService.api.UserServiceGetAPI;
 import com.sit.kaikiliService.api.WebApi;
 import com.sit.kaikiliService.api.WebUtil;
 import com.sit.kaikiliService.comman.Util;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/15/2019
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
 import com.sit.kaikiliService.comman.WithoutScrollListView;
 import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASBola;
@@ -94,6 +103,7 @@ import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -102,14 +112,19 @@ import org.json.JSONObject;
 =======
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/15/2019
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
 import java.util.ArrayList;
 
 import butterknife.Bind;
@@ -130,6 +145,7 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
     TextViewEuphemiaUCASRegular top_title;
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -165,6 +181,8 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 >>>>>>> 2/15/2019
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
     @Bind(R.id.add_service_data_iv_switch)
     ImageView add_service_data_iv_switch;
     @Bind(R.id.add_service_data_listView_costPerItem)
@@ -187,6 +205,7 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
     TextViewEuphemiaUCASRegular add_service_data_tv_quote;
     @Bind(R.id.add_service_data_tv_costHelper)
     TextViewEuphemiaUCASRegular add_service_data_tv_costHelper;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -217,6 +236,8 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 >>>>>>> 2/15/2019
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
 
     @Bind(R.id.add_service_data_tv_note)
     TextViewEuphemiaUCASBola add_service_data_tv_note;
@@ -240,6 +261,7 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
     private AddServiceItemAdapterSize adapterCostPerSize;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
     private ServiceList serviceList;
@@ -251,11 +273,16 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
     private ServiceList serviceList;
 >>>>>>> 2/15/2019
 =======
+=======
+>>>>>>> 2/16/2019 V1
     private String SP_ID = "SP00002";
 
 
     private ServiceList serviceList;
+<<<<<<< HEAD
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
 
 
     @Override
@@ -264,6 +291,7 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
         setContentView( R.layout.activity_add_srevice_data );
         ButterKnife.bind( this, this );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -321,6 +349,8 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 >>>>>>> 2/15/2019
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
         application = (KaikiliApplication) getApplicationContext();
         preferences = application.getSharedPreferences();
 
@@ -329,6 +359,7 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 
         top_title.setText( serviceList.getSr_title() );
         top_back.setOnClickListener( this );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -344,10 +375,13 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 >>>>>>> 2/15/2019
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
         add_service_data_floaButton_save.setOnClickListener( this );
         add_service_data_iv_switch.setOnClickListener( this );
         add_service_data_iv_switch.setTag( "1" );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -357,19 +391,25 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 =======
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
         new GetServiceDataTask( this ).execute();
 
         adapterCostPerItme = new AddServiceItemAdapterItem( this );
         adapterCostPerSize = new AddServiceItemAdapterSize( this );
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/15/2019
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
 
         add_service_data_listView_costPerItem.setAdapter( adapterCostPerItme );
         add_service_data_listView_costPerSize.setAdapter( adapterCostPerSize );
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -434,6 +474,8 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 >>>>>>> 2/15/2019
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
         add_service_data_edt_quoteService.setVisibility( View.GONE );
         add_service_data_tv_quote.setVisibility( View.GONE );
         add_service_data_listView_costPerSize.setVisibility( View.GONE );
@@ -443,6 +485,7 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
         add_service_data_tv_costPerItem.setVisibility( View.GONE );
         add_service_data_view_costPerItem.setVisibility( View.GONE );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -492,6 +535,8 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 =======
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
 //
 //        if (serviceList.getCost_comps_pro_rated().size() > 0) {
 //            add_service_data_listView_costPerSize.setVisibility( View.VISIBLE );
@@ -522,9 +567,12 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 //        adapterCostPerItme.setList( serviceList.getCost_comps_per_item() );
 //        adapterCostPerSize.setList( serviceList.getCost_comps_pro_rated() );
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/15/2019
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
 
         add_service_data_ch_offer.setOnCheckedChangeListener(
                 new CompoundButton.OnCheckedChangeListener() {
@@ -561,11 +609,14 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/14/2019
 =======
 >>>>>>> 2/15/2019
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
     }
 
 
@@ -575,6 +626,7 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
         if (view == top_back) {
             finish();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -593,6 +645,8 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 >>>>>>> 2/15/2019
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
         } else if (view == add_service_data_iv_switch) {
             if (view.getTag().toString().equalsIgnoreCase( "1" )) {
                 add_service_data_iv_switch.setTag( "0" );
@@ -603,6 +657,7 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/9/2019
             }
 =======
@@ -610,6 +665,8 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 >>>>>>> 2/15/2019
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
             }
         } else if (add_service_data_floaButton_save == view) {
             savedata();
@@ -669,6 +726,7 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
             JSONObject jsonObject = new JSONObject();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             jsonObject.put( "sp_id", "SP00001" );
 =======
             jsonObject.put( "sp_id", SP_ID );
@@ -676,6 +734,9 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 =======
             jsonObject.put( "sp_id", SP_ID );
 >>>>>>> 2/16/2019
+=======
+            jsonObject.put( "sp_id", SP_ID );
+>>>>>>> 2/16/2019 V1
             jsonObject.put( "sr_id", serviceList.getSr_id() );
             jsonObject.put( "minimum_charge", "100.00" );
             jsonObject.put( "sr_type", serviceList.getSr_type() );
@@ -688,6 +749,7 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 
             Log.e( "----------------------", jsonObject.toString() );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 //            RequestBody requestBody = RequestBody.create(MediaType.parse("text/plain"),jsonObject.toString());
@@ -726,6 +788,10 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
             new PostApiTask( this, jsonObject.toString() ).execute();
 
 >>>>>>> 2/16/2019
+=======
+            new PostApiTask( this, jsonObject.toString() ).execute();
+
+>>>>>>> 2/16/2019 V1
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -791,9 +857,12 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
     public class GetServiceDataTask extends AsyncTask<Void, Void, String> {
 
         private ProgressDialog mDialog = null;
@@ -919,9 +988,12 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/15/2019
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
 
     public class AddServiceItemAdapterItem extends BaseAdapter {
 
@@ -1152,11 +1224,14 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
             EditTextEupheminUCASRegular edtAmount;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/14/2019
 =======
 >>>>>>> 2/15/2019
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
         }
     }
 }

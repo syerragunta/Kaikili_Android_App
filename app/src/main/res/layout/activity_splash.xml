@@ -8,6 +8,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     android:layout_height="match_parent"
     android:background="@drawable/app_bg"
 =======
@@ -30,6 +31,10 @@
     android:background="@color/white"
     android:layout_height="match_parent"
 >>>>>>> 2/16/2019
+=======
+    android:background="@color/white"
+    android:layout_height="match_parent"
+>>>>>>> 2/16/2019 V1
     android:orientation="vertical"
    >
 

@@ -4,7 +4,10 @@
     <option name="children">
       <map>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 2/16/2019 V1
         <entry key="imageWizard">
           <value>
             <PersistentState>
@@ -82,7 +85,10 @@
             </PersistentState>
           </value>
         </entry>
+<<<<<<< HEAD
 >>>>>>> 2/2/2019
+=======
+>>>>>>> 2/16/2019 V1
         <entry key="vectorWizard">
           <value>
             <PersistentState>
@@ -92,12 +98,15 @@
                     <value>
                       <PersistentState>
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
                             <entry key="outputName" value="ic_group_39" />
                             <entry key="sourceFile" value="$PROJECT_DIR$/../../NFP/Kaikili-XD Design/Group 39.svg" />
 =======
+=======
+>>>>>>> 2/16/2019 V1
                         <option name="children">
                           <map>
                             <entry key="clipartAsset">
@@ -119,7 +128,10 @@
                             <entry key="color" value="450b02" />
                             <entry key="outputName" value="ic_service_catalogue" />
                             <entry key="sourceFile" value="C:\Users\Administrator\Desktop\New folder (3)\service_catalogue.svg" />
+<<<<<<< HEAD
 >>>>>>> 2/2/2019
+=======
+>>>>>>> 2/16/2019 V1
                           </map>
                         </option>
                       </PersistentState>

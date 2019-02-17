@@ -8,6 +8,7 @@ package com.sit.kaikiliService.fragment;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
@@ -44,6 +45,8 @@ public class NotificationFragment extends BaseFragment {
 >>>>>>> 2/15/2019
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -91,6 +94,7 @@ public class NotificationFragment extends BaseFragment {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1/30/2019
 =======
 >>>>>>> 1/31/2019
@@ -106,11 +110,14 @@ public class NotificationFragment extends BaseFragment {
 >>>>>>> 2/15/2019
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
 
     public NotificationFragment() {
         // Required empty public constructor
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -143,10 +150,13 @@ public class NotificationFragment extends BaseFragment {
 >>>>>>> 2/15/2019
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -175,11 +185,14 @@ public class NotificationFragment extends BaseFragment {
 >>>>>>> 2/15/2019
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -230,10 +243,16 @@ public class NotificationFragment extends BaseFragment {
        // initToolbar();
         ButterKnife.bind( this,rootView);
 >>>>>>> 2/16/2019
+=======
+        final View rootView = inflater.inflate(R.layout.fragment_notification, container, false);
+       // initToolbar();
+        ButterKnife.bind( this,rootView);
+>>>>>>> 2/16/2019 V1
         initComponents(rootView);
         return rootView;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -262,10 +281,13 @@ public class NotificationFragment extends BaseFragment {
 >>>>>>> 2/15/2019
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
 
     @Override
     public void initComponents(View rootView) {
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -293,6 +315,8 @@ public class NotificationFragment extends BaseFragment {
 >>>>>>> 2/15/2019
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
         fag_noti_ll_kaikili.setBackgroundColor(getResources().getColor(R.color.colorAccent));
         fag_noti_ll_customer.setBackgroundColor(getResources().getColor(R.color.transparent));
         fag_noti_tv_kaikili.setTextColor(getResources().getColor(R.color.white));
@@ -441,6 +465,7 @@ public class NotificationFragment extends BaseFragment {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1/30/2019
 =======
 >>>>>>> 1/31/2019
@@ -456,4 +481,6 @@ public class NotificationFragment extends BaseFragment {
 >>>>>>> 2/15/2019
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
 }

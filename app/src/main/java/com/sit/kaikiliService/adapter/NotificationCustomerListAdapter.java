@@ -14,6 +14,7 @@ import android.widget.ImageView;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import com.sit.kaikiliService.KetanApplication;
 =======
 import com.sit.kaikiliService.KaikiliApplication;
@@ -33,6 +34,9 @@ import com.sit.kaikiliService.KaikiliApplication;
 =======
 import com.sit.kaikiliService.KaikiliApplication;
 >>>>>>> 2/16/2019
+=======
+import com.sit.kaikiliService.KaikiliApplication;
+>>>>>>> 2/16/2019 V1
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.comman.CircularImageView;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASBola;
@@ -51,6 +55,7 @@ import java.util.ArrayList;
 public class NotificationCustomerListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     private Context mActivity;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -76,11 +81,15 @@ public class NotificationCustomerListAdapter extends RecyclerView.Adapter<Recycl
 =======
     private KaikiliApplication application;
 >>>>>>> 2/16/2019
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/16/2019 V1
     private ArrayList <NotificationModel> notificationList;
 
     public NotificationCustomerListAdapter(Context activity) {
         // TODO Auto-generated constructor stub
         mActivity = activity;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -106,6 +115,9 @@ public class NotificationCustomerListAdapter extends RecyclerView.Adapter<Recycl
 =======
         application = (KaikiliApplication) mActivity.getApplicationContext();
 >>>>>>> 2/16/2019
+=======
+        application = (KaikiliApplication) mActivity.getApplicationContext();
+>>>>>>> 2/16/2019 V1
         notificationList = new ArrayList<>( );
     }
 
@@ -127,6 +139,7 @@ public class NotificationCustomerListAdapter extends RecyclerView.Adapter<Recycl
         viewHolder.tvTime.setText( notificationList.get( position ).getTime());
         viewHolder.tvMessage.setText( notificationList.get( position ).getMessage());
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -154,6 +167,8 @@ public class NotificationCustomerListAdapter extends RecyclerView.Adapter<Recycl
 >>>>>>> 2/15/2019
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
         viewHolder.ivRead.setVisibility( View.GONE );
         if(notificationList.get( position ).isReadStatus()){
 //            viewHolder.ivRead.setVisibility( View.VISIBLE );
@@ -173,6 +188,7 @@ public class NotificationCustomerListAdapter extends RecyclerView.Adapter<Recycl
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/2/2019
 =======
 >>>>>>> 2/9/2019
@@ -182,6 +198,8 @@ public class NotificationCustomerListAdapter extends RecyclerView.Adapter<Recycl
 >>>>>>> 2/15/2019
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/16/2019 V1
 //        }
 
 //
