@@ -28,6 +28,7 @@ public class Discount implements Serializable {
     @JsonField
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     private String ds_rate = "";
 
@@ -43,6 +44,8 @@ public class Discount implements Serializable {
 >>>>>>> 2/14/2019
     private String ds_check_box;
 =======
+=======
+>>>>>>> 2/16/2019
     private String ds_rate = "";
 
     @JsonField
@@ -58,7 +61,10 @@ public class Discount implements Serializable {
 
     @JsonField
     private String ds_rate_per_item;
+<<<<<<< HEAD
 >>>>>>> 2/15/2019
+=======
+>>>>>>> 2/16/2019
 
     public String getDs_id() {
         return ds_id;
@@ -92,7 +98,10 @@ public class Discount implements Serializable {
         this.ds_check_box = ds_check_box;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 2/16/2019
 
     public String getDs_rate() {
         return ds_rate;
@@ -102,5 +111,8 @@ public class Discount implements Serializable {
         this.ds_rate = ds_rate;
     }
 
+<<<<<<< HEAD
 >>>>>>> 2/15/2019
+=======
+>>>>>>> 2/16/2019
 }

@@ -7,6 +7,7 @@ import android.content.Context;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.support.annotation.NonNull;
 =======
 import android.content.Intent;
@@ -38,11 +39,17 @@ import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.CardView;
 >>>>>>> 2/15/2019
+=======
+import android.content.Intent;
+import android.support.annotation.NonNull;
+import android.support.v7.widget.CardView;
+>>>>>>> 2/16/2019
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -79,6 +86,11 @@ import com.sit.kaikiliService.KaikiliApplication;
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.activity.ServiceInfoActivity;
 >>>>>>> 2/15/2019
+=======
+import com.sit.kaikiliService.KaikiliApplication;
+import com.sit.kaikiliService.R;
+import com.sit.kaikiliService.activity.ServiceInfoActivity;
+>>>>>>> 2/16/2019
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 
 import java.util.ArrayList;
@@ -100,6 +112,7 @@ public class ServiceListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     private KetanApplication application;
 =======
     private KaikiliApplication application;
@@ -116,11 +129,15 @@ public class ServiceListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
 =======
     private KaikiliApplication application;
 >>>>>>> 2/15/2019
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/16/2019
     private ArrayList <ServiceModel> serviceList;
 
     public ServiceListAdapter(Context activity) {
         // TODO Auto-generated constructor stub
         mActivity = activity;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -142,6 +159,9 @@ public class ServiceListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
 =======
         application = (KaikiliApplication) mActivity.getApplicationContext();
 >>>>>>> 2/15/2019
+=======
+        application = (KaikiliApplication) mActivity.getApplicationContext();
+>>>>>>> 2/16/2019
         serviceList = new ArrayList<>( );
     }
 
@@ -171,6 +191,7 @@ public class ServiceListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //        viewHolder.cardView.setOnClickListener( new View.OnClickListener() {
 //            @Override
 //            public void onClick(View view) {
@@ -192,6 +213,8 @@ public class ServiceListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
 >>>>>>> 2/14/2019
 =======
 >>>>>>> 2/15/2019
+=======
+>>>>>>> 2/16/2019
         viewHolder.cardView.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -201,6 +224,7 @@ public class ServiceListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
             }
         } );
 //
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -217,6 +241,8 @@ public class ServiceListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
 >>>>>>> 2/14/2019
 =======
 >>>>>>> 2/15/2019
+=======
+>>>>>>> 2/16/2019
 //        viewHolder.mainLinLayout.setOnLongClickListener( new View.OnLongClickListener() {
 //            @Override
 //            public boolean onLongClick(View view) {
@@ -252,6 +278,7 @@ public class ServiceListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //        private CardView cardView;
 =======
         private CardView cardView;
@@ -271,6 +298,9 @@ public class ServiceListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
 =======
         private CardView cardView;
 >>>>>>> 2/15/2019
+=======
+        private CardView cardView;
+>>>>>>> 2/16/2019
 
 
         public MyViewHolder(View itemView) {
@@ -278,6 +308,7 @@ public class ServiceListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
 
             tvTitle = (TextViewEuphemiaUCASRegular) itemView.findViewById( R.id.row_service_book_item_tv_title );
             tvTime = (TextViewEuphemiaUCASRegular) itemView.findViewById( R.id.row_service_book_item_tv_time );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -315,6 +346,11 @@ public class ServiceListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHo
 
 
 >>>>>>> 2/15/2019
+=======
+            cardView = (CardView) itemView.findViewById( R.id.row_service_book_cardView );
+
+
+>>>>>>> 2/16/2019
 
 
 

@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     android:background="@color/white"
 >>>>>>> 2/2/2019
@@ -19,6 +20,9 @@
 =======
     android:background="@color/white"
 >>>>>>> 2/15/2019
+=======
+    android:background="@color/white"
+>>>>>>> 2/16/2019
     android:layout_height="match_parent"
 >
 
@@ -26,6 +30,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -58,6 +63,11 @@
 
     <include layout="@layout/activity_header" />
 >>>>>>> 2/15/2019
+=======
+   >
+
+    <include layout="@layout/activity_header" />
+>>>>>>> 2/16/2019
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -79,6 +89,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             app:ccp_clickable="false"
 >>>>>>> 2/2/2019
@@ -91,6 +102,9 @@
 =======
             app:ccp_clickable="false"
 >>>>>>> 2/15/2019
+=======
+            app:ccp_clickable="false"
+>>>>>>> 2/16/2019
             app:ccp_textSize="@dimen/fontsize16"
             android:layout_height="match_parent"
             app:ccp_textFont="fonts/euphemia-ucas-regular.ttf"/>
@@ -102,6 +116,7 @@
             android:id="@+id/phone_number_edt"
             android:layout_height="wrap_content"
             android:textSize="@dimen/fontsize14"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -128,6 +143,11 @@
             android:textColor="@color/black_87"
             android:inputType="phone"
 >>>>>>> 2/15/2019
+=======
+            android:maxLength="14"
+            android:textColor="@color/black_87"
+            android:inputType="phone"
+>>>>>>> 2/16/2019
             />
 
     </LinearLayout>

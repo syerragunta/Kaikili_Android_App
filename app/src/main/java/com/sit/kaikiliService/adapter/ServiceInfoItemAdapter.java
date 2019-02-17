@@ -7,6 +7,7 @@ import android.content.Context;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.content.pm.ServiceInfo;
 import android.provider.Telephony;
 =======
@@ -19,10 +20,13 @@ import android.provider.Telephony;
 >>>>>>> 2/14/2019
 =======
 >>>>>>> 2/15/2019
+=======
+>>>>>>> 2/16/2019
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51,6 +55,10 @@ import com.sit.kaikiliService.KaikiliApplication;
 
 import com.sit.kaikiliService.KaikiliApplication;
 >>>>>>> 2/15/2019
+=======
+
+import com.sit.kaikiliService.KaikiliApplication;
+>>>>>>> 2/16/2019
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 import com.sit.kaikiliService.model.ServiceInfoModel;
@@ -74,6 +82,7 @@ public class ServiceInfoItemAdapter extends BaseAdapter {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     private KetanApplication application;
 =======
     private KaikiliApplication application;
@@ -90,11 +99,15 @@ public class ServiceInfoItemAdapter extends BaseAdapter {
 =======
     private KaikiliApplication application;
 >>>>>>> 2/15/2019
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/16/2019
 
 
     public ServiceInfoItemAdapter(Context activity) {
         // TODO Auto-generated constructor stub
         mActivity = activity;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -116,6 +129,9 @@ public class ServiceInfoItemAdapter extends BaseAdapter {
 =======
         application = (KaikiliApplication) mActivity.getApplicationContext();
 >>>>>>> 2/15/2019
+=======
+        application = (KaikiliApplication) mActivity.getApplicationContext();
+>>>>>>> 2/16/2019
         inflater = (LayoutInflater) mActivity.getSystemService( Activity.LAYOUT_INFLATER_SERVICE );
 
     }

@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     android:layout_height="match_parent">
 =======
     android:layout_height="match_parent"
@@ -24,10 +25,15 @@
     android:layout_height="match_parent"
     android:background="@color/white">
 >>>>>>> 2/15/2019
+=======
+    android:layout_height="match_parent"
+    android:background="@color/white">
+>>>>>>> 2/16/2019
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -60,6 +66,11 @@
 
         <include layout="@layout/activity_header" />
 >>>>>>> 2/15/2019
+=======
+        android:orientation="vertical">
+
+        <include layout="@layout/activity_header" />
+>>>>>>> 2/16/2019
 
         <FrameLayout
             android:layout_width="match_parent"
@@ -113,6 +124,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                         android:textSize="@dimen/fontsize16"
 >>>>>>> 2/2/2019
@@ -125,6 +137,9 @@
 =======
                         android:textSize="@dimen/fontsize16"
 >>>>>>> 2/15/2019
+=======
+                        android:textSize="@dimen/fontsize16"
+>>>>>>> 2/16/2019
                         android:paddingBottom="@dimen/extra_padding_x5"
                         android:singleLine="true"
 

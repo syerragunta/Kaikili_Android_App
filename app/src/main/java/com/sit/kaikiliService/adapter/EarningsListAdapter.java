@@ -11,6 +11,7 @@ import android.widget.BaseAdapter;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.widget.LinearLayout;
 
 import com.sit.kaikiliService.KetanApplication;
@@ -34,6 +35,10 @@ import com.sit.kaikiliService.KaikiliApplication;
 
 import com.sit.kaikiliService.KaikiliApplication;
 >>>>>>> 2/15/2019
+=======
+
+import com.sit.kaikiliService.KaikiliApplication;
+>>>>>>> 2/16/2019
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 import com.sit.kaikiliService.model.EarningsModel;
@@ -57,6 +62,7 @@ public class EarningsListAdapter extends BaseAdapter {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     private KetanApplication application;
 =======
     private KaikiliApplication application;
@@ -73,11 +79,15 @@ public class EarningsListAdapter extends BaseAdapter {
 =======
     private KaikiliApplication application;
 >>>>>>> 2/15/2019
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/16/2019
 
 
 	public EarningsListAdapter(Context activity) {
 		// TODO Auto-generated constructor stub
 		mActivity = activity;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -99,6 +109,9 @@ public class EarningsListAdapter extends BaseAdapter {
 =======
         application = (KaikiliApplication)mActivity.getApplicationContext();
 >>>>>>> 2/15/2019
+=======
+        application = (KaikiliApplication)mActivity.getApplicationContext();
+>>>>>>> 2/16/2019
 		inflater = (LayoutInflater) mActivity.getSystemService(Activity.LAYOUT_INFLATER_SERVICE);
 
 	}

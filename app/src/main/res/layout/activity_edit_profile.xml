@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     android:background="@color/white"
 >>>>>>> 2/2/2019
@@ -19,11 +20,15 @@
 =======
     android:background="@color/white"
 >>>>>>> 2/15/2019
+=======
+    android:background="@color/white"
+>>>>>>> 2/16/2019
     android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56,6 +61,11 @@
 
         <include layout="@layout/activity_header" />
 >>>>>>> 2/15/2019
+=======
+        android:orientation="vertical">
+
+        <include layout="@layout/activity_header" />
+>>>>>>> 2/16/2019
 
         <ScrollView
             android:layout_width="match_parent"
@@ -64,6 +74,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -77,6 +88,8 @@
 >>>>>>> 2/14/2019
 =======
 >>>>>>> 2/15/2019
+=======
+>>>>>>> 2/16/2019
                 android:orientation="vertical">
 
                 <!--<RelativeLayout-->
@@ -227,6 +240,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             android:textColor="@color/text_coloer"
                             android:textSize="@dimen/fontsize14" />
 =======
@@ -245,6 +259,10 @@
                             android:textColor="@color/black_87"
                             android:textSize="@dimen/fontsize16" />
 >>>>>>> 2/15/2019
+=======
+                            android:textColor="@color/black_87"
+                            android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/16/2019
 
 
                     </LinearLayout>
@@ -272,6 +290,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             android:minLines="6"
                             android:scrollbars="vertical"
                             android:singleLine="false"
@@ -283,11 +302,14 @@
 >>>>>>> 2/14/2019
 =======
 >>>>>>> 2/15/2019
+=======
+>>>>>>> 2/16/2019
                             android:textColor="@color/black_87"
                             android:minLines="6"
                             android:scrollbars="vertical"
                             android:singleLine="false"
                             android:textSize="@dimen/fontsize16" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -298,6 +320,8 @@
 >>>>>>> 2/14/2019
 =======
 >>>>>>> 2/15/2019
+=======
+>>>>>>> 2/16/2019
                     </android.support.design.widget.TextInputLayout>
 
 
@@ -349,6 +373,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             android:singleLine="true"
                             android:textSize="@dimen/fontsize14" />
 =======
@@ -371,6 +396,11 @@
                             android:singleLine="true"
                             android:textSize="@dimen/fontsize16" />
 >>>>>>> 2/15/2019
+=======
+                            android:textColor="@color/black_87"
+                            android:singleLine="true"
+                            android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/16/2019
                     </android.support.design.widget.TextInputLayout>
 
                     <android.support.design.widget.TextInputLayout
@@ -392,6 +422,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             android:singleLine="true"
                             android:textSize="@dimen/fontsize14" />
 =======
@@ -414,6 +445,11 @@
                             android:singleLine="true"
                             android:textSize="@dimen/fontsize16" />
 >>>>>>> 2/15/2019
+=======
+                            android:textColor="@color/black_87"
+                            android:singleLine="true"
+                            android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/16/2019
                     </android.support.design.widget.TextInputLayout>
 
 
@@ -437,6 +473,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                             android:textColor="@color/black_87"
 >>>>>>> 2/2/2019
@@ -449,10 +486,14 @@
 =======
                             android:textColor="@color/black_87"
 >>>>>>> 2/15/2019
+=======
+                            android:textColor="@color/black_87"
+>>>>>>> 2/16/2019
                             android:onClick="setLocation"
                             android:inputType="textPostalAddress"
                             android:maxLength="200"
                             android:singleLine="true"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -470,6 +511,9 @@
 =======
                             android:textSize="@dimen/fontsize16" />
 >>>>>>> 2/15/2019
+=======
+                            android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/16/2019
                     </android.support.design.widget.TextInputLayout>
 
                     <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
@@ -480,6 +524,7 @@
                         android:layout_marginRight="@dimen/dim30"
                         android:text="Radius (Miles)"
                         android:textColor="@android:color/darker_gray"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -497,6 +542,9 @@
 =======
                         android:textSize="@dimen/fontsize16" />
 >>>>>>> 2/15/2019
+=======
+                        android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/16/2019
 
 
                     <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -506,6 +554,7 @@
                         android:layout_marginLeft="@dimen/dim30"
                         android:layout_marginTop="@dimen/dim4"
                         android:layout_marginRight="@dimen/dim30"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -523,12 +572,15 @@
 >>>>>>> 2/14/2019
 =======
 >>>>>>> 2/15/2019
+=======
+>>>>>>> 2/16/2019
                         app:dsb_indicatorColor="@color/black_87"
                         app:dsb_indicatorTextAppearance="@style/CustomFloaterTextAppearance"
                         app:dsb_max="99"
                         app:dsb_min="1"
                         app:dsb_progressColor="@color/black_87"
                         app:dsb_rippleColor="@color/black_87"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -539,6 +591,8 @@
 >>>>>>> 2/14/2019
 =======
 >>>>>>> 2/15/2019
+=======
+>>>>>>> 2/16/2019
                         app:dsb_thumbSize="20dp"
                         app:dsb_trackHeight="2dp" />
 
@@ -556,6 +610,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         android:textColor="@color/text_coloer"
 =======
                         android:textColor="@color/black_87"
@@ -569,11 +624,15 @@
 =======
                         android:textColor="@color/black_87"
 >>>>>>> 2/15/2019
+=======
+                        android:textColor="@color/black_87"
+>>>>>>> 2/16/2019
                         android:textSize="@dimen/fontsize16" />
 
 
                     <fragment
                         android:id="@+id/about_profile_mapView"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -591,6 +650,9 @@
 =======
                         class="com.google.android.gms.maps.SupportMapFragment"
 >>>>>>> 2/15/2019
+=======
+                        class="com.google.android.gms.maps.SupportMapFragment"
+>>>>>>> 2/16/2019
                         android:layout_width="match_parent"
                         android:layout_height="200dp"
                         android:layout_marginLeft="@dimen/dim30"
@@ -624,6 +686,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             android:text="24 Hours x 7 days "
                             android:textSize="@dimen/fontsize14" />
 =======
@@ -646,6 +709,11 @@
                             android:text="24 Hours x 7 days "
                             android:textSize="@dimen/fontsize16" />
 >>>>>>> 2/15/2019
+=======
+                            android:textColor="@color/black_87"
+                            android:text="24 Hours x 7 days "
+                            android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/16/2019
 
                         <RadioButton
                             android:id="@+id/about_profile_rb_workDay"
@@ -655,6 +723,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                             android:text="Select working days and hours"
                             android:textSize="@dimen/fontsize14" />
 =======
@@ -677,6 +746,11 @@
                             android:text="Select working days and hours"
                             android:textSize="@dimen/fontsize16" />
 >>>>>>> 2/15/2019
+=======
+                            android:textColor="@color/black_87"
+                            android:text="Select working days and hours"
+                            android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/16/2019
 
 
                     </RadioGroup>
@@ -684,6 +758,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -701,6 +776,9 @@
 =======
                         android:layout_marginLeft="@dimen/dim6"
 >>>>>>> 2/15/2019
+=======
+                        android:layout_marginLeft="@dimen/dim6"
+>>>>>>> 2/16/2019
                         android:orientation="vertical">
 
                         <LinearLayout
@@ -730,6 +808,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 android:textSize="@dimen/fontsize14" />
 =======
                                 android:textSize="@dimen/fontsize16" />
@@ -743,6 +822,9 @@
 =======
                                 android:textSize="@dimen/fontsize16" />
 >>>>>>> 2/15/2019
+=======
+                                android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/16/2019
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -773,6 +855,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     android:padding="@dimen/dim4"
 =======
                                     android:padding="@dimen/dim2"
@@ -786,6 +869,9 @@
 =======
                                     android:padding="@dimen/dim2"
 >>>>>>> 2/15/2019
+=======
+                                    android:padding="@dimen/dim2"
+>>>>>>> 2/16/2019
                                     android:text="To"
                                     android:textColor="@color/black_87"
                                     android:textSize="@dimen/fontsize14" />
@@ -832,6 +918,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 android:textSize="@dimen/fontsize14" />
 =======
                                 android:textSize="@dimen/fontsize16" />
@@ -845,6 +932,9 @@
 =======
                                 android:textSize="@dimen/fontsize16" />
 >>>>>>> 2/15/2019
+=======
+                                android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/16/2019
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -875,6 +965,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     android:padding="@dimen/dim4"
 =======
                                     android:padding="@dimen/dim2"
@@ -888,6 +979,9 @@
 =======
                                     android:padding="@dimen/dim2"
 >>>>>>> 2/15/2019
+=======
+                                    android:padding="@dimen/dim2"
+>>>>>>> 2/16/2019
                                     android:text="To"
                                     android:textColor="@color/black_87"
                                     android:textSize="@dimen/fontsize14" />
@@ -934,6 +1028,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 android:textSize="@dimen/fontsize14" />
 =======
                                 android:textSize="@dimen/fontsize16" />
@@ -947,6 +1042,9 @@
 =======
                                 android:textSize="@dimen/fontsize16" />
 >>>>>>> 2/15/2019
+=======
+                                android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/16/2019
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -977,6 +1075,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     android:padding="@dimen/dim4"
 =======
                                     android:padding="@dimen/dim2"
@@ -990,6 +1089,9 @@
 =======
                                     android:padding="@dimen/dim2"
 >>>>>>> 2/15/2019
+=======
+                                    android:padding="@dimen/dim2"
+>>>>>>> 2/16/2019
                                     android:text="To"
                                     android:textColor="@color/black_87"
                                     android:textSize="@dimen/fontsize14" />
@@ -1036,6 +1138,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 android:textSize="@dimen/fontsize14" />
 =======
                                 android:textSize="@dimen/fontsize16" />
@@ -1049,6 +1152,9 @@
 =======
                                 android:textSize="@dimen/fontsize16" />
 >>>>>>> 2/15/2019
+=======
+                                android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/16/2019
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -1079,6 +1185,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     android:padding="@dimen/dim4"
 =======
                                     android:padding="@dimen/dim2"
@@ -1092,6 +1199,9 @@
 =======
                                     android:padding="@dimen/dim2"
 >>>>>>> 2/15/2019
+=======
+                                    android:padding="@dimen/dim2"
+>>>>>>> 2/16/2019
                                     android:text="To"
                                     android:textColor="@color/black_87"
                                     android:textSize="@dimen/fontsize14" />
@@ -1138,6 +1248,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 android:textSize="@dimen/fontsize14" />
 =======
                                 android:textSize="@dimen/fontsize16" />
@@ -1151,6 +1262,9 @@
 =======
                                 android:textSize="@dimen/fontsize16" />
 >>>>>>> 2/15/2019
+=======
+                                android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/16/2019
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -1181,6 +1295,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     android:padding="@dimen/dim4"
 =======
                                     android:padding="@dimen/dim2"
@@ -1194,6 +1309,9 @@
 =======
                                     android:padding="@dimen/dim2"
 >>>>>>> 2/15/2019
+=======
+                                    android:padding="@dimen/dim2"
+>>>>>>> 2/16/2019
                                     android:text="To"
                                     android:textColor="@color/black_87"
                                     android:textSize="@dimen/fontsize14" />
@@ -1240,6 +1358,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 android:textSize="@dimen/fontsize14" />
 =======
                                 android:textSize="@dimen/fontsize16" />
@@ -1253,6 +1372,9 @@
 =======
                                 android:textSize="@dimen/fontsize16" />
 >>>>>>> 2/15/2019
+=======
+                                android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/16/2019
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -1283,6 +1405,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     android:padding="@dimen/dim4"
 =======
                                     android:padding="@dimen/dim2"
@@ -1296,6 +1419,9 @@
 =======
                                     android:padding="@dimen/dim2"
 >>>>>>> 2/15/2019
+=======
+                                    android:padding="@dimen/dim2"
+>>>>>>> 2/16/2019
                                     android:text="To"
                                     android:textColor="@color/black_87"
                                     android:textSize="@dimen/fontsize14" />
@@ -1342,6 +1468,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 android:textSize="@dimen/fontsize14" />
 =======
                                 android:textSize="@dimen/fontsize16" />
@@ -1355,6 +1482,9 @@
 =======
                                 android:textSize="@dimen/fontsize16" />
 >>>>>>> 2/15/2019
+=======
+                                android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/16/2019
 
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -1385,6 +1515,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     android:padding="@dimen/dim4"
 =======
                                     android:padding="@dimen/dim2"
@@ -1398,6 +1529,9 @@
 =======
                                     android:padding="@dimen/dim2"
 >>>>>>> 2/15/2019
+=======
+                                    android:padding="@dimen/dim2"
+>>>>>>> 2/16/2019
                                     android:text="To"
                                     android:textColor="@color/black_87"
                                     android:textSize="@dimen/fontsize14" />
@@ -1463,6 +1597,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 android:textSize="@dimen/fontsize14" />
 =======
                                 android:textSize="@dimen/fontsize16" />
@@ -1476,6 +1611,9 @@
 =======
                                 android:textSize="@dimen/fontsize16" />
 >>>>>>> 2/15/2019
+=======
+                                android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/16/2019
 
 
                         </LinearLayout>
@@ -1515,6 +1653,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 android:textSize="@dimen/fontsize14" />
 =======
                                 android:textSize="@dimen/fontsize16" />
@@ -1528,11 +1667,15 @@
 =======
                                 android:textSize="@dimen/fontsize16" />
 >>>>>>> 2/15/2019
+=======
+                                android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/16/2019
 
                             <com.sit.kaikiliService.font.EditTextEupheminUCASRegular
                                 android:id="@+id/about_profile_edt_nearOff"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1555,6 +1698,10 @@
                                 android:layout_marginLeft="@dimen/dim6"
                                 android:layout_marginRight="@dimen/dim6"
 >>>>>>> 2/15/2019
+=======
+                                android:layout_marginLeft="@dimen/dim6"
+                                android:layout_marginRight="@dimen/dim6"
+>>>>>>> 2/16/2019
                                 android:background="@drawable/box_full_radius_bg"
                                 android:hint="00"
                                 android:inputType="number"
@@ -1575,6 +1722,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 android:textSize="@dimen/fontsize14" />
 =======
                                 android:textSize="@dimen/fontsize16" />
@@ -1588,6 +1736,9 @@
 =======
                                 android:textSize="@dimen/fontsize16" />
 >>>>>>> 2/15/2019
+=======
+                                android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/16/2019
                         </LinearLayout>
 
                         <LinearLayout
@@ -1617,6 +1768,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 android:textSize="@dimen/fontsize14" />
 =======
                                 android:textSize="@dimen/fontsize16" />
@@ -1630,11 +1782,15 @@
 =======
                                 android:textSize="@dimen/fontsize16" />
 >>>>>>> 2/15/2019
+=======
+                                android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/16/2019
 
                             <com.sit.kaikiliService.font.EditTextEupheminUCASRegular
                                 android:id="@+id/about_profile_edt_leisureDayOff"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1657,6 +1813,10 @@
                                 android:layout_marginLeft="@dimen/dim6"
                                 android:layout_marginRight="@dimen/dim6"
 >>>>>>> 2/15/2019
+=======
+                                android:layout_marginLeft="@dimen/dim6"
+                                android:layout_marginRight="@dimen/dim6"
+>>>>>>> 2/16/2019
                                 android:background="@drawable/box_full_radius_bg"
                                 android:hint="00"
                                 android:inputType="number"
@@ -1677,6 +1837,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 android:textSize="@dimen/fontsize14" />
 =======
                                 android:textSize="@dimen/fontsize16" />
@@ -1690,6 +1851,9 @@
 =======
                                 android:textSize="@dimen/fontsize16" />
 >>>>>>> 2/15/2019
+=======
+                                android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/16/2019
 
 
                         </LinearLayout>
@@ -1741,6 +1905,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 android:textSize="@dimen/fontsize14" />
 =======
                                 android:textSize="@dimen/fontsize16" />
@@ -1754,6 +1919,9 @@
 =======
                                 android:textSize="@dimen/fontsize16" />
 >>>>>>> 2/15/2019
+=======
+                                android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/16/2019
 
 
                         </LinearLayout>

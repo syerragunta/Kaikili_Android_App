@@ -7,6 +7,7 @@ import android.os.Bundle;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.support.design.widget.FloatingActionButton;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -34,12 +35,15 @@ import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
 >>>>>>> 2/14/2019
 =======
 >>>>>>> 2/15/2019
+=======
+>>>>>>> 2/16/2019
 import android.view.View;
 import android.widget.ImageView;
 
 import com.sit.kaikiliService.KaikiliApplication;
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.font.CustomEditText;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -53,6 +57,8 @@ import com.sit.kaikiliService.font.CustomEditText;
 >>>>>>> 2/14/2019
 =======
 >>>>>>> 2/15/2019
+=======
+>>>>>>> 2/16/2019
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 
 import butterknife.Bind;
@@ -82,6 +88,7 @@ public class SelectLocationActivity extends BaseActivity implements View.OnClick
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     private KetanApplication application;
 =======
     private KaikiliApplication application;
@@ -98,6 +105,9 @@ public class SelectLocationActivity extends BaseActivity implements View.OnClick
 =======
     private KaikiliApplication application;
 >>>>>>> 2/15/2019
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/16/2019
     private SharedPreferences preferences;
 
 
@@ -107,6 +117,7 @@ public class SelectLocationActivity extends BaseActivity implements View.OnClick
         setContentView( R.layout.activity_user_location );
         ButterKnife.bind( this, this );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -128,6 +139,9 @@ public class SelectLocationActivity extends BaseActivity implements View.OnClick
 =======
         application = (KaikiliApplication) getApplicationContext();
 >>>>>>> 2/15/2019
+=======
+        application = (KaikiliApplication) getApplicationContext();
+>>>>>>> 2/16/2019
         preferences = application.getSharedPreferences();
 
         top_title.setText( "Set Your Work Location" );
