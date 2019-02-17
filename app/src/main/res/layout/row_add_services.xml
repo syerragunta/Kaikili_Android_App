@@ -23,6 +23,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:textColor="@color/text_coloer"
         android:textSize="@dimen/fontsize14"
 =======
@@ -49,6 +50,10 @@
         android:textColor="@color/black_87"
         android:textSize="@dimen/fontsize16"
 >>>>>>> 2/16/2019 V1
+=======
+        android:textColor="@color/black_87"
+        android:textSize="@dimen/fontsize16"
+>>>>>>> 2/16/2019 V2
         />
 
     <ImageView

@@ -11,6 +11,7 @@ import android.widget.ImageView;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -32,6 +33,8 @@ import com.sit.kaikiliService.adapter.AddServiceListAdapter;
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+>>>>>>> 2/16/2019 V2
 import android.widget.Toast;
 
 import com.sit.kaikiliService.KaikiliApplication;
@@ -39,6 +42,7 @@ import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.adapter.AddServiceListAdapter;
 import com.sit.kaikiliService.api.GetAllServiceAPI;
 import com.sit.kaikiliService.api.ServiceList;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -61,6 +65,10 @@ import com.sit.kaikiliService.api.WebApiClient;
 import com.sit.kaikiliService.api.WebApi;
 import com.sit.kaikiliService.api.WebApiClient;
 >>>>>>> 2/16/2019 V1
+=======
+import com.sit.kaikiliService.api.WebApi;
+import com.sit.kaikiliService.api.WebApiClient;
+>>>>>>> 2/16/2019 V2
 import com.sit.kaikiliService.comman.WithoutScrollListView;
 import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
@@ -74,6 +82,7 @@ import butterknife.ButterKnife;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import retrofit.Callback;
 import retrofit.RetrofitError;
@@ -99,6 +108,11 @@ import retrofit.Callback;
 import retrofit.RetrofitError;
 import retrofit.client.Response;
 >>>>>>> 2/16/2019 V1
+=======
+import retrofit.Callback;
+import retrofit.RetrofitError;
+import retrofit.client.Response;
+>>>>>>> 2/16/2019 V2
 
 
 /**
@@ -129,6 +143,7 @@ public class AddServiceActivity extends BaseActivity implements View.OnClickList
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     private KetanApplication application;
 =======
     private KaikiliApplication application;
@@ -148,10 +163,13 @@ public class AddServiceActivity extends BaseActivity implements View.OnClickList
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+>>>>>>> 2/16/2019 V2
     private KaikiliApplication application;
     private SharedPreferences preferences;
     private ArrayList<ServiceList> serviceList = new ArrayList<>(  );
     private ArrayList<ServiceList> filterList = new ArrayList<>(  );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -165,6 +183,8 @@ public class AddServiceActivity extends BaseActivity implements View.OnClickList
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+>>>>>>> 2/16/2019 V2
     private AddServiceListAdapter adapter;
     private AddServiceListAdapter adapterSearch;
 
@@ -176,6 +196,7 @@ public class AddServiceActivity extends BaseActivity implements View.OnClickList
         setContentView( R.layout.activity_add_srevice );
         ButterKnife.bind( this, this );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -205,6 +226,9 @@ public class AddServiceActivity extends BaseActivity implements View.OnClickList
 =======
         application = (KaikiliApplication) getApplicationContext();
 >>>>>>> 2/16/2019 V1
+=======
+        application = (KaikiliApplication) getApplicationContext();
+>>>>>>> 2/16/2019 V2
         preferences = application.getSharedPreferences();
 
         top_title.setText( "Add Services" );
@@ -213,6 +237,7 @@ public class AddServiceActivity extends BaseActivity implements View.OnClickList
 
         filterList = new ArrayList<>();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -272,10 +297,13 @@ public class AddServiceActivity extends BaseActivity implements View.OnClickList
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+>>>>>>> 2/16/2019 V2
         adapter = new AddServiceListAdapter( this );
         adapterSearch = new AddServiceListAdapter( this );
         add_service_listView_serviceList.setAdapter(adapter);
         add_service_listView_searchList.setAdapter(adapterSearch);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -305,10 +333,13 @@ public class AddServiceActivity extends BaseActivity implements View.OnClickList
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+>>>>>>> 2/16/2019 V2
         GetAllServiceAPI();
         adapterSearch.setList(filterList);
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2/15/2019
@@ -316,6 +347,8 @@ public class AddServiceActivity extends BaseActivity implements View.OnClickList
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+>>>>>>> 2/16/2019 V2
         add_service_edt_search.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
@@ -343,6 +376,7 @@ public class AddServiceActivity extends BaseActivity implements View.OnClickList
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         ArrayList<String> filterdNames = new ArrayList<>();
 
         //looping through existing elements
@@ -360,6 +394,8 @@ public class AddServiceActivity extends BaseActivity implements View.OnClickList
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+>>>>>>> 2/16/2019 V2
         ArrayList<ServiceList> filterdNames = new ArrayList<>();
 
         //looping through existing elements
@@ -368,6 +404,7 @@ public class AddServiceActivity extends BaseActivity implements View.OnClickList
             if (serviceList.get(i).getSr_title().toLowerCase().contains(text.toLowerCase())) {
                 //adding the element to filtered list
                 filterdNames.add(serviceList.get(i));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -381,6 +418,8 @@ public class AddServiceActivity extends BaseActivity implements View.OnClickList
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+>>>>>>> 2/16/2019 V2
             }
         }
 
@@ -397,6 +436,7 @@ public class AddServiceActivity extends BaseActivity implements View.OnClickList
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
            add_service_edt_search.setText("");
 =======
             add_service_edt_search.setText("");
@@ -407,10 +447,14 @@ public class AddServiceActivity extends BaseActivity implements View.OnClickList
 =======
             add_service_edt_search.setText("");
 >>>>>>> 2/16/2019 V1
+=======
+            add_service_edt_search.setText("");
+>>>>>>> 2/16/2019 V2
             filterList = new ArrayList<>();
             adapterSearch.setList(filterList);
         }
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -425,10 +469,13 @@ public class AddServiceActivity extends BaseActivity implements View.OnClickList
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+>>>>>>> 2/16/2019 V2
 
 
     public void GetAllServiceAPI() {
         try {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -446,6 +493,9 @@ public class AddServiceActivity extends BaseActivity implements View.OnClickList
 =======
             WebApiClient.getInstance( this ).getWebApi().getAllAddService( "subservices","getAllAddService",
 >>>>>>> 2/16/2019 V1
+=======
+            WebApiClient.getInstance( this ).getWebApi().getAllAddService( "subservices","getAllAddService",
+>>>>>>> 2/16/2019 V2
                     new Callback<GetAllServiceAPI>() {
                         @Override
                         public void success(GetAllServiceAPI getAllServiceAPI, Response response) {
@@ -473,6 +523,7 @@ public class AddServiceActivity extends BaseActivity implements View.OnClickList
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/9/2019
 =======
 >>>>>>> 2/14/2019
@@ -482,4 +533,6 @@ public class AddServiceActivity extends BaseActivity implements View.OnClickList
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+>>>>>>> 2/16/2019 V2
 }

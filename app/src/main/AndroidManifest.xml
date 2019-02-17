@@ -38,6 +38,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:name=".KetanApplication"
 =======
         android:name=".KaikiliApplication"
@@ -60,6 +61,9 @@
 =======
         android:name=".KaikiliApplication"
 >>>>>>> 2/16/2019 V1
+=======
+        android:name=".KaikiliApplication"
+>>>>>>> 2/16/2019 V2
         android:allowBackup="false"
         android:appComponentFactory="whateverString"
         android:fullBackupContent="false"
@@ -83,6 +87,7 @@
             android:value="AIzaSyDV-siHexyTrxnqNq4HUFFcyEi8AXGAMZA" />
 
         <activity
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -120,6 +125,9 @@
 =======
             android:name=".activity.SplashActivity"
 >>>>>>> 2/16/2019 V1
+=======
+            android:name=".activity.SplashActivity"
+>>>>>>> 2/16/2019 V2
             android:label="@string/app_name"
             android:theme="@style/FullscreenTheme">
             <intent-filter>
@@ -192,6 +200,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             android:name=".activity.HomeScreenActivity"
 =======
             android:name=".activity.SplashActivity"
@@ -220,6 +229,9 @@
 =======
             android:name=".activity.HomeScreenActivity"
 >>>>>>> 2/16/2019 V1
+=======
+            android:name=".activity.HomeScreenActivity"
+>>>>>>> 2/16/2019 V2
             android:label="@string/title_activity_home_screen"
             android:theme="@style/AppTheme.NoActionBar"></activity>
 
@@ -227,6 +239,7 @@
             android:name=".activity.ServiceCatalogueActivity"
             android:label="@string/title_activity_home_screen"
             android:theme="@style/AppTheme.NoActionBar"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -256,10 +269,13 @@
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+>>>>>>> 2/16/2019 V2
         <activity
             android:name=".activity.AddServiceDataActivity"
             android:label="@string/title_activity_home_screen"
             android:theme="@style/AppTheme.NoActionBar"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -287,6 +303,8 @@
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+>>>>>>> 2/16/2019 V2
 
         <activity
             android:name=".activity.ServiceInfoActivity"
@@ -297,6 +315,7 @@
             android:name=".activity.CashOutActivity"
             android:label="@string/title_activity_home_screen"
             android:theme="@style/AppTheme.NoActionBar"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -318,11 +337,14 @@
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+>>>>>>> 2/16/2019 V2
 
         <activity
             android:name=".activity.BankDetailsActivity"
             android:label="@string/title_activity_home_screen"
             android:theme="@style/AppTheme.NoActionBar"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -342,6 +364,8 @@
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+>>>>>>> 2/16/2019 V2
     </application>
 
 </manifest>

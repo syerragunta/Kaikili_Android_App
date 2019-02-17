@@ -4,6 +4,7 @@ package com.sit.kaikiliService.activity;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.content.SharedPreferences;
 import android.os.Bundle;
 <<<<<<< HEAD
@@ -45,6 +46,8 @@ import com.sit.kaikiliService.api.ServiceList;
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+>>>>>>> 2/16/2019 V2
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -71,6 +74,7 @@ import com.sit.kaikiliService.KaikiliApplication;
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.api.Apiresponse;
 import com.sit.kaikiliService.api.CompsItme;
+<<<<<<< HEAD
 import com.sit.kaikiliService.api.ServiceList;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -84,10 +88,15 @@ import com.sit.kaikiliService.comman.Util;
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+import com.sit.kaikiliService.api.GetAllServiceAPI;
+import com.sit.kaikiliService.api.ServiceList;
+>>>>>>> 2/16/2019 V2
 import com.sit.kaikiliService.api.UserServiceGetAPI;
 import com.sit.kaikiliService.api.WebApi;
 import com.sit.kaikiliService.api.WebUtil;
 import com.sit.kaikiliService.comman.Util;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2/15/2019
@@ -95,11 +104,14 @@ import com.sit.kaikiliService.comman.Util;
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+>>>>>>> 2/16/2019 V2
 import com.sit.kaikiliService.comman.WithoutScrollListView;
 import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASBola;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -114,10 +126,13 @@ import org.json.JSONObject;
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+>>>>>>> 2/16/2019 V2
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2/15/2019
@@ -125,6 +140,8 @@ import org.json.JSONObject;
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+>>>>>>> 2/16/2019 V2
 import java.util.ArrayList;
 
 import butterknife.Bind;
@@ -145,6 +162,7 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
     TextViewEuphemiaUCASRegular top_title;
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -183,6 +201,8 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+>>>>>>> 2/16/2019 V2
     @Bind(R.id.add_service_data_iv_switch)
     ImageView add_service_data_iv_switch;
     @Bind(R.id.add_service_data_listView_costPerItem)
@@ -205,6 +225,7 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
     TextViewEuphemiaUCASRegular add_service_data_tv_quote;
     @Bind(R.id.add_service_data_tv_costHelper)
     TextViewEuphemiaUCASRegular add_service_data_tv_costHelper;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -238,6 +259,8 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+>>>>>>> 2/16/2019 V2
 
     @Bind(R.id.add_service_data_tv_note)
     TextViewEuphemiaUCASBola add_service_data_tv_note;
@@ -262,6 +285,7 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
     private ServiceList serviceList;
@@ -283,6 +307,14 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+    private String SP_ID = "SP00001";
+    private String serviceStatus ;
+
+
+    private ServiceList serviceList;
+    private String Sr_ID;
+>>>>>>> 2/16/2019 V2
 
 
     @Override
@@ -291,6 +323,7 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
         setContentView( R.layout.activity_add_srevice_data );
         ButterKnife.bind( this, this );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -617,6 +650,18 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+        application = (KaikiliApplication) getApplicationContext();
+        preferences = application.getSharedPreferences();
+
+        Sr_ID =  getIntent().getStringExtra("serviceId");
+//        serviceList = (ServiceList) getIntent().getSerializableExtra( "serviceName" );
+        new GetServiceInfoTask( this ).execute();
+
+
+
+
+>>>>>>> 2/16/2019 V2
     }
 
 
@@ -626,6 +671,7 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
         if (view == top_back) {
             finish();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -647,10 +693,13 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+>>>>>>> 2/16/2019 V2
         } else if (view == add_service_data_iv_switch) {
             if (view.getTag().toString().equalsIgnoreCase( "1" )) {
                 add_service_data_iv_switch.setTag( "0" );
                 add_service_data_iv_switch.setImageDrawable( getDrawable( R.drawable.icon_off_swich ) );
+<<<<<<< HEAD
             } else {
                 add_service_data_iv_switch.setTag( "1" );
                 add_service_data_iv_switch.setImageDrawable( getDrawable( R.drawable.icon_on_swich ) );
@@ -667,6 +716,13 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+                serviceStatus = "OFF";
+            } else {
+                add_service_data_iv_switch.setTag( "1" );
+                add_service_data_iv_switch.setImageDrawable( getDrawable( R.drawable.icon_on_swich ) );
+                serviceStatus = "ON";
+>>>>>>> 2/16/2019 V2
             }
         } else if (add_service_data_floaButton_save == view) {
             savedata();
@@ -727,6 +783,7 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             jsonObject.put( "sp_id", "SP00001" );
 =======
             jsonObject.put( "sp_id", SP_ID );
@@ -738,6 +795,12 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
             jsonObject.put( "sp_id", SP_ID );
 >>>>>>> 2/16/2019 V1
             jsonObject.put( "sr_id", serviceList.getSr_id() );
+=======
+            jsonObject.put( "sp_id", SP_ID );
+            jsonObject.put( "sr_id", serviceList.getSr_id() );
+            jsonObject.put( "sr_title", serviceList.getSr_title() );
+            jsonObject.put( "sp_sr_status",serviceStatus);
+>>>>>>> 2/16/2019 V2
             jsonObject.put( "minimum_charge", "100.00" );
             jsonObject.put( "sr_type", serviceList.getSr_type() );
             jsonObject.put( "cost_comps_per_item_on", onItemArray );
@@ -749,6 +812,7 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 
             Log.e( "----------------------", jsonObject.toString() );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -792,6 +856,10 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
             new PostApiTask( this, jsonObject.toString() ).execute();
 
 >>>>>>> 2/16/2019 V1
+=======
+            new PostApiTask( this, jsonObject.toString() ).execute();
+
+>>>>>>> 2/16/2019 V2
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -858,11 +926,14 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+>>>>>>> 2/16/2019 V2
     public class GetServiceDataTask extends AsyncTask<Void, Void, String> {
 
         private ProgressDialog mDialog = null;
@@ -908,12 +979,17 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
             if (mDialog.isShowing()) {
                 mDialog.dismiss();
             }
+<<<<<<< HEAD
+=======
+            Util.hideSoftKeyboard( mActivity );
+>>>>>>> 2/16/2019 V2
 
             Log.e( "------- Response ", "-------------" + response );
             Gson gson = new Gson(); // Or use new GsonBuilder().create();
             UserServiceGetAPI target2 = gson.fromJson( response, UserServiceGetAPI.class );
 
             if (target2 != null) {
+<<<<<<< HEAD
                     if (target2.getData().size()>0) {
 
                         if (target2.getData().get( 0 ).getCost_comps_per_item_on() != null) {
@@ -955,6 +1031,180 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 
     }
 
+=======
+                if (target2.getData().size() > 0) {
+
+                    if (target2.getData().get( 0 ).getCost_comps_per_item_on() != null) {
+                        for (int i = 0; i < target2.getData().get( 0 ).getCost_comps_per_item_on().size(); i++) {
+                            for (int j = 0; j < serviceList.getCost_comps_per_item().size(); j++) {
+                                if (serviceList.getCost_comps_per_item().get( j ).getCc_id().equalsIgnoreCase( target2.getData().get( 0 ).getCost_comps_per_item_on().get( i ).getCc_id() )) {
+                                    serviceList.getCost_comps_per_item().get( j ).setCc_check_box( "ON" );
+                                    serviceList.getCost_comps_per_item().get( j ).setCc_rate( target2.getData().get( 0 ).getCost_comps_per_item_on().get( i ).getCc_rate_per_item() );
+                                }
+                            }
+                        }
+                    }
+
+                    if (target2.getData().get( 0 ).getCost_comps_pro_rate_on() != null) {
+                        for (int i = 0; i < target2.getData().get( 0 ).getCost_comps_pro_rate_on().size(); i++) {
+                            for (int j = 0; j < serviceList.getCost_comps_pro_rated().size(); j++) {
+                                if (serviceList.getCost_comps_pro_rated().get( j ).getCc_id().equalsIgnoreCase( target2.getData().get( 0 ).getCost_comps_pro_rate_on().get( i ).getCc_id() )) {
+                                    serviceList.getCost_comps_pro_rated().get( j ).setCc_check_box( "ON" );
+                                    serviceList.getCost_comps_pro_rated().get( j ).setCc_rate( target2.getData().get( 0 ).getCost_comps_pro_rate_on().get( i ).getCc_rate_per_item() );
+                                }
+                            }
+                        }
+                    }
+
+                    serviceList.getDiscount().setDs_rate( target2.getData().get( 0 ).getDiscount().getDs_rate_per_item() );
+                    serviceList.getDiscount().setDs_check_box( target2.getData().get( 0 ).getDiscount().getDs_check_box() );
+                    Log.e( "---------Data save", "---------------------------new Data ---" );
+
+                    if(target2.getData().get(0).getSp_sr_status().equalsIgnoreCase( "ON")){
+                        add_service_data_iv_switch.setTag( "1" );
+                        add_service_data_iv_switch.setImageDrawable( getDrawable( R.drawable.icon_on_swich ) );
+                        serviceStatus = "ON";
+                    }else{
+                        add_service_data_iv_switch.setTag( "0" );
+                        add_service_data_iv_switch.setImageDrawable( getDrawable( R.drawable.icon_off_swich ) );
+                        serviceStatus = "OFF";
+                    }
+
+
+                    setDataInfo();
+                } else {
+                    setDataInfo();
+                }
+            } else {
+                setDataInfo();
+            }
+        }
+    }
+
+    public class GetServiceInfoTask extends AsyncTask<Void, Void, String> {
+
+        private ProgressDialog mDialog = null;
+        private Activity mActivity;
+
+
+        public GetServiceInfoTask(Activity activity) {
+            mActivity = activity;
+
+            // TODO Auto-generated constructor stub
+        }
+
+        @Override
+        protected void onPreExecute() {
+            // TODO Auto-generated method stub
+            super.onPreExecute();
+
+            mDialog = ProgressDialog.show( mActivity, null, "Please wait...", true, true );
+            mDialog.getWindow().clearFlags( WindowManager.LayoutParams.FLAG_DIM_BEHIND );
+            mDialog.setCanceledOnTouchOutside( false );
+        }
+
+        @Override
+        protected String doInBackground(Void... params) {
+            // TODO Auto-generated method stub
+            try {
+                JSONObject jsonObject = new JSONObject();
+                jsonObject.put( "sr_id", Sr_ID );
+                Log.e( "--------------Post", jsonObject.toString() );
+                String response = new WebUtil().postMethod( jsonObject.toString(), WebApi.URL_GET_SERVICE_INFO_ID );
+                return response;
+            } catch (JSONException e) {
+                e.printStackTrace();
+                return "";
+            }
+        }
+
+        @Override
+        protected void onPostExecute(String response) {
+            // TODO Auto-generated method stub
+            super.onPostExecute( response );
+            if (mDialog.isShowing()) {
+                mDialog.dismiss();
+            }
+            Util.hideSoftKeyboard( mActivity );
+            Log.e( "------- Response ", "-------------" + response );
+            Gson gson = new Gson(); // Or use new GsonBuilder().create();
+            GetAllServiceAPI target2 = gson.fromJson( response, GetAllServiceAPI.class );
+            if (target2.getData().size() > 0) {
+                serviceList = target2.getData().get(0);
+                setServiceInformation();
+                new GetServiceDataTask( mActivity ).execute();
+            } else {
+
+                Toast.makeText( mActivity,"No Server are added in user.",Toast.LENGTH_SHORT ).show();
+            }
+
+
+        }
+
+
+    }
+
+    private void setServiceInformation() {
+        top_title.setText( serviceList.getSr_title() );
+        top_back.setOnClickListener( this );
+        add_service_data_floaButton_save.setOnClickListener( this );
+        add_service_data_iv_switch.setOnClickListener( this );
+        add_service_data_iv_switch.setTag( "1" );
+        serviceStatus = "ON";
+
+        adapterCostPerItme = new AddServiceItemAdapterItem( this );
+        adapterCostPerSize = new AddServiceItemAdapterSize( this );
+
+        add_service_data_listView_costPerItem.setAdapter( adapterCostPerItme );
+        add_service_data_listView_costPerSize.setAdapter( adapterCostPerSize );
+
+
+        add_service_data_edt_quoteService.setVisibility( View.GONE );
+        add_service_data_tv_quote.setVisibility( View.GONE );
+        add_service_data_listView_costPerSize.setVisibility( View.GONE );
+        add_service_data_tv_costPerSize.setVisibility( View.GONE );
+        add_service_data_view_costPerSize.setVisibility( View.GONE );
+        add_service_data_listView_costPerItem.setVisibility( View.GONE );
+        add_service_data_tv_costPerItem.setVisibility( View.GONE );
+        add_service_data_view_costPerItem.setVisibility( View.GONE );
+
+        adapterCostPerSize.setList( serviceList.getCost_comps_pro_rated() );
+
+        add_service_data_ch_offer.setOnCheckedChangeListener(
+                new CompoundButton.OnCheckedChangeListener() {
+
+                    @Override
+                    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                        if (isChecked) {
+                            serviceList.getDiscount().setDs_check_box( "ON" );
+                        } else {
+                            serviceList.getDiscount().setDs_check_box( "OFF" );
+                        }
+                    }
+                }
+        );
+
+        add_service_data_edt_offer.addTextChangedListener( new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
+                if (!serviceList.getDiscount().getDs_rate().equalsIgnoreCase( editable.toString() ))
+                    serviceList.getDiscount().setDs_rate( editable.toString() );
+            }
+        } );
+    }
+
+
+>>>>>>> 2/16/2019 V2
     private void setDataInfo() {
 
         if (serviceList.getCost_comps_pro_rated().size() > 0) {
@@ -989,11 +1239,14 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/15/2019
 =======
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+>>>>>>> 2/16/2019 V2
 
     public class AddServiceItemAdapterItem extends BaseAdapter {
 
@@ -1225,6 +1478,7 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/14/2019
 =======
 >>>>>>> 2/15/2019
@@ -1232,6 +1486,8 @@ public class AddServiceDataActivity extends BaseActivity implements View.OnClick
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+>>>>>>> 2/16/2019 V2
         }
     }
 }

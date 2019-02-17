@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 1/30/2019
@@ -93,6 +94,9 @@
 =======
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.8" project-jdk-type="JavaSDK">
 >>>>>>> 2/16/2019 V1
+=======
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+>>>>>>> 2/16/2019 V2
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

@@ -13,6 +13,7 @@ import android.widget.ImageView;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.widget.Toast;
 
 import com.rilixtech.Country;
@@ -55,6 +56,11 @@ import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.KaikiliApplication;
 import com.sit.kaikiliService.R;
 >>>>>>> 2/16/2019 V1
+=======
+
+import com.sit.kaikiliService.KaikiliApplication;
+import com.sit.kaikiliService.R;
+>>>>>>> 2/16/2019 V2
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 import com.sit.kaikiliService.font.VerificationCodeEditText;
 
@@ -94,6 +100,7 @@ public class PhoneValidationCodeActivity extends BaseActivity implements View.On
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     private KetanApplication application;
 =======
     private KaikiliApplication application;
@@ -116,6 +123,9 @@ public class PhoneValidationCodeActivity extends BaseActivity implements View.On
 =======
     private KaikiliApplication application;
 >>>>>>> 2/16/2019 V1
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/16/2019 V2
     private SharedPreferences preferences;
 
 
@@ -126,6 +136,7 @@ public class PhoneValidationCodeActivity extends BaseActivity implements View.On
         setContentView(R.layout.activity_phone_validation_code);
         ButterKnife.bind( this,this );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -155,6 +166,9 @@ public class PhoneValidationCodeActivity extends BaseActivity implements View.On
 =======
         application = (KaikiliApplication) getApplicationContext();
 >>>>>>> 2/16/2019 V1
+=======
+        application = (KaikiliApplication) getApplicationContext();
+>>>>>>> 2/16/2019 V2
         preferences = application.getSharedPreferences();
 
         top_title.setText( "Phone Number Validation" );

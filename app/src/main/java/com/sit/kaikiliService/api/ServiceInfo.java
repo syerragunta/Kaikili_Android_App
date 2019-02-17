@@ -31,6 +31,17 @@ public class ServiceInfo implements Serializable {
     private String sr_type;
 
     @JsonField
+<<<<<<< HEAD
+=======
+    private String sp_sr_status;
+
+
+    @JsonField
+    private String sr_title;
+
+
+    @JsonField
+>>>>>>> 2/16/2019 V2
     private ArrayList<CostItemInfo> cost_comps_per_item_on = new ArrayList<>(  );
 
     @JsonField
@@ -125,9 +136,27 @@ public class ServiceInfo implements Serializable {
         this.discount = discount;
     }
 
+<<<<<<< HEAD
 
 
 
+=======
+    public String getSp_sr_status() {
+        return sp_sr_status;
+    }
+
+    public void setSp_sr_status(String sp_sr_status) {
+        this.sp_sr_status = sp_sr_status;
+    }
+
+    public String getSr_title() {
+        return sr_title;
+    }
+
+    public void setSr_title(String sr_title) {
+        this.sr_title = sr_title;
+    }
+>>>>>>> 2/16/2019 V2
 //    @JsonObject
 //    public class Discount implements Serializable {
 //

@@ -34,6 +34,7 @@ public class CompsItme implements Serializable {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -42,6 +43,8 @@ public class CompsItme implements Serializable {
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+>>>>>>> 2/16/2019 V2
     public String getCc_rate() {
         return cc_rate;
     }
@@ -55,6 +58,7 @@ public class CompsItme implements Serializable {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/14/2019
 =======
 >>>>>>> 2/15/2019
@@ -62,6 +66,8 @@ public class CompsItme implements Serializable {
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+>>>>>>> 2/16/2019 V2
 
     public String getCc_id() {
         return cc_id;

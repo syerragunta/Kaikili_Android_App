@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     android:background="@color/white"
 >>>>>>> 2/2/2019
@@ -27,11 +28,15 @@
 =======
     android:background="@color/white"
 >>>>>>> 2/16/2019 V1
+=======
+    android:background="@color/white"
+>>>>>>> 2/16/2019 V2
     android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -76,6 +81,11 @@
 
         <include layout="@layout/activity_header" />
 >>>>>>> 2/16/2019 V1
+=======
+        android:orientation="vertical">
+
+        <include layout="@layout/activity_header" />
+>>>>>>> 2/16/2019 V2
 
 
         <ScrollView

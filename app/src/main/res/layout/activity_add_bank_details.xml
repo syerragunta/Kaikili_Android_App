@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     android:layout_height="match_parent">
 =======
     android:layout_height="match_parent"
@@ -34,10 +35,15 @@
     android:layout_height="match_parent"
     android:background="@color/white">
 >>>>>>> 2/16/2019 V1
+=======
+    android:layout_height="match_parent"
+    android:background="@color/white">
+>>>>>>> 2/16/2019 V2
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -139,6 +145,8 @@
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+>>>>>>> 2/16/2019 V2
         android:orientation="vertical">
 
         <include layout="@layout/activity_header" />
@@ -181,6 +189,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/2/2019
 =======
 >>>>>>> 2/9/2019
@@ -192,12 +201,15 @@
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+>>>>>>> 2/16/2019 V2
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/dim30"
                     android:layout_marginTop="@dimen/dim8"
                     android:layout_marginRight="@dimen/dim30">
 
                     <com.sit.kaikiliService.font.EditTextEupheminUCASRegular
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -255,6 +267,8 @@
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+>>>>>>> 2/16/2019 V2
                         android:id="@+id/add_card_edit_bankName"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -407,6 +421,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/2/2019
 =======
 >>>>>>> 2/9/2019
@@ -418,6 +433,8 @@
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+>>>>>>> 2/16/2019 V2
     </LinearLayout>
 
 
