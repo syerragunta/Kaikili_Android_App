@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     android:orientation="vertical">
 
 <<<<<<< HEAD
@@ -42,10 +43,13 @@
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
     android:background="@color/white"
     android:orientation="vertical">
 
     <include layout="@layout/activity_header" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -77,6 +81,8 @@
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
 
 
     <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
@@ -221,6 +227,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
             android:id="@+id/cash_out_tv_changed"
 >>>>>>> 2/1/2019
@@ -257,6 +264,9 @@
 =======
             android:id="@+id/cash_out_tv_changed"
 >>>>>>> 2/22/2019
+=======
+            android:id="@+id/cash_out_tv_changed"
+>>>>>>> 2/23/2019
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
@@ -309,10 +319,14 @@
                     android:layout_width="40dp"
                     android:layout_height="30dp"
 <<<<<<< HEAD
+<<<<<<< HEAD
                     android:src="@drawable/visa"/>
 =======
                     android:src="@drawable/visa_new"/>
 >>>>>>> 2/22/2019
+=======
+                    android:src="@drawable/visa_new"/>
+>>>>>>> 2/23/2019
                 <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
                     android:layout_width="wrap_content"
                     android:layout_marginLeft="@dimen/dim10"

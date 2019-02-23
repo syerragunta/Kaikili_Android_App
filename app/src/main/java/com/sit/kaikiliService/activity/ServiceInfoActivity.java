@@ -4,6 +4,7 @@ package com.sit.kaikiliService.activity;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
@@ -74,18 +75,24 @@ import android.app.ProgressDialog;
 =======
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
 import android.app.Activity;
 import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.Context;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 import android.view.View;
@@ -94,6 +101,8 @@ import android.widget.ImageView;
 =======
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.WindowManager;
@@ -102,9 +111,12 @@ import android.widget.RadioGroup;
 import android.widget.RatingBar;
 import android.widget.RelativeLayout;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
 import android.widget.Toast;
 
 import com.google.gson.Gson;
@@ -119,6 +131,7 @@ import com.sit.kaikiliService.api.WebUtil;
 import com.sit.kaikiliService.comman.CircularImageView;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import com.sit.kaikiliService.comman.WithoutScrollListView;
 =======
 import com.sit.kaikiliService.comman.Util;
@@ -130,6 +143,11 @@ import com.sit.kaikiliService.comman.Util;
 import com.sit.kaikiliService.comman.WithoutScrollListView;
 import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
 >>>>>>> 2/22/2019
+=======
+import com.sit.kaikiliService.comman.Util;
+import com.sit.kaikiliService.comman.WithoutScrollListView;
+import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
+>>>>>>> 2/23/2019
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASBola;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 import com.sit.kaikiliService.model.ServiceInfoModel;
@@ -140,6 +158,7 @@ import org.json.JSONObject;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/18/2019
@@ -147,6 +166,8 @@ import org.json.JSONObject;
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
 import java.util.ArrayList;
 
 import butterknife.Bind;
@@ -161,6 +182,7 @@ import butterknife.ButterKnife;
 
 public class ServiceInfoActivity extends BaseActivity implements View.OnClickListener {
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -215,6 +237,8 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
     @Bind(R.id.top_back) ImageView top_back;
     @Bind(R.id.top_title) TextViewEuphemiaUCASRegular top_title;
     @Bind(R.id.service_info_listView) WithoutScrollListView service_info_listView;
@@ -242,6 +266,7 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/18/2019
@@ -249,6 +274,8 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
 
 
     @Override
@@ -257,6 +284,7 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
         setContentView( R.layout.activity_service_info );
         ButterKnife.bind( this, this );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -303,11 +331,14 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
         application = (KaikiliApplication) getApplicationContext();
         preferences = application.getSharedPreferences();
 
         transitionServiceData = (TransitionServiceData) getIntent().getSerializableExtra( "data" );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -318,12 +349,15 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
         top_title.setText( "Service Detail" );
         top_back.setOnClickListener( this );
 
         adapter = new ServiceInfoItemAdapter( this );
         service_info_listView.setAdapter( adapter );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -400,6 +434,8 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
         service_info_tv_userName.setText(transitionServiceData.getCust_first_name()+" "+transitionServiceData.getCust_last_name() );
         service_info_tv_serviceName.setText(transitionServiceData.getSr_title());
         service_info_tv_address.setText( "Address :"+transitionServiceData.getAddress());
@@ -453,6 +489,7 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
             public void onClick(View view) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 new GetServiceDataTask(ServiceInfoActivity.this,"Completed").execute( );
 =======
                 new UpdateServiceDataTask(ServiceInfoActivity.this,"Completed").execute( );
@@ -462,12 +499,17 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
                 new UpdateServiceDataTask(ServiceInfoActivity.this,"Completed").execute( );
 
 >>>>>>> 2/22/2019
+=======
+                new UpdateServiceDataTask(ServiceInfoActivity.this,"Completed").execute( );
+
+>>>>>>> 2/23/2019
             }
         } );
 
         service_info_tv_review.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                 new GetServiceDataTask(ServiceInfoActivity.this,"Review").execute( );
@@ -479,6 +521,10 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
                 ShowReviewDialog(ServiceInfoActivity.this);
 //                new GetServiceDataTask(ServiceInfoActivity.this,"Review").execute( );
 >>>>>>> 2/22/2019
+=======
+                ShowReviewDialog(ServiceInfoActivity.this);
+//                new GetServiceDataTask(ServiceInfoActivity.this,"Review").execute( );
+>>>>>>> 2/23/2019
             }
         } );
 
@@ -530,9 +576,12 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
             service_info_tv_review.setVisibility( View.VISIBLE );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
         }else {
             service_info_tv_Accept.setVisibility( View.GONE );
             service_info_tv_reschedule.setVisibility( View.GONE );
@@ -541,9 +590,12 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
             service_info_tv_completed.setVisibility( View.GONE );
             service_info_tv_review.setVisibility( View.GONE );
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
         }
 
 
@@ -616,12 +668,15 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/18/2019
 =======
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
     }
 
     public class UpdateServiceDataTask extends AsyncTask<Void, Void, String> {
@@ -688,9 +743,12 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
     }
 
 
@@ -704,9 +762,12 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
 
 
     private void ShowReviewDialog(final Context context) {
@@ -809,7 +870,10 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
 }

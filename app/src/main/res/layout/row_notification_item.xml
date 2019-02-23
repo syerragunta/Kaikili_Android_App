@@ -30,6 +30,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 android:id="@+id/row_noti_iv_read"
                 android:layout_width="@dimen/dim12"
 <<<<<<< HEAD
@@ -60,11 +61,14 @@
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
 
                 android:id="@+id/row_noti_iv_read"
                 android:layout_width="@dimen/dim12"
                 android:layout_marginRight="@dimen/dim8"
                 android:layout_height="@dimen/dim12"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -96,6 +100,8 @@
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
                 android:src="@drawable/round_notification"/>
 
             <ImageView

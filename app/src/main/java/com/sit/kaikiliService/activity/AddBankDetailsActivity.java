@@ -1,6 +1,7 @@
 package com.sit.kaikiliService.activity;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.Editable;
@@ -71,6 +72,8 @@ import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 
 =======
+=======
+>>>>>>> 2/23/2019
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.SharedPreferences;
@@ -99,7 +102,10 @@ import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+<<<<<<< HEAD
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
@@ -117,13 +123,18 @@ public class AddBankDetailsActivity extends BaseActivity implements View.OnClick
     @Bind(R.id.top_title)
     TextViewEuphemiaUCASRegular top_title;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 2/22/2019
+=======
+
+>>>>>>> 2/23/2019
     @Bind(R.id.add_card_edit_cardNumbers)
     EditTextEupheminUCASRegular add_card_edit_cardNumbers;
     @Bind(R.id.add_card_edit_date)
     EditTextEupheminUCASRegular add_card_edit_date;
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 
@@ -174,6 +185,8 @@ public class AddBankDetailsActivity extends BaseActivity implements View.OnClick
 >>>>>>> 2/21/2019
     private SharedPreferences preferences;
 =======
+=======
+>>>>>>> 2/23/2019
     @Bind(R.id.add_card_edit_holderName)
     EditTextEupheminUCASRegular add_card_edit_holderName;
     @Bind(R.id.add_card_edit_bankName)
@@ -186,8 +199,12 @@ public class AddBankDetailsActivity extends BaseActivity implements View.OnClick
 
     private KaikiliApplication application;
     private SharedPreferences preferences;
+<<<<<<< HEAD
     private String SP_ID = "SP00001";
 >>>>>>> 2/22/2019
+=======
+
+>>>>>>> 2/23/2019
 
 
     @Override
@@ -196,6 +213,7 @@ public class AddBankDetailsActivity extends BaseActivity implements View.OnClick
         setContentView( R.layout.activity_add_bank_details );
         ButterKnife.bind( this, this );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -254,6 +272,17 @@ public class AddBankDetailsActivity extends BaseActivity implements View.OnClick
 =======
         add_card_fb_next.setOnClickListener( this );
 >>>>>>> 2/22/2019
+=======
+        application = (KaikiliApplication) getApplicationContext();
+        preferences = application.getSharedPreferences();
+
+
+
+        top_title.setText( "Add Bank Details" );
+
+        top_back.setOnClickListener( this );
+        add_card_fb_next.setOnClickListener( this );
+>>>>>>> 2/23/2019
         add_card_edit_cardNumbers.addTextChangedListener( new CreditCardNumberFormattingTextWatcher() );
         add_card_edit_date.addTextChangedListener( new DateAndYearFormattingTextWatcher() );
 
@@ -329,11 +358,14 @@ public class AddBankDetailsActivity extends BaseActivity implements View.OnClick
         if (view == top_back) {
             finish();
 <<<<<<< HEAD
+<<<<<<< HEAD
 //        } else if (view == background_form_tv_submit) {
 //            finish();
         }
     }
 =======
+=======
+>>>>>>> 2/23/2019
         } else if (view == add_card_fb_next) {
             if (validaInfo()) {
               new AddBankInfoTask(this).execute( );
@@ -400,10 +432,17 @@ public class AddBankDetailsActivity extends BaseActivity implements View.OnClick
             try {
 
                 JSONObject jsonObject = new JSONObject();
+<<<<<<< HEAD
                 jsonObject.put( "sp_id", SP_ID);
                 jsonObject.put( "card_no", add_card_edit_cardNumbers.getText().toString() );
                 jsonObject.put( "bank_name", add_card_edit_bankName.getText().toString());
                 jsonObject.put( "card_holder_name", add_card_edit_bankName.getText().toString() );
+=======
+                jsonObject.put( "sp_id", preferences.getString( "sp_id",""));
+                jsonObject.put( "card_no", add_card_edit_cardNumbers.getText().toString() );
+                jsonObject.put( "bank_name", add_card_edit_bankName.getText().toString());
+                jsonObject.put( "card_holder_name", add_card_edit_holderName.getText().toString() );
+>>>>>>> 2/23/2019
                 jsonObject.put( "month", add_card_edit_date.getText().toString().substring( 0,2 ) );
                 jsonObject.put( "year", "20"+add_card_edit_date.getText().toString().substring(add_card_edit_date.getText().length()-2 ,add_card_edit_date.getText().length() ) );
                 jsonObject.put( "cvc", add_card_edit_cvc.getText().toString().trim() );
@@ -437,5 +476,8 @@ public class AddBankDetailsActivity extends BaseActivity implements View.OnClick
         }
     }
 
+<<<<<<< HEAD
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
 }

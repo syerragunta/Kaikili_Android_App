@@ -5,9 +5,12 @@
       <map>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2/16/2019 V1
+=======
+>>>>>>> 2/23/2019
         <entry key="imageWizard">
           <value>
             <PersistentState>
@@ -86,9 +89,12 @@
           </value>
         </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/2/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+>>>>>>> 2/23/2019
         <entry key="vectorWizard">
           <value>
             <PersistentState>
@@ -99,6 +105,7 @@
                       <PersistentState>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
@@ -107,6 +114,8 @@
 =======
 =======
 >>>>>>> 2/16/2019 V1
+=======
+>>>>>>> 2/23/2019
                         <option name="children">
                           <map>
                             <entry key="clipartAsset">
@@ -129,9 +138,12 @@
                             <entry key="outputName" value="ic_service_catalogue" />
                             <entry key="sourceFile" value="C:\Users\Administrator\Desktop\New folder (3)\service_catalogue.svg" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/2/2019
 =======
 >>>>>>> 2/16/2019 V1
+=======
+>>>>>>> 2/23/2019
                           </map>
                         </option>
                       </PersistentState>

@@ -14,6 +14,7 @@ package com.sit.kaikiliService.fragment;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
@@ -126,6 +127,8 @@ import com.sit.kaikiliService.model.EarningsModel;
 =======
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -153,14 +156,18 @@ import com.sit.kaikiliService.api.EarningeInfoApi;
 import org.json.JSONException;
 import org.json.JSONObject;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
 
 import java.util.ArrayList;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -212,6 +219,8 @@ import butterknife.OnClick;
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
 
 
 /**
@@ -228,6 +237,7 @@ public class EarningsFragment extends BaseFragment {
     @Bind(R.id.fag_earnings_tv_cashOut )TextViewEuphemiaUCASRegular fag_earnings_tv_cashOut;
 
     private EarningsListAdapter adapter;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     private ArrayList<EarningsModel> earningList;
@@ -273,12 +283,17 @@ public class EarningsFragment extends BaseFragment {
     private ArrayList<EarningeInfo> earningList;
     private String SP_ID = "SP00001";
 >>>>>>> 2/22/2019
+=======
+    private ArrayList<EarningeInfo> earningList;
+    private String SP_ID = "SP00001";
+>>>>>>> 2/23/2019
 
     public EarningsFragment() {
         // Required empty public constructor
     }
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -379,11 +394,17 @@ public class EarningsFragment extends BaseFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
 >>>>>>> 2/22/2019
+=======
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate( savedInstanceState );
+>>>>>>> 2/23/2019
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         final View rootView = inflater.inflate(R.layout.fragment_earnings, container, false);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -441,10 +462,14 @@ public class EarningsFragment extends BaseFragment {
 =======
         ButterKnife.bind( this,rootView);
 >>>>>>> 2/22/2019
+=======
+        ButterKnife.bind( this,rootView);
+>>>>>>> 2/23/2019
         initComponents(rootView);
         return rootView;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -490,10 +515,13 @@ public class EarningsFragment extends BaseFragment {
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
 
 
     @Override
     public void initComponents(View rootView) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -654,6 +682,11 @@ public class EarningsFragment extends BaseFragment {
         fag_earnings_listView.setAdapter(adapter);
         fag_earnings_tv_cashOut.setOnClickListener( this );
 >>>>>>> 2/22/2019
+=======
+        adapter = new EarningsListAdapter( getActivity());
+        fag_earnings_listView.setAdapter(adapter);
+        fag_earnings_tv_cashOut.setOnClickListener( this );
+>>>>>>> 2/23/2019
     }
 
 
@@ -662,6 +695,7 @@ public class EarningsFragment extends BaseFragment {
         if(v==fag_earnings_tv_cashOut){
             Intent intent = new Intent( getActivity(),CashOutActivity.class );
             getActivity().startActivity(intent);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -702,6 +736,8 @@ public class EarningsFragment extends BaseFragment {
 =======
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
         }
     }
 
@@ -775,7 +811,10 @@ public class EarningsFragment extends BaseFragment {
 
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
 }

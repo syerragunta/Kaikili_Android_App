@@ -4,6 +4,7 @@ import android.content.Context;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.support.annotation.NonNull;
 =======
 import android.content.Intent;
@@ -20,12 +21,18 @@ import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.CardView;
 >>>>>>> 2/22/2019
+=======
+import android.content.Intent;
+import android.support.annotation.NonNull;
+import android.support.v7.widget.CardView;
+>>>>>>> 2/23/2019
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -72,10 +79,13 @@ import com.sit.kaikiliService.R;
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
 import com.sit.kaikiliService.KaikiliApplication;
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.activity.NotificationActivity;
 import com.sit.kaikiliService.api.NotificationInfo;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2/18/2019
@@ -83,6 +93,8 @@ import com.sit.kaikiliService.api.NotificationInfo;
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
 import com.sit.kaikiliService.comman.CircularImageView;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASBola;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
@@ -100,6 +112,7 @@ import java.util.ArrayList;
 public class NotificationCustomerListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     private Context mActivity;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -153,10 +166,15 @@ public class NotificationCustomerListAdapter extends RecyclerView.Adapter<Recycl
     private KaikiliApplication application;
     private ArrayList <NotificationInfo> notificationList;
 >>>>>>> 2/22/2019
+=======
+    private KaikiliApplication application;
+    private ArrayList <NotificationInfo> notificationList;
+>>>>>>> 2/23/2019
 
     public NotificationCustomerListAdapter(Context activity) {
         // TODO Auto-generated constructor stub
         mActivity = activity;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -206,6 +224,9 @@ public class NotificationCustomerListAdapter extends RecyclerView.Adapter<Recycl
 =======
         application = (KaikiliApplication) mActivity.getApplicationContext();
 >>>>>>> 2/22/2019
+=======
+        application = (KaikiliApplication) mActivity.getApplicationContext();
+>>>>>>> 2/23/2019
         notificationList = new ArrayList<>( );
     }
 
@@ -223,6 +244,7 @@ public class NotificationCustomerListAdapter extends RecyclerView.Adapter<Recycl
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, final int position) {
 
         MyViewHolder viewHolder = (MyViewHolder) holder;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -278,6 +300,8 @@ public class NotificationCustomerListAdapter extends RecyclerView.Adapter<Recycl
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
         viewHolder.tvTitle.setText( notificationList.get( position ).getCu_name());
         viewHolder.tvTime.setText( notificationList.get( position ).getDate()+" "+notificationList.get( position ).getTime());
         viewHolder.tvMessage.setText( notificationList.get( position ).getSr_title());
@@ -291,15 +315,19 @@ public class NotificationCustomerListAdapter extends RecyclerView.Adapter<Recycl
 //        }else {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
 //            viewHolder.ivRead.setVisibility( View.INVISIBLE );
             viewHolder.tvTitle.setTextColor(mActivity.getResources().getColor(R.color.black_87));
             viewHolder.tvTime.setTextColor(mActivity.getResources().getColor(R.color.black_87));
             viewHolder.tvMessage.setTextColor(mActivity.getResources().getColor(R.color.black_87));
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -349,6 +377,8 @@ public class NotificationCustomerListAdapter extends RecyclerView.Adapter<Recycl
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
 //        }
 //        else {
 
@@ -372,11 +402,14 @@ public class NotificationCustomerListAdapter extends RecyclerView.Adapter<Recycl
 //
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
 //        viewHolder.mainLinLayout.setOnLongClickListener( new View.OnLongClickListener() {
 //            @Override
 //            public boolean onLongClick(View view) {
@@ -411,6 +444,7 @@ public class NotificationCustomerListAdapter extends RecyclerView.Adapter<Recycl
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         private CardView cardView;
 >>>>>>> 2/18/2019
@@ -420,6 +454,9 @@ public class NotificationCustomerListAdapter extends RecyclerView.Adapter<Recycl
 =======
         private CardView cardView;
 >>>>>>> 2/22/2019
+=======
+        private CardView cardView;
+>>>>>>> 2/23/2019
         private CircularImageView ivProfile;
 
 
@@ -434,6 +471,7 @@ public class NotificationCustomerListAdapter extends RecyclerView.Adapter<Recycl
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //            cardView = (CardView) itemView.findViewById( R.id.row_service_cardView );
 =======
             cardView = (CardView) itemView.findViewById( R.id.row_noti_cus_cardView );
@@ -444,6 +482,9 @@ public class NotificationCustomerListAdapter extends RecyclerView.Adapter<Recycl
 =======
             cardView = (CardView) itemView.findViewById( R.id.row_noti_cus_cardView );
 >>>>>>> 2/22/2019
+=======
+            cardView = (CardView) itemView.findViewById( R.id.row_noti_cus_cardView );
+>>>>>>> 2/23/2019
 
 
 
@@ -451,6 +492,7 @@ public class NotificationCustomerListAdapter extends RecyclerView.Adapter<Recycl
 
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -464,6 +506,9 @@ public class NotificationCustomerListAdapter extends RecyclerView.Adapter<Recycl
 =======
     public void setList(ArrayList<NotificationInfo> notificationList) {
 >>>>>>> 2/22/2019
+=======
+    public void setList(ArrayList<NotificationInfo> notificationList) {
+>>>>>>> 2/23/2019
         // TODO Auto-generated method stub
         this.notificationList = notificationList;
         notifyDataSetChanged();

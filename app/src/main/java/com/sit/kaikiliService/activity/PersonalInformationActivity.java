@@ -9,6 +9,7 @@ package com.sit.kaikiliService.activity;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -66,6 +67,8 @@ import com.sit.kaikiliService.R;
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
 import android.app.Activity;
 import android.app.DatePickerDialog;
 import android.app.ProgressDialog;
@@ -87,6 +90,7 @@ import com.google.gson.Gson;
 import com.sit.kaikiliService.KaikiliApplication;
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.api.Apiresponse;
+<<<<<<< HEAD
 import com.sit.kaikiliService.api.WebApi;
 import com.sit.kaikiliService.api.WebUtil;
 <<<<<<< HEAD
@@ -114,11 +118,17 @@ import com.sit.kaikiliService.api.WebUtil;
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+import com.sit.kaikiliService.api.UserCreateAPI;
+import com.sit.kaikiliService.api.WebApi;
+import com.sit.kaikiliService.api.WebUtil;
+>>>>>>> 2/23/2019
 import com.sit.kaikiliService.comman.BetterSpinner;
 import com.sit.kaikiliService.comman.Util;
 import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -173,6 +183,11 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 >>>>>>> 2/22/2019
+=======
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+>>>>>>> 2/23/2019
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
@@ -207,6 +222,7 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
     @Bind(R.id.personal_info_fb_next)
     FloatingActionButton personal_info_fb_next;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -256,6 +272,9 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 =======
     private KaikiliApplication application;
 >>>>>>> 2/22/2019
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/23/2019
     private SharedPreferences preferences;
 
     private Calendar calendar;
@@ -271,6 +290,7 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
         setContentView( R.layout.activity_personal_information );
         ButterKnife.bind( this, this );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -320,6 +340,9 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 =======
         application = (KaikiliApplication) getApplicationContext();
 >>>>>>> 2/22/2019
+=======
+        application = (KaikiliApplication) getApplicationContext();
+>>>>>>> 2/23/2019
         preferences = application.getSharedPreferences();
 
         top_title.setText( "Enter Personal Information" );
@@ -332,6 +355,7 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 
         top_back.setOnClickListener( this );
         personal_info_fb_next.setOnClickListener( this );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -377,6 +401,9 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 =======
 //        personal_info_edit_dob.setOnClickListener( this );
 >>>>>>> 2/22/2019
+=======
+//        personal_info_edit_dob.setOnClickListener( this );
+>>>>>>> 2/23/2019
 
         List<String> nameList = new ArrayList<>();
         nameList.add( "Male" );
@@ -425,6 +452,7 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             Intent intent = new Intent( this, TermsConditionsActivity.class );
             startActivity( intent );
             finish();
@@ -445,10 +473,13 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
             if (isValidData()) {
                 savedata();
             }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -474,6 +505,8 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
         } else if (view == personal_info_edit_dob) {
             DatePickerDialog datePickerDialog = new DatePickerDialog( this, myDateListener, year, month, day );
             //datePickerDialog.getDatePicker().setMaxDate(new Date().getTime());
@@ -487,6 +520,7 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
             datePickerDialog.getButton( DatePickerDialog.BUTTON_POSITIVE ).setTextColor( Color.RED );
         }
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -513,6 +547,8 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
 
     private boolean isValidData() {
         if (!Util.isNotEmpaty( personal_info_edit_first.getText().toString() )) {
@@ -530,7 +566,11 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
         } else if (!Util.isNotEmpaty( personal_info_bs_gender.getText().toString() )) {
             Toast.makeText( this, "Please select gender.", Toast.LENGTH_SHORT ).show();
             return false;
+<<<<<<< HEAD
         }else {
+=======
+        } else {
+>>>>>>> 2/23/2019
             return true;
         }
     }
@@ -540,6 +580,7 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
         try {
 
             JSONObject jsonObject = new JSONObject();
+<<<<<<< HEAD
             jsonObject.put( "sp_id", "SP00001" );
             jsonObject.put( "first_name", personal_info_edit_first.getText().toString() );
             jsonObject.put( "last_name",  personal_info_edit_last.getText().toString() );
@@ -549,6 +590,16 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
             jsonObject.put( "mobile_no", "");
 
             Log.e( "--------Post",jsonObject.toString());
+=======
+            jsonObject.put( "first_name", personal_info_edit_first.getText().toString() );
+            jsonObject.put( "last_name", personal_info_edit_last.getText().toString() );
+            jsonObject.put( "email", personal_info_edit_email.getText().toString() );
+            jsonObject.put( "dob", personal_info_edit_dob.getText().toString() );
+            jsonObject.put( "gender", personal_info_bs_gender.getText().toString() );
+            jsonObject.put( "mobile_no", "" );
+
+            Log.e( "--------Post", jsonObject.toString() );
+>>>>>>> 2/23/2019
             new PostApiTask( this, jsonObject.toString() ).execute();
 
         } catch (Exception e) {
@@ -593,6 +644,7 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             String response = new WebUtil().postMethod( body, WebApi.URL_ADD_NEW_USER );
 =======
             String response = new WebUtil().postMethod( body, WebApi.URL_ADD_SERVICE_TEST );
@@ -618,6 +670,10 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 =======
             String response = new WebUtil().postMethod( body, WebApi.URL_ADD_SERVICE_TEST );
 >>>>>>> 2/22/2019
+=======
+            Log.e( "----------",WebApi.URL_ADD_NEW_USER );
+            String response = new WebUtil().postMethod( body, WebApi.URL_ADD_NEW_USER );
+>>>>>>> 2/23/2019
             return response;
         }
 
@@ -628,6 +684,7 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
             if (mDialog.isShowing()) {
                 mDialog.dismiss();
             }
+<<<<<<< HEAD
 
             Gson gson = new Gson(); // Or use new GsonBuilder().create();
             Apiresponse target2 = gson.fromJson( response, Apiresponse.class );
@@ -642,10 +699,36 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
                 } else {
                     Toast.makeText( mActivity, target2.getMessage(), Toast.LENGTH_SHORT ).show();
                 }
+=======
+            Log.e( "----------",response);
+            Gson gson = new Gson(); // Or use new GsonBuilder().create();
+            UserCreateAPI target2 = gson.fromJson( response, UserCreateAPI.class );
+
+            if (target2.getStatus() == 1) {
+                Toast.makeText( mActivity, target2.getMessage(), Toast.LENGTH_SHORT ).show();
+
+                SharedPreferences.Editor editor = preferences.edit();
+                editor.putString( "sp_id", target2.getData().getSp_id() );
+                editor.putString( "first_name", target2.getData().getFirst_name() );
+                editor.putString( "last_name", target2.getData().getLast_name() );
+                editor.putString( "email", target2.getData().getEmail() );
+                editor.putString( "dob", target2.getData().getDob() );
+                editor.putString( "gender", target2.getData().getGender() );
+                editor.putString( "mobile_no", target2.getData().getMobile_no() );
+                editor.commit();
+
+                Intent intent = new Intent( mActivity, TermsConditionsActivity.class );
+                mActivity.startActivity( intent );
+                mActivity.finish();
+
+            } else {
+                Toast.makeText( mActivity, target2.getMessage(), Toast.LENGTH_SHORT ).show();
+>>>>>>> 2/23/2019
             }
 
         }
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -671,4 +754,6 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
 }

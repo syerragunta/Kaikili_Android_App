@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     android:background="@color/white"
 >>>>>>> 2/2/2019
@@ -52,10 +53,15 @@
     android:layout_height="match_parent"
     android:background="@color/white">
 >>>>>>> 2/22/2019
+=======
+    android:layout_height="match_parent"
+    android:background="@color/white">
+>>>>>>> 2/23/2019
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -130,6 +136,11 @@
 
         <include layout="@layout/activity_header" />
 >>>>>>> 2/22/2019
+=======
+        android:orientation="vertical">
+
+        <include layout="@layout/activity_header" />
+>>>>>>> 2/23/2019
 
 
         <ScrollView
@@ -142,6 +153,7 @@
                 android:orientation="vertical">
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -316,6 +328,8 @@
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -447,6 +461,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/18/2019
@@ -476,6 +491,8 @@
 =======
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
@@ -599,9 +616,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
                     android:layout_gravity="center"
                     android:layout_marginLeft="@dimen/dim10"
                     android:layout_marginTop="@dimen/dim10"
@@ -615,6 +635,7 @@
                         android:layout_width="0dp"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         android:layout_weight="1"
                         android:layout_height="wrap_content"
                         android:visibility="gone"
@@ -624,15 +645,20 @@
 =======
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginLeft="@dimen/dim4"
                         android:layout_marginRight="@dimen/dim4"
                         android:layout_weight="1"
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
                         android:background="@drawable/buttons_selector"
                         android:gravity="center"
                         android:padding="@dimen/dim8"
@@ -640,6 +666,7 @@
                         android:textColor="#FFFFFF"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         android:textSize="@dimen/fontsize16" />
 =======
                         android:textSize="@dimen/fontsize16"
@@ -649,10 +676,15 @@
                         android:textSize="@dimen/fontsize16"
                         android:visibility="gone" />
 >>>>>>> 2/22/2019
+=======
+                        android:textSize="@dimen/fontsize16"
+                        android:visibility="gone" />
+>>>>>>> 2/23/2019
 
                     <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
                         android:id="@+id/service_info_tv_completed"
                         android:layout_width="0dp"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                         android:layout_weight="1"
@@ -664,15 +696,20 @@
 =======
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginLeft="@dimen/dim4"
                         android:layout_marginRight="@dimen/dim4"
                         android:layout_weight="1"
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
                         android:background="@drawable/buttons_selector"
                         android:gravity="center"
                         android:padding="@dimen/dim8"
@@ -680,6 +717,7 @@
                         android:textColor="#FFFFFF"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         android:textSize="@dimen/fontsize16" />
 =======
                         android:textSize="@dimen/fontsize16"
@@ -689,10 +727,15 @@
                         android:textSize="@dimen/fontsize16"
                         android:visibility="gone" />
 >>>>>>> 2/22/2019
+=======
+                        android:textSize="@dimen/fontsize16"
+                        android:visibility="gone" />
+>>>>>>> 2/23/2019
 
                     <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
                         android:id="@+id/service_info_tv_review"
                         android:layout_width="0dp"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                         android:layout_weight="1"
@@ -701,10 +744,13 @@
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginLeft="@dimen/dim4"
                         android:layout_marginRight="@dimen/dim4"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -713,11 +759,15 @@
 =======
                         android:layout_weight="1"
 >>>>>>> 2/22/2019
+=======
+                        android:layout_weight="1"
+>>>>>>> 2/23/2019
                         android:background="@drawable/buttons_selector"
                         android:gravity="center"
                         android:padding="@dimen/dim8"
                         android:text="REVIEW"
                         android:textColor="#FFFFFF"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                         android:textSize="@dimen/fontsize16" />
@@ -729,6 +779,10 @@
                         android:textSize="@dimen/fontsize16"
                         android:visibility="gone" />
 >>>>>>> 2/22/2019
+=======
+                        android:textSize="@dimen/fontsize16"
+                        android:visibility="gone" />
+>>>>>>> 2/23/2019
 
 
                     <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
@@ -736,15 +790,19 @@
                         android:layout_width="0dp"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         android:layout_weight="1"
 =======
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginLeft="@dimen/dim4"
                         android:layout_marginRight="@dimen/dim4"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                         android:background="@drawable/buttons_selector"
@@ -777,6 +835,8 @@
 =======
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
                         android:layout_weight="1"
                         android:background="@drawable/buttons_selector"
                         android:gravity="center"
@@ -790,13 +850,17 @@
                         android:id="@+id/service_info_tv_reschedule"
                         android:layout_width="0dp"
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginLeft="@dimen/dim4"
                         android:layout_marginRight="@dimen/dim4"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -809,11 +873,15 @@
 =======
                         android:layout_weight="1"
 >>>>>>> 2/22/2019
+=======
+                        android:layout_weight="1"
+>>>>>>> 2/23/2019
                         android:background="@drawable/buttons_selector"
                         android:gravity="center"
                         android:padding="@dimen/dim8"
                         android:text="RESCHEDULE"
                         android:textColor="#FFFFFF"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                         android:textSize="@dimen/fontsize16" />
@@ -825,11 +893,16 @@
                         android:textSize="@dimen/fontsize16"
                         android:visibility="gone" />
 >>>>>>> 2/22/2019
+=======
+                        android:textSize="@dimen/fontsize16"
+                        android:visibility="gone" />
+>>>>>>> 2/23/2019
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -852,6 +925,8 @@
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
                     android:layout_gravity="center"
                     android:layout_marginTop="@dimen/dim10"
                     android:layout_marginBottom="@dimen/dim10"
@@ -862,6 +937,7 @@
                     <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
                         android:id="@+id/service_info_tv_cancel"
                         android:layout_width="0dp"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                         android:layout_weight="1"
@@ -876,15 +952,20 @@
 =======
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginLeft="@dimen/dim14"
                         android:layout_marginRight="@dimen/dim14"
                         android:layout_weight="1"
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/21/2019
 =======
 >>>>>>> 2/22/2019
+=======
+>>>>>>> 2/23/2019
                         android:background="@drawable/buttons_selector"
                         android:gravity="center"
                         android:padding="@dimen/dim8"

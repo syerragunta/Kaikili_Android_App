@@ -123,9 +123,14 @@
     <dimen name="ted_picker_camera_height">460dp</dimen>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <dimen name="type_logo_width">50dp</dimen>             //Default value:120dp
     <dimen name="type_logo_height">30dp</dimen>
 >>>>>>> 2/22/2019
+=======
+    <dimen name="type_logo_width">50dp</dimen>             //Default value:120dp
+    <dimen name="type_logo_height">30dp</dimen>
+>>>>>>> 2/23/2019
 
 </resources>
