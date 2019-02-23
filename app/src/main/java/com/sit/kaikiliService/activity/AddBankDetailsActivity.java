@@ -1,5 +1,6 @@
 package com.sit.kaikiliService.activity;
 
+<<<<<<< HEAD
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.text.Editable;
@@ -69,6 +70,36 @@ import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 
+=======
+import android.app.Activity;
+import android.app.ProgressDialog;
+import android.content.SharedPreferences;
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
+import android.text.Editable;
+import android.text.TextUtils;
+import android.text.TextWatcher;
+import android.util.Log;
+import android.view.View;
+import android.view.WindowManager;
+import android.widget.ImageView;
+import android.widget.Toast;
+
+import com.google.gson.Gson;
+import com.sit.kaikiliService.KaikiliApplication;
+import com.sit.kaikiliService.R;
+import com.sit.kaikiliService.api.Apiresponse;
+import com.sit.kaikiliService.api.WebApi;
+import com.sit.kaikiliService.api.WebUtil;
+import com.sit.kaikiliService.comman.Util;
+import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
+import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+>>>>>>> 2/22/2019
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
@@ -85,10 +116,15 @@ public class AddBankDetailsActivity extends BaseActivity implements View.OnClick
     ImageView top_back;
     @Bind(R.id.top_title)
     TextViewEuphemiaUCASRegular top_title;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2/22/2019
     @Bind(R.id.add_card_edit_cardNumbers)
     EditTextEupheminUCASRegular add_card_edit_cardNumbers;
     @Bind(R.id.add_card_edit_date)
     EditTextEupheminUCASRegular add_card_edit_date;
+<<<<<<< HEAD
 
 
 <<<<<<< HEAD
@@ -137,6 +173,21 @@ public class AddBankDetailsActivity extends BaseActivity implements View.OnClick
     private KaikiliApplication application;
 >>>>>>> 2/21/2019
     private SharedPreferences preferences;
+=======
+    @Bind(R.id.add_card_edit_holderName)
+    EditTextEupheminUCASRegular add_card_edit_holderName;
+    @Bind(R.id.add_card_edit_bankName)
+    EditTextEupheminUCASRegular add_card_edit_bankName;
+    @Bind(R.id.add_card_edit_cvc)
+    EditTextEupheminUCASRegular add_card_edit_cvc;
+    @Bind(R.id.add_card_fb_next)
+    FloatingActionButton add_card_fb_next;
+
+
+    private KaikiliApplication application;
+    private SharedPreferences preferences;
+    private String SP_ID = "SP00001";
+>>>>>>> 2/22/2019
 
 
     @Override
@@ -145,6 +196,7 @@ public class AddBankDetailsActivity extends BaseActivity implements View.OnClick
         setContentView( R.layout.activity_add_bank_details );
         ButterKnife.bind( this, this );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -190,11 +242,18 @@ public class AddBankDetailsActivity extends BaseActivity implements View.OnClick
 =======
         application = (KaikiliApplication) getApplicationContext();
 >>>>>>> 2/21/2019
+=======
+        application = (KaikiliApplication) getApplicationContext();
+>>>>>>> 2/22/2019
         preferences = application.getSharedPreferences();
 
         top_title.setText( "Add Bank Details" );
 
         top_back.setOnClickListener( this );
+<<<<<<< HEAD
+=======
+        add_card_fb_next.setOnClickListener( this );
+>>>>>>> 2/22/2019
         add_card_edit_cardNumbers.addTextChangedListener( new CreditCardNumberFormattingTextWatcher() );
         add_card_edit_date.addTextChangedListener( new DateAndYearFormattingTextWatcher() );
 
@@ -269,8 +328,114 @@ public class AddBankDetailsActivity extends BaseActivity implements View.OnClick
 
         if (view == top_back) {
             finish();
+<<<<<<< HEAD
 //        } else if (view == background_form_tv_submit) {
 //            finish();
         }
     }
+=======
+        } else if (view == add_card_fb_next) {
+            if (validaInfo()) {
+              new AddBankInfoTask(this).execute( );
+            }
+        }
+    }
+
+    private boolean validaInfo() {
+        if (!Util.isNotEmpaty( add_card_edit_cardNumbers.getText().toString() )) {
+            Toast.makeText( this, "Pleas enter valid card numbers", Toast.LENGTH_SHORT ).show();
+            return false;
+        } else if (!Util.isNotEmpaty( add_card_edit_date.getText().toString() )) {
+            Toast.makeText( this, "Pleas enter valid date & year", Toast.LENGTH_SHORT ).show();
+            return false;
+        } else if (!Util.isNotEmpaty( add_card_edit_holderName.getText().toString() )) {
+            Toast.makeText( this, "Pleas enter valid bank holder name", Toast.LENGTH_SHORT ).show();
+            return false;
+        } else if (!Util.isNotEmpaty( add_card_edit_bankName.getText().toString() )) {
+            Toast.makeText( this, "Pleas enter valid bank name", Toast.LENGTH_SHORT ).show();
+            return false;
+        } else if (!Util.isNotEmpaty( add_card_edit_cvc.getText().toString() )) {
+            Toast.makeText( this, "Pleas enter valid cvc no.", Toast.LENGTH_SHORT ).show();
+            return false;
+        } else if (add_card_edit_date.getText().toString().trim().length() < 5) {
+            Toast.makeText( this, "Pleas enter valid date & year", Toast.LENGTH_SHORT ).show();
+            return false;
+        } else if (add_card_edit_cardNumbers.getText().toString().trim().length() < 19) {
+            Toast.makeText( this, "Pleas enter valid card numbers", Toast.LENGTH_SHORT ).show();
+            return false;
+        } else if (add_card_edit_cvc.getText().toString().trim().length() < 3) {
+            Toast.makeText( this, "Pleas enter valid cvc no", Toast.LENGTH_SHORT ).show();
+            return false;
+        }else {
+            return true;
+        }
+
+    }
+
+    public class AddBankInfoTask extends AsyncTask<Void, Void, String> {
+
+        private ProgressDialog mDialog = null;
+        private Activity mActivity;
+
+
+        public AddBankInfoTask(Activity activity) {
+            mActivity = activity;
+
+            // TODO Auto-generated constructor stub
+        }
+
+        @Override
+        protected void onPreExecute() {
+            // TODO Auto-generated method stub
+            super.onPreExecute();
+
+            mDialog = ProgressDialog.show( mActivity, null, "Please wait....", true, true );
+            mDialog.getWindow().clearFlags( WindowManager.LayoutParams.FLAG_DIM_BEHIND );
+            mDialog.setCanceledOnTouchOutside( false );
+        }
+
+        @Override
+        protected String doInBackground(Void... params) {
+            // TODO Auto-generated method stub
+            try {
+
+                JSONObject jsonObject = new JSONObject();
+                jsonObject.put( "sp_id", SP_ID);
+                jsonObject.put( "card_no", add_card_edit_cardNumbers.getText().toString() );
+                jsonObject.put( "bank_name", add_card_edit_bankName.getText().toString());
+                jsonObject.put( "card_holder_name", add_card_edit_bankName.getText().toString() );
+                jsonObject.put( "month", add_card_edit_date.getText().toString().substring( 0,2 ) );
+                jsonObject.put( "year", "20"+add_card_edit_date.getText().toString().substring(add_card_edit_date.getText().length()-2 ,add_card_edit_date.getText().length() ) );
+                jsonObject.put( "cvc", add_card_edit_cvc.getText().toString().trim() );
+                Log.e( "--------------Post", jsonObject.toString() );
+                String response = new WebUtil().postMethod( jsonObject.toString(), WebApi.URL_ADD_BANK_INFO );
+                return response;
+            } catch (JSONException e) {
+                e.printStackTrace();
+                return "";
+            }
+        }
+
+        @Override
+        protected void onPostExecute(String response) {
+            // TODO Auto-generated method stub
+            super.onPostExecute( response );
+            if (mDialog.isShowing()) {
+                mDialog.dismiss();
+            }
+
+            Log.e( "------- Response ", "-------------" + response );
+            Gson gson = new Gson(); // Or use new GsonBuilder().create();
+            Apiresponse apiresponse = gson.fromJson( response, Apiresponse.class );
+
+            if (apiresponse.getStatus() == 1) {
+                Toast.makeText( mActivity, apiresponse.getMessage(), Toast.LENGTH_SHORT ).show();
+                finish();
+            } else {
+                Toast.makeText( mActivity, apiresponse.getMessage(), Toast.LENGTH_SHORT ).show();
+            }
+        }
+    }
+
+>>>>>>> 2/22/2019
 }

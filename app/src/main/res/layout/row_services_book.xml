@@ -19,6 +19,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         android:id="@+id/row_service_book_cardView"
 >>>>>>> 1/31/2019
@@ -47,6 +48,8 @@
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
         xmlns:card_view="http://schemas.android.com/apk/res-auto"
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/row_service_book_cardView"
@@ -60,6 +63,7 @@
         android:layout_marginRight="@dimen/dim4"
         android:layout_marginTop="@dimen/dim8"
         android:layout_marginBottom="@dimen/dim4">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -88,6 +92,8 @@
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
 
         <LinearLayout
             android:layout_width="match_parent"

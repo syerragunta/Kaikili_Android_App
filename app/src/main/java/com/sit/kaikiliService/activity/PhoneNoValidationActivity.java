@@ -15,6 +15,7 @@ import android.support.design.widget.FloatingActionButton;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.support.v7.widget.AppCompatEditText;
 =======
 >>>>>>> 2/1/2019
@@ -38,12 +39,15 @@ import android.support.v7.widget.AppCompatEditText;
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.rilixtech.Country;
 import com.rilixtech.CountryCodePicker;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -89,6 +93,9 @@ import com.sit.kaikiliService.KaikiliApplication;
 =======
 import com.sit.kaikiliService.KaikiliApplication;
 >>>>>>> 2/21/2019
+=======
+import com.sit.kaikiliService.KaikiliApplication;
+>>>>>>> 2/22/2019
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
@@ -121,6 +128,7 @@ public class PhoneNoValidationActivity extends BaseActivity implements View.OnCl
     @Bind(R.id.phone_number_edt)
     EditTextEupheminUCASRegular phone_number_edt;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -166,6 +174,9 @@ public class PhoneNoValidationActivity extends BaseActivity implements View.OnCl
 =======
     private KaikiliApplication application;
 >>>>>>> 2/21/2019
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/22/2019
     private SharedPreferences preferences;
 
 
@@ -177,6 +188,7 @@ public class PhoneNoValidationActivity extends BaseActivity implements View.OnCl
 
         top_title.setText( "Phone Number Validation" );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -222,6 +234,9 @@ public class PhoneNoValidationActivity extends BaseActivity implements View.OnCl
 =======
         application = (KaikiliApplication) getApplicationContext();
 >>>>>>> 2/21/2019
+=======
+        application = (KaikiliApplication) getApplicationContext();
+>>>>>>> 2/22/2019
         preferences = application.getSharedPreferences();
 
         top_back.setOnClickListener( this );

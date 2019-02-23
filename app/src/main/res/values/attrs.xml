@@ -77,6 +77,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -101,6 +102,8 @@
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
     <declare-styleable name="ReadMoreTextView">
         <attr name="trimExpandedText" format="string" />
         <attr name="trimCollapsedText" format="string" />
@@ -113,6 +116,7 @@
             <enum name="trimModeLength" value="1"/>
         </attr>
     </declare-styleable>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -147,6 +151,8 @@
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
 
 
 

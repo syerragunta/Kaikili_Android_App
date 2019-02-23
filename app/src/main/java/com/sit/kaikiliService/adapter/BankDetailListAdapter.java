@@ -7,13 +7,25 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+<<<<<<< HEAD
+=======
+import android.widget.ImageView;
+>>>>>>> 2/22/2019
 import android.widget.LinearLayout;
 
 import com.sit.kaikiliService.KaikiliApplication;
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.activity.AddServiceDataActivity;
+<<<<<<< HEAD
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 
+=======
+import com.sit.kaikiliService.activity.BankViewDetailsActivity;
+import com.sit.kaikiliService.api.BankInfo;
+import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
+
+import java.io.Serializable;
+>>>>>>> 2/22/2019
 import java.util.ArrayList;
 
 
@@ -25,6 +37,7 @@ import java.util.ArrayList;
 
 public class BankDetailListAdapter extends BaseAdapter {
 
+<<<<<<< HEAD
 	private Context mActivity;
 	private LayoutInflater inflater;
 	private ArrayList<String > servicesList = new ArrayList<>();
@@ -83,11 +96,81 @@ public class BankDetailListAdapter extends BaseAdapter {
 //			}
 //		});
 
+=======
+    private Context mActivity;
+    private LayoutInflater inflater;
+    private ArrayList<BankInfo> bankList = new ArrayList<>();
+    private KaikiliApplication application;
+
+
+    public BankDetailListAdapter(Context activity) {
+        // TODO Auto-generated constructor stub
+        mActivity = activity;
+        application = (KaikiliApplication) mActivity.getApplicationContext();
+        inflater = (LayoutInflater) mActivity.getSystemService( Activity.LAYOUT_INFLATER_SERVICE );
+
+    }
+
+    @Override
+    public int getCount() {
+        // TODO Auto-generated method stub
+        return bankList.size();
+    }
+
+    @Override
+    public Object getItem(int position) {
+        // TODO Auto-generated method stub
+        return bankList.get( position );
+    }
+
+    @Override
+    public long getItemId(int position) {
+        // TODO Auto-generated method stub
+        return position;
+    }
+
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+        // TODO Auto-generated method stub
+        View row = convertView;
+        RecordHolder holder = null;
+        final int post = position;
+
+        holder = new RecordHolder();
+        row = inflater.inflate( R.layout.row_bank_info_item, null );
+        holder.tvName = (TextViewEuphemiaUCASRegular) row.findViewById( R.id.row_bank_info_tv_name );
+        holder.tvCard = (TextViewEuphemiaUCASRegular) row.findViewById( R.id.row_bank_info_tv_card );
+        holder.llrow = (LinearLayout) row.findViewById( R.id.row_bank_info_ll_row );
+        holder.ivSelected = (ImageView) row.findViewById( R.id.row_bank_info_iv_isSelected );
+        row.setTag( holder );
+
+        holder.tvName.setText( bankList.get( position ).getBank_name() + " - " + bankList.get( position ).getCard_holder_name() );
+        holder.tvCard.setText( "XXXX XXXX XXXX " + bankList.get( position ).getCard_no().substring( (bankList.get( position ).getCard_no().length() - 4), bankList.get( position ).getCard_no().length() ) );
+        holder.llrow.setTag( position );
+
+        if(Boolean.parseBoolean( bankList.get( position ).getIsUsed())){
+            holder.ivSelected.setVisibility( View.VISIBLE );
+        }else {
+            holder.ivSelected.setVisibility( View.INVISIBLE );
+        }
+
+
+        holder.llrow.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                 int pos = Integer.parseInt( v.getTag().toString());
+                 Intent intent = new Intent( mActivity, BankViewDetailsActivity.class );
+                intent.putExtra( "bankInfo", bankList.get(pos) );
+                mActivity.startActivity( intent );
+            }
+        } );
+>>>>>>> 2/22/2019
 
         return row;
     }
 
 
+<<<<<<< HEAD
 
 	public void setList(ArrayList<String > servicesList) {
 		// TODO Auto-generated method stub
@@ -102,4 +185,19 @@ public class BankDetailListAdapter extends BaseAdapter {
 	}
 
 	
+=======
+    public void setList(ArrayList<BankInfo> bankList) {
+        // TODO Auto-generated method stub
+        this.bankList = bankList;
+        notifyDataSetChanged();
+    }
+
+    static class RecordHolder {
+        TextViewEuphemiaUCASRegular tvName;
+        TextViewEuphemiaUCASRegular tvCard;
+        LinearLayout llrow;
+        ImageView ivSelected;
+    }
+
+>>>>>>> 2/22/2019
 }

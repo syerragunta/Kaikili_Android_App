@@ -38,6 +38,7 @@ public class CompsItme implements Serializable {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 =======
@@ -54,6 +55,8 @@ public class CompsItme implements Serializable {
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
     public String getCc_rate() {
         return cc_rate;
     }
@@ -64,6 +67,7 @@ public class CompsItme implements Serializable {
 
     @JsonField
     private String cc_rate ="";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86,6 +90,8 @@ public class CompsItme implements Serializable {
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
 
     public String getCc_id() {
         return cc_id;

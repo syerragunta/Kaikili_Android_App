@@ -8,6 +8,7 @@ package com.sit.kaikiliService.api;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import android.util.Log;
 
@@ -48,6 +49,11 @@ import android.util.Log;
 
 import com.bluelinelabs.logansquare.LoganSquare;
 >>>>>>> 2/21/2019
+=======
+import android.util.Log;
+
+import com.bluelinelabs.logansquare.LoganSquare;
+>>>>>>> 2/22/2019
 import com.google.gson.Gson;
 
 import java.io.BufferedReader;
@@ -62,6 +68,7 @@ import java.io.InputStreamReader;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import java.lang.reflect.Type;
 =======
 import java.lang.reflect.ParameterizedType;
@@ -103,6 +110,11 @@ import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 import java.util.List;
 >>>>>>> 2/21/2019
+=======
+import java.lang.reflect.ParameterizedType;
+import java.lang.reflect.Type;
+import java.util.List;
+>>>>>>> 2/22/2019
 
 import retrofit.converter.ConversionException;
 import retrofit.converter.Converter;
@@ -116,6 +128,7 @@ import retrofit.mime.TypedOutput;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import retrofit.mime.TypedString;
 >>>>>>> 2/14/2019
@@ -140,6 +153,9 @@ import retrofit.mime.TypedString;
 =======
 import retrofit.mime.TypedString;
 >>>>>>> 2/21/2019
+=======
+import retrofit.mime.TypedString;
+>>>>>>> 2/22/2019
 
 /**
  * Created by ketan patel on 9/2/2019.
@@ -194,6 +210,7 @@ public class LoganSquareConverter implements Converter {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //
 =======
 
@@ -219,6 +236,9 @@ public class LoganSquareConverter implements Converter {
 =======
 
 >>>>>>> 2/21/2019
+=======
+
+>>>>>>> 2/22/2019
 //    @Override
 //    public Object fromBody(TypedInput body, Type type) throws ConversionException {
 //        try {
@@ -246,6 +266,7 @@ public class LoganSquareConverter implements Converter {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //
 =======
 
@@ -271,6 +292,9 @@ public class LoganSquareConverter implements Converter {
 =======
 
 >>>>>>> 2/21/2019
+=======
+
+>>>>>>> 2/22/2019
 //    @SuppressWarnings("unchecked")
 //    @Override
 //    public TypedOutput toBody(Object object) {

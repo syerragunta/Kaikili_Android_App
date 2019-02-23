@@ -35,6 +35,7 @@ public class ServiceInfo implements Serializable {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2/16/2019
@@ -42,6 +43,8 @@ public class ServiceInfo implements Serializable {
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
     private String sp_sr_status;
 
 
@@ -53,6 +56,7 @@ public class ServiceInfo implements Serializable {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/16/2019 V2
 =======
 >>>>>>> 2/16/2019
@@ -60,6 +64,8 @@ public class ServiceInfo implements Serializable {
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
     private ArrayList<CostItemInfo> cost_comps_per_item_on = new ArrayList<>(  );
 
     @JsonField
@@ -158,6 +164,7 @@ public class ServiceInfo implements Serializable {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
@@ -168,6 +175,8 @@ public class ServiceInfo implements Serializable {
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
     public String getSp_sr_status() {
         return sp_sr_status;
     }
@@ -186,6 +195,7 @@ public class ServiceInfo implements Serializable {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/16/2019 V2
 =======
 >>>>>>> 2/16/2019
@@ -193,6 +203,8 @@ public class ServiceInfo implements Serializable {
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
 //    @JsonObject
 //    public class Discount implements Serializable {
 //

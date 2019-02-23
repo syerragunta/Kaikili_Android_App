@@ -11,6 +11,7 @@ package com.sit.kaikiliService.activity;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
@@ -59,6 +60,10 @@ import android.graphics.Color;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 >>>>>>> 2/21/2019
+=======
+import android.content.SharedPreferences;
+import android.graphics.Color;
+>>>>>>> 2/22/2019
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.content.ContextCompat;
@@ -72,6 +77,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -130,6 +136,10 @@ import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.KaikiliApplication;
 import com.sit.kaikiliService.R;
 >>>>>>> 2/21/2019
+=======
+import com.sit.kaikiliService.KaikiliApplication;
+import com.sit.kaikiliService.R;
+>>>>>>> 2/22/2019
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 
 import butterknife.Bind;
@@ -154,6 +164,7 @@ public class TermsConditionsActivity extends BaseActivity implements View.OnClic
 
     @Bind(R.id.terms_next)  FloatingActionButton terms_next;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -199,6 +210,9 @@ public class TermsConditionsActivity extends BaseActivity implements View.OnClic
 =======
     private KaikiliApplication application;
 >>>>>>> 2/21/2019
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/22/2019
     private SharedPreferences preferences;
 
 
@@ -209,6 +223,7 @@ public class TermsConditionsActivity extends BaseActivity implements View.OnClic
         setContentView(R.layout.activity_terms_conditions);
         ButterKnife.bind( this,this );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -254,6 +269,9 @@ public class TermsConditionsActivity extends BaseActivity implements View.OnClic
 =======
         application = (KaikiliApplication) getApplicationContext();
 >>>>>>> 2/21/2019
+=======
+        application = (KaikiliApplication) getApplicationContext();
+>>>>>>> 2/22/2019
         preferences = application.getSharedPreferences();
 
         top_title.setText( "Terms and Conditions" );
@@ -273,6 +291,7 @@ public class TermsConditionsActivity extends BaseActivity implements View.OnClic
             @Override
             public void updateDrawState(TextPaint ds) {
                 super.updateDrawState(ds);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -314,6 +333,9 @@ public class TermsConditionsActivity extends BaseActivity implements View.OnClic
 =======
                 int color = ContextCompat.getColor(TermsConditionsActivity.this, R.color.black_87);
 >>>>>>> 2/21/2019
+=======
+                int color = ContextCompat.getColor(TermsConditionsActivity.this, R.color.black_87);
+>>>>>>> 2/22/2019
                 ds.setColor(color);
                 ds.setUnderlineText(false);
             }

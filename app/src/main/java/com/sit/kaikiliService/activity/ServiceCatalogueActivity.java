@@ -4,6 +4,7 @@ package com.sit.kaikiliService.activity;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.content.SharedPreferences;
 import android.os.Bundle;
 <<<<<<< HEAD
@@ -90,6 +91,8 @@ import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.SharedPreferences;
@@ -118,6 +121,7 @@ import org.json.JSONObject;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/16/2019 V2
 =======
 >>>>>>> 2/16/2019
@@ -125,6 +129,8 @@ import org.json.JSONObject;
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
 import java.util.ArrayList;
 
 import butterknife.Bind;
@@ -138,6 +144,7 @@ import butterknife.ButterKnife;
  */
 
 public class ServiceCatalogueActivity extends BaseActivity implements View.OnClickListener {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -193,6 +200,8 @@ public class ServiceCatalogueActivity extends BaseActivity implements View.OnCli
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
     @Bind(R.id.top_back)
     ImageView top_back;
     @Bind(R.id.top_title)
@@ -210,6 +219,7 @@ public class ServiceCatalogueActivity extends BaseActivity implements View.OnCli
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/16/2019 V2
 =======
 >>>>>>> 2/16/2019
@@ -217,6 +227,8 @@ public class ServiceCatalogueActivity extends BaseActivity implements View.OnCli
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
 
 
     @Override
@@ -225,6 +237,7 @@ public class ServiceCatalogueActivity extends BaseActivity implements View.OnCli
         setContentView( R.layout.activity_srevice_catalogue );
         ButterKnife.bind( this, this );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -270,6 +283,9 @@ public class ServiceCatalogueActivity extends BaseActivity implements View.OnCli
 =======
         application = (KaikiliApplication) getApplicationContext();
 >>>>>>> 2/21/2019
+=======
+        application = (KaikiliApplication) getApplicationContext();
+>>>>>>> 2/22/2019
         preferences = application.getSharedPreferences();
 
         top_title.setText( "Service Catalogue" );
@@ -277,6 +293,7 @@ public class ServiceCatalogueActivity extends BaseActivity implements View.OnCli
 
 
         serviceList = new ArrayList<>();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -305,6 +322,8 @@ public class ServiceCatalogueActivity extends BaseActivity implements View.OnCli
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
         adapter = new ServiceCatalogueListAdapter( this );
         service_catalogue_listView.setAdapter( adapter );
 
@@ -320,6 +339,7 @@ public class ServiceCatalogueActivity extends BaseActivity implements View.OnCli
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/16/2019 V2
 =======
 >>>>>>> 2/16/2019
@@ -327,6 +347,8 @@ public class ServiceCatalogueActivity extends BaseActivity implements View.OnCli
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
 
     @Override
     public void onClick(View view) {
@@ -340,6 +362,7 @@ public class ServiceCatalogueActivity extends BaseActivity implements View.OnCli
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2/16/2019
@@ -347,6 +370,8 @@ public class ServiceCatalogueActivity extends BaseActivity implements View.OnCli
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
 
 
     public class GetServiceCatalogueTask extends AsyncTask<Void, Void, String> {
@@ -413,6 +438,7 @@ public class ServiceCatalogueActivity extends BaseActivity implements View.OnCli
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/16/2019 V2
 =======
 >>>>>>> 2/16/2019
@@ -420,4 +446,6 @@ public class ServiceCatalogueActivity extends BaseActivity implements View.OnCli
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
 }

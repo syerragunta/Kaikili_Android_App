@@ -50,6 +50,7 @@ import android.widget.Toast;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import com.sit.kaikiliService.KetanApplication;
 =======
 import com.sit.kaikiliService.KaikiliApplication;
@@ -84,6 +85,9 @@ import com.sit.kaikiliService.KaikiliApplication;
 =======
 import com.sit.kaikiliService.KaikiliApplication;
 >>>>>>> 2/21/2019
+=======
+import com.sit.kaikiliService.KaikiliApplication;
+>>>>>>> 2/22/2019
 import com.sit.kaikiliService.R;
 
 import java.io.ByteArrayOutputStream;
@@ -138,6 +142,7 @@ public class Util {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         KetanApplication application = (KetanApplication)context.getApplicationContext();
 =======
         KaikiliApplication application = (KaikiliApplication)context.getApplicationContext();
@@ -172,6 +177,9 @@ public class Util {
 =======
         KaikiliApplication application = (KaikiliApplication)context.getApplicationContext();
 >>>>>>> 2/21/2019
+=======
+        KaikiliApplication application = (KaikiliApplication)context.getApplicationContext();
+>>>>>>> 2/22/2019
         SharedPreferences preferences = application.getSharedPreferences();
 
 
@@ -389,6 +397,7 @@ public class Util {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2/15/2019
@@ -404,6 +413,8 @@ public class Util {
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
 
     public static boolean isDateValid(String date) {
         boolean isValid = false;
@@ -437,6 +448,7 @@ public class Util {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/14/2019
 =======
 >>>>>>> 2/15/2019
@@ -452,6 +464,8 @@ public class Util {
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
 	public static boolean isNumberValid(String valus) {
 		boolean isValid = false;
 
@@ -825,6 +839,7 @@ public class Util {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         KetanApplication application = (KetanApplication) context.getApplicationContext();
 =======
         KaikiliApplication application = (KaikiliApplication) context.getApplicationContext();
@@ -859,6 +874,9 @@ public class Util {
 =======
         KaikiliApplication application = (KaikiliApplication) context.getApplicationContext();
 >>>>>>> 2/21/2019
+=======
+        KaikiliApplication application = (KaikiliApplication) context.getApplicationContext();
+>>>>>>> 2/22/2019
         SharedPreferences preferences = application.getSharedPreferences();
         String ns = Context.NOTIFICATION_SERVICE;
         NotificationManager nMgr = (NotificationManager)context.getSystemService(ns);
@@ -872,6 +890,7 @@ public class Util {
 
 //    public static void displayDialog(String url, final Context context) {
 //
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -917,6 +936,9 @@ public class Util {
 =======
 //        KaikiliApplication application = (KaikiliApplication)context.getApplicationContext();
 >>>>>>> 2/21/2019
+=======
+//        KaikiliApplication application = (KaikiliApplication)context.getApplicationContext();
+>>>>>>> 2/22/2019
 //        SharedPreferences preferences = application.getSharedPreferences();
 //
 //        final Dialog dialog = new Dialog(context, R.style.TransparantBlackDialog);

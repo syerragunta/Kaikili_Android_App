@@ -1,130 +1,93 @@
 package com.sit.kaikiliService.activity;
 
-<<<<<<< HEAD
-import android.content.Intent;
-import android.content.SharedPreferences;
-=======
 import android.app.Activity;
 import android.app.ProgressDialog;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
->>>>>>> 2/22/2019
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.text.Editable;
 import android.text.TextUtils;
 import android.text.TextWatcher;
-<<<<<<< HEAD
-import android.view.View;
-import android.widget.ImageView;
-import android.widget.ListView;
-
-import com.sit.kaikiliService.KaikiliApplication;
-import com.sit.kaikiliService.R;
-import com.sit.kaikiliService.adapter.BankDetailListAdapter;
-import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
-import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
-
-=======
 import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageView;
-import android.widget.ListView;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.sit.kaikiliService.KaikiliApplication;
 import com.sit.kaikiliService.R;
-import com.sit.kaikiliService.adapter.BankDetailListAdapter;
 import com.sit.kaikiliService.api.Apiresponse;
+import com.sit.kaikiliService.api.BankInfo;
 import com.sit.kaikiliService.api.GetAllBankInfoAPI;
 import com.sit.kaikiliService.api.WebApi;
 import com.sit.kaikiliService.api.WebUtil;
+import com.sit.kaikiliService.comman.Util;
 import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
+import com.vinaygaba.creditcardview.CardType;
+import com.vinaygaba.creditcardview.CreditCardView;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-
->>>>>>> 2/22/2019
-import java.util.ArrayList;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
 
 /**
- * Created by ketan patel on 2/2/2019.
+ * Created by ketan patel on 26/1/2019.
  * ketan_patel25@yahoo.com
  * Sharva Infotech PVT LTD
  */
 
-public class BankDetailsActivity extends BaseActivity implements View.OnClickListener {
+public class BankViewDetailsActivity extends BaseActivity implements View.OnClickListener {
 
-<<<<<<< HEAD
     @Bind(R.id.top_back)
     ImageView top_back;
     @Bind(R.id.top_title)
     TextViewEuphemiaUCASRegular top_title;
 
-    @Bind(R.id.bank_details_tv_addNew)
-    TextViewEuphemiaUCASRegular bank_details_tv_addNew;
-
-
-    @Bind(R.id.bank_details_listview)
-    ListView bank_details_listview;
-=======
-    @Bind(R.id.top_back)ImageView top_back;
-    @Bind(R.id.top_title) TextViewEuphemiaUCASRegular top_title;
-
-    @Bind(R.id.bank_details_tv_addNew) TextViewEuphemiaUCASRegular bank_details_tv_addNew;
-    @Bind(R.id.bank_details_listview) ListView bank_details_listview;
->>>>>>> 2/22/2019
-
+    @Bind(R.id.bank_info_creditCardView)
+    CreditCardView bank_info_creditCardView;
+    @Bind(R.id.bank_info_tv_setAsDefault)
+    TextViewEuphemiaUCASRegular bank_info_tv_setAsDefault;
+    @Bind(R.id.bank_info_tv_deletCard)
+    TextViewEuphemiaUCASRegular bank_info_tv_deletCard;
 
 
     private KaikiliApplication application;
     private SharedPreferences preferences;
-    private BankDetailListAdapter adapter;
-<<<<<<< HEAD
+    private BankInfo bankInfo;
 
-=======
-    private String SP_ID = "SP00001";
->>>>>>> 2/22/2019
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
-        setContentView( R.layout.activity_bank_details );
+        setContentView( R.layout.activity_view_bank_details );
         ButterKnife.bind( this, this );
 
         application = (KaikiliApplication) getApplicationContext();
         preferences = application.getSharedPreferences();
 
         top_title.setText( "Bank Details" );
-
         top_back.setOnClickListener( this );
-        bank_details_tv_addNew.setOnClickListener( this );
-        adapter = new BankDetailListAdapter( this );
-        bank_details_listview.setAdapter( adapter );
-<<<<<<< HEAD
 
-        ArrayList<String> datalist =new ArrayList<>(  );
-        datalist.add( "" );
-        datalist.add( "" );
-        datalist.add( "" );
-        datalist.add( "" );
-        datalist.add( "" );
-        datalist.add( "" );
+        bankInfo = (BankInfo) getIntent().getSerializableExtra( "bankInfo" );
 
-        adapter.setList(datalist);
+        bank_info_creditCardView.setIsEditable( false );
+        bank_info_creditCardView.setCardName( bankInfo.getCard_holder_name() );
+        bank_info_creditCardView.setCardNumber( "XXXX XXXX XXXX " + bankInfo.getCard_no().substring( (bankInfo.getCard_no().length() - 4), bankInfo.getCard_no().length() ) );
+        bank_info_creditCardView.setExpiryDate( bankInfo.getMonth() + "/" + bankInfo.getYear() );
+
+        bank_info_creditCardView.setType( CardType.VISA / CardType.MASTERCARD / CardType.AMERICAN_EXPRESS / CardType.DISCOVER / CardType.AUTO );
+
+        bank_info_tv_setAsDefault.setOnClickListener( this );
+        bank_info_tv_deletCard.setOnClickListener( this );
 
     }
-=======
-      }
->>>>>>> 2/22/2019
-
 
 
     @Override
@@ -132,28 +95,23 @@ public class BankDetailsActivity extends BaseActivity implements View.OnClickLis
 
         if (view == top_back) {
             finish();
-        } else if (view == bank_details_tv_addNew) {
-            Intent intent = new Intent( this,AddBankDetailsActivity.class );
-            startActivity( intent );
+        } else if (view == bank_info_tv_deletCard) {
+            new DeleteBankInfoTask( this, 1 ).execute();
+        } else if (view == bank_info_tv_setAsDefault) {
+            new DeleteBankInfoTask( this, 2 ).execute();
         }
     }
-<<<<<<< HEAD
-=======
 
-    @Override
-    protected void onResume() {
-        new GetAllBankInfoListTask(this).execute();
-        super.onResume();
-    }
-
-    public class GetAllBankInfoListTask extends AsyncTask<Void, Void, String> {
+    public class DeleteBankInfoTask extends AsyncTask<Void, Void, String> {
 
         private ProgressDialog mDialog = null;
         private Activity mActivity;
+        private int post;
 
 
-        public GetAllBankInfoListTask(Activity activity) {
+        public DeleteBankInfoTask(Activity activity, int post) {
             mActivity = activity;
+            this.post = post;
             // TODO Auto-generated constructor stub
         }
 
@@ -173,10 +131,16 @@ public class BankDetailsActivity extends BaseActivity implements View.OnClickLis
             try {
 
                 JSONObject jsonObject = new JSONObject();
-                jsonObject.put( "sp_id", SP_ID);
+                jsonObject.put( "sp_id", bankInfo.getSp_id() );
+                jsonObject.put( "id", bankInfo.get_id() );
                 Log.e( "--------------Post", jsonObject.toString() );
-                String response = new WebUtil().postMethod( jsonObject.toString(), WebApi.URL_USER_BANK_INFO_LIST );
-                return response;
+                if (post == 1) {
+                    String response = new WebUtil().postMethod( jsonObject.toString(), WebApi.URL_DELETE_BANK_INFO );
+                    return response;
+                } else {
+                    String response = new WebUtil().postMethod( jsonObject.toString(), WebApi.URL_SET_DEFAULT_BANK_INFO );
+                    return response;
+                }
             } catch (JSONException e) {
                 e.printStackTrace();
                 return "";
@@ -193,14 +157,18 @@ public class BankDetailsActivity extends BaseActivity implements View.OnClickLis
 
             Log.e( "------- Response ", "-------------" + response );
             Gson gson = new Gson(); // Or use new GsonBuilder().create();
-            GetAllBankInfoAPI apiresponse = gson.fromJson( response, GetAllBankInfoAPI.class );
+            Apiresponse apiresponse = gson.fromJson( response, Apiresponse.class );
 
-            if (apiresponse.getData().size() >0 ) {
-                adapter.setList(apiresponse.getData());
+            if (apiresponse.getStatus() == 1) {
+                Toast.makeText( mActivity, apiresponse.getMessage(), Toast.LENGTH_SHORT ).show();
+                if (post == 1) {
+                    finish();
+                }
             } else {
                 Toast.makeText( mActivity, apiresponse.getMessage(), Toast.LENGTH_SHORT ).show();
             }
         }
     }
->>>>>>> 2/22/2019
+
+
 }

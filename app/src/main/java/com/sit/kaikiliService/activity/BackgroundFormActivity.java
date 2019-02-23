@@ -11,6 +11,7 @@ package com.sit.kaikiliService.activity;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -54,6 +55,8 @@ import java.util.List;
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
@@ -64,6 +67,7 @@ import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -95,6 +99,8 @@ import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
@@ -122,6 +128,7 @@ public class BackgroundFormActivity extends BaseActivity implements View.OnClick
         @Bind( R.id.background_form_tv_submit) TextViewEuphemiaUCASRegular background_form_tv_submit;
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -167,6 +174,9 @@ public class BackgroundFormActivity extends BaseActivity implements View.OnClick
 =======
     private KaikiliApplication application;
 >>>>>>> 2/21/2019
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/22/2019
     private SharedPreferences preferences;
 
 
@@ -177,6 +187,7 @@ public class BackgroundFormActivity extends BaseActivity implements View.OnClick
         setContentView( R.layout.activity_background_form );
         ButterKnife.bind( this, this );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -222,6 +233,9 @@ public class BackgroundFormActivity extends BaseActivity implements View.OnClick
 =======
         application = (KaikiliApplication) getApplicationContext();
 >>>>>>> 2/21/2019
+=======
+        application = (KaikiliApplication) getApplicationContext();
+>>>>>>> 2/22/2019
         preferences = application.getSharedPreferences();
 
         top_title.setText( "Background Check Form" );

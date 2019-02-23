@@ -11,6 +11,7 @@ package com.sit.kaikiliService.activity;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import android.content.Intent;
 >>>>>>> 2/1/2019
@@ -44,11 +45,15 @@ import android.content.Intent;
 =======
 import android.content.Intent;
 >>>>>>> 2/21/2019
+=======
+import android.content.Intent;
+>>>>>>> 2/22/2019
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -94,6 +99,9 @@ import com.sit.kaikiliService.KaikiliApplication;
 =======
 import com.sit.kaikiliService.KaikiliApplication;
 >>>>>>> 2/21/2019
+=======
+import com.sit.kaikiliService.KaikiliApplication;
+>>>>>>> 2/22/2019
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 
@@ -111,6 +119,7 @@ public class CashOutActivity extends BaseActivity implements View.OnClickListene
 
     @Bind(R.id.top_back) ImageView top_back;
     @Bind(R.id.top_title) TextViewEuphemiaUCASRegular top_title;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -179,6 +188,11 @@ public class CashOutActivity extends BaseActivity implements View.OnClickListene
 
     private KaikiliApplication application;
 >>>>>>> 2/21/2019
+=======
+    @Bind(R.id.cash_out_tv_changed) TextViewEuphemiaUCASRegular cash_out_tv_changed;
+
+    private KaikiliApplication application;
+>>>>>>> 2/22/2019
     private SharedPreferences preferences;
 
 
@@ -189,6 +203,7 @@ public class CashOutActivity extends BaseActivity implements View.OnClickListene
         setContentView( R.layout.activity_cash_out );
         ButterKnife.bind( this, this );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -234,10 +249,14 @@ public class CashOutActivity extends BaseActivity implements View.OnClickListene
 =======
         application = (KaikiliApplication) getApplicationContext();
 >>>>>>> 2/21/2019
+=======
+        application = (KaikiliApplication) getApplicationContext();
+>>>>>>> 2/22/2019
         preferences = application.getSharedPreferences();
 
         top_title.setText( "Cash Out" );
         top_back.setOnClickListener( this );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -282,6 +301,9 @@ public class CashOutActivity extends BaseActivity implements View.OnClickListene
 =======
         cash_out_tv_changed.setOnClickListener( this );
 >>>>>>> 2/21/2019
+=======
+        cash_out_tv_changed.setOnClickListener( this );
+>>>>>>> 2/22/2019
 
 
     }
@@ -304,6 +326,7 @@ public class CashOutActivity extends BaseActivity implements View.OnClickListene
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         }else if(cash_out_tv_changed == view){
             Intent intent = new Intent( this,BankDetailsActivity.class );
@@ -359,6 +382,11 @@ public class CashOutActivity extends BaseActivity implements View.OnClickListene
             Intent intent = new Intent( this,BankDetailsActivity.class );
             startActivity( intent );
 >>>>>>> 2/21/2019
+=======
+        }else if(cash_out_tv_changed == view){
+            Intent intent = new Intent( this,BankDetailsActivity.class );
+            startActivity( intent );
+>>>>>>> 2/22/2019
         }
     }
 }

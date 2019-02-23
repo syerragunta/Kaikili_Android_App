@@ -8,6 +8,7 @@ package com.sit.kaikiliService.activity;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -63,6 +64,8 @@ import com.sit.kaikiliService.R;
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
 import android.app.Activity;
 import android.app.DatePickerDialog;
 import android.app.ProgressDialog;
@@ -93,6 +96,7 @@ import com.sit.kaikiliService.api.WebUtil;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/14/2019
 =======
 >>>>>>> 2/15/2019
@@ -108,6 +112,8 @@ import com.sit.kaikiliService.api.WebUtil;
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
 import com.sit.kaikiliService.comman.BetterSpinner;
 import com.sit.kaikiliService.comman.Util;
 import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
@@ -121,6 +127,7 @@ import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -161,6 +168,11 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 >>>>>>> 2/21/2019
+=======
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+>>>>>>> 2/22/2019
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
@@ -206,6 +218,7 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     private KetanApplication application;
 =======
     private KaikiliApplication application;
@@ -240,6 +253,9 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 =======
     private KaikiliApplication application;
 >>>>>>> 2/21/2019
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/22/2019
     private SharedPreferences preferences;
 
     private Calendar calendar;
@@ -255,6 +271,7 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
         setContentView( R.layout.activity_personal_information );
         ButterKnife.bind( this, this );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -300,6 +317,9 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 =======
         application = (KaikiliApplication) getApplicationContext();
 >>>>>>> 2/21/2019
+=======
+        application = (KaikiliApplication) getApplicationContext();
+>>>>>>> 2/22/2019
         preferences = application.getSharedPreferences();
 
         top_title.setText( "Enter Personal Information" );
@@ -312,6 +332,7 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 
         top_back.setOnClickListener( this );
         personal_info_fb_next.setOnClickListener( this );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -353,6 +374,9 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 =======
 //        personal_info_edit_dob.setOnClickListener( this );
 >>>>>>> 2/21/2019
+=======
+//        personal_info_edit_dob.setOnClickListener( this );
+>>>>>>> 2/22/2019
 
         List<String> nameList = new ArrayList<>();
         nameList.add( "Male" );
@@ -400,6 +424,7 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             Intent intent = new Intent( this, TermsConditionsActivity.class );
             startActivity( intent );
             finish();
@@ -418,10 +443,13 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
             if (isValidData()) {
                 savedata();
             }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -444,6 +472,8 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
         } else if (view == personal_info_edit_dob) {
             DatePickerDialog datePickerDialog = new DatePickerDialog( this, myDateListener, year, month, day );
             //datePickerDialog.getDatePicker().setMaxDate(new Date().getTime());
@@ -457,6 +487,7 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
             datePickerDialog.getButton( DatePickerDialog.BUTTON_POSITIVE ).setTextColor( Color.RED );
         }
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -480,6 +511,8 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
 
     private boolean isValidData() {
         if (!Util.isNotEmpaty( personal_info_edit_first.getText().toString() )) {
@@ -559,6 +592,7 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             String response = new WebUtil().postMethod( body, WebApi.URL_ADD_NEW_USER );
 =======
             String response = new WebUtil().postMethod( body, WebApi.URL_ADD_SERVICE_TEST );
@@ -581,6 +615,9 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 =======
             String response = new WebUtil().postMethod( body, WebApi.URL_ADD_SERVICE_TEST );
 >>>>>>> 2/21/2019
+=======
+            String response = new WebUtil().postMethod( body, WebApi.URL_ADD_SERVICE_TEST );
+>>>>>>> 2/22/2019
             return response;
         }
 
@@ -616,6 +653,7 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/14/2019
 =======
 >>>>>>> 2/15/2019
@@ -631,4 +669,6 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
 }

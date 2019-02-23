@@ -13,6 +13,7 @@ package com.sit.kaikiliService.fragment;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
@@ -72,6 +73,8 @@ import com.sit.kaikiliService.model.NotificationModel;
 =======
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.os.AsyncTask;
@@ -102,9 +105,12 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
 import java.util.ArrayList;
 
 import butterknife.Bind;
@@ -130,6 +136,7 @@ public class NotificationFragment extends BaseFragment {
 
     private NotificationListAdapter adapter;
     private NotificationCustomerListAdapter adapterCustomer;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     private ArrayList<NotificationModel> notificationList,notificationList2;
@@ -172,11 +179,16 @@ public class NotificationFragment extends BaseFragment {
     private ArrayList<NotificationInfo> notificationList2;
     private ArrayList<NotificationInfo> userNotificationList;
 >>>>>>> 2/21/2019
+=======
+    private ArrayList<NotificationInfo> notificationList2;
+    private ArrayList<NotificationInfo> userNotificationList;
+>>>>>>> 2/22/2019
 
     public NotificationFragment() {
         // Required empty public constructor
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -228,10 +240,15 @@ public class NotificationFragment extends BaseFragment {
     private String SP_ID ="SP00001";
 
 >>>>>>> 2/21/2019
+=======
+    private String SP_ID ="SP00001";
+
+>>>>>>> 2/22/2019
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -275,11 +292,14 @@ public class NotificationFragment extends BaseFragment {
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -360,10 +380,16 @@ public class NotificationFragment extends BaseFragment {
        // initToolbar();
         ButterKnife.bind( this,rootView);
 >>>>>>> 2/21/2019
+=======
+        final View rootView = inflater.inflate(R.layout.fragment_notification, container, false);
+       // initToolbar();
+        ButterKnife.bind( this,rootView);
+>>>>>>> 2/22/2019
         initComponents(rootView);
         return rootView;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -407,10 +433,13 @@ public class NotificationFragment extends BaseFragment {
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
 
     @Override
     public void initComponents(View rootView) {
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -462,6 +491,10 @@ public class NotificationFragment extends BaseFragment {
 
 
 >>>>>>> 2/21/2019
+=======
+
+
+>>>>>>> 2/22/2019
         fag_noti_ll_kaikili.setOnClickListener( this );
         fag_noti_ll_customer.setOnClickListener( this );
 
@@ -477,6 +510,7 @@ public class NotificationFragment extends BaseFragment {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         notificationList = new ArrayList<>();
         notificationList2 = new ArrayList<>();
         adapter.setList( notificationList );
@@ -488,6 +522,8 @@ public class NotificationFragment extends BaseFragment {
 =======
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
         fag_noti_ll_kaikili.setBackgroundColor(getResources().getColor(R.color.colorAccent));
         fag_noti_ll_customer.setBackgroundColor(getResources().getColor(R.color.transparent));
         fag_noti_tv_kaikili.setTextColor(getResources().getColor(R.color.white));
@@ -497,9 +533,12 @@ public class NotificationFragment extends BaseFragment {
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
     }
 
     @Override
@@ -519,6 +558,7 @@ public class NotificationFragment extends BaseFragment {
             fag_noti_tv_customer.setTextColor(getResources().getColor(R.color.colorAccent));
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             setCustomerMessage();
         }
     }
@@ -526,6 +566,8 @@ public class NotificationFragment extends BaseFragment {
 =======
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
 
 
             setCustomerMessage();
@@ -544,13 +586,17 @@ public class NotificationFragment extends BaseFragment {
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
     private void setCustomerMessage() {
 
         fag_noti_tv_custome_recyclerView.setVisibility( View.VISIBLE );
         fag_noti_tv_recyclerView.setVisibility( View.GONE );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -677,6 +723,8 @@ public class NotificationFragment extends BaseFragment {
 =======
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
         new GetCustomerNotificationDataTask(getActivity()).execute();
 
     }
@@ -741,7 +789,10 @@ public class NotificationFragment extends BaseFragment {
         }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
 }

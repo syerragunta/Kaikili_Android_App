@@ -12,12 +12,18 @@ import android.widget.BaseAdapter;
 import com.sit.kaikiliService.KaikiliApplication;
 import com.sit.kaikiliService.R;
 <<<<<<< HEAD
+<<<<<<< HEAD
 import com.sit.kaikiliService.activity.ServiceInfoActivity;
 =======
 import com.sit.kaikiliService.activity.ServiceHistoryActivity;
 import com.sit.kaikiliService.activity.ServiceInfoActivity;
 import com.sit.kaikiliService.activity.ServiceInfoViewActivity;
 >>>>>>> 2/21/2019
+=======
+import com.sit.kaikiliService.activity.ServiceHistoryActivity;
+import com.sit.kaikiliService.activity.ServiceInfoActivity;
+import com.sit.kaikiliService.activity.ServiceInfoViewActivity;
+>>>>>>> 2/22/2019
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 import com.sit.kaikiliService.api.TransitionServiceData;
 
@@ -87,10 +93,13 @@ public class ToDoServiceListAdapter extends BaseAdapter {
                 int pos = Integer.parseInt( view.getTag().toString());
 
 <<<<<<< HEAD
+<<<<<<< HEAD
                 Intent intent = new Intent( mActivity, ServiceInfoActivity.class );
                 intent.putExtra("data",transitionService.get( pos));
                 mActivity.startActivity( intent );
 =======
+=======
+>>>>>>> 2/22/2019
                 if(mActivity instanceof ServiceHistoryActivity){
                     Intent intent = new Intent( mActivity, ServiceInfoViewActivity.class );
                     intent.putExtra("tran_id",transitionService.get( pos).getTran_id());
@@ -100,7 +109,10 @@ public class ToDoServiceListAdapter extends BaseAdapter {
                     intent.putExtra("data",transitionService.get( pos));
                     mActivity.startActivity( intent );
                 }
+<<<<<<< HEAD
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
             }
         } );
 

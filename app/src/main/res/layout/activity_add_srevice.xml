@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     android:background="@color/white"
 >>>>>>> 2/2/2019
@@ -43,11 +44,15 @@
 =======
     android:background="@color/white"
 >>>>>>> 2/21/2019
+=======
+    android:background="@color/white"
+>>>>>>> 2/22/2019
     android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -85,10 +90,13 @@
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/18/2019
+=======
+>>>>>>> 2/22/2019
         android:orientation="vertical">
 
         <include layout="@layout/activity_header" />
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -129,6 +137,8 @@
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_marginLeft="@dimen/dim20"
@@ -184,6 +194,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1/29/2019
 =======
 >>>>>>> 1/30/2019
@@ -211,6 +222,8 @@
 >>>>>>> 2/18/2019
 =======
 >>>>>>> 2/21/2019
+=======
+>>>>>>> 2/22/2019
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -221,6 +234,7 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -318,6 +332,9 @@
 =======
 
 >>>>>>> 2/21/2019
+=======
+
+>>>>>>> 2/22/2019
 
                 <com.sit.kaikiliService.comman.WithoutScrollListView
                     android:id="@+id/add_service_listView_searchList"
@@ -344,6 +361,7 @@
                     android:padding="@dimen/dim8"
                     android:text="Kaikili Provided Services"
                     android:textColor="#FFFFFF"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -401,6 +419,9 @@
 =======
                     android:textSize="@dimen/fontsize16" />
 >>>>>>> 2/21/2019
+=======
+                    android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/22/2019
 
 
                  <com.sit.kaikiliService.comman.WithoutScrollListView

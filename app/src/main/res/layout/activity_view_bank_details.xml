@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/activity_header" />
+
+        <com.vinaygaba.creditcardview.CreditCardView
+            android:layout_margin="@dimen/dim10"
+            android:id="@+id/bank_info_creditCardView"
+            android:layout_width="fill_parent"
+            android:layout_height="225dp"
+            android:background="@drawable/cardbackground_plain"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            app:cardName="Vinay Gaba"
+            app:cardNumberTextColor="#cccccc"
+            app:cardNumberFormat="masked_all_but_last_four"
+            app:cardNameTextColor="#cccccc"
+            app:putChip="true"
+            app:type="auto"
+            app:expiryDateTextColor="#cccccc"
+            app:isEditable="false"
+            app:validTillTextColor="#cccccc"
+            app:hintTextColor = "#cccccc"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dim20"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+        <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+            android:id="@+id/bank_info_tv_deletCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/buttons_selector"
+            android:gravity="center"
+            android:paddingLeft="@dimen/dim30"
+            android:paddingTop="@dimen/dim8"
+            android:paddingRight="@dimen/dim30"
+            android:paddingBottom="@dimen/dim8"
+            android:text="DELETE"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/fontsize16" />
+
+        <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+            android:id="@+id/bank_info_tv_setAsDefault"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/dim10"
+            android:background="@drawable/buttons_selector"
+            android:gravity="center"
+            android:paddingLeft="@dimen/dim30"
+            android:paddingTop="@dimen/dim8"
+            android:paddingRight="@dimen/dim30"
+            android:paddingBottom="@dimen/dim8"
+            android:text="SET AS DEFAULT"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/fontsize16" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
