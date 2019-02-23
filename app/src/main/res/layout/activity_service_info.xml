@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     android:background="@color/white"
 >>>>>>> 2/2/2019
@@ -42,10 +43,15 @@
     android:layout_height="match_parent"
     android:background="@color/white">
 >>>>>>> 2/18/2019
+=======
+    android:layout_height="match_parent"
+    android:background="@color/white">
+>>>>>>> 2/21/2019
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -108,6 +114,11 @@
 
         <include layout="@layout/activity_header" />
 >>>>>>> 2/18/2019
+=======
+        android:orientation="vertical">
+
+        <include layout="@layout/activity_header" />
+>>>>>>> 2/21/2019
 
 
         <ScrollView
@@ -120,6 +131,7 @@
                 android:orientation="vertical">
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -288,6 +300,8 @@
 =======
 =======
 >>>>>>> 2/18/2019
+=======
+>>>>>>> 2/21/2019
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -417,6 +431,7 @@
                 </LinearLayout>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/18/2019
@@ -443,6 +458,130 @@
 =======
 =======
 >>>>>>> 2/18/2019
+=======
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="@dimen/dim10"
+                    android:layout_marginTop="@dimen/dim6"
+                    android:layout_marginRight="@dimen/dim10"
+                    android:background="@color/black_30" />
+
+                <LinearLayout
+                    android:id="@+id/service_info_ll_discount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dim10"
+                    android:layout_marginTop="@dimen/dim10"
+                    android:layout_marginRight="@dimen/dim10"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:gravity="left"
+                        android:singleLine="true"
+                        android:text="- Discount"
+                        android:textColor="@color/black_87"
+                        android:textSize="@dimen/fontsize18" />
+
+                    <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+                        android:id="@+id/service_info_tv_discount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="$1015.00"
+                        android:textColor="@color/black_87"
+                        android:textSize="@dimen/fontsize18" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/service_info_ll_netPay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dim10"
+                    android:layout_marginTop="@dimen/dim10"
+                    android:layout_marginRight="@dimen/dim10"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:gravity="left"
+                        android:singleLine="true"
+                        android:text="- Kaikili"
+                        android:textColor="@color/black_87"
+                        android:textSize="@dimen/fontsize18" />
+
+                    <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+                        android:id="@+id/service_info_tv_kaikili"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="$1015.00"
+                        android:textColor="@color/black_87"
+                        android:textSize="@dimen/fontsize18" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/service_info_ll_kaikili"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dim10"
+                    android:layout_marginTop="@dimen/dim10"
+                    android:layout_marginRight="@dimen/dim10"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <com.sit.kaikiliService.font.TextViewEuphemiaUCASBola
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ellipsize="end"
+                            android:gravity="left"
+                            android:singleLine="true"
+                            android:text="Net Pay"
+                            android:textColor="@color/black_87"
+                            android:textSize="@dimen/fontsize18" />
+
+                        <com.sit.kaikiliService.font.TextViewEuphemiaUCASBola
+                            android:id="@+id/service_info_tv_natPay"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="$1015.00"
+                            android:textColor="@color/black_87"
+                            android:textSize="@dimen/fontsize18" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="@dimen/dim6"
+                        android:background="@color/black_30" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+>>>>>>> 2/21/2019
                     android:layout_gravity="center"
                     android:layout_marginLeft="@dimen/dim10"
                     android:layout_marginTop="@dimen/dim10"
@@ -454,60 +593,102 @@
                     <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
                         android:id="@+id/service_info_tv_onTheWay"
                         android:layout_width="0dp"
+<<<<<<< HEAD
                         android:layout_weight="1"
                         android:layout_height="wrap_content"
                         android:visibility="gone"
                         android:layout_gravity="center"
                         android:layout_marginLeft="@dimen/dim4"
                         android:layout_marginRight="@dimen/dim4"
+=======
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/dim4"
+                        android:layout_marginRight="@dimen/dim4"
+                        android:layout_weight="1"
+>>>>>>> 2/21/2019
                         android:background="@drawable/buttons_selector"
                         android:gravity="center"
                         android:padding="@dimen/dim8"
                         android:text="ON THE WAY"
                         android:textColor="#FFFFFF"
+<<<<<<< HEAD
                         android:textSize="@dimen/fontsize16" />
+=======
+                        android:textSize="@dimen/fontsize16"
+                        android:visibility="gone" />
+>>>>>>> 2/21/2019
 
                     <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
                         android:id="@+id/service_info_tv_completed"
                         android:layout_width="0dp"
+<<<<<<< HEAD
                         android:layout_weight="1"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:visibility="gone"
                         android:layout_marginLeft="@dimen/dim4"
                         android:layout_marginRight="@dimen/dim4"
+=======
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/dim4"
+                        android:layout_marginRight="@dimen/dim4"
+                        android:layout_weight="1"
+>>>>>>> 2/21/2019
                         android:background="@drawable/buttons_selector"
                         android:gravity="center"
                         android:padding="@dimen/dim8"
                         android:text="COMPLETED"
                         android:textColor="#FFFFFF"
+<<<<<<< HEAD
                         android:textSize="@dimen/fontsize16" />
+=======
+                        android:textSize="@dimen/fontsize16"
+                        android:visibility="gone" />
+>>>>>>> 2/21/2019
 
                     <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
                         android:id="@+id/service_info_tv_review"
                         android:layout_width="0dp"
+<<<<<<< HEAD
                         android:layout_weight="1"
                         android:visibility="gone"
+=======
+>>>>>>> 2/21/2019
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginLeft="@dimen/dim4"
                         android:layout_marginRight="@dimen/dim4"
+<<<<<<< HEAD
+=======
+                        android:layout_weight="1"
+>>>>>>> 2/21/2019
                         android:background="@drawable/buttons_selector"
                         android:gravity="center"
                         android:padding="@dimen/dim8"
                         android:text="REVIEW"
                         android:textColor="#FFFFFF"
+<<<<<<< HEAD
                         android:textSize="@dimen/fontsize16" />
+=======
+                        android:textSize="@dimen/fontsize16"
+                        android:visibility="gone" />
+>>>>>>> 2/21/2019
 
 
                     <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
                         android:id="@+id/service_info_tv_Accept"
                         android:layout_width="0dp"
+<<<<<<< HEAD
                         android:layout_weight="1"
+=======
+>>>>>>> 2/21/2019
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginLeft="@dimen/dim4"
                         android:layout_marginRight="@dimen/dim4"
+<<<<<<< HEAD
                         android:background="@drawable/buttons_selector"
                         android:gravity="center"
                         android:padding="@dimen/dim8"
@@ -535,25 +716,49 @@
                         android:layout_width="0dp"
                         android:layout_weight="1"
                         android:visibility="gone"
+=======
+                        android:layout_weight="1"
+                        android:background="@drawable/buttons_selector"
+                        android:gravity="center"
+                        android:padding="@dimen/dim8"
+                        android:text="ACCEPT"
+                        android:textColor="#FFFFFF"
+                        android:textSize="@dimen/fontsize16"
+                        android:visibility="gone" />
+
+                    <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+                        android:id="@+id/service_info_tv_reschedule"
+                        android:layout_width="0dp"
+>>>>>>> 2/21/2019
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginLeft="@dimen/dim4"
                         android:layout_marginRight="@dimen/dim4"
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/18/2019
+=======
+                        android:layout_weight="1"
+>>>>>>> 2/21/2019
                         android:background="@drawable/buttons_selector"
                         android:gravity="center"
                         android:padding="@dimen/dim8"
                         android:text="RESCHEDULE"
                         android:textColor="#FFFFFF"
+<<<<<<< HEAD
                         android:textSize="@dimen/fontsize16" />
+=======
+                        android:textSize="@dimen/fontsize16"
+                        android:visibility="gone" />
+>>>>>>> 2/21/2019
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                     android:orientation="horizontal"
@@ -570,6 +775,8 @@
 =======
 =======
 >>>>>>> 2/18/2019
+=======
+>>>>>>> 2/21/2019
                     android:layout_gravity="center"
                     android:layout_marginTop="@dimen/dim10"
                     android:layout_marginBottom="@dimen/dim10"
@@ -580,6 +787,7 @@
                     <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
                         android:id="@+id/service_info_tv_cancel"
                         android:layout_width="0dp"
+<<<<<<< HEAD
                         android:layout_weight="1"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dim14"
@@ -589,6 +797,13 @@
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/18/2019
+=======
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/dim14"
+                        android:layout_marginRight="@dimen/dim14"
+                        android:layout_weight="1"
+>>>>>>> 2/21/2019
                         android:background="@drawable/buttons_selector"
                         android:gravity="center"
                         android:padding="@dimen/dim8"

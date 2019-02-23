@@ -2,6 +2,7 @@ package com.sit.kaikiliService.activity;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
@@ -69,13 +70,29 @@ import com.sit.kaikiliService.model.ServiceInfoModel;
 >>>>>>> 2/18/2019
 import android.app.Activity;
 import android.app.ProgressDialog;
+=======
+import android.app.Activity;
+import android.app.Dialog;
+import android.app.ProgressDialog;
+import android.content.Context;
+>>>>>>> 2/21/2019
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
+<<<<<<< HEAD
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageView;
+=======
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.WindowManager;
+import android.widget.ImageView;
+import android.widget.RadioGroup;
+import android.widget.RatingBar;
+import android.widget.RelativeLayout;
+>>>>>>> 2/21/2019
 import android.widget.Toast;
 
 import com.google.gson.Gson;
@@ -88,7 +105,13 @@ import com.sit.kaikiliService.api.TransitionServiceData;
 import com.sit.kaikiliService.api.WebApi;
 import com.sit.kaikiliService.api.WebUtil;
 import com.sit.kaikiliService.comman.CircularImageView;
+<<<<<<< HEAD
 import com.sit.kaikiliService.comman.WithoutScrollListView;
+=======
+import com.sit.kaikiliService.comman.Util;
+import com.sit.kaikiliService.comman.WithoutScrollListView;
+import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
+>>>>>>> 2/21/2019
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASBola;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 import com.sit.kaikiliService.model.ServiceInfoModel;
@@ -97,9 +120,12 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/18/2019
+=======
+>>>>>>> 2/21/2019
 import java.util.ArrayList;
 
 import butterknife.Bind;
@@ -114,6 +140,7 @@ import butterknife.ButterKnife;
 
 public class ServiceInfoActivity extends BaseActivity implements View.OnClickListener {
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     @Bind(R.id.top_back)
@@ -162,6 +189,8 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
 =======
 =======
 >>>>>>> 2/18/2019
+=======
+>>>>>>> 2/21/2019
     @Bind(R.id.top_back) ImageView top_back;
     @Bind(R.id.top_title) TextViewEuphemiaUCASRegular top_title;
     @Bind(R.id.service_info_listView) WithoutScrollListView service_info_listView;
@@ -187,9 +216,12 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
     private ArrayList<ServiceInfoModel> serviceInfoList;
     private TransitionServiceData transitionServiceData;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/18/2019
+=======
+>>>>>>> 2/21/2019
 
 
     @Override
@@ -198,6 +230,7 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
         setContentView( R.layout.activity_service_info );
         ButterKnife.bind( this, this );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -238,21 +271,27 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
 =======
 =======
 >>>>>>> 2/18/2019
+=======
+>>>>>>> 2/21/2019
         application = (KaikiliApplication) getApplicationContext();
         preferences = application.getSharedPreferences();
 
         transitionServiceData = (TransitionServiceData) getIntent().getSerializableExtra( "data" );
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/18/2019
+=======
+>>>>>>> 2/21/2019
         top_title.setText( "Service Detail" );
         top_back.setOnClickListener( this );
 
         adapter = new ServiceInfoItemAdapter( this );
         service_info_listView.setAdapter( adapter );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         serviceInfoList = new ArrayList<>();
@@ -323,6 +362,8 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
 =======
 =======
 >>>>>>> 2/18/2019
+=======
+>>>>>>> 2/21/2019
         service_info_tv_userName.setText(transitionServiceData.getCust_first_name()+" "+transitionServiceData.getCust_last_name() );
         service_info_tv_serviceName.setText(transitionServiceData.getSr_title());
         service_info_tv_address.setText( "Address :"+transitionServiceData.getAddress());
@@ -374,14 +415,24 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
         service_info_tv_completed.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+<<<<<<< HEAD
                 new GetServiceDataTask(ServiceInfoActivity.this,"Completed").execute( );
+=======
+                new UpdateServiceDataTask(ServiceInfoActivity.this,"Completed").execute( );
+
+>>>>>>> 2/21/2019
             }
         } );
 
         service_info_tv_review.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+<<<<<<< HEAD
                 new GetServiceDataTask(ServiceInfoActivity.this,"Review").execute( );
+=======
+                ShowReviewDialog(ServiceInfoActivity.this);
+//                new GetServiceDataTask(ServiceInfoActivity.this,"Review").execute( );
+>>>>>>> 2/21/2019
             }
         } );
 
@@ -431,6 +482,16 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
             service_info_tv_onTheWay.setVisibility( View.GONE );
             service_info_tv_completed.setVisibility( View.GONE );
             service_info_tv_review.setVisibility( View.VISIBLE );
+<<<<<<< HEAD
+=======
+        }else {
+            service_info_tv_Accept.setVisibility( View.GONE );
+            service_info_tv_reschedule.setVisibility( View.GONE );
+            service_info_tv_cancel.setVisibility( View.GONE );
+            service_info_tv_onTheWay.setVisibility( View.GONE );
+            service_info_tv_completed.setVisibility( View.GONE );
+            service_info_tv_review.setVisibility( View.GONE );
+>>>>>>> 2/21/2019
         }
 
 
@@ -501,9 +562,77 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/18/2019
+=======
+    }
+
+    public class UpdateServiceDataTask extends AsyncTask<Void, Void, String> {
+
+        private ProgressDialog mDialog = null;
+        private Activity mActivity;
+        private String status;
+
+
+        public UpdateServiceDataTask(Activity activity,String status) {
+            this.mActivity = activity;
+            this.status = status;
+
+            // TODO Auto-generated constructor stub
+        }
+
+
+
+        @Override
+        protected void onPreExecute() {
+            // TODO Auto-generated method stub
+            super.onPreExecute();
+
+            mDialog = ProgressDialog.show( mActivity, null, "Please wait....", true, true );
+            mDialog.getWindow().clearFlags( WindowManager.LayoutParams.FLAG_DIM_BEHIND );
+            mDialog.setCanceledOnTouchOutside( false );
+        }
+
+        @Override
+        protected String doInBackground(Void... params) {
+            // TODO Auto-generated method stub
+            try {
+                JSONObject jsonObject = new JSONObject();
+                jsonObject.put( "tran_id", transitionServiceData.getTran_id() );
+                jsonObject.put( "sr_status", status );
+                jsonObject.put( "txn_status", "Paid" );
+                Log.e( "--------------Post", jsonObject.toString() );
+                String response = new WebUtil().postMethod( jsonObject.toString(), WebApi.URL_TRANSITION_COMPLETED );
+                return response;
+            } catch (JSONException e) {
+                e.printStackTrace();
+                return "";
+            }
+        }
+
+        @Override
+        protected void onPostExecute(String response) {
+            // TODO Auto-generated method stub
+            super.onPostExecute( response );
+            if (mDialog.isShowing()) {
+                mDialog.dismiss();
+            }
+
+            Log.e( "------- Response ", "-------------" + response );
+            Gson gson = new Gson(); // Or use new GsonBuilder().create();
+            Apiresponse targetData = gson.fromJson( response, Apiresponse.class );
+
+            if (targetData.getStatus() == 1) {
+                Toast.makeText( mActivity,targetData.getMessage(),Toast.LENGTH_SHORT ).show();
+                transitionServiceData.setSr_status(status);
+                setButtoneUI();
+            } else {
+                Toast.makeText( mActivity,targetData.getMessage(),Toast.LENGTH_SHORT ).show();
+            }
+        }
+>>>>>>> 2/21/2019
     }
 
 
@@ -515,4 +644,108 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
 
         }
     }
+<<<<<<< HEAD
+=======
+
+
+    private void ShowReviewDialog(final Context context) {
+
+        final Dialog dialog = new Dialog(context, R.style.TransparantBlackDialog);
+        LayoutInflater li = LayoutInflater.from(context);
+        View viewDialog = li.inflate(R.layout.dialog_review, null);
+        dialog.setContentView(viewDialog);
+        dialog.setCancelable(true);
+        dialog.setCanceledOnTouchOutside( true );
+
+        final RatingBar ratingBar = (RatingBar) viewDialog.findViewById(R.id.dialog_rating_ratingBar);
+        final EditTextEupheminUCASRegular edtFeedback = (EditTextEupheminUCASRegular) viewDialog.findViewById( R.id.dialog_rating_edt_comment );
+        final TextViewEuphemiaUCASBola tvSend = (TextViewEuphemiaUCASBola) viewDialog.findViewById( R.id.dialog_rating_tv_sendComment );
+
+        tvSend.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+               if(Util.isNotEmpaty( edtFeedback.getText().toString())){
+                   dialog.dismiss();
+                   new UpdateServiceReviewTask( context,edtFeedback.getText().toString(),ratingBar.getRating()).execute();
+               }else {
+                   Toast.makeText( context,"Please give your comment",Toast.LENGTH_SHORT ).show();
+               }
+            }
+        });
+
+
+        dialog.show();
+    }
+
+    public class UpdateServiceReviewTask extends AsyncTask<Void, Void, String> {
+
+        private ProgressDialog mDialog = null;
+        private Context mActivity;
+        private String comment;
+        private float rating;
+
+
+        public UpdateServiceReviewTask(Context activity, String comment, float rating) {
+            this.mActivity = activity;
+            this.comment = comment;
+            this.rating = rating;
+
+            // TODO Auto-generated constructor stub
+        }
+
+
+
+        @Override
+        protected void onPreExecute() {
+            // TODO Auto-generated method stub
+            super.onPreExecute();
+
+            mDialog = ProgressDialog.show( mActivity, null, "Please wait....", true, true );
+            mDialog.getWindow().clearFlags( WindowManager.LayoutParams.FLAG_DIM_BEHIND );
+            mDialog.setCanceledOnTouchOutside( false );
+        }
+
+        @Override
+        protected String doInBackground(Void... params) {
+            // TODO Auto-generated method stub
+            try {
+                JSONObject jsonObject = new JSONObject();
+                jsonObject.put( "tran_id", transitionServiceData.getTran_id() );
+                jsonObject.put( "cust_id", transitionServiceData.getCust_id() );
+                jsonObject.put( "sp_id", transitionServiceData.getSp_id() );
+                jsonObject.put( "sr_id", transitionServiceData.getSr_id() );
+                jsonObject.put( "rating", rating );
+                jsonObject.put( "comment", comment );
+
+                Log.e( "--------------Post", jsonObject.toString() );
+                String response = new WebUtil().postMethod( jsonObject.toString(), WebApi.URL_ADD_SERVICE_REVIEW );
+                return response;
+            } catch (JSONException e) {
+                e.printStackTrace();
+                return "";
+            }
+        }
+
+        @Override
+        protected void onPostExecute(String response) {
+            // TODO Auto-generated method stub
+            super.onPostExecute( response );
+            if (mDialog.isShowing()) {
+                mDialog.dismiss();
+            }
+
+            Gson gson = new Gson(); // Or use new GsonBuilder().create();
+            Apiresponse targetData = gson.fromJson( response, Apiresponse.class );
+
+            if (targetData.getStatus() == 1) {
+                Toast.makeText( mActivity,targetData.getMessage(),Toast.LENGTH_SHORT ).show();
+                transitionServiceData.setSr_status("Review");
+                setButtoneUI();
+            } else {
+                Toast.makeText( mActivity,targetData.getMessage(),Toast.LENGTH_SHORT ).show();
+            }
+        }
+    }
+
+>>>>>>> 2/21/2019
 }

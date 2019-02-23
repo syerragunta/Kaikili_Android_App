@@ -2,9 +2,12 @@ package com.sit.kaikiliService.model;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2/18/2019
+=======
+>>>>>>> 2/21/2019
 /**
  * Created by ketan patel on 30/1/2019.
  * ketan_patel25@yahoo.com
@@ -12,9 +15,12 @@ package com.sit.kaikiliService.model;
  */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/18/2019
+=======
+>>>>>>> 2/21/2019
 public class ServiceInfoModel {
     public String getName() {
         return name;

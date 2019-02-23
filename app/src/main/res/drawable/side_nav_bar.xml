@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:centerColor="#000000"
         android:endColor="#000000"
         android:startColor="#010000"
@@ -59,5 +60,10 @@
         android:endColor="#2e0600"
         android:startColor="#2e0600"
 >>>>>>> 2/18/2019
+=======
+        android:centerColor="#2e0600"
+        android:endColor="#2e0600"
+        android:startColor="#2e0600"
+>>>>>>> 2/21/2019
         android:type="linear" />
 </shape>

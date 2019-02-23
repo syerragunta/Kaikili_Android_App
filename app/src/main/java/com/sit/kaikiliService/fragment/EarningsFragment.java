@@ -12,6 +12,7 @@ package com.sit.kaikiliService.fragment;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
@@ -121,11 +122,40 @@ import com.sit.kaikiliService.activity.CashOutActivity;
 import com.sit.kaikiliService.adapter.EarningsListAdapter;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 import com.sit.kaikiliService.model.EarningsModel;
+=======
+import android.app.Activity;
+import android.app.ProgressDialog;
+import android.content.Intent;
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.WindowManager;
+import android.widget.ListView;
+import android.widget.Toast;
+
+import com.google.gson.Gson;
+import com.sit.kaikiliService.R;
+import com.sit.kaikiliService.activity.CashOutActivity;
+import com.sit.kaikiliService.adapter.EarningsListAdapter;
+import com.sit.kaikiliService.api.EarningeInfo;
+import com.sit.kaikiliService.api.ScheduledTSApi;
+import com.sit.kaikiliService.api.WebApi;
+import com.sit.kaikiliService.api.WebUtil;
+import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
+import com.sit.kaikiliService.api.EarningeInfoApi;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+>>>>>>> 2/21/2019
 
 import java.util.ArrayList;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -171,6 +201,8 @@ import butterknife.OnClick;
 =======
 import butterknife.OnClick;
 >>>>>>> 2/18/2019
+=======
+>>>>>>> 2/21/2019
 
 
 /**
@@ -187,6 +219,7 @@ public class EarningsFragment extends BaseFragment {
     @Bind(R.id.fag_earnings_tv_cashOut )TextViewEuphemiaUCASRegular fag_earnings_tv_cashOut;
 
     private EarningsListAdapter adapter;
+<<<<<<< HEAD
     private ArrayList<EarningsModel> earningList;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -222,12 +255,17 @@ public class EarningsFragment extends BaseFragment {
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/18/2019
+=======
+    private ArrayList<EarningeInfo> earningList;
+    private String SP_ID = "SP00001";
+>>>>>>> 2/21/2019
 
     public EarningsFragment() {
         // Required empty public constructor
     }
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -316,11 +354,17 @@ public class EarningsFragment extends BaseFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
 >>>>>>> 2/18/2019
+=======
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate( savedInstanceState );
+>>>>>>> 2/21/2019
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         final View rootView = inflater.inflate(R.layout.fragment_earnings, container, false);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -370,10 +414,14 @@ public class EarningsFragment extends BaseFragment {
 =======
         ButterKnife.bind( this,rootView);
 >>>>>>> 2/18/2019
+=======
+        ButterKnife.bind( this,rootView);
+>>>>>>> 2/21/2019
         initComponents(rootView);
         return rootView;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -413,10 +461,13 @@ public class EarningsFragment extends BaseFragment {
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/18/2019
+=======
+>>>>>>> 2/21/2019
 
 
     @Override
     public void initComponents(View rootView) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -565,6 +616,11 @@ public class EarningsFragment extends BaseFragment {
 =======
 >>>>>>> 2/18/2019
 
+=======
+        adapter = new EarningsListAdapter( getActivity());
+        fag_earnings_listView.setAdapter(adapter);
+        fag_earnings_tv_cashOut.setOnClickListener( this );
+>>>>>>> 2/21/2019
     }
 
 
@@ -573,6 +629,7 @@ public class EarningsFragment extends BaseFragment {
         if(v==fag_earnings_tv_cashOut){
             Intent intent = new Intent( getActivity(),CashOutActivity.class );
             getActivity().startActivity(intent);
+<<<<<<< HEAD
 
         }
 
@@ -608,4 +665,78 @@ public class EarningsFragment extends BaseFragment {
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/18/2019
+=======
+        }
+    }
+
+
+    @Override
+    public void onResume() {
+        new GetTransitionDataTask( getActivity() ).execute( );
+        super.onResume();
+    }
+
+    public class GetTransitionDataTask extends AsyncTask<Void, Void, String> {
+
+        private ProgressDialog mDialog = null;
+        private Activity mActivity;
+
+
+        public GetTransitionDataTask(Activity activity) {
+            mActivity = activity;
+
+            // TODO Auto-generated constructor stub
+        }
+
+        @Override
+        protected void onPreExecute() {
+            // TODO Auto-generated method stub
+            super.onPreExecute();
+
+            mDialog = ProgressDialog.show( mActivity, null, "Please wait....", true, true );
+            mDialog.getWindow().clearFlags( WindowManager.LayoutParams.FLAG_DIM_BEHIND );
+            mDialog.setCanceledOnTouchOutside( false );
+        }
+
+        @Override
+        protected String doInBackground(Void... params) {
+            // TODO Auto-generated method stub
+            try {
+                JSONObject jsonObject = new JSONObject();
+                jsonObject.put( "sp_id", SP_ID );
+                Log.e( "--------------Post", jsonObject.toString() );
+                String response = new WebUtil().postMethod( jsonObject.toString(), WebApi.URL_COMPLETED_TRANSITION_LIST );
+                return response;
+            } catch (JSONException e) {
+                e.printStackTrace();
+                return "";
+            }
+        }
+
+        @Override
+        protected void onPostExecute(String response) {
+            // TODO Auto-generated method stub
+            super.onPostExecute( response );
+            if (mDialog.isShowing()) {
+                mDialog.dismiss();
+            }
+
+            Log.e( "------- Response ", "-------------" + response );
+            Gson gson = new Gson(); // Or use new GsonBuilder().create();
+            EarningeInfoApi targetData = gson.fromJson( response, EarningeInfoApi.class );
+            earningList = new ArrayList<>();
+            if (targetData.getData().size() > 0) {
+                earningList = targetData.getData();
+                adapter.setList( earningList);
+
+            } else {
+                Toast.makeText( mActivity,targetData.getMessage(),Toast.LENGTH_SHORT ).show();
+            }
+
+
+        }
+
+
+    }
+>>>>>>> 2/21/2019
 }

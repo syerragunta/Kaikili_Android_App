@@ -13,6 +13,7 @@ import android.app.DatePickerDialog;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.content.Context;
 =======
 >>>>>>> 2/1/2019
@@ -34,6 +35,8 @@ import android.content.Context;
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/18/2019
+=======
+>>>>>>> 2/21/2019
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -41,6 +44,7 @@ import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -75,6 +79,8 @@ import android.location.LocationManager;
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/18/2019
+=======
+>>>>>>> 2/21/2019
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -83,6 +89,7 @@ import android.view.View;
 import android.widget.CheckBox;
 import android.widget.DatePicker;
 import android.widget.ImageView;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -120,11 +127,14 @@ import com.sit.kaikiliService.comman.AppLog;
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/18/2019
+=======
+>>>>>>> 2/21/2019
 
 import com.sit.kaikiliService.KaikiliApplication;
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.camera.Config;
 import com.sit.kaikiliService.camera.ImagePickerActivity;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -153,6 +163,8 @@ import com.sit.kaikiliService.camera.ImagePickerActivity;
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/18/2019
+=======
+>>>>>>> 2/21/2019
 import com.sit.kaikiliService.comman.Util;
 import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
@@ -162,6 +174,7 @@ import org.adw.library.widgets.discreteseekbar.DiscreteSeekBar;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Calendar;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -194,6 +207,8 @@ import java.util.Locale;
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/18/2019
+=======
+>>>>>>> 2/21/2019
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -334,6 +349,7 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     private KetanApplication application;
 =======
     private KaikiliApplication application;
@@ -365,6 +381,9 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 =======
     private KaikiliApplication application;
 >>>>>>> 2/18/2019
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/21/2019
     private SharedPreferences preferences;
     private Calendar calendar;
     private int year, month, day;
@@ -386,6 +405,7 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
         month = calendar.get( Calendar.MONTH );
         day = calendar.get( Calendar.DAY_OF_MONTH );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -427,6 +447,9 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 =======
         application = (KaikiliApplication) getApplicationContext();
 >>>>>>> 2/18/2019
+=======
+        application = (KaikiliApplication) getApplicationContext();
+>>>>>>> 2/21/2019
         preferences = application.getSharedPreferences();
 
         imgPicturePath1 = null;

@@ -9,6 +9,7 @@ import android.content.Context;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -37,10 +38,15 @@ import android.text.TextWatcher;
 import android.text.Editable;
 import android.text.TextWatcher;
 >>>>>>> 2/18/2019
+=======
+import android.text.Editable;
+import android.text.TextWatcher;
+>>>>>>> 2/21/2019
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -79,6 +85,8 @@ import com.sit.kaikiliService.api.CompsItme;
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/18/2019
+=======
+>>>>>>> 2/21/2019
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.LinearLayout;
@@ -90,6 +98,7 @@ import com.sit.kaikiliService.activity.AddServiceDataActivity;
 import com.sit.kaikiliService.api.CompsItme;
 import com.sit.kaikiliService.comman.Util;
 import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -109,11 +118,14 @@ import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/18/2019
+=======
+>>>>>>> 2/21/2019
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 
 import java.util.ArrayList;
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -149,12 +161,15 @@ import java.util.ArrayList;
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/18/2019
+=======
+>>>>>>> 2/21/2019
 /**
  * Created by ketan patel on 28/1/2019.
  * ketan_patel25@yahoo.com
  * Sharva Infotech PVT LTD
  */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -295,6 +310,8 @@ public class AddServiceItemAdapter extends BaseAdapter {
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/18/2019
+=======
+>>>>>>> 2/21/2019
 public class AddServiceItemAdapter extends BaseAdapter {
 
     private Context mActivity;
@@ -402,6 +419,7 @@ public class AddServiceItemAdapter extends BaseAdapter {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/14/2019
 =======
 >>>>>>> 2/15/2019
@@ -415,12 +433,15 @@ public class AddServiceItemAdapter extends BaseAdapter {
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/18/2019
+=======
+>>>>>>> 2/21/2019
 
 
         return row;
     }
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -461,6 +482,8 @@ public class AddServiceItemAdapter extends BaseAdapter {
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/18/2019
+=======
+>>>>>>> 2/21/2019
     public void setList(ArrayList<CompsItme> compsItmeList) {
         // TODO Auto-generated method stub
         this.compsItmeList = compsItmeList;
@@ -483,6 +506,7 @@ public class AddServiceItemAdapter extends BaseAdapter {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/14/2019
 =======
 >>>>>>> 2/15/2019
@@ -496,4 +520,6 @@ public class AddServiceItemAdapter extends BaseAdapter {
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/18/2019
+=======
+>>>>>>> 2/21/2019
 }

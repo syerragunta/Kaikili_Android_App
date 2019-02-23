@@ -108,6 +108,7 @@ public class BetterSpinner extends AutoCompleteTextView implements AdapterView.O
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         Drawable dropdownIcon = ContextCompat.getDrawable(getContext(), R.drawable.new_arrow_bottom);
 =======
         Drawable dropdownIcon = ContextCompat.getDrawable(getContext(), R.drawable.ic_down_arrow_24dp);
@@ -136,6 +137,9 @@ public class BetterSpinner extends AutoCompleteTextView implements AdapterView.O
 =======
         Drawable dropdownIcon = ContextCompat.getDrawable(getContext(), R.drawable.ic_down_arrow_24dp);
 >>>>>>> 2/18/2019
+=======
+        Drawable dropdownIcon = ContextCompat.getDrawable(getContext(), R.drawable.ic_down_arrow_24dp);
+>>>>>>> 2/21/2019
         if (dropdownIcon != null) {
             right = dropdownIcon;
             right.mutate().setAlpha(128);

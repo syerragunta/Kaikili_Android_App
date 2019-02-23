@@ -25,8 +25,11 @@
 
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 2/21/2019
             <LinearLayout
                 android:background="@drawable/box_full_radius_bg"
                 android:layout_width="match_parent"

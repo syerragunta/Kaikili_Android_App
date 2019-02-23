@@ -18,6 +18,7 @@ import android.widget.ImageView;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import com.sit.kaikiliService.KetanApplication;
 =======
 import com.sit.kaikiliService.KaikiliApplication;
@@ -49,12 +50,16 @@ import com.sit.kaikiliService.KaikiliApplication;
 =======
 import com.sit.kaikiliService.KaikiliApplication;
 >>>>>>> 2/18/2019
+=======
+import com.sit.kaikiliService.KaikiliApplication;
+>>>>>>> 2/21/2019
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 
 import java.util.ArrayList;
 
 import com.sit.kaikiliService.model.NotificationModel;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86,6 +91,8 @@ import com.sit.kaikiliService.model.ServiceModel;
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/18/2019
+=======
+>>>>>>> 2/21/2019
 
 
 /**
@@ -97,6 +104,7 @@ import com.sit.kaikiliService.model.ServiceModel;
 public class NotificationListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
     private Context mActivity;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -138,11 +146,15 @@ public class NotificationListAdapter extends RecyclerView.Adapter<RecyclerView.V
 =======
     private KaikiliApplication application;
 >>>>>>> 2/18/2019
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/21/2019
     private ArrayList <NotificationModel> notificationList;
 
     public NotificationListAdapter(Context activity) {
         // TODO Auto-generated constructor stub
         mActivity = activity;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -184,6 +196,9 @@ public class NotificationListAdapter extends RecyclerView.Adapter<RecyclerView.V
 =======
         application = (KaikiliApplication) mActivity.getApplicationContext();
 >>>>>>> 2/18/2019
+=======
+        application = (KaikiliApplication) mActivity.getApplicationContext();
+>>>>>>> 2/21/2019
         notificationList = new ArrayList<>( );
     }
 
@@ -204,6 +219,7 @@ public class NotificationListAdapter extends RecyclerView.Adapter<RecyclerView.V
         viewHolder.tvTitle.setText( notificationList.get( position ).getTitle());
         viewHolder.tvTime.setText( notificationList.get( position ).getTime());
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -237,6 +253,8 @@ public class NotificationListAdapter extends RecyclerView.Adapter<RecyclerView.V
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/18/2019
+=======
+>>>>>>> 2/21/2019
         viewHolder.ivRead.setVisibility( View.GONE );
         if(notificationList.get( position ).isReadStatus()){
 //            viewHolder.ivRead.setVisibility( View.VISIBLE );
@@ -244,6 +262,7 @@ public class NotificationListAdapter extends RecyclerView.Adapter<RecyclerView.V
             viewHolder.tvTime.setTextColor(mActivity.getResources().getColor(R.color.message_unread));
         }else {
 //            viewHolder.ivRead.setVisibility( View.INVISIBLE );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -269,6 +288,8 @@ public class NotificationListAdapter extends RecyclerView.Adapter<RecyclerView.V
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/18/2019
+=======
+>>>>>>> 2/21/2019
             viewHolder.tvTitle.setTextColor(mActivity.getResources().getColor(R.color.black_87));
             viewHolder.tvTime.setTextColor(mActivity.getResources().getColor(R.color.black_87));
         }

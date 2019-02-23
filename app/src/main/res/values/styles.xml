@@ -7,6 +7,10 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:windowDisablePreview">true</item>
+<<<<<<< HEAD
+=======
+        <item name="ratingBarStyle">@style/MyRatingBar</item>
+>>>>>>> 2/21/2019
 
     </style>
 
@@ -170,4 +174,12 @@
     <style name="DrawerIconStyle" parent="Widget.AppCompat.DrawerArrowToggle">
         <item name="color">@color/text_coloer</item>
     </style>
+<<<<<<< HEAD
+=======
+
+    <style name="MyRatingBar" parent="Widget.AppCompat.RatingBar">
+        <item name="colorAccent">@color/text_coloer</item>
+        <item name="android:colorControlNormal">@color/black_54</item>
+    </style>
+>>>>>>> 2/21/2019
 </resources>

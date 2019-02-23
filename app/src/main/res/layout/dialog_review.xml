@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/menu_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="@dimen/dim10">
+
+
+        <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingBottom="@dimen/dim4"
+            android:text="Customer Feedback"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/fontsize18" />
+
+
+        <RatingBar
+            style="?android:attr/ratingBarStyle"
+            android:id="@+id/dialog_rating_ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:numStars="5"
+            android:layout_marginLeft="@dimen/dim10"
+            android:layout_marginRight="@dimen/dim10"
+            android:rating="0"
+            android:isIndicator="false"
+
+            android:stepSize="1" />
+        <!--style="@style/Base.Widget.AppCompat.RatingBar"-->
+
+
+        <com.sit.kaikiliService.font.EditTextEupheminUCASRegular
+            android:id="@+id/dialog_rating_edt_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginLeft="@dimen/dim4"
+            android:layout_marginTop="@dimen/dim6"
+            android:layout_marginRight="@dimen/dim4"
+            android:background="@drawable/box_full_radius_bg"
+            android:gravity="left|top"
+            android:hint="Enter your comment. "
+            android:inputType="textMultiLine"
+            android:maxLines="4"
+            android:minLines="4"
+            android:padding="@dimen/dim4"
+            android:textColor="@color/black_87"
+            android:textSize="@dimen/fontsize14" />
+
+
+        <com.sit.kaikiliService.font.TextViewEuphemiaUCASBola
+            android:id="@+id/dialog_rating_tv_sendComment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/dim16"
+            android:layout_marginBottom="@dimen/dim16"
+            android:background="@drawable/buttons_selector"
+            android:gravity="center"
+            android:paddingLeft="@dimen/dim20"
+            android:paddingTop="@dimen/dim4"
+            android:paddingRight="@dimen/dim20"
+            android:paddingBottom="@dimen/dim4"
+            android:text="SUBMIT REVIEW"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/fontsize16" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
