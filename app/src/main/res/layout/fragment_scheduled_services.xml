@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     tools:context=".fragment.ScheduledServicesFragment">
 
 <<<<<<< HEAD
@@ -53,6 +54,10 @@
 >>>>>>> 2/16/2019 V2
     android:background="@color/white"
     tools:context=".fragment.ScheduledServicesFragment">
+=======
+    android:background="@color/white"
+  >
+>>>>>>> 2/16/2019
 
     <ImageView
         android:layout_width="match_parent"
@@ -61,6 +66,7 @@
         android:scaleType="fitXY"
         android:src="@drawable/image_bg" />
 
+<<<<<<< HEAD
     <android.support.v7.widget.RecyclerView
         android:id="@+id/scheduled_services_fgm_recyclerView"
         android:layout_width="match_parent"
@@ -90,4 +96,47 @@
 >>>>>>> 2/16/2019 V1
 =======
 >>>>>>> 2/16/2019 V2
+=======
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dim10"
+        android:orientation="vertical">
+
+        <com.sit.kaikiliService.font.TextViewEuphemiaUCASBola
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons_selector"
+            android:gravity="center"
+            android:paddingTop="@dimen/dim2"
+            android:paddingBottom="@dimen/dim4"
+            android:text="To Do List"
+            android:textColor="@color/white" />
+
+        <com.sit.kaikiliService.comman.WithoutScrollListView
+            android:id="@+id/scheduled_services_lv_toDo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <com.sit.kaikiliService.font.TextViewEuphemiaUCASBola
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/dim10"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons_selector"
+            android:gravity="center"
+            android:paddingTop="@dimen/dim2"
+            android:paddingBottom="@dimen/dim4"
+            android:text="Schedule Services"
+            android:textColor="@color/white" />
+
+        <com.sit.kaikiliService.comman.WithoutScrollListView
+            android:id="@+id/scheduled_services_lv_scheduleServices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+>>>>>>> 2/16/2019
 </FrameLayout>

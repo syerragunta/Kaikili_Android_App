@@ -3,13 +3,18 @@ package com.sit.kaikiliService.adapter;
 import android.app.Activity;
 import android.content.Context;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import android.content.Intent;
 >>>>>>> 2/16/2019 V2
+=======
+import android.content.Intent;
+>>>>>>> 2/16/2019
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51,18 +56,24 @@ import com.sit.kaikiliService.KaikiliApplication;
 >>>>>>> 2/16/2019 V1
 import com.sit.kaikiliService.R;
 =======
+=======
+>>>>>>> 2/16/2019
 
 import com.sit.kaikiliService.KaikiliApplication;
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.activity.AddServiceDataActivity;
 import com.sit.kaikiliService.api.ServiceInfo;
+<<<<<<< HEAD
 >>>>>>> 2/16/2019 V2
+=======
+>>>>>>> 2/16/2019
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASBola;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 
 import java.util.ArrayList;
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -92,12 +103,15 @@ import java.util.ArrayList;
 >>>>>>> 2/16/2019 V1
 =======
 >>>>>>> 2/16/2019 V2
+=======
+>>>>>>> 2/16/2019
 /**
  * Created by ketan patel on 30/1/2019.
  * ketan_patel25@yahoo.com
  * Sharva Infotech PVT LTD
  */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -248,6 +262,8 @@ public class ServiceCatalogueListAdapter extends BaseAdapter {
 			}
 		});
 =======
+=======
+>>>>>>> 2/16/2019
 public class ServiceCatalogueListAdapter extends BaseAdapter {
 
     private Context mActivity;
@@ -308,13 +324,17 @@ public class ServiceCatalogueListAdapter extends BaseAdapter {
                 mActivity.startActivity(intent);
             }
         } );
+<<<<<<< HEAD
 >>>>>>> 2/16/2019 V2
+=======
+>>>>>>> 2/16/2019
 
 
         return row;
     }
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 	public void setList(ArrayList<String > servicesList) {
@@ -331,6 +351,8 @@ public class ServiceCatalogueListAdapter extends BaseAdapter {
 
 	
 =======
+=======
+>>>>>>> 2/16/2019
     public void setList(ArrayList<ServiceInfo> servicesList) {
         // TODO Auto-generated method stub
         this.servicesList = servicesList;
@@ -344,5 +366,8 @@ public class ServiceCatalogueListAdapter extends BaseAdapter {
     }
 
 
+<<<<<<< HEAD
 >>>>>>> 2/16/2019 V2
+=======
+>>>>>>> 2/16/2019
 }

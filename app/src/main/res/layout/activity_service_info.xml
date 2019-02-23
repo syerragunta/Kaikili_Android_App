@@ -10,6 +10,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     android:background="@color/white"
 >>>>>>> 2/2/2019
@@ -32,10 +33,15 @@
     android:background="@color/white"
 >>>>>>> 2/16/2019 V2
     android:layout_height="match_parent">
+=======
+    android:layout_height="match_parent"
+    android:background="@color/white">
+>>>>>>> 2/16/2019
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -86,6 +92,11 @@
 
         <include layout="@layout/activity_header" />
 >>>>>>> 2/16/2019 V2
+=======
+        android:orientation="vertical">
+
+        <include layout="@layout/activity_header" />
+>>>>>>> 2/16/2019
 
 
         <ScrollView
@@ -98,6 +109,7 @@
                 android:orientation="vertical">
 
 
+<<<<<<< HEAD
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -261,10 +273,141 @@
                     android:textColor="#FFFFFF"
                     android:textSize="@dimen/fontsize16" />
             </LinearLayout>
+=======
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/dim30"
+                    android:layout_marginTop="@dimen/dim10"
+                    android:layout_marginRight="@dimen/dim30"
+                    android:orientation="horizontal">
+
+                    <com.sit.kaikiliService.comman.CircularImageView
+                        android:id="@+id/service_info_civ_profile"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/user_circle"
+                        android:visibility="visible" />
+
+
+                    <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+                        android:id="@+id/service_info_tv_userName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="-1dp"
+                        android:layout_marginLeft="@dimen/dim4"
+                        android:layout_marginEnd="0dp"
+                        android:layout_marginRight="0dp"
+                        android:layout_toLeftOf="@+id/service_info_civ_profile"
+                        android:layout_toEndOf="@+id/service_info_civ_profile"
+                        android:text="User Name"
+                        android:textColor="@color/black_87"
+                        android:textSize="@dimen/fontsize16" />
+
+
+                </RelativeLayout>
+
+                <com.sit.kaikiliService.font.TextViewEuphemiaUCASBola
+                    android:id="@+id/service_info_tv_serviceName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dim4"
+                    android:gravity="center"
+                    android:text="Interior Painting"
+                    android:textColor="@color/black_87"
+                    android:textSize="@dimen/fontsize20" />
+
+                <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+                    android:id="@+id/service_info_tv_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dim12"
+                    android:gravity="center"
+                    android:text="Address: 7171 Ikea Dr, Frisco, TX 75034"
+                    android:textColor="@color/black_87"
+                    android:textSize="@dimen/fontsize18" />
+
+                <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+                    android:id="@+id/service_info_tv_data"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Date and Time: 01/09/2019 6:00 PM"
+                    android:textColor="@color/black_87"
+                    android:textSize="@dimen/fontsize18" />
+
+                <com.sit.kaikiliService.font.TextViewEuphemiaUCASBola
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dim12"
+                    android:gravity="center"
+                    android:text="Job Details"
+                    android:textColor="@color/black_87"
+                    android:textSize="@dimen/fontsize20" />
+
+                <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dim16"
+                    android:gravity="center"
+                    android:text="Ground Sq footage area…….2500"
+                    android:textColor="@color/black_87"
+                    android:textSize="@dimen/fontsize18"
+                    android:visibility="gone" />
+
+                <com.sit.kaikiliService.comman.WithoutScrollListView
+                    android:id="@+id/service_info_listView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dim20"
+                    android:layout_marginTop="@dimen/dim20"
+                    android:layout_marginRight="@dimen/dim20">
+
+                </com.sit.kaikiliService.comman.WithoutScrollListView>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dim10"
+                    android:layout_marginTop="@dimen/dim20"
+                    android:layout_marginRight="@dimen/dim10"
+                    android:orientation="horizontal">
+
+                    <com.sit.kaikiliService.font.TextViewEuphemiaUCASBola
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:gravity="left"
+                        android:singleLine="true"
+                        android:text="Total"
+                        android:textColor="@color/black_87"
+                        android:textSize="@dimen/fontsize18" />
+
+                    <com.sit.kaikiliService.font.TextViewEuphemiaUCASBola
+                        android:id="@+id/service_info_tv_total"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="$1015.00"
+                        android:textColor="@color/black_87"
+                        android:textSize="@dimen/fontsize18" />
+
+                </LinearLayout>
+
+>>>>>>> 2/16/2019
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+<<<<<<< HEAD
                     android:orientation="horizontal"
                     android:layout_gravity="center"
                     android:gravity="center"
@@ -279,16 +422,98 @@
                         android:background="@drawable/buttons_selector"
                         android:gravity="center"
                         android:padding="@dimen/dim8"
+=======
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/dim10"
+                    android:layout_marginTop="@dimen/dim10"
+                    android:layout_marginRight="@dimen/dim10"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+                        android:id="@+id/service_info_tv_onTheWay"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/dim4"
+                        android:layout_marginRight="@dimen/dim4"
+                        android:background="@drawable/buttons_selector"
+                        android:gravity="center"
+                        android:padding="@dimen/dim8"
+                        android:text="ON THE WAY"
+                        android:textColor="#FFFFFF"
+                        android:textSize="@dimen/fontsize16" />
+
+                    <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+                        android:id="@+id/service_info_tv_completed"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:visibility="gone"
+                        android:layout_marginLeft="@dimen/dim4"
+                        android:layout_marginRight="@dimen/dim4"
+                        android:background="@drawable/buttons_selector"
+                        android:gravity="center"
+                        android:padding="@dimen/dim8"
+                        android:text="COMPLETED"
+                        android:textColor="#FFFFFF"
+                        android:textSize="@dimen/fontsize16" />
+
+                    <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+                        android:id="@+id/service_info_tv_review"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:visibility="gone"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/dim4"
+                        android:layout_marginRight="@dimen/dim4"
+                        android:background="@drawable/buttons_selector"
+                        android:gravity="center"
+                        android:padding="@dimen/dim8"
+                        android:text="REVIEW"
+                        android:textColor="#FFFFFF"
+                        android:textSize="@dimen/fontsize16" />
+
+
+                    <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+                        android:id="@+id/service_info_tv_Accept"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/dim4"
+                        android:layout_marginRight="@dimen/dim4"
+                        android:background="@drawable/buttons_selector"
+                        android:gravity="center"
+                        android:padding="@dimen/dim8"
+                        android:visibility="gone"
+>>>>>>> 2/16/2019
                         android:text="ACCEPT"
                         android:textColor="#FFFFFF"
                         android:textSize="@dimen/fontsize16" />
 
                     <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+<<<<<<< HEAD
                         android:id="@+id/user_location_tv_reschedule"
                         android:layout_marginLeft="@dimen/dim8"
                         android:layout_width="@dimen/extra_padding_x190"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center|bottom"
+=======
+                        android:id="@+id/service_info_tv_reschedule"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:visibility="gone"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/dim4"
+                        android:layout_marginRight="@dimen/dim4"
+>>>>>>> 2/16/2019
                         android:background="@drawable/buttons_selector"
                         android:gravity="center"
                         android:padding="@dimen/dim8"
@@ -300,6 +525,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+<<<<<<< HEAD
                     android:orientation="horizontal"
                     android:layout_gravity="center"
                     android:gravity="center"
@@ -311,6 +537,23 @@
                         android:layout_width="@dimen/extra_padding_x190"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center|bottom"
+=======
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dim10"
+                    android:layout_marginBottom="@dimen/dim10"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+                        android:id="@+id/service_info_tv_cancel"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dim14"
+                        android:layout_marginRight="@dimen/dim14"
+                        android:layout_gravity="center"
+>>>>>>> 2/16/2019
                         android:background="@drawable/buttons_selector"
                         android:gravity="center"
                         android:padding="@dimen/dim8"

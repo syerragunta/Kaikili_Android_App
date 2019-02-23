@@ -6,6 +6,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 <<<<<<< HEAD
@@ -46,10 +47,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 >>>>>>> 2/16/2019 V2
+=======
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>>>>>>> 2/16/2019
     android:background="@color/white"
     android:orientation="vertical">
 
     <include layout="@layout/activity_header" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -69,6 +76,8 @@
 >>>>>>> 2/16/2019 V1
 =======
 >>>>>>> 2/16/2019 V2
+=======
+>>>>>>> 2/16/2019
 
     <ScrollView
         android:layout_width="match_parent"
@@ -108,6 +117,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     android:textColor="@color/text_coloer"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -150,6 +160,10 @@
                     android:textColor="@color/black_87"
                     android:textSize="@dimen/fontsize18" />
 >>>>>>> 2/16/2019 V2
+=======
+                    android:textColor="@color/black_87"
+                    android:textSize="@dimen/fontsize18" />
+>>>>>>> 2/16/2019
 
                 <View
                     android:id="@+id/add_service_data_view_costPerItem"
@@ -157,6 +171,7 @@
                     android:layout_height="1dp"
                     android:layout_marginTop="@dimen/dim4"
                     android:layout_marginBottom="@dimen/dim4"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -186,6 +201,9 @@
 =======
                     android:background="@color/black_87" />
 >>>>>>> 2/16/2019 V2
+=======
+                    android:background="@color/black_87" />
+>>>>>>> 2/16/2019
 
                 <com.sit.kaikiliService.comman.WithoutScrollListView
                     android:id="@+id/add_service_data_listView_costPerItem"
@@ -211,6 +229,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     android:textColor="@color/text_coloer"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -253,6 +272,10 @@
                     android:textColor="@color/black_87"
                     android:textSize="@dimen/fontsize18" />
 >>>>>>> 2/16/2019 V2
+=======
+                    android:textColor="@color/black_87"
+                    android:textSize="@dimen/fontsize18" />
+>>>>>>> 2/16/2019
 
                 <View
                     android:id="@+id/add_service_data_view_costPerSize"
@@ -260,6 +283,7 @@
                     android:layout_height="1dp"
                     android:layout_marginTop="@dimen/dim4"
                     android:layout_marginBottom="@dimen/dim4"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -289,6 +313,9 @@
 =======
                     android:background="@color/black_87" />
 >>>>>>> 2/16/2019 V2
+=======
+                    android:background="@color/black_87" />
+>>>>>>> 2/16/2019
 
                 <com.sit.kaikiliService.comman.WithoutScrollListView
                     android:id="@+id/add_service_data_listView_costPerSize"
@@ -319,13 +346,18 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/dim4"
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 2/16/2019 V2
+=======
+
+>>>>>>> 2/16/2019
                     android:background="@drawable/box_full_radius_bg"
                     android:gravity="top|left"
                     android:hint="Please provide more about your service"
                     android:maxLines="10"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -379,12 +411,17 @@
                     android:padding="@dimen/dim4"
                     android:visibility="visible" />
 =======
+=======
+>>>>>>> 2/16/2019
                     android:textColor="@color/black_87"
                     android:textSize="@dimen/fontsize16"
                     android:minLines="10"
                     android:padding="@dimen/dim4"
                     android:visibility="gone" />
+<<<<<<< HEAD
 >>>>>>> 2/16/2019 V2
+=======
+>>>>>>> 2/16/2019
 
 
                 <LinearLayout
@@ -396,6 +433,7 @@
                     android:orientation="horizontal">
 
                     <CheckBox
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -417,6 +455,9 @@
 =======
                         android:id="@+id/add_service_data_ch_offer"
 >>>>>>> 2/16/2019 V2
+=======
+                        android:id="@+id/add_service_data_ch_offer"
+>>>>>>> 2/16/2019
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:checked="false"
@@ -425,6 +466,7 @@
 
 
                     <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -450,6 +492,9 @@
 =======
                         android:id="@+id/add_service_offer_tv_title"
 >>>>>>> 2/16/2019 V2
+=======
+                        android:id="@+id/add_service_offer_tv_title"
+>>>>>>> 2/16/2019
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
@@ -457,6 +502,7 @@
                         android:layout_weight="1"
                         android:gravity="left|center_vertical"
                         android:text="Seasonal Offer"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -515,12 +561,17 @@
                     <com.sit.kaikiliService.font.TextViewEuphemiaUCASBola
 >>>>>>> 2/16/2019 V1
 =======
+=======
+>>>>>>> 2/16/2019
                         android:textColor="@color/black_87"
                         android:textSize="@dimen/fontsize16" />
 
 
                     <com.sit.kaikiliService.font.TextViewEuphemiaUCASBola
+<<<<<<< HEAD
 >>>>>>> 2/16/2019 V2
+=======
+>>>>>>> 2/16/2019
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="right|center_vertical"
@@ -532,6 +583,7 @@
                         android:textSize="@dimen/fontsize18" />
 
                     <com.sit.kaikiliService.font.EditTextEupheminUCASRegular
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -553,11 +605,15 @@
 =======
                         android:id="@+id/add_service_data_edt_offer"
 >>>>>>> 2/16/2019 V2
+=======
+                        android:id="@+id/add_service_data_edt_offer"
+>>>>>>> 2/16/2019
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/dim2"
                         android:layout_marginRight="@dimen/dim2"
                         android:background="@drawable/box_full_radius_bg"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -587,10 +643,14 @@
 =======
                         android:gravity="right"
 >>>>>>> 2/16/2019 V2
+=======
+                        android:gravity="right"
+>>>>>>> 2/16/2019
                         android:hint="00.00"
                         android:inputType="number|numberDecimal"
                         android:maxLength="6"
                         android:minEms="3"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -636,6 +696,11 @@
                         android:textColor="@color/black_87"
                         android:textSize="@dimen/fontsize16" />
 >>>>>>> 2/16/2019 V2
+=======
+                        android:padding="@dimen/dim4"
+                        android:textColor="@color/black_87"
+                        android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/16/2019
 
 
                 </LinearLayout>
@@ -643,6 +708,7 @@
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -685,6 +751,11 @@
                     android:layout_marginBottom="@dimen/dim20"
                     android:background="@color/black_87" />
 >>>>>>> 2/16/2019 V2
+=======
+                    android:layout_marginTop="@dimen/dim4"
+                    android:layout_marginBottom="@dimen/dim20"
+                    android:background="@color/black_87" />
+>>>>>>> 2/16/2019
 
 
                 <com.sit.kaikiliService.font.TextViewEuphemiaUCASBola
@@ -719,6 +790,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2/15/2019
@@ -728,6 +800,8 @@
 >>>>>>> 2/16/2019 V1
 =======
 >>>>>>> 2/16/2019 V2
+=======
+>>>>>>> 2/16/2019
                 <android.support.design.widget.FloatingActionButton
                     android:id="@+id/add_service_data_floaButton_save"
                     android:layout_width="wrap_content"
@@ -736,6 +810,7 @@
                     android:layout_margin="@dimen/fab_margin"
                     app:srcCompat="@drawable/icon_next" />
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -749,6 +824,8 @@
 >>>>>>> 2/16/2019 V1
 =======
 >>>>>>> 2/16/2019 V2
+=======
+>>>>>>> 2/16/2019
             </LinearLayout>
 
         </LinearLayout>

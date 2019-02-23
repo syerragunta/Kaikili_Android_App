@@ -13,6 +13,7 @@ import android.content.Context;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import android.content.Intent;
 >>>>>>> 1/29/2019
@@ -59,10 +60,16 @@ import android.content.Intent;
 import android.os.Parcelable;
 import android.util.Log;
 >>>>>>> 2/16/2019 V2
+=======
+import android.content.Intent;
+import android.os.Parcelable;
+import android.util.Log;
+>>>>>>> 2/16/2019
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -106,12 +113,15 @@ import com.sit.kaikiliService.activity.AddServiceDataActivity;
 >>>>>>> 2/16/2019 V1
 =======
 >>>>>>> 2/16/2019 V2
+=======
+>>>>>>> 2/16/2019
 import android.widget.LinearLayout;
 
 
 import com.sit.kaikiliService.KaikiliApplication;
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.activity.AddServiceDataActivity;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -149,6 +159,8 @@ import java.util.ArrayList;
 >>>>>>> 2/16/2019 V1
 =======
 >>>>>>> 2/16/2019 V2
+=======
+>>>>>>> 2/16/2019
 import com.sit.kaikiliService.api.ServiceList;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 
@@ -156,6 +168,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -172,12 +185,15 @@ import java.util.ArrayList;
 >>>>>>> 2/16/2019 V1
 =======
 >>>>>>> 2/16/2019 V2
+=======
+>>>>>>> 2/16/2019
 /**
  * Created by ketan patel on 30/1/2019.
  * ketan_patel25@yahoo.com
  * Sharva Infotech PVT LTD
  */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -206,10 +222,13 @@ import java.util.ArrayList;
 >>>>>>> 2/16/2019 V1
 =======
 >>>>>>> 2/16/2019 V2
+=======
+>>>>>>> 2/16/2019
 public class AddServiceListAdapter extends BaseAdapter {
 
 	private Context mActivity;
 	private LayoutInflater inflater;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -250,11 +269,16 @@ public class AddServiceListAdapter extends BaseAdapter {
 	private ArrayList<ServiceList> servicesList = new ArrayList<>();
     private KaikiliApplication application;
 >>>>>>> 2/16/2019 V2
+=======
+	private ArrayList<ServiceList> servicesList = new ArrayList<>();
+    private KaikiliApplication application;
+>>>>>>> 2/16/2019
 
 
 	public AddServiceListAdapter(Context activity) {
 		// TODO Auto-generated constructor stub
 		mActivity = activity;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -288,6 +312,9 @@ public class AddServiceListAdapter extends BaseAdapter {
 =======
         application = (KaikiliApplication)mActivity.getApplicationContext();
 >>>>>>> 2/16/2019 V2
+=======
+        application = (KaikiliApplication)mActivity.getApplicationContext();
+>>>>>>> 2/16/2019
 		inflater = (LayoutInflater) mActivity.getSystemService(Activity.LAYOUT_INFLATER_SERVICE);
 
 	}
@@ -328,6 +355,7 @@ public class AddServiceListAdapter extends BaseAdapter {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             holder.tvName.setText( servicesList.get( position ).toString());
 =======
             holder.tvName.setText( servicesList.get(position).getSr_title());
@@ -347,6 +375,9 @@ public class AddServiceListAdapter extends BaseAdapter {
 =======
             holder.tvName.setText( servicesList.get(position).getSr_title());
 >>>>>>> 2/16/2019 V2
+=======
+            holder.tvName.setText( servicesList.get(position).getSr_title());
+>>>>>>> 2/16/2019
 
 
 
@@ -354,6 +385,7 @@ public class AddServiceListAdapter extends BaseAdapter {
 			@Override
 			public void onClick(View v) {
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -407,10 +439,13 @@ public class AddServiceListAdapter extends BaseAdapter {
 >>>>>>> 2/16/2019 V1
 =======
 >>>>>>> 2/16/2019 V2
+=======
+>>>>>>> 2/16/2019
 //				Log.e( "------------", servicesList.get(post).getCost_comps_per_itme().size() +" item");
 //				Log.e( "------------", servicesList.get(post).getCost_comps_pro_rated().size() +" item");
 
 				Intent intent = new Intent(mActivity, AddServiceDataActivity.class);
+<<<<<<< HEAD
 <<<<<<< HEAD
 				intent.putExtra("serviceName",  servicesList.get(post) );
 				mActivity.startActivity(intent);
@@ -432,6 +467,11 @@ public class AddServiceListAdapter extends BaseAdapter {
 				intent.putExtra("serviceId",  servicesList.get(post).getSr_id() );
 				mActivity.startActivity(intent);
 >>>>>>> 2/16/2019 V2
+=======
+//				intent.putExtra("serviceName",  servicesList.get(post) );
+				intent.putExtra("serviceId",  servicesList.get(post).getSr_id() );
+				mActivity.startActivity(intent);
+>>>>>>> 2/16/2019
 			}
 		});
 
@@ -441,6 +481,7 @@ public class AddServiceListAdapter extends BaseAdapter {
 
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -466,6 +507,9 @@ public class AddServiceListAdapter extends BaseAdapter {
 =======
 	public void setList(ArrayList<ServiceList> servicesList) {
 >>>>>>> 2/16/2019 V2
+=======
+	public void setList(ArrayList<ServiceList> servicesList) {
+>>>>>>> 2/16/2019
 		// TODO Auto-generated method stub
 		this.servicesList = servicesList;
 		notifyDataSetChanged();

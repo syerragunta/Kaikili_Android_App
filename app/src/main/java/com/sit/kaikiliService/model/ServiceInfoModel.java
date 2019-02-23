@@ -1,5 +1,14 @@
 package com.sit.kaikiliService.model;
 
+<<<<<<< HEAD
+=======
+/**
+ * Created by ketan patel on 30/1/2019.
+ * ketan_patel25@yahoo.com
+ * Sharva Infotech PVT LTD
+ */
+
+>>>>>>> 2/16/2019
 public class ServiceInfoModel {
     public String getName() {
         return name;

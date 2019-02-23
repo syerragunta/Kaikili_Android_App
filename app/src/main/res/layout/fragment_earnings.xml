@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -41,11 +42,14 @@
 >>>>>>> 2/16/2019 V1
 =======
 >>>>>>> 2/16/2019 V2
+=======
+>>>>>>> 2/16/2019
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -74,6 +78,9 @@
 =======
     android:background="@color/white"
 >>>>>>> 2/16/2019 V2
+=======
+    android:background="@color/white"
+>>>>>>> 2/16/2019
 >
 
 
@@ -81,6 +88,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Total Earnings"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -110,6 +118,9 @@
 =======
         android:textSize="@dimen/fontsize20"
 >>>>>>> 2/16/2019 V2
+=======
+        android:textSize="@dimen/fontsize20"
+>>>>>>> 2/16/2019
         android:gravity="center_horizontal"
         android:layout_marginTop="@dimen/dim18"
         android:layout_gravity="center_horizontal"
@@ -120,6 +131,7 @@
         android:id="@+id/fag_earnings_tv_amount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -149,6 +161,9 @@
 =======
         android:text="$535.00"
 >>>>>>> 2/16/2019 V2
+=======
+        android:text="$535.00"
+>>>>>>> 2/16/2019
         android:textSize="@dimen/fontsize50"
         android:gravity="center_horizontal"
         android:layout_gravity="center_horizontal"
@@ -200,6 +215,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 </LinearLayout>
 >>>>>>> 1/30/2019
 =======
@@ -229,3 +245,6 @@
 =======
 </LinearLayout>
 >>>>>>> 2/16/2019 V2
+=======
+</LinearLayout>
+>>>>>>> 2/16/2019

@@ -31,6 +31,7 @@ public class Discount implements Serializable {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     private String ds_rate = "";
 
@@ -52,6 +53,8 @@ public class Discount implements Serializable {
 >>>>>>> 2/16/2019 V1
 =======
 >>>>>>> 2/16/2019 V2
+=======
+>>>>>>> 2/16/2019
     private String ds_rate = "";
 
     @JsonField
@@ -70,6 +73,7 @@ public class Discount implements Serializable {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/15/2019
 =======
 >>>>>>> 2/16/2019
@@ -77,6 +81,8 @@ public class Discount implements Serializable {
 >>>>>>> 2/16/2019 V1
 =======
 >>>>>>> 2/16/2019 V2
+=======
+>>>>>>> 2/16/2019
 
     public String getDs_id() {
         return ds_id;
@@ -113,6 +119,7 @@ public class Discount implements Serializable {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2/16/2019
@@ -120,6 +127,8 @@ public class Discount implements Serializable {
 >>>>>>> 2/16/2019 V1
 =======
 >>>>>>> 2/16/2019 V2
+=======
+>>>>>>> 2/16/2019
 
     public String getDs_rate() {
         return ds_rate;
@@ -132,6 +141,7 @@ public class Discount implements Serializable {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/15/2019
 =======
 >>>>>>> 2/16/2019
@@ -139,4 +149,6 @@ public class Discount implements Serializable {
 >>>>>>> 2/16/2019 V1
 =======
 >>>>>>> 2/16/2019 V2
+=======
+>>>>>>> 2/16/2019
 }
