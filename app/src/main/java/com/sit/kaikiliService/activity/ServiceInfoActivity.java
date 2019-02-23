@@ -1,6 +1,7 @@
 package com.sit.kaikiliService.activity;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
@@ -64,6 +65,8 @@ import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 import com.sit.kaikiliService.model.ServiceInfoModel;
 
 =======
+=======
+>>>>>>> 2/18/2019
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.SharedPreferences;
@@ -93,7 +96,10 @@ import com.sit.kaikiliService.model.ServiceInfoModel;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+<<<<<<< HEAD
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/18/2019
 import java.util.ArrayList;
 
 import butterknife.Bind;
@@ -108,6 +114,7 @@ import butterknife.ButterKnife;
 
 public class ServiceInfoActivity extends BaseActivity implements View.OnClickListener {
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     @Bind(R.id.top_back)
     ImageView top_back;
@@ -153,6 +160,8 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
     private ServiceInfoItemAdapter adapter;
     private ArrayList<ServiceInfoModel> serviceInfoList;
 =======
+=======
+>>>>>>> 2/18/2019
     @Bind(R.id.top_back) ImageView top_back;
     @Bind(R.id.top_title) TextViewEuphemiaUCASRegular top_title;
     @Bind(R.id.service_info_listView) WithoutScrollListView service_info_listView;
@@ -177,7 +186,10 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
     private ServiceInfoItemAdapter adapter;
     private ArrayList<ServiceInfoModel> serviceInfoList;
     private TransitionServiceData transitionServiceData;
+<<<<<<< HEAD
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/18/2019
 
 
     @Override
@@ -186,6 +198,7 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
         setContentView( R.layout.activity_service_info );
         ButterKnife.bind( this, this );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -223,18 +236,24 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
         preferences = application.getSharedPreferences();
 
 =======
+=======
+>>>>>>> 2/18/2019
         application = (KaikiliApplication) getApplicationContext();
         preferences = application.getSharedPreferences();
 
         transitionServiceData = (TransitionServiceData) getIntent().getSerializableExtra( "data" );
 
+<<<<<<< HEAD
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/18/2019
         top_title.setText( "Service Detail" );
         top_back.setOnClickListener( this );
 
         adapter = new ServiceInfoItemAdapter( this );
         service_info_listView.setAdapter( adapter );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         serviceInfoList = new ArrayList<>();
         ServiceInfoModel model = new ServiceInfoModel();
@@ -302,6 +321,8 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
         adapter.setList( serviceInfoList );
 
 =======
+=======
+>>>>>>> 2/18/2019
         service_info_tv_userName.setText(transitionServiceData.getCust_first_name()+" "+transitionServiceData.getCust_last_name() );
         service_info_tv_serviceName.setText(transitionServiceData.getSr_title());
         service_info_tv_address.setText( "Address :"+transitionServiceData.getAddress());
@@ -479,7 +500,10 @@ public class ServiceInfoActivity extends BaseActivity implements View.OnClickLis
                 Toast.makeText( mActivity,targetData.getMessage(),Toast.LENGTH_SHORT ).show();
             }
         }
+<<<<<<< HEAD
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/18/2019
     }
 
 

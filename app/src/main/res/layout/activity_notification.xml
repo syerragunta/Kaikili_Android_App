@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/activity_header" />
+
+    <ListView
+        android:id="@+id/listViewMessages"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_alignParentTop="true"
+        android:divider="@null"
+        android:descendantFocusability="beforeDescendants"
+        android:dividerHeight="0dp"
+        android:padding="0dp"
+        android:paddingBottom="10dp"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll"
+         />
+
+
+
+
+
+            <LinearLayout
+                android:background="@drawable/box_full_radius_bg"
+                android:layout_width="match_parent"
+                android:padding="@dimen/dim4"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <com.sit.kaikiliService.font.EditTextEupheminUCASRegular
+                    android:id="@+id/messagePostArea"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/transparent"
+                    android:hint="Enter Message"
+                    android:imeOptions="actionSend"
+                    android:inputType="textCapSentences|textMultiLine"
+                    android:maxLines="5"
+                    android:textSize="@dimen/fontsize16"
+                    android:padding="@dimen/dim6"
+                    android:textColor="@color/black_87"
+                    android:textColorHint="@color/black_30" />
+
+                <ImageView
+                    android:id="@+id/sendButton"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@android:drawable/ic_menu_send"
+
+                    />
+
+            </LinearLayout>
+
+
+
+
+</LinearLayout>

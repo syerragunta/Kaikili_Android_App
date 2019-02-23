@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/dim2"
+    android:layout_marginRight="@dimen/dim40"
+    android:layout_marginStart="@dimen/dim2"
+    android:layout_marginTop="@dimen/dim2"
+    android:orientation="vertical">
+    
+    <LinearLayout
+        android:id="@+id/adp_left_crd_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/dim2"
+        android:layout_marginStart="@dimen/dim2"
+        android:layout_marginTop="@dimen/dim2"
+        android:background="@drawable/message_received_2"
+        android:orientation="vertical">
+
+        <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+            android:id="@+id/adp_left_chat_txt_receive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="-5dp"
+            android:text="dgsgsdgsdgsdgsdgsgsdgds"
+            android:textSize="@dimen/fontsize16"
+            android:padding="@dimen/dim2"
+
+    />
+
+        <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+            android:id="@+id/adp_left_chat_txt_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:gravity="bottom|end"
+            android:textColor="@color/white"
+            android:text="gsdgsdgsdgsgsdds"
+            android:textSize="@dimen/fontsize10"
+            />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

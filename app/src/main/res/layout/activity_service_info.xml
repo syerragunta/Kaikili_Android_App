@@ -11,6 +11,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     android:background="@color/white"
 >>>>>>> 2/2/2019
@@ -37,10 +38,15 @@
     android:layout_height="match_parent"
     android:background="@color/white">
 >>>>>>> 2/16/2019
+=======
+    android:layout_height="match_parent"
+    android:background="@color/white">
+>>>>>>> 2/18/2019
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -97,6 +103,11 @@
 
         <include layout="@layout/activity_header" />
 >>>>>>> 2/16/2019
+=======
+        android:orientation="vertical">
+
+        <include layout="@layout/activity_header" />
+>>>>>>> 2/18/2019
 
 
         <ScrollView
@@ -109,6 +120,7 @@
                 android:orientation="vertical">
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
         <RelativeLayout
@@ -274,6 +286,8 @@
                     android:textSize="@dimen/fontsize16" />
             </LinearLayout>
 =======
+=======
+>>>>>>> 2/18/2019
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -402,11 +416,15 @@
 
                 </LinearLayout>
 
+<<<<<<< HEAD
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/18/2019
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+<<<<<<< HEAD
 <<<<<<< HEAD
                     android:orientation="horizontal"
                     android:layout_gravity="center"
@@ -423,6 +441,8 @@
                         android:gravity="center"
                         android:padding="@dimen/dim8"
 =======
+=======
+>>>>>>> 2/18/2019
                     android:layout_gravity="center"
                     android:layout_marginLeft="@dimen/dim10"
                     android:layout_marginTop="@dimen/dim10"
@@ -492,12 +512,16 @@
                         android:gravity="center"
                         android:padding="@dimen/dim8"
                         android:visibility="gone"
+<<<<<<< HEAD
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/18/2019
                         android:text="ACCEPT"
                         android:textColor="#FFFFFF"
                         android:textSize="@dimen/fontsize16" />
 
                     <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+<<<<<<< HEAD
 <<<<<<< HEAD
                         android:id="@+id/user_location_tv_reschedule"
                         android:layout_marginLeft="@dimen/dim8"
@@ -505,6 +529,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center|bottom"
 =======
+=======
+>>>>>>> 2/18/2019
                         android:id="@+id/service_info_tv_reschedule"
                         android:layout_width="0dp"
                         android:layout_weight="1"
@@ -513,7 +539,10 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="@dimen/dim4"
                         android:layout_marginRight="@dimen/dim4"
+<<<<<<< HEAD
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/18/2019
                         android:background="@drawable/buttons_selector"
                         android:gravity="center"
                         android:padding="@dimen/dim8"
@@ -525,6 +554,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+<<<<<<< HEAD
 <<<<<<< HEAD
                     android:orientation="horizontal"
                     android:layout_gravity="center"
@@ -538,6 +568,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center|bottom"
 =======
+=======
+>>>>>>> 2/18/2019
                     android:layout_gravity="center"
                     android:layout_marginTop="@dimen/dim10"
                     android:layout_marginBottom="@dimen/dim10"
@@ -553,7 +585,10 @@
                         android:layout_marginLeft="@dimen/dim14"
                         android:layout_marginRight="@dimen/dim14"
                         android:layout_gravity="center"
+<<<<<<< HEAD
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/18/2019
                         android:background="@drawable/buttons_selector"
                         android:gravity="center"
                         android:padding="@dimen/dim8"

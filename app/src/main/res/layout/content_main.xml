@@ -13,6 +13,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     tools:context=".MainActivity"
 =======
     android:background="@color/white"
@@ -38,6 +39,9 @@
 =======
     android:background="@color/white"
 >>>>>>> 2/16/2019
+=======
+    android:background="@color/white"
+>>>>>>> 2/18/2019
     tools:showIn="@layout/activity_main">
 
     <TextView

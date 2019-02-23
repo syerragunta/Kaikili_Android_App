@@ -17,6 +17,7 @@ import android.widget.ImageView;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import com.sit.kaikiliService.KetanApplication;
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.font.CreditCardEditText;
@@ -56,6 +57,10 @@ import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.KaikiliApplication;
 import com.sit.kaikiliService.R;
 >>>>>>> 2/16/2019
+=======
+import com.sit.kaikiliService.KaikiliApplication;
+import com.sit.kaikiliService.R;
+>>>>>>> 2/18/2019
 import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 
@@ -81,6 +86,7 @@ public class AddBankDetailsActivity extends BaseActivity implements View.OnClick
     EditTextEupheminUCASRegular add_card_edit_date;
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -118,6 +124,9 @@ public class AddBankDetailsActivity extends BaseActivity implements View.OnClick
 =======
     private KaikiliApplication application;
 >>>>>>> 2/16/2019
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/18/2019
     private SharedPreferences preferences;
 
 
@@ -127,6 +136,7 @@ public class AddBankDetailsActivity extends BaseActivity implements View.OnClick
         setContentView( R.layout.activity_add_bank_details );
         ButterKnife.bind( this, this );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -164,6 +174,9 @@ public class AddBankDetailsActivity extends BaseActivity implements View.OnClick
 =======
         application = (KaikiliApplication) getApplicationContext();
 >>>>>>> 2/16/2019
+=======
+        application = (KaikiliApplication) getApplicationContext();
+>>>>>>> 2/18/2019
         preferences = application.getSharedPreferences();
 
         top_title.setText( "Add Bank Details" );

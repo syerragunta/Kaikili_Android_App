@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end"
+    android:layout_marginBottom="@dimen/dim2"
+    android:layout_marginEnd="@dimen/dim4"
+    android:layout_marginStart="@dimen/dim2"
+    android:layout_marginLeft="@dimen/dim40"
+    android:layout_marginTop="@dimen/dim4"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/dim2"
+        android:id="@+id/chat_llRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/message_sent_2"
+        android:orientation="vertical"
+
+       >
+
+        <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+            android:id="@+id/adp_right_chat_txt_sent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="-5dp"
+            android:text="fasfasfafasasfdasfadssg dfgd  dfgd dfg dffd dfgdffdgds"
+            android:padding="@dimen/dim2"
+            android:textColor="@color/white"
+            android:textSize="@dimen/fontsize16" />
+
+        <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
+            android:id="@+id/adp_right_chat_txt_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/dim2"
+            android:textColor="@color/white"
+            android:text="dfsfsfssdsdsdsds"
+            android:textSize="@dimen/fontsize10"
+            />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

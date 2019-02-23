@@ -11,6 +11,7 @@ package com.sit.kaikiliService.fragment;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
@@ -67,6 +68,37 @@ import com.sit.kaikiliService.adapter.NotificationListAdapter;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 import com.sit.kaikiliService.model.NotificationModel;
 
+=======
+import android.app.Activity;
+import android.app.ProgressDialog;
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.WindowManager;
+import android.widget.LinearLayout;
+import android.widget.Toast;
+
+import com.google.gson.Gson;
+import com.sit.kaikiliService.R;
+import com.sit.kaikiliService.adapter.NotificationCustomerListAdapter;
+import com.sit.kaikiliService.adapter.NotificationListAdapter;
+import com.sit.kaikiliService.api.GetNotificationAPI;
+import com.sit.kaikiliService.api.NotificationInfo;
+import com.sit.kaikiliService.api.ScheduledTSApi;
+import com.sit.kaikiliService.api.WebApi;
+import com.sit.kaikiliService.api.WebUtil;
+import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
+import com.sit.kaikiliService.model.NotificationModel;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+>>>>>>> 2/18/2019
 import java.util.ArrayList;
 
 import butterknife.Bind;
@@ -92,6 +124,7 @@ public class NotificationFragment extends BaseFragment {
 
     private NotificationListAdapter adapter;
     private NotificationCustomerListAdapter adapterCustomer;
+<<<<<<< HEAD
     private ArrayList<NotificationModel> notificationList,notificationList2;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -124,11 +157,16 @@ public class NotificationFragment extends BaseFragment {
 >>>>>>> 2/16/2019 V2
 =======
 >>>>>>> 2/16/2019
+=======
+    private ArrayList<NotificationInfo> notificationList2;
+    private ArrayList<NotificationInfo> userNotificationList;
+>>>>>>> 2/18/2019
 
     public NotificationFragment() {
         // Required empty public constructor
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -170,10 +208,15 @@ public class NotificationFragment extends BaseFragment {
 >>>>>>> 2/16/2019 V2
 =======
 >>>>>>> 2/16/2019
+=======
+    private String SP_ID ="SP00001";
+
+>>>>>>> 2/18/2019
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -211,11 +254,14 @@ public class NotificationFragment extends BaseFragment {
 >>>>>>> 2/16/2019 V2
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/18/2019
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -284,10 +330,16 @@ public class NotificationFragment extends BaseFragment {
        // initToolbar();
         ButterKnife.bind( this,rootView);
 >>>>>>> 2/16/2019
+=======
+        final View rootView = inflater.inflate(R.layout.fragment_notification, container, false);
+       // initToolbar();
+        ButterKnife.bind( this,rootView);
+>>>>>>> 2/18/2019
         initComponents(rootView);
         return rootView;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -325,10 +377,13 @@ public class NotificationFragment extends BaseFragment {
 >>>>>>> 2/16/2019 V2
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/18/2019
 
     @Override
     public void initComponents(View rootView) {
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -370,6 +425,10 @@ public class NotificationFragment extends BaseFragment {
         fag_noti_tv_kaikili.setTextColor(getResources().getColor(R.color.white));
         fag_noti_tv_customer.setTextColor(getResources().getColor(R.color.colorAccent));
 
+=======
+
+
+>>>>>>> 2/18/2019
         fag_noti_ll_kaikili.setOnClickListener( this );
         fag_noti_ll_customer.setOnClickListener( this );
 
@@ -383,6 +442,7 @@ public class NotificationFragment extends BaseFragment {
         fag_noti_tv_custome_recyclerView.setAdapter(adapterCustomer);
 
 
+<<<<<<< HEAD
         notificationList = new ArrayList<>();
         notificationList2 = new ArrayList<>();
         adapter.setList( notificationList );
@@ -391,6 +451,16 @@ public class NotificationFragment extends BaseFragment {
         setCustomerMessage();
 
 
+=======
+        fag_noti_ll_kaikili.setBackgroundColor(getResources().getColor(R.color.colorAccent));
+        fag_noti_ll_customer.setBackgroundColor(getResources().getColor(R.color.transparent));
+        fag_noti_tv_kaikili.setTextColor(getResources().getColor(R.color.white));
+        fag_noti_tv_customer.setTextColor(getResources().getColor(R.color.colorAccent));
+        setCustomerMessage();
+
+
+
+>>>>>>> 2/18/2019
     }
 
     @Override
@@ -408,14 +478,35 @@ public class NotificationFragment extends BaseFragment {
             fag_noti_tv_kaikili.setTextColor(getResources().getColor(R.color.white));
             fag_noti_ll_customer.setBackgroundColor(getResources().getColor(R.color.transparent));
             fag_noti_tv_customer.setTextColor(getResources().getColor(R.color.colorAccent));
+<<<<<<< HEAD
             setCustomerMessage();
         }
     }
 
+=======
+
+
+            setCustomerMessage();
+
+        }
+    }
+
+
+    private void setKaikiliMessage() {
+
+        fag_noti_tv_custome_recyclerView.setVisibility( View.GONE );
+        fag_noti_tv_recyclerView.setVisibility( View.VISIBLE );
+
+//        adapter.setList( notificationList );
+    }
+
+
+>>>>>>> 2/18/2019
     private void setCustomerMessage() {
 
         fag_noti_tv_custome_recyclerView.setVisibility( View.VISIBLE );
         fag_noti_tv_recyclerView.setVisibility( View.GONE );
+<<<<<<< HEAD
 
 
         notificationList2 = new ArrayList<>( );
@@ -537,4 +628,69 @@ public class NotificationFragment extends BaseFragment {
 >>>>>>> 2/16/2019 V2
 =======
 >>>>>>> 2/16/2019
+=======
+        new GetCustomerNotificationDataTask(getActivity()).execute();
+
+    }
+
+
+    public class GetCustomerNotificationDataTask extends AsyncTask<Void, Void, String> {
+
+        private ProgressDialog mDialog = null;
+        private Activity mActivity;
+
+
+        public GetCustomerNotificationDataTask(Activity activity) {
+            mActivity = activity;
+
+            // TODO Auto-generated constructor stub
+        }
+
+        @Override
+        protected void onPreExecute() {
+            // TODO Auto-generated method stub
+            super.onPreExecute();
+
+            mDialog = ProgressDialog.show( mActivity, null, "Please wait....", true, true );
+            mDialog.getWindow().clearFlags( WindowManager.LayoutParams.FLAG_DIM_BEHIND );
+            mDialog.setCanceledOnTouchOutside( false );
+        }
+
+        @Override
+        protected String doInBackground(Void... params) {
+            // TODO Auto-generated method stub
+            try {
+                JSONObject jsonObject = new JSONObject();
+                jsonObject.put( "sp_id", SP_ID );
+                Log.e( "--------------Post", jsonObject.toString() );
+                String response = new WebUtil().postMethod( jsonObject.toString(), WebApi.URL_NOTIFICATION_LIST );
+                return response;
+            } catch (JSONException e) {
+                e.printStackTrace();
+                return "";
+            }
+        }
+
+        @Override
+        protected void onPostExecute(String response) {
+            // TODO Auto-generated method stub
+            super.onPostExecute( response );
+            if (mDialog.isShowing()) {
+                mDialog.dismiss();
+            }
+
+            Log.e( "------- Response ", "-------------" + response );
+            Gson gson = new Gson(); // Or use new GsonBuilder().create();
+            GetNotificationAPI notificationAPI = gson.fromJson( response, GetNotificationAPI.class );
+
+            if (notificationAPI.getData().size() > 0) {
+                userNotificationList = notificationAPI.getData();
+                adapterCustomer.setList( userNotificationList);
+
+            } else {
+                Toast.makeText( mActivity,notificationAPI.getMessage(),Toast.LENGTH_SHORT ).show();
+            }
+        }
+    }
+>>>>>>> 2/18/2019
 }

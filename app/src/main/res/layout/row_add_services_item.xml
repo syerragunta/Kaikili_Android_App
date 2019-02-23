@@ -37,6 +37,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:textColor="@color/text_coloer"
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -83,6 +84,10 @@
         android:textColor="@color/black_87"
         android:textSize="@dimen/fontsize16"
 >>>>>>> 2/16/2019
+=======
+        android:textColor="@color/black_87"
+        android:textSize="@dimen/fontsize16"
+>>>>>>> 2/18/2019
         />
 
 
@@ -113,6 +118,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
          android:gravity="center"
          android:inputType="number|numberDecimal"
          android:hint="00.00"
@@ -133,11 +139,14 @@
 >>>>>>> 2/16/2019 V2
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/18/2019
          android:gravity="right"
          android:inputType="number|numberDecimal"
          android:hint="00.00"
          android:textSize="@dimen/fontsize16"
          android:padding="@dimen/dim4"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -160,6 +169,8 @@
 >>>>>>> 2/16/2019 V2
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/18/2019
          android:textColor="@color/black_87"
          android:layout_marginLeft="@dimen/dim2"
          android:layout_marginRight="@dimen/dim2"

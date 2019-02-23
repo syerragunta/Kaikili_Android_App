@@ -32,6 +32,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 android:paddingLeft="@dimen/dim20"
                 android:paddingRight="@dimen/dim20"
                 android:paddingBottom="@dimen/dim20"
@@ -75,6 +76,11 @@
                 android:paddingRight="@dimen/dim18"
                 android:paddingBottom="@dimen/dim18"
 >>>>>>> 2/16/2019
+=======
+                android:paddingLeft="@dimen/dim14"
+                android:paddingRight="@dimen/dim18"
+                android:paddingBottom="@dimen/dim18"
+>>>>>>> 2/18/2019
                 >
 
                 <com.sit.kaikiliService.comman.CircularImageView
@@ -97,6 +103,7 @@
                         android:id="@+id/menu_tv_top_userName"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -130,6 +137,9 @@
 =======
                         android:layout_marginLeft="@dimen/dim8"
 >>>>>>> 2/16/2019
+=======
+                        android:layout_marginLeft="@dimen/dim8"
+>>>>>>> 2/18/2019
                         android:text="User Name "
                         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                         android:textColor="#ffffff"
@@ -138,6 +148,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -169,6 +180,8 @@
 >>>>>>> 2/16/2019 V2
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/18/2019
                         android:layout_marginLeft="@dimen/dim8"
                         android:orientation="horizontal"
                         >
@@ -176,6 +189,7 @@
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -198,6 +212,8 @@
 >>>>>>> 2/16/2019 V2
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/18/2019
                             android:orientation="vertical">
 
                             <com.sit.kaikiliService.font.TextViewEuphemiaUCASBola
@@ -206,6 +222,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="5.0 *"
                                 android:textColor="#ffffff"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -239,12 +256,16 @@
 =======
                                 android:textSize="@dimen/fontsize12" />
 >>>>>>> 2/16/2019
+=======
+                                android:textSize="@dimen/fontsize12" />
+>>>>>>> 2/18/2019
 
                             <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Rating"
                                 android:textColor="#ffffff"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -278,10 +299,14 @@
 =======
                                 android:textSize="@dimen/fontsize10" />
 >>>>>>> 2/16/2019
+=======
+                                android:textSize="@dimen/fontsize10" />
+>>>>>>> 2/18/2019
 
                         </LinearLayout>
 
                         <LinearLayout
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -333,6 +358,11 @@
                             android:layout_marginLeft="@dimen/dim14"
                             android:layout_height="wrap_content"
 >>>>>>> 2/16/2019
+=======
+                            android:layout_width="wrap_content"
+                            android:layout_marginLeft="@dimen/dim14"
+                            android:layout_height="wrap_content"
+>>>>>>> 2/18/2019
                             android:orientation="vertical">
 
                             <com.sit.kaikiliService.font.TextViewEuphemiaUCASBola
@@ -341,6 +371,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="1,234"
                                 android:textColor="#ffffff"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -374,12 +405,16 @@
 =======
                                 android:textSize="@dimen/fontsize12" />
 >>>>>>> 2/16/2019
+=======
+                                android:textSize="@dimen/fontsize12" />
+>>>>>>> 2/18/2019
 
                             <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="Services"
                                 android:textColor="#ffffff"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -405,6 +440,8 @@
 >>>>>>> 2/16/2019 V2
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/18/2019
                                 android:textSize="@dimen/fontsize10" />
 
                         </LinearLayout>
@@ -436,6 +473,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/2/2019
 =======
 >>>>>>> 2/9/2019
@@ -451,6 +489,8 @@
 >>>>>>> 2/16/2019 V2
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/18/2019
                         </LinearLayout>
 
                     </LinearLayout>
@@ -468,6 +508,7 @@
                 android:layout_marginLeft="@dimen/dim12"
                 android:layout_marginRight="@dimen/dim12"
                 android:padding="@dimen/dim14"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -495,11 +536,14 @@
 >>>>>>> 2/16/2019 V2
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/18/2019
                 android:drawableLeft="@drawable/ic_add_services"
                 android:text=" Add Service"
                 android:onClick="callAddService"
                 android:textColor="@color/colorAccent"
                 android:textSize="@dimen/fontsize20" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -522,6 +566,8 @@
 >>>>>>> 2/16/2019 V2
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/18/2019
 
             <View
                 android:layout_width="match_parent"
@@ -535,6 +581,7 @@
                 android:id="@+id/menu_tv_serviceCatalogue"
                 android:layout_marginRight="@dimen/dim12"
                 android:padding="@dimen/dim14"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -562,11 +609,14 @@
 >>>>>>> 2/16/2019 V2
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/18/2019
                 android:drawableLeft="@drawable/ic_service_catalogue"
                 android:onClick="callServiceCatalogue"
                 android:text=" Service Catalogue"
                 android:textColor="@color/colorAccent"
                 android:textSize="@dimen/fontsize20" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -589,6 +639,8 @@
 >>>>>>> 2/16/2019 V2
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/18/2019
 
             <View
                 android:layout_width="match_parent"
@@ -601,6 +653,7 @@
                 android:layout_marginLeft="@dimen/dim12"
                 android:layout_marginRight="@dimen/dim12"
                 android:padding="@dimen/dim14"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -628,11 +681,14 @@
 >>>>>>> 2/16/2019 V2
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/18/2019
                 android:drawableLeft="@drawable/ic_servcie_history"
                 android:id="@+id/menu_tv_serviceHistory"
                 android:text=" Service History"
                 android:textColor="@color/colorAccent"
                 android:textSize="@dimen/fontsize20" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -655,6 +711,8 @@
 >>>>>>> 2/16/2019 V2
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/18/2019
 
             <View
                 android:layout_width="match_parent"
@@ -668,6 +726,7 @@
                 android:layout_marginRight="@dimen/dim12"
                 android:padding="@dimen/dim14"
                 android:id="@+id/menu_tv_payment"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -700,10 +759,14 @@
 =======
                 android:onClick="callPaymentInfo"
 >>>>>>> 2/16/2019
+=======
+                android:onClick="callPaymentInfo"
+>>>>>>> 2/18/2019
                 android:drawableLeft="@drawable/ic_payment_info"
                 android:text=" Payment Information"
                 android:textColor="@color/colorAccent"
                 android:textSize="@dimen/fontsize20" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -726,6 +789,8 @@
 >>>>>>> 2/16/2019 V2
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/18/2019
 
             <View
                 android:layout_width="match_parent"
@@ -737,6 +802,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/dim12"
                 android:layout_marginRight="@dimen/dim12"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -774,6 +840,8 @@
 >>>>>>> 2/16/2019 V2
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/18/2019
                 android:drawableLeft="@drawable/ic_menu_profile"
                 android:padding="@dimen/dim14"
                 android:id="@+id/menu_tv_profile"
@@ -781,6 +849,7 @@
                 android:text=" Profile"
                 android:textColor="@color/colorAccent"
                 android:textSize="@dimen/fontsize20" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -797,6 +866,8 @@
 >>>>>>> 2/16/2019 V2
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/18/2019
 
             <View
                 android:layout_width="match_parent"
@@ -809,6 +880,7 @@
                 android:layout_marginLeft="@dimen/dim12"
                 android:layout_marginRight="@dimen/dim12"
                 android:padding="@dimen/dim14"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -836,11 +908,14 @@
 >>>>>>> 2/16/2019 V2
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/18/2019
                 android:drawableLeft="@drawable/ic_contact_us"
                 android:text=" Contact Us"
                 android:id="@+id/menu_tv_contactUs"
                 android:textColor="@color/colorAccent"
                 android:textSize="@dimen/fontsize20" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -863,6 +938,8 @@
 >>>>>>> 2/16/2019 V2
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/18/2019
 
             <View
                 android:layout_width="match_parent"
@@ -875,6 +952,7 @@
                 android:layout_marginLeft="@dimen/dim12"
                 android:layout_marginRight="@dimen/dim12"
                 android:padding="@dimen/dim14"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -902,11 +980,14 @@
 >>>>>>> 2/16/2019 V2
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/18/2019
                 android:text=" Logout"
                 android:drawableLeft="@drawable/ic_logout"
                 android:id="@+id/menu_tv_logout"
                 android:textColor="@color/colorAccent"
                 android:textSize="@dimen/fontsize20" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -929,6 +1010,8 @@
 >>>>>>> 2/16/2019 V2
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/18/2019
 
             <View
                 android:layout_width="match_parent"

@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     android:background="@drawable/tab_bg"
 
     android:orientation="vertical">
@@ -167,6 +168,8 @@
 >>>>>>> 2/16/2019 V2
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/18/2019
     android:orientation="vertical">
 
     <android.support.design.widget.BottomNavigationView
@@ -326,6 +329,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/2/2019
 =======
 >>>>>>> 2/9/2019
@@ -341,6 +345,8 @@
 >>>>>>> 2/16/2019 V2
 =======
 >>>>>>> 2/16/2019
+=======
+>>>>>>> 2/18/2019
 
 
 </LinearLayout>
