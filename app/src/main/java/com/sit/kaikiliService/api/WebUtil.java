@@ -53,6 +53,41 @@ public class WebUtil {
 
     }
 
+<<<<<<< HEAD
+=======
+    public static Apiresponse getJSONFromUrl(String url) {
+
+        Apiresponse model = new Apiresponse();
+
+//        OkHttpClient client = new OkHttpClient();
+        OkHttpClient client = new OkHttpClient.Builder()
+                .connectTimeout(100, TimeUnit.SECONDS)
+                .writeTimeout(100, TimeUnit.SECONDS)
+                .readTimeout(200, TimeUnit.SECONDS)
+                .build();
+
+        try {
+
+            Request request = new Request.Builder()
+                    .url(url)
+                    .build();
+
+            Response response = client.newCall(request).execute();
+            model.setCode(response.code());
+            model.setResponse(response.body().string());
+            return model;
+
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+            model.setCode(123);
+            model.setResponse("");
+
+            return model;
+        }
+
+    }
+>>>>>>> 2/25/2019
 
 
 

@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     android:layout_height="match_parent">
 =======
     android:layout_height="match_parent"
@@ -64,10 +65,15 @@
     android:layout_height="match_parent"
     android:background="@color/white">
 >>>>>>> 2/23/2019
+=======
+    android:layout_height="match_parent"
+    android:background="@color/white">
+>>>>>>> 2/25/2019
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -187,6 +193,8 @@
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
         android:orientation="vertical">
 
         <include layout="@layout/activity_header" />
@@ -235,6 +243,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/2/2019
 =======
 >>>>>>> 2/9/2019
@@ -258,12 +267,15 @@
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/dim30"
                     android:layout_marginTop="@dimen/dim8"
                     android:layout_marginRight="@dimen/dim30">
 
                     <com.sit.kaikiliService.font.EditTextEupheminUCASRegular
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -339,6 +351,8 @@
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
                         android:id="@+id/add_card_edit_bankName"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -411,6 +425,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
                         <com.sit.kaikiliService.font.EditTextEupheminUCASRegular
                             android:id="@+id/add_card_edit_cvc"
@@ -434,6 +449,8 @@
 =======
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
                     <com.sit.kaikiliService.font.EditTextEupheminUCASRegular
                         android:id="@+id/add_card_edit_cvc"
                         android:layout_width="wrap_content"
@@ -454,9 +471,12 @@
                         android:textColorHint="@android:color/darker_gray"
                         android:textSize="@dimen/fontsize16" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
 
                     <!--<android.support.design.widget.TextInputLayout-->
                     <!--android:id="@+id/add_card_layout_date"-->
@@ -525,6 +545,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/2/2019
 =======
 >>>>>>> 2/9/2019
@@ -548,10 +569,13 @@
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
     </LinearLayout>
 
 
     <android.support.design.widget.FloatingActionButton
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         android:id="@+id/personal_info_fb_next"
@@ -561,6 +585,9 @@
 =======
         android:id="@+id/add_card_fb_next"
 >>>>>>> 2/23/2019
+=======
+        android:id="@+id/add_card_fb_next"
+>>>>>>> 2/25/2019
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"

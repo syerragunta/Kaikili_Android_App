@@ -58,6 +58,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -96,10 +97,13 @@
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="read_more">show more</string>
     <string name="read_less">show less</string>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -140,4 +144,6 @@
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
 </resources>

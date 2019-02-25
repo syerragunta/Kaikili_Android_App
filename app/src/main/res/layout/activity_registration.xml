@@ -15,6 +15,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     android:background="@drawable/app_bg"
 =======
     android:background="@color/white"
@@ -52,6 +53,9 @@
 =======
     android:background="@color/white"
 >>>>>>> 2/23/2019
+=======
+    android:background="@color/white"
+>>>>>>> 2/25/2019
     android:orientation="vertical">
 
     <ScrollView
@@ -99,6 +103,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:gravity="left"
         android:layout_marginBottom="@dimen/dim4"
         android:text="The platform for better opportunities.."
@@ -126,10 +131,13 @@
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
         android:gravity="center"
         android:layout_marginBottom="@dimen/dim4"
         android:text="The platform for better opportunities.."
         android:textColor="@color/black_87"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -164,6 +172,8 @@
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
         android:textSize="@dimen/fontsize14" />
 
 

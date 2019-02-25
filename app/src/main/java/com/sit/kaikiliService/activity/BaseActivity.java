@@ -11,6 +11,7 @@ package com.sit.kaikiliService.activity;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import android.accounts.NetworkErrorException;
 >>>>>>> 2/9/2019
@@ -44,6 +45,9 @@ import android.accounts.NetworkErrorException;
 =======
 import android.accounts.NetworkErrorException;
 >>>>>>> 2/23/2019
+=======
+import android.accounts.NetworkErrorException;
+>>>>>>> 2/25/2019
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -67,6 +71,7 @@ import android.widget.Toast;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import com.sit.kaikiliService.R;
 
 =======
@@ -90,12 +95,15 @@ import com.sit.kaikiliService.R;
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
 import com.bluelinelabs.logansquare.annotation.JsonField;
 import com.bluelinelabs.logansquare.annotation.JsonObject;
 import com.sit.kaikiliService.R;
 
 import retrofit.RetrofitError;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -127,6 +135,8 @@ import retrofit.RetrofitError;
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
 
 /**
  * Created by ketan patel on 21/1/2019.
@@ -220,6 +230,7 @@ public class BaseActivity extends AppCompatActivity {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2/14/2019
@@ -241,6 +252,8 @@ public class BaseActivity extends AppCompatActivity {
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
     public static String handleError(final RetrofitError error) {
 
         try {
@@ -303,6 +316,7 @@ public class BaseActivity extends AppCompatActivity {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/9/2019
 =======
 >>>>>>> 2/14/2019
@@ -324,5 +338,7 @@ public class BaseActivity extends AppCompatActivity {
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
 
 }

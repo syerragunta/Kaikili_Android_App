@@ -16,6 +16,7 @@ package com.sit.kaikiliService.activity;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -63,10 +64,13 @@ import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
 import android.app.Fragment;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -127,6 +131,10 @@ import android.support.design.widget.BottomNavigationView;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 >>>>>>> 2/23/2019
+=======
+import android.support.annotation.NonNull;
+import android.support.design.widget.BottomNavigationView;
+>>>>>>> 2/25/2019
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -148,6 +156,7 @@ import android.view.LayoutInflater;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import android.view.MenuItem;
 >>>>>>> 2/2/2019
@@ -184,6 +193,9 @@ import android.view.MenuItem;
 =======
 import android.view.MenuItem;
 >>>>>>> 2/23/2019
+=======
+import android.view.MenuItem;
+>>>>>>> 2/25/2019
 import android.view.View;
 
 import com.sit.kaikiliService.R;
@@ -192,6 +204,7 @@ import com.sit.kaikiliService.fragment.EarningsFragment;
 import com.sit.kaikiliService.fragment.NotificationFragment;
 import com.sit.kaikiliService.fragment.ProfileFragment;
 import com.sit.kaikiliService.fragment.ScheduledServicesFragment;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -238,6 +251,8 @@ import com.sit.kaikiliService.fragment.ScheduledServicesFragment;
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -251,6 +266,7 @@ import butterknife.ButterKnife;
 public class HomeScreenActivity extends BaseActivity {
 //        implements NavigationView.OnNavigationItemSelectedListener {
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -324,6 +340,8 @@ public class HomeScreenActivity extends BaseActivity {
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
     @Bind(R.id.home_viewpager)
     ViewPager home_viewpager;
     @Bind(R.id.top_title)
@@ -331,6 +349,7 @@ public class HomeScreenActivity extends BaseActivity {
 
     private Toolbar toolbar;
     private BottomNavigationView navigation;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -367,6 +386,9 @@ public class HomeScreenActivity extends BaseActivity {
 =======
     private DrawerLayout drawer ;
 >>>>>>> 2/23/2019
+=======
+    private DrawerLayout drawer ;
+>>>>>>> 2/25/2019
 
 
     @Override
@@ -375,6 +397,7 @@ public class HomeScreenActivity extends BaseActivity {
         setContentView( R.layout.activity_home_screen );
         ButterKnife.bind( this, this );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -464,6 +487,8 @@ public class HomeScreenActivity extends BaseActivity {
 =======
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
         toolbar = (Toolbar) findViewById( R.id.toolbar );
         setSupportActionBar( toolbar );
 
@@ -473,14 +498,18 @@ public class HomeScreenActivity extends BaseActivity {
 
         drawer = (DrawerLayout) findViewById( R.id.drawer_layout );
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close );
         drawer.addDrawerListener( toggle );
         toggle.syncState();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -543,6 +572,8 @@ public class HomeScreenActivity extends BaseActivity {
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
 
         // Create an adapter that knows which fragment should be shown on each page
         SimpleFragmentPagerAdapter adapter = new SimpleFragmentPagerAdapter( this, getSupportFragmentManager() );
@@ -553,26 +584,33 @@ public class HomeScreenActivity extends BaseActivity {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         home_viewpager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             public void onPageScrollStateChanged(int state) {}
 =======
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
         home_viewpager.addOnPageChangeListener( new ViewPager.OnPageChangeListener() {
             public void onPageScrollStateChanged(int state) {
             }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
 
             }
 
             public void onPageSelected(int position) {
                 // Check if this is the page you want.
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                 if(position == 0){
@@ -590,6 +628,8 @@ public class HomeScreenActivity extends BaseActivity {
 =======
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
                 if (position == 0) {
                     navigation.setSelectedItemId( R.id.navigation_home );
                 } else if (position == 1) {
@@ -603,9 +643,12 @@ public class HomeScreenActivity extends BaseActivity {
             }
         } );
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
     }
 
     public void setUpToolbar(final String title) {
@@ -621,6 +664,7 @@ public class HomeScreenActivity extends BaseActivity {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/2/2019
 =======
 >>>>>>> 2/9/2019
@@ -644,6 +688,8 @@ public class HomeScreenActivity extends BaseActivity {
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
 
     }
 
@@ -660,6 +706,7 @@ public class HomeScreenActivity extends BaseActivity {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 2/2/2019
@@ -694,6 +741,8 @@ public class HomeScreenActivity extends BaseActivity {
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
 //    private void setupTabIcons() {
 //
 //        TextViewEuphemiaUCASRegular tabOne = (TextViewEuphemiaUCASRegular) LayoutInflater.from(this).inflate(R.layout.custom_tab, null);
@@ -718,6 +767,7 @@ public class HomeScreenActivity extends BaseActivity {
 //    }
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -765,6 +815,8 @@ public class HomeScreenActivity extends BaseActivity {
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById( R.id.drawer_layout );
@@ -778,6 +830,7 @@ public class HomeScreenActivity extends BaseActivity {
     public void callAddService(View view) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if (drawer.isDrawerOpen( GravityCompat.START )) {
             drawer.closeDrawer( GravityCompat.START );
@@ -788,6 +841,11 @@ public class HomeScreenActivity extends BaseActivity {
             drawer.closeDrawer( GravityCompat.START );
         }
 >>>>>>> 2/23/2019
+=======
+        if (drawer.isDrawerOpen( GravityCompat.START )) {
+            drawer.closeDrawer( GravityCompat.START );
+        }
+>>>>>>> 2/25/2019
         Intent intent = new Intent( this, AddServiceActivity.class );
         startActivity( intent );
     }
@@ -795,6 +853,7 @@ public class HomeScreenActivity extends BaseActivity {
     public void callServiceCatalogue(View view) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if (drawer.isDrawerOpen( GravityCompat.START )) {
             drawer.closeDrawer( GravityCompat.START );
@@ -805,10 +864,16 @@ public class HomeScreenActivity extends BaseActivity {
             drawer.closeDrawer( GravityCompat.START );
         }
 >>>>>>> 2/23/2019
+=======
+        if (drawer.isDrawerOpen( GravityCompat.START )) {
+            drawer.closeDrawer( GravityCompat.START );
+        }
+>>>>>>> 2/25/2019
         Intent intent = new Intent( this, ServiceCatalogueActivity.class );
         startActivity( intent );
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -906,6 +971,8 @@ public class HomeScreenActivity extends BaseActivity {
 =======
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
 
     public void callServiceHistory(View view) {
         if (drawer.isDrawerOpen( GravityCompat.START )) {
@@ -922,15 +989,19 @@ public class HomeScreenActivity extends BaseActivity {
          Intent intent = new Intent( this, BankDetailsActivity.class );
         startActivity( intent );
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
     }
 
 
     public void callProfile(View view) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         if (drawer.isDrawerOpen( GravityCompat.START )) {
             drawer.closeDrawer( GravityCompat.START );
@@ -941,10 +1012,16 @@ public class HomeScreenActivity extends BaseActivity {
             drawer.closeDrawer( GravityCompat.START );
         }
 >>>>>>> 2/23/2019
+=======
+        if (drawer.isDrawerOpen( GravityCompat.START )) {
+            drawer.closeDrawer( GravityCompat.START );
+        }
+>>>>>>> 2/25/2019
         Intent intent = new Intent( this, ProfileEditActivity.class );
         startActivity( intent );
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -973,12 +1050,15 @@ public class HomeScreenActivity extends BaseActivity {
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
 
     public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
 
         private Context mContext;
 
         public SimpleFragmentPagerAdapter(Context context, FragmentManager fm) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1028,6 +1108,9 @@ public class HomeScreenActivity extends BaseActivity {
 =======
             super( fm );
 >>>>>>> 2/23/2019
+=======
+            super( fm );
+>>>>>>> 2/25/2019
             mContext = context;
         }
 
@@ -1036,6 +1119,7 @@ public class HomeScreenActivity extends BaseActivity {
         public android.support.v4.app.Fragment getItem(int position) {
             if (position == 0) {
                 return new ScheduledServicesFragment();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1076,11 +1160,14 @@ public class HomeScreenActivity extends BaseActivity {
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
             } else if (position == 1) {
                 return new NotificationFragment();
             } else if (position == 2) {
                 return new EarningsFragment();
             } else if (position == 3) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1115,6 +1202,8 @@ public class HomeScreenActivity extends BaseActivity {
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
                 return new ProfileFragment();
             } else {
                 return new ScheduledServicesFragment();
@@ -1128,6 +1217,7 @@ public class HomeScreenActivity extends BaseActivity {
         }
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1173,6 +1263,8 @@ public class HomeScreenActivity extends BaseActivity {
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
 
@@ -1212,6 +1304,7 @@ public class HomeScreenActivity extends BaseActivity {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1245,4 +1338,6 @@ public class HomeScreenActivity extends BaseActivity {
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
 }

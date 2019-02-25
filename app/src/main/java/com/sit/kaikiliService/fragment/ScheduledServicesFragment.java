@@ -15,6 +15,7 @@ package com.sit.kaikiliService.fragment;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
@@ -74,6 +75,8 @@ import com.sit.kaikiliService.model.ServiceModel;
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.os.AsyncTask;
@@ -101,6 +104,7 @@ import org.json.JSONObject;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/18/2019
@@ -110,6 +114,8 @@ import org.json.JSONObject;
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
 import java.util.ArrayList;
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -124,6 +130,7 @@ import butterknife.ButterKnife;
 public class ScheduledServicesFragment extends BaseFragment {
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -170,6 +177,8 @@ public class ScheduledServicesFragment extends BaseFragment {
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
     @Bind(R.id.scheduled_services_lv_scheduleServices)WithoutScrollListView scheduled_services_lv_scheduleServices;
     @Bind(R.id.scheduled_services_lv_toDo)WithoutScrollListView scheduled_services_lv_toDo;
 
@@ -184,6 +193,7 @@ public class ScheduledServicesFragment extends BaseFragment {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/18/2019
@@ -193,12 +203,15 @@ public class ScheduledServicesFragment extends BaseFragment {
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
 
     public ScheduledServicesFragment() {
         // Required empty public constructor
     }
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -253,10 +266,13 @@ public class ScheduledServicesFragment extends BaseFragment {
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -321,11 +337,15 @@ public class ScheduledServicesFragment extends BaseFragment {
 =======
 
 >>>>>>> 2/23/2019
+=======
+
+>>>>>>> 2/25/2019
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -419,10 +439,16 @@ public class ScheduledServicesFragment extends BaseFragment {
      //   initToolbar();
         ButterKnife.bind( this, rootView );
 >>>>>>> 2/23/2019
+=======
+        final View rootView = inflater.inflate(R.layout.fragment_scheduled_services, container, false);
+     //   initToolbar();
+        ButterKnife.bind( this, rootView );
+>>>>>>> 2/25/2019
         initComponents(rootView);
         return rootView;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -472,10 +498,13 @@ public class ScheduledServicesFragment extends BaseFragment {
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
 
     @Override
     public void initComponents(View rootView) {
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -578,6 +607,8 @@ public class ScheduledServicesFragment extends BaseFragment {
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
         todoServiceDataList = new ArrayList<>();
         scheduledServiceDataList = new ArrayList<>();
 
@@ -676,6 +707,7 @@ public class ScheduledServicesFragment extends BaseFragment {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/18/2019
@@ -685,4 +717,6 @@ public class ScheduledServicesFragment extends BaseFragment {
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
 }

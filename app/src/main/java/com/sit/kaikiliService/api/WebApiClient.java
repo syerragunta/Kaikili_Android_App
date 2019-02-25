@@ -15,6 +15,7 @@ import com.google.gson.GsonBuilder;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import com.google.gson.JsonDeserializationContext;
 import com.google.gson.JsonDeserializer;
 import com.google.gson.JsonElement;
@@ -44,11 +45,14 @@ import retrofit.client.OkClient;
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
 import com.squareup.okhttp.OkHttpClient;
 
 import retrofit.RestAdapter;
 import retrofit.client.OkClient;
 import retrofit2.converter.gson.GsonConverterFactory;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -77,6 +81,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
 
 /**
  * Created by ketan patel on 9/2/2019.
@@ -101,6 +107,7 @@ public class WebApiClient {
         //just an empty constructor for now
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -163,10 +170,16 @@ public class WebApiClient {
     public WebApi getWebApi() {
 
 >>>>>>> 2/23/2019
+=======
+
+    public WebApi getWebApi() {
+
+>>>>>>> 2/25/2019
         if (webApi == null) {
             Log.e("Call webApi ----","Calling webApi = null");
             OkHttpClient client = new OkHttpClient();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -210,6 +223,8 @@ public class WebApiClient {
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
 
 //            JacksonConverter jacksonConverter = new JacksonConverter();
             RestAdapter restAdapter = new RestAdapter.Builder()
@@ -217,6 +232,7 @@ public class WebApiClient {
                     .setConverter(new LoganSquareConverter())
 //                    .addConverterFactory(GsonConverterFactory.create())
 //                    .setConverter(new GsonConverter(gson))
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -277,6 +293,11 @@ public class WebApiClient {
 
 
 >>>>>>> 2/23/2019
+=======
+//                    .setConverter(GsonConverterFactory.create(gson))
+
+
+>>>>>>> 2/25/2019
                     .setEndpoint(WebApi.BASE_URL)
                     .setLogLevel(RestAdapter.LogLevel.FULL).setLog( new RestAdapter.Log() {
                         @Override
@@ -297,6 +318,7 @@ public class WebApiClient {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 2/14/2019
@@ -318,6 +340,8 @@ public class WebApiClient {
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
 //            restAdapter.setLogLevel(RestAdapter.LogLevel.FULL);
             Log.e("Call URL -------",restAdapter.getLogLevel().toString());
 

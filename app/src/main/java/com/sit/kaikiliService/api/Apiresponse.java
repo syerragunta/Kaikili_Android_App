@@ -27,5 +27,31 @@ public class Apiresponse {
     @JsonField
     private int status;
 
+<<<<<<< HEAD
+=======
+    public int getCode() {
+        return Code;
+    }
+
+    public void setCode(int code) {
+        Code = code;
+    }
+
+    @JsonField
+    private int Code;
+
+    @JsonField
+    private String Response;
+
+    public String getResponse() {
+        return Response;
+    }
+
+    public void setResponse(String response) {
+        Response = response;
+    }
+
+
+>>>>>>> 2/25/2019
 
 }

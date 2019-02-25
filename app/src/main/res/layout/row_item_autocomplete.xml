@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MainTextStyle"
+    android:gravity="start"
+    android:id="@+id/row_item_autocomplete_title"
+    android:textColor="@color/colorPrimaryDark"
+    android:background="@drawable/search_list_item_autocomplete"
+    android:padding="@dimen/activity_general_margin"/>

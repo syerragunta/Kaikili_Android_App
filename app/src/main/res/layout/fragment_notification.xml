@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -56,11 +57,14 @@
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
+=======
+>>>>>>> 2/25/2019
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -109,6 +113,9 @@
 =======
     android:background="@color/white"
 >>>>>>> 2/23/2019
+=======
+    android:background="@color/white"
+>>>>>>> 2/25/2019
    >
 
     <LinearLayout
@@ -130,6 +137,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -179,6 +187,9 @@
 =======
                 android:text="Inbox"
 >>>>>>> 2/23/2019
+=======
+                android:text="Inbox"
+>>>>>>> 2/25/2019
                 android:textSize="@dimen/fontsize20" />
         </LinearLayout>
 
@@ -195,6 +206,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -244,6 +256,9 @@
 =======
                 android:text="Alerts"
 >>>>>>> 2/23/2019
+=======
+                android:text="Alerts"
+>>>>>>> 2/25/2019
                 android:textSize="@dimen/fontsize20" />
         </LinearLayout>
     </LinearLayout>
@@ -264,6 +279,7 @@
 
    </android.support.v7.widget.RecyclerView>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -322,3 +338,6 @@
 =======
 </LinearLayout>
 >>>>>>> 2/23/2019
+=======
+</LinearLayout>
+>>>>>>> 2/25/2019
