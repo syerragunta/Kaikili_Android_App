@@ -16,6 +16,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     tools:context=".fragment.ScheduledServicesFragment">
 
 <<<<<<< HEAD
@@ -83,6 +84,10 @@
     android:background="@color/white"
   >
 >>>>>>> 2/25/2019
+=======
+    android:background="@color/white"
+  >
+>>>>>>> 2/26/2019
 
     <ImageView
         android:layout_width="match_parent"
@@ -91,6 +96,7 @@
         android:scaleType="fitXY"
         android:src="@drawable/image_bg" />
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -137,6 +143,8 @@
 >>>>>>> 2/23/2019
 =======
 >>>>>>> 2/25/2019
+=======
+>>>>>>> 2/26/2019
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -183,6 +191,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/16/2019
 =======
 >>>>>>> 2/18/2019
@@ -194,4 +203,6 @@
 >>>>>>> 2/23/2019
 =======
 >>>>>>> 2/25/2019
+=======
+>>>>>>> 2/26/2019
 </FrameLayout>

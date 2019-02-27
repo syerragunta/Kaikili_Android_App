@@ -45,6 +45,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:name=".KetanApplication"
 =======
         android:name=".KaikiliApplication"
@@ -88,6 +89,9 @@
 =======
         android:name=".KaikiliApplication"
 >>>>>>> 2/25/2019
+=======
+        android:name=".KaikiliApplication"
+>>>>>>> 2/26/2019
         android:allowBackup="false"
         android:appComponentFactory="whateverString"
         android:fullBackupContent="false"
@@ -101,6 +105,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         tools:replace="android:appComponentFactory">
 =======
         tools:replace="android:appComponentFactory,android:allowBackup">
@@ -111,6 +116,9 @@
 =======
         tools:replace="android:appComponentFactory,android:allowBackup">
 >>>>>>> 2/25/2019
+=======
+        tools:replace="android:appComponentFactory,android:allowBackup">
+>>>>>>> 2/26/2019
 
         <!-- tools:replace="allowBackup,supportsRtl" -->
         <!-- &gt; -->
@@ -123,6 +131,7 @@
             android:value="AIzaSyDV-siHexyTrxnqNq4HUFFcyEi8AXGAMZA" />
 
         <activity
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -188,6 +197,9 @@
 =======
             android:name=".activity.SplashActivity"
 >>>>>>> 2/25/2019
+=======
+            android:name=".activity.SplashActivity"
+>>>>>>> 2/26/2019
             android:label="@string/app_name"
             android:theme="@style/FullscreenTheme">
             <intent-filter>
@@ -237,7 +249,11 @@
             android:theme="@style/FullscreenTheme"
             android:windowSoftInputMode="stateHidden|adjustResize" />
         <activity
+<<<<<<< HEAD
             android:name=".activity.ProfileEditActivity"
+=======
+            android:name=".activity.ProfileAddActivity"
+>>>>>>> 2/26/2019
             android:screenOrientation="portrait"
             android:theme="@style/FullscreenTheme"
             android:windowSoftInputMode="stateHidden|adjustResize" />
@@ -267,6 +283,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             android:name=".activity.HomeScreenActivity"
 =======
             android:name=".activity.SplashActivity"
@@ -315,10 +332,14 @@
 =======
             android:name=".activity.HomeScreenActivity"
 >>>>>>> 2/25/2019
+=======
+            android:name=".activity.HomeScreenActivity"
+>>>>>>> 2/26/2019
             android:label="@string/title_activity_home_screen"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".activity.NotificationActivity"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -332,6 +353,8 @@
 >>>>>>> 2/23/2019
 =======
 >>>>>>> 2/25/2019
+=======
+>>>>>>> 2/26/2019
             android:label="@string/title_activity_home_screen"
             android:theme="@style/AppTheme.NoActionBar"></activity>
 
@@ -356,6 +379,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 1/30/2019
@@ -389,10 +413,13 @@
 >>>>>>> 2/23/2019
 =======
 >>>>>>> 2/25/2019
+=======
+>>>>>>> 2/26/2019
         <activity
             android:name=".activity.AddServiceDataActivity"
             android:label="@string/title_activity_home_screen"
             android:theme="@style/AppTheme.NoActionBar"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -441,6 +468,8 @@
 >>>>>>> 2/23/2019
 =======
 >>>>>>> 2/25/2019
+=======
+>>>>>>> 2/26/2019
 
         <activity
             android:name=".activity.ServiceInfoActivity"
@@ -451,6 +480,7 @@
             android:name=".activity.CashOutActivity"
             android:label="@string/title_activity_home_screen"
             android:theme="@style/AppTheme.NoActionBar"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -493,11 +523,19 @@
 >>>>>>> 2/23/2019
 =======
 >>>>>>> 2/25/2019
+=======
+
+        <activity
+            android:name=".activity.ProfileEditActivity"
+            android:label="@string/title_activity_home_screen"
+            android:theme="@style/AppTheme.NoActionBar"/>
+>>>>>>> 2/26/2019
 
         <activity
             android:name=".activity.BankDetailsActivity"
             android:label="@string/title_activity_home_screen"
             android:theme="@style/AppTheme.NoActionBar"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -537,6 +575,8 @@
 >>>>>>> 2/23/2019
 =======
 >>>>>>> 2/25/2019
+=======
+>>>>>>> 2/26/2019
 
         <activity
             android:name=".activity.ServiceHistoryActivity"
@@ -550,12 +590,15 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/21/2019
 =======
 =======
 >>>>>>> 2/23/2019
 =======
 >>>>>>> 2/25/2019
+=======
+>>>>>>> 2/26/2019
 
         <activity
             android:name=".activity.BankViewDetailsActivity"
@@ -563,11 +606,14 @@
             android:theme="@style/AppTheme.NoActionBar"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
 =======
 >>>>>>> 2/25/2019
+=======
+>>>>>>> 2/26/2019
     </application>
 
 </manifest>

@@ -29,6 +29,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 =======
@@ -39,6 +40,8 @@
 >>>>>>> 2/23/2019
 =======
 >>>>>>> 2/25/2019
+=======
+>>>>>>> 2/26/2019
             <LinearLayout
                 android:background="@drawable/box_full_radius_bg"
                 android:layout_width="match_parent"

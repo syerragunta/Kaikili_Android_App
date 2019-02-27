@@ -61,11 +61,14 @@ public class ServiceHistoryActivity extends BaseActivity implements View.OnClick
     private SharedPreferences preferences;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     private String SP_id = "SP00001";
 =======
 >>>>>>> 2/23/2019
 =======
 >>>>>>> 2/25/2019
+=======
+>>>>>>> 2/26/2019
     private ArrayList<TransitionServiceData> todoServiceDataList;
     private ToDoServiceListAdapter serviceAdapter;
 
@@ -117,6 +120,7 @@ public class ServiceHistoryActivity extends BaseActivity implements View.OnClick
                 JSONObject jsonObject = new JSONObject();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 jsonObject.put( "sp_id", SP_id );
 =======
                 jsonObject.put( "sp_id",  preferences.getString( "sp_id","") );
@@ -124,6 +128,9 @@ public class ServiceHistoryActivity extends BaseActivity implements View.OnClick
 =======
                 jsonObject.put( "sp_id",  preferences.getString( "sp_id","") );
 >>>>>>> 2/25/2019
+=======
+                jsonObject.put( "sp_id",  preferences.getString( "sp_id","") );
+>>>>>>> 2/26/2019
                 Log.e( "--------------Post", jsonObject.toString() );
                 String response = new WebUtil().postMethod( jsonObject.toString(), WebApi.URL_COMPLETED_SERVICE );
                 return response;

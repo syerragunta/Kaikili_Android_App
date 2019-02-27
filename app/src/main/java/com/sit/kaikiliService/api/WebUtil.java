@@ -54,7 +54,10 @@ public class WebUtil {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 2/26/2019
     public static Apiresponse getJSONFromUrl(String url) {
 
         Apiresponse model = new Apiresponse();
@@ -87,7 +90,10 @@ public class WebUtil {
         }
 
     }
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
+=======
+>>>>>>> 2/26/2019
 
 
 

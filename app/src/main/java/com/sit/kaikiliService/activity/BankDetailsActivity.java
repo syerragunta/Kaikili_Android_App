@@ -3,6 +3,7 @@ package com.sit.kaikiliService.activity;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.content.Intent;
 import android.content.SharedPreferences;
 =======
@@ -10,6 +11,8 @@ import android.content.SharedPreferences;
 >>>>>>> 2/23/2019
 =======
 >>>>>>> 2/25/2019
+=======
+>>>>>>> 2/26/2019
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -17,15 +20,19 @@ import android.content.SharedPreferences;
 import android.os.AsyncTask;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
 =======
 >>>>>>> 2/25/2019
+=======
+>>>>>>> 2/26/2019
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextUtils;
 import android.text.TextWatcher;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -44,6 +51,8 @@ import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 >>>>>>> 2/23/2019
 =======
 >>>>>>> 2/25/2019
+=======
+>>>>>>> 2/26/2019
 import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
@@ -67,11 +76,14 @@ import org.json.JSONObject;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
 =======
 >>>>>>> 2/25/2019
+=======
+>>>>>>> 2/26/2019
 import java.util.ArrayList;
 
 import butterknife.Bind;
@@ -86,6 +98,7 @@ import butterknife.ButterKnife;
 
 public class BankDetailsActivity extends BaseActivity implements View.OnClickListener {
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -105,6 +118,8 @@ public class BankDetailsActivity extends BaseActivity implements View.OnClickLis
 >>>>>>> 2/23/2019
 =======
 >>>>>>> 2/25/2019
+=======
+>>>>>>> 2/26/2019
     @Bind(R.id.top_back)ImageView top_back;
     @Bind(R.id.top_title) TextViewEuphemiaUCASRegular top_title;
 
@@ -112,17 +127,21 @@ public class BankDetailsActivity extends BaseActivity implements View.OnClickLis
     @Bind(R.id.bank_details_listview) ListView bank_details_listview;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
 =======
 >>>>>>> 2/25/2019
+=======
+>>>>>>> 2/26/2019
 
 
 
     private KaikiliApplication application;
     private SharedPreferences preferences;
     private BankDetailListAdapter adapter;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -134,6 +153,8 @@ public class BankDetailsActivity extends BaseActivity implements View.OnClickLis
 >>>>>>> 2/23/2019
 =======
 >>>>>>> 2/25/2019
+=======
+>>>>>>> 2/26/2019
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -150,6 +171,7 @@ public class BankDetailsActivity extends BaseActivity implements View.OnClickLis
         bank_details_tv_addNew.setOnClickListener( this );
         adapter = new BankDetailListAdapter( this );
         bank_details_listview.setAdapter( adapter );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -174,6 +196,9 @@ public class BankDetailsActivity extends BaseActivity implements View.OnClickLis
 =======
       }
 >>>>>>> 2/25/2019
+=======
+      }
+>>>>>>> 2/26/2019
 
 
 
@@ -190,11 +215,14 @@ public class BankDetailsActivity extends BaseActivity implements View.OnClickLis
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2/23/2019
 =======
 >>>>>>> 2/25/2019
+=======
+>>>>>>> 2/26/2019
 
     @Override
     protected void onResume() {
@@ -231,6 +259,7 @@ public class BankDetailsActivity extends BaseActivity implements View.OnClickLis
                 JSONObject jsonObject = new JSONObject();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 jsonObject.put( "sp_id", SP_ID);
 =======
                 jsonObject.put( "sp_id",  preferences.getString( "sp_id",""));
@@ -238,6 +267,9 @@ public class BankDetailsActivity extends BaseActivity implements View.OnClickLis
 =======
                 jsonObject.put( "sp_id",  preferences.getString( "sp_id",""));
 >>>>>>> 2/25/2019
+=======
+                jsonObject.put( "sp_id",  preferences.getString( "sp_id",""));
+>>>>>>> 2/26/2019
                 Log.e( "--------------Post", jsonObject.toString() );
                 String response = new WebUtil().postMethod( jsonObject.toString(), WebApi.URL_USER_BANK_INFO_LIST );
                 return response;
@@ -268,9 +300,12 @@ public class BankDetailsActivity extends BaseActivity implements View.OnClickLis
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
 =======
 >>>>>>> 2/25/2019
+=======
+>>>>>>> 2/26/2019
 }

@@ -125,6 +125,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     <dimen name="type_logo_width">50dp</dimen>             //Default value:120dp
     <dimen name="type_logo_height">30dp</dimen>
@@ -137,5 +138,9 @@
     <dimen name="type_logo_width">50dp</dimen>             //Default value:120dp
     <dimen name="type_logo_height">30dp</dimen>
 >>>>>>> 2/25/2019
+=======
+    <dimen name="type_logo_width">50dp</dimen>             //Default value:120dp
+    <dimen name="type_logo_height">30dp</dimen>
+>>>>>>> 2/26/2019
 
 </resources>

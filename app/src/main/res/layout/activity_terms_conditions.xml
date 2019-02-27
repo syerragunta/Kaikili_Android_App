@@ -17,6 +17,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     android:background="@color/white"
 >>>>>>> 2/2/2019
@@ -56,12 +57,16 @@
 =======
     android:background="@color/white"
 >>>>>>> 2/25/2019
+=======
+    android:background="@color/white"
+>>>>>>> 2/26/2019
 >
 
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -148,6 +153,11 @@
 
     <include layout="@layout/activity_header" />
 >>>>>>> 2/25/2019
+=======
+   >
+
+    <include layout="@layout/activity_header" />
+>>>>>>> 2/26/2019
 
   <ImageView
       android:layout_margin="@dimen/dim30"
@@ -161,6 +171,7 @@
         android:layout_marginRight="@dimen/dim30"
         android:layout_marginLeft="@dimen/dim30"
         android:textSize="@dimen/fontsize16"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -214,6 +225,9 @@
 =======
         android:textColor="@color/black_87"
 >>>>>>> 2/25/2019
+=======
+        android:textColor="@color/black_87"
+>>>>>>> 2/26/2019
         android:layout_height="wrap_content" />
 
 </LinearLayout>

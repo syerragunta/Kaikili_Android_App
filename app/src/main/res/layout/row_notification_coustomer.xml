@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         android:id="@+id/row_noti_cus_cardView"
 >>>>>>> 2/18/2019
@@ -27,6 +28,9 @@
 =======
         android:id="@+id/row_noti_cus_cardView"
 >>>>>>> 2/25/2019
+=======
+        android:id="@+id/row_noti_cus_cardView"
+>>>>>>> 2/26/2019
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/dim4">
@@ -41,6 +45,7 @@
             <ImageView
                 android:id="@+id/row_noti_cus_iv_read"
                 android:layout_width="@dimen/dim12"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -112,6 +117,10 @@
                 android:layout_marginRight="@dimen/dim8"
                 android:layout_height="@dimen/dim12"
 >>>>>>> 2/25/2019
+=======
+                android:layout_marginRight="@dimen/dim8"
+                android:layout_height="@dimen/dim12"
+>>>>>>> 2/26/2019
                 android:src="@drawable/round_notification"/>
 
             <com.sit.kaikiliService.comman.CircularImageView

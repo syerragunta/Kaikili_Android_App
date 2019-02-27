@@ -16,6 +16,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     android:background="@color/white"
 >>>>>>> 2/2/2019
@@ -55,6 +56,9 @@
 =======
     android:background="@color/white"
 >>>>>>> 2/25/2019
+=======
+    android:background="@color/white"
+>>>>>>> 2/26/2019
     android:orientation="vertical">
 
     <include layout="@layout/activity_header" />

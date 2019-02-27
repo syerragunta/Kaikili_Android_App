@@ -3,185 +3,16 @@ package com.sit.kaikiliService.activity;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.DatePickerDialog;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-import android.content.Context;
-=======
->>>>>>> 2/1/2019
-=======
->>>>>>> 2/2/2019
-=======
->>>>>>> 2/9/2019
-=======
->>>>>>> 2/14/2019
-=======
->>>>>>> 2/15/2019
-=======
->>>>>>> 2/16/2019
-=======
->>>>>>> 2/16/2019 V1
-=======
->>>>>>> 2/16/2019 V2
-=======
->>>>>>> 2/16/2019
-=======
->>>>>>> 2/18/2019
-=======
->>>>>>> 2/21/2019
-=======
->>>>>>> 2/22/2019
-=======
->>>>>>> 2/23/2019
-import android.content.DialogInterface;
-import android.content.Intent;
-=======
-import android.app.TimePickerDialog;
-import android.content.Context;
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.content.IntentSender;
->>>>>>> 2/25/2019
-=======
 import android.app.ProgressDialog;
 import android.app.TimePickerDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentSender;
->>>>>>> 2/26/2019
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-import android.graphics.drawable.Drawable;
-import android.location.Address;
-import android.location.Geocoder;
-import android.location.LocationManager;
-=======
->>>>>>> 2/1/2019
-=======
->>>>>>> 2/2/2019
-=======
->>>>>>> 2/9/2019
-=======
->>>>>>> 2/14/2019
-=======
->>>>>>> 2/15/2019
-=======
->>>>>>> 2/16/2019
-=======
->>>>>>> 2/16/2019 V1
-=======
->>>>>>> 2/16/2019 V2
-=======
->>>>>>> 2/16/2019
-=======
->>>>>>> 2/18/2019
-=======
->>>>>>> 2/21/2019
-=======
->>>>>>> 2/22/2019
-=======
->>>>>>> 2/23/2019
-=======
-import android.location.Address;
-import android.location.Geocoder;
-import android.location.Location;
-import android.location.LocationManager;
->>>>>>> 2/25/2019
-import android.net.Uri;
-import android.os.Build;
-import android.os.Bundle;
-import android.provider.Settings;
-<<<<<<< HEAD
-=======
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v4.content.ContextCompat;
-import android.util.Patterns;
->>>>>>> 2/25/2019
-import android.view.View;
-import android.widget.CheckBox;
-import android.widget.DatePicker;
-import android.widget.ImageView;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-import android.widget.TextView;
-
-import com.google.android.gms.maps.CameraUpdateFactory;
-import com.sit.kaikiliService.KetanApplication;
-import com.sit.kaikiliService.R;
-import com.sit.kaikiliService.camera.Config;
-import com.sit.kaikiliService.camera.ImagePickerActivity;
-import com.sit.kaikiliService.comman.AppLog;
-=======
-=======
->>>>>>> 2/2/2019
-=======
->>>>>>> 2/9/2019
-=======
->>>>>>> 2/14/2019
-=======
->>>>>>> 2/15/2019
-=======
->>>>>>> 2/16/2019
-=======
->>>>>>> 2/16/2019 V1
-=======
->>>>>>> 2/16/2019 V2
-=======
->>>>>>> 2/16/2019
-=======
->>>>>>> 2/18/2019
-=======
->>>>>>> 2/21/2019
-=======
->>>>>>> 2/22/2019
-=======
->>>>>>> 2/23/2019
-
-=======
-=======
 import android.location.Address;
 import android.location.Geocoder;
 import android.location.Location;
@@ -198,7 +29,6 @@ import android.view.WindowManager;
 import android.widget.CheckBox;
 import android.widget.DatePicker;
 import android.widget.ImageView;
->>>>>>> 2/26/2019
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TimePicker;
@@ -213,147 +43,35 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
-<<<<<<< HEAD
-import com.google.android.gms.maps.model.BitmapDescriptor;
-import com.google.android.gms.maps.model.BitmapDescriptorFactory;
-=======
->>>>>>> 2/26/2019
 import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.Circle;
 import com.google.android.gms.maps.model.CircleOptions;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
-<<<<<<< HEAD
-import com.google.android.gms.maps.model.Marker;
-import com.google.android.gms.maps.model.MarkerOptions;
->>>>>>> 2/25/2019
-import com.sit.kaikiliService.KaikiliApplication;
-import com.sit.kaikiliService.R;
-import com.sit.kaikiliService.camera.Config;
-import com.sit.kaikiliService.camera.ImagePickerActivity;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 2/1/2019
-=======
->>>>>>> 2/2/2019
-=======
->>>>>>> 2/9/2019
-=======
->>>>>>> 2/14/2019
-=======
->>>>>>> 2/15/2019
-=======
->>>>>>> 2/16/2019
-=======
->>>>>>> 2/16/2019 V1
-=======
->>>>>>> 2/16/2019 V2
-=======
->>>>>>> 2/16/2019
-=======
->>>>>>> 2/18/2019
-=======
->>>>>>> 2/21/2019
-=======
->>>>>>> 2/22/2019
-=======
->>>>>>> 2/23/2019
-=======
-import com.sit.kaikiliService.comman.AppLog;
->>>>>>> 2/25/2019
-=======
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.gson.Gson;
 import com.sit.kaikiliService.KaikiliApplication;
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.api.Apiresponse;
-import com.sit.kaikiliService.api.CustomWorkPerDay;
-import com.sit.kaikiliService.api.ProfileInfo;
-import com.sit.kaikiliService.api.ProfileWorkApi;
-import com.sit.kaikiliService.api.ProfileWorkInfo;
 import com.sit.kaikiliService.api.WebApi;
 import com.sit.kaikiliService.api.WebUtil;
 import com.sit.kaikiliService.camera.Config;
 import com.sit.kaikiliService.camera.ImagePickerActivity;
 import com.sit.kaikiliService.comman.LocationFinder;
->>>>>>> 2/26/2019
 import com.sit.kaikiliService.comman.Util;
 import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 
 import org.adw.library.widgets.discreteseekbar.DiscreteSeekBar;
-<<<<<<< HEAD
-=======
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
->>>>>>> 2/26/2019
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Calendar;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 import java.util.List;
 import java.util.Locale;
-=======
->>>>>>> 2/1/2019
-=======
->>>>>>> 2/2/2019
-=======
->>>>>>> 2/9/2019
-=======
->>>>>>> 2/14/2019
-=======
->>>>>>> 2/15/2019
-=======
->>>>>>> 2/16/2019
-=======
->>>>>>> 2/16/2019 V1
-=======
->>>>>>> 2/16/2019 V2
-=======
->>>>>>> 2/16/2019
-=======
->>>>>>> 2/18/2019
-=======
->>>>>>> 2/21/2019
-=======
->>>>>>> 2/22/2019
-=======
->>>>>>> 2/23/2019
-=======
-import java.util.List;
-import java.util.Locale;
->>>>>>> 2/25/2019
-=======
-import java.util.List;
-import java.util.Locale;
->>>>>>> 2/26/2019
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -365,20 +83,10 @@ import butterknife.ButterKnife;
  * Sharva Infotech PVT LTD
  */
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-public class ProfileEditActivity extends BaseActivity implements View.OnClickListener {
-=======
-=======
->>>>>>> 2/26/2019
-public class ProfileEditActivity extends BaseActivity implements View.OnClickListener,
+public class ProfileAddActivity extends BaseActivity implements View.OnClickListener,
         GoogleApiClient.OnConnectionFailedListener,
         GoogleApiClient.ConnectionCallbacks,
         LocationListener, OnMapReadyCallback {
-<<<<<<< HEAD
->>>>>>> 2/25/2019
-=======
->>>>>>> 2/26/2019
 
     @Bind(R.id.top_back)
     ImageView top_back;
@@ -481,18 +189,9 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
     @Bind(R.id.about_profile_edt_leisureDayOff)
     EditTextEupheminUCASRegular about_profile_edt_leisureDayOff;
 
-<<<<<<< HEAD
 
     @Bind(R.id.about_profile_tv_backgroundCheck)
     TextViewEuphemiaUCASRegular about_profile_tv_backgroundCheck;
-=======
-    @Bind(R.id.about_profile_tv_backgroundCheck)
-    TextViewEuphemiaUCASRegular about_profile_tv_backgroundCheck;
-
-    @Bind(R.id.about_profile_tv_userName)
-    TextViewEuphemiaUCASRegular about_profile_tv_userName;
-
->>>>>>> 2/26/2019
     @Bind(R.id.about_profile_seekbar_radius)
     DiscreteSeekBar about_profile_seekbar_radius;
 
@@ -501,12 +200,9 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
     @Bind(R.id.about_profile_civ_profile)
     ImageView about_profile_civ_profile;
 
+    @Bind(R.id.about_profile_tv_userName)
+    TextViewEuphemiaUCASRegular about_profile_tv_userName;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 2/26/2019
     @Bind(R.id.about_profile_radioGroup_work)
     RadioGroup about_profile_radioGroup_work;
 
@@ -516,95 +212,21 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
     RadioButton about_profile_rb_workDay;
 
 
-<<<<<<< HEAD
->>>>>>> 2/25/2019
-=======
->>>>>>> 2/26/2019
     String[] perms = {"android.permission.CAMERA",
             "android.permission.WRITE_EXTERNAL_STORAGE",
             "android.permission.READ_EXTERNAL_STORAGE"};
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    private KetanApplication application;
-=======
-    private KaikiliApplication application;
->>>>>>> 2/1/2019
-=======
-    private KaikiliApplication application;
->>>>>>> 2/2/2019
-=======
-    private KaikiliApplication application;
->>>>>>> 2/9/2019
-=======
-    private KaikiliApplication application;
->>>>>>> 2/14/2019
-=======
-    private KaikiliApplication application;
->>>>>>> 2/15/2019
-=======
-    private KaikiliApplication application;
->>>>>>> 2/16/2019
-=======
-    private KaikiliApplication application;
->>>>>>> 2/16/2019 V1
-=======
-    private KaikiliApplication application;
->>>>>>> 2/16/2019 V2
-=======
-    private KaikiliApplication application;
->>>>>>> 2/16/2019
-=======
-    private KaikiliApplication application;
->>>>>>> 2/18/2019
-=======
-    private KaikiliApplication application;
->>>>>>> 2/21/2019
-=======
-    private KaikiliApplication application;
->>>>>>> 2/22/2019
-=======
-    private KaikiliApplication application;
->>>>>>> 2/23/2019
-=======
 
     private KaikiliApplication application;
->>>>>>> 2/25/2019
-=======
-
-    private KaikiliApplication application;
->>>>>>> 2/26/2019
     private SharedPreferences preferences;
     private Calendar calendar;
     private int year, month, day;
     private String date;
     private int setDatePos = 0;
-<<<<<<< HEAD
-    protected int mRadius = 10;
-    private int MAP_CODE = 120;
-    private static final int PERMISSION_REQUEST_CODE = 200;
-    private String imgPicturePath1, imgPicturePath2;
-<<<<<<< HEAD
-=======
-=======
     protected int mRadius = 1;
     private int MAP_CODE = 120;
     private static final int PERMISSION_REQUEST_CODE = 200;
     private String imgPicturePath1, imgPicturePath2;
->>>>>>> 2/26/2019
     private final static int CONNECTION_FAILURE_RESOLUTION_REQUEST = 9000;
 
     private static GoogleMap mGoogleMap;
@@ -612,99 +234,27 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
     private LocationRequest mLocationRequest = new LocationRequest();
     private Circle mRadiusCircle;
     public LatLng selectedCoords = null;
-<<<<<<< HEAD
->>>>>>> 2/25/2019
-=======
     public LatLng selectedCodineters = null;
-    private String profileStatus = "";
->>>>>>> 2/26/2019
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_edit_profile );
         ButterKnife.bind( this, this );
-<<<<<<< HEAD
-=======
         new LocationFinder( this );
->>>>>>> 2/26/2019
 
         calendar = Calendar.getInstance();
         year = calendar.get( Calendar.YEAR );
         month = calendar.get( Calendar.MONTH );
         day = calendar.get( Calendar.DAY_OF_MONTH );
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        application = (KetanApplication) getApplicationContext();
-=======
         application = (KaikiliApplication) getApplicationContext();
->>>>>>> 2/1/2019
-=======
-        application = (KaikiliApplication) getApplicationContext();
->>>>>>> 2/2/2019
-=======
-        application = (KaikiliApplication) getApplicationContext();
->>>>>>> 2/9/2019
-=======
-        application = (KaikiliApplication) getApplicationContext();
->>>>>>> 2/14/2019
-=======
-        application = (KaikiliApplication) getApplicationContext();
->>>>>>> 2/15/2019
-=======
-        application = (KaikiliApplication) getApplicationContext();
->>>>>>> 2/16/2019
-=======
-        application = (KaikiliApplication) getApplicationContext();
->>>>>>> 2/16/2019 V1
-=======
-        application = (KaikiliApplication) getApplicationContext();
->>>>>>> 2/16/2019 V2
-=======
-        application = (KaikiliApplication) getApplicationContext();
->>>>>>> 2/16/2019
-=======
-        application = (KaikiliApplication) getApplicationContext();
->>>>>>> 2/18/2019
-=======
-        application = (KaikiliApplication) getApplicationContext();
->>>>>>> 2/21/2019
-=======
-        application = (KaikiliApplication) getApplicationContext();
->>>>>>> 2/22/2019
-=======
-        application = (KaikiliApplication) getApplicationContext();
->>>>>>> 2/23/2019
-=======
-        application = (KaikiliApplication) getApplicationContext();
->>>>>>> 2/25/2019
-=======
-        application = (KaikiliApplication) getApplicationContext();
->>>>>>> 2/26/2019
         preferences = application.getSharedPreferences();
 
         imgPicturePath1 = null;
         imgPicturePath2 = null;
 
-<<<<<<< HEAD
-        top_title.setText( "Create Profile" );
-=======
-        top_title.setText( "Edit Work Profile" );
->>>>>>> 2/26/2019
+        top_title.setText( "Create Work Profile" );
         top_back.setOnClickListener( this );
         about_profile_tv_backgroundCheck.setOnClickListener( this );
         about_profile_tv_leisureDayStartDate.setOnClickListener( this );
@@ -712,11 +262,6 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
         about_profile_civ_profile.setOnClickListener( this );
         about_profile_iv_newAdd.setOnClickListener( this );
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 2/26/2019
         about_profile_tv_monStart.setOnClickListener( this );
         about_profile_tv_tueStart.setOnClickListener( this );
         about_profile_tv_wedStart.setOnClickListener( this );
@@ -745,14 +290,6 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
         about_profile_tv_leisureDayStartTime.setOnClickListener( this );
         about_profile_tv_leisureDayEndTime.setOnClickListener( this );
 
-<<<<<<< HEAD
-
->>>>>>> 2/25/2019
-        about_profile_seekbar_radius.setNumericTransformer( new DiscreteSeekBar.NumericTransformer() {
-            @Override
-            public int transform(int value) {
-                return value * 10;
-=======
         about_profile_tv_userName.setText(preferences.getString( "first_name", "" )+" "+preferences.getString( "last_name", "" ));
 
 
@@ -760,16 +297,10 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
             @Override
             public int transform(int value) {
                 return value * 1;
->>>>>>> 2/26/2019
             }
         } );
         about_profile_tv_radius.setText( Util.fromHtml( String.format( "Radius: %s Miles", mRadius ) ) );
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 2/26/2019
 
         if (mGoogleApiClient == null) {
             mGoogleApiClient = new GoogleApiClient.Builder( this )
@@ -781,31 +312,6 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
         }
 
 
-<<<<<<< HEAD
->>>>>>> 2/25/2019
-        about_profile_seekbar_radius.setOnProgressChangeListener( new DiscreteSeekBar.OnProgressChangeListener() {
-            @Override
-            public void onProgressChanged(DiscreteSeekBar seekBar, int value, boolean fromUser) {
-                int convert = value * 10;
-                mRadius = convert;
-                about_profile_tv_radius.setText( Util.fromHtml( String.format( "Radius: %s Miles", mRadius ) ) );
-<<<<<<< HEAD
-//                if (mRadiusCircle == null) return;
-//                mRadiusCircle.setRadius( convert );
-
-//                LatLng myLatLng = new LatLng( application.getLatitude(), application.getLongitude() );
-//                if (mRadius > 0) {
-//                    int zoom = getZoomLevel( mRadiusCircle );
-//                    mGoogleMap.animateCamera( CameraUpdateFactory.newLatLngZoom( selectedCoords, zoom ) );
-//                } else {
-//                    mGoogleMap.animateCamera( CameraUpdateFactory.newLatLngZoom( selectedCoords, 16 ) );
-//                }
-=======
-                if (mRadiusCircle == null) return;
-                mRadiusCircle.setRadius( convert );
-
-                LatLng myLatLng = new LatLng( application.getLatitude(), application.getLongitude() );
-=======
         about_profile_seekbar_radius.setOnProgressChangeListener( new DiscreteSeekBar.OnProgressChangeListener() {
             @Override
             public void onProgressChanged(DiscreteSeekBar seekBar, int value, boolean fromUser) {
@@ -820,21 +326,16 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
                     mRadiusCircle = mGoogleMap.addCircle( new CircleOptions()
                             .center( selectedCoords )
                             .radius( milesToMeters( mRadius ) )
-                            .strokeColor( ContextCompat.getColor( ProfileEditActivity.this, R.color.map_mRadius ) )
-                            .fillColor( ContextCompat.getColor( ProfileEditActivity.this, R.color.map_mRadius ) )
+                            .strokeColor( ContextCompat.getColor( ProfileAddActivity.this, R.color.map_mRadius ) )
+                            .fillColor( ContextCompat.getColor( ProfileAddActivity.this, R.color.map_mRadius ) )
                             .strokeWidth( 0.1f ) );
                 }
->>>>>>> 2/26/2019
                 if (mRadius > 0 && selectedCoords != null) {
                     int zoom = getZoomLevel( mRadiusCircle );
                     mGoogleMap.animateCamera( CameraUpdateFactory.newLatLngZoom( selectedCoords, zoom ) );
                 } else {
                     mGoogleMap.animateCamera( CameraUpdateFactory.newLatLngZoom( selectedCoords, 16 ) );
                 }
-<<<<<<< HEAD
->>>>>>> 2/25/2019
-=======
->>>>>>> 2/26/2019
             }
 
             @Override
@@ -849,11 +350,6 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
         } );
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 2/26/2019
         about_profile_radioGroup_work.setOnCheckedChangeListener( new RadioGroup.OnCheckedChangeListener() {
 
             @Override
@@ -888,7 +384,6 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 
 
                 } else if (checkedId == R.id.about_profile_rb_workDay) {
-<<<<<<< HEAD
                     about_profile_cb_mon.setChecked( true );
                     about_profile_cb_tue.setChecked( true );
                     about_profile_cb_wed.setChecked( true );
@@ -896,15 +391,6 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
                     about_profile_cb_fri.setChecked( true );
                     about_profile_cb_sat.setChecked( true );
                     about_profile_cb_sun.setChecked( true );
-=======
-//                    about_profile_cb_mon.setChecked( true );
-//                    about_profile_cb_tue.setChecked( true );
-//                    about_profile_cb_wed.setChecked( true );
-//                    about_profile_cb_thu.setChecked( true );
-//                    about_profile_cb_fri.setChecked( true );
-//                    about_profile_cb_sat.setChecked( true );
-//                    about_profile_cb_sun.setChecked( true );
->>>>>>> 2/26/2019
 
                 }
             }
@@ -919,11 +405,8 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
                 if (!((CheckBox) v).isChecked()) {
                     about_profile_tv_monStart.setText( "" );
                     about_profile_tv_monEnd.setText( "" );
-<<<<<<< HEAD
-=======
-                } else {
-                    about_profile_rb_workDay.setClickable( true );
->>>>>>> 2/26/2019
+                }else {
+                        about_profile_rb_workDay.setClickable(true);
                 }
             }
         } );
@@ -1023,11 +506,6 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
         SupportMapFragment fm = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById( R.id.about_profile_mapView );
         fm.getMapAsync( this );
-<<<<<<< HEAD
-=======
-
-        new getProfileInfoTask(this).execute();
->>>>>>> 2/26/2019
     }
 
 
@@ -1039,21 +517,6 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
         mGoogleMap.getUiSettings().setCompassEnabled( false );
 
         mGoogleMap.clear();
-<<<<<<< HEAD
-//        mGoogleMap.addMarker( new MarkerOptions()
-//                .position( selectedCoords )
-//                .anchor( .5f, .5f )
-//                .title( "My Location" ) );
-//
-//        mRadiusCircle = mGoogleMap.addCircle( new CircleOptions()
-//                .center( selectedCoords )
-//                .radius( mRadius )
-//                .strokeColor( ContextCompat.getColor( ProfileEditActivity.this, R.color.map_mRadius ) )
-//                .fillColor( ContextCompat.getColor( ProfileEditActivity.this, R.color.map_mRadius ) )
-//                .strokeWidth( 0.1f ) );
-
->>>>>>> 2/25/2019
-=======
 
         LatLng latLng = new LatLng( application.getLatitude(), application.getLongitude() );
 
@@ -1062,28 +525,16 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 //        mGoogleMap.moveCamera(CameraUpdateFactory.newLatLng(new LatLng(application.getLatitude(), application.getLongitude())));
 
 
->>>>>>> 2/26/2019
     }
 
 
     public void setLocation(View view) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-        Intent intent = new Intent( this, SelectLocationActivity.class );
-        startActivity( intent );
-=======
-=======
->>>>>>> 2/26/2019
         Intent intent = new Intent( getApplicationContext(), SelectLocationActivity.class );
         intent.setFlags( Intent.FLAG_ACTIVITY_CLEAR_TOP );
         intent.putExtra( "lastLocation", about_profile_edt_area.getText().toString() );
         startActivityForResult( intent, MAP_CODE );
 
 
-<<<<<<< HEAD
->>>>>>> 2/25/2019
-=======
->>>>>>> 2/26/2019
     }
 
     @Override
@@ -1092,70 +543,30 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
         if (view == top_back) {
             finish();
         } else if (view == about_profile_tv_backgroundCheck) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-            Intent intent = new Intent( this, BackgroundFormActivity.class );
-            startActivity( intent );
-            finish();
-=======
-
-            if (valideDataInfo()) {
-
-            }
-
-//            Intent intent = new Intent( this, BackgroundFormActivity.class );
-//            startActivity( intent );
-//            finish();
->>>>>>> 2/25/2019
-=======
 
             if (valideDataInfo()) {
                 new uploadProfileInfoTask( this ).execute();
             }
 
->>>>>>> 2/26/2019
+//
 
         } else if (about_profile_tv_leisureDayStartDate == view) {
             showDataDialog( 1 );
         } else if (about_profile_civ_profile == view) {
             if (checkAllParmisan()) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-                selectProfileImage( 201,1 );
-=======
                 selectProfileImage( 201, 1 );
->>>>>>> 2/25/2019
-=======
-                selectProfileImage( 201, 1 );
->>>>>>> 2/26/2019
             } else {
                 setAllParmisan();
             }
         } else if (about_profile_iv_newAdd == view) {
             if (checkAllParmisan()) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-                selectProfileImage( 205,5 );
-=======
                 selectProfileImage( 205, 5 );
->>>>>>> 2/25/2019
-=======
-                selectProfileImage( 205, 5 );
->>>>>>> 2/26/2019
             } else {
                 setAllParmisan();
             }
 
         } else if (about_profile_tv_leisureDayEndDate == view) {
             showDataDialog( 2 );
-<<<<<<< HEAD
-<<<<<<< HEAD
-        }
-    }
-
-=======
-=======
->>>>>>> 2/26/2019
 
         } else if (about_profile_tv_monStart == view) {
             showTimePick( about_profile_tv_monStart );
@@ -1236,21 +647,6 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
             if (!Util.isNotEmpaty( about_profile_tv_monStart.getText().toString() )) {
                 Toast.makeText( this, "Please enter monday work starting time", Toast.LENGTH_SHORT ).show();
                 return false;
-<<<<<<< HEAD
-            }
-
-            if (!Util.isNotEmpaty( about_profile_tv_monEnd.getText().toString() )) {
-                Toast.makeText( this, "Please enter monday work end time", Toast.LENGTH_SHORT ).show();
-                return false;
-            }
-
-            if (!Util.isValidTime( about_profile_tv_monStart.getText().toString(), about_profile_tv_monEnd.getText().toString() )) {
-                Toast.makeText( this, "Please enter valid start and end time", Toast.LENGTH_SHORT ).show();
-                return false;
-            }
-
-
-=======
             } else if (!Util.isNotEmpaty( about_profile_tv_monEnd.getText().toString() )) {
                 Toast.makeText( this, "Please enter monday work end time", Toast.LENGTH_SHORT ).show();
                 return false;
@@ -1258,29 +654,17 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
                 Toast.makeText( this, "Please enter valid start and end time - mon", Toast.LENGTH_SHORT ).show();
                 return false;
             }
->>>>>>> 2/26/2019
         }
 
         if (about_profile_cb_tue.isChecked()) {
             if (!Util.isNotEmpaty( about_profile_tv_tueStart.getText().toString() )) {
                 Toast.makeText( this, "Please enter tuesday work start time", Toast.LENGTH_SHORT ).show();
                 return false;
-<<<<<<< HEAD
-            }
-            if (!Util.isNotEmpaty( about_profile_tv_tueEnd.getText().toString() )) {
-                Toast.makeText( this, "Please enter tuesday work end time", Toast.LENGTH_SHORT ).show();
-                return false;
-            }
-
-            if (!Util.isValidTime( about_profile_tv_tueStart.getText().toString(), about_profile_tv_tueEnd.getText().toString() )) {
-                Toast.makeText( this, "Please enter valid start and end time", Toast.LENGTH_SHORT ).show();
-=======
             } else if (!Util.isNotEmpaty( about_profile_tv_tueEnd.getText().toString() )) {
                 Toast.makeText( this, "Please enter tuesday work end time", Toast.LENGTH_SHORT ).show();
                 return false;
             } else if (!Util.isValidTime( about_profile_tv_tueStart.getText().toString(), about_profile_tv_tueEnd.getText().toString() )) {
                 Toast.makeText( this, "Please enter valid start and end time - tue", Toast.LENGTH_SHORT ).show();
->>>>>>> 2/26/2019
                 return false;
             }
 
@@ -1290,22 +674,11 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
             if (!Util.isNotEmpaty( about_profile_tv_wedStart.getText().toString() )) {
                 Toast.makeText( this, "Please enter wednesday work start time", Toast.LENGTH_SHORT ).show();
                 return false;
-<<<<<<< HEAD
-            }
-            if (!Util.isNotEmpaty( about_profile_tv_wedEnd.getText().toString() )) {
-                Toast.makeText( this, "Please enter wednesday work end time", Toast.LENGTH_SHORT ).show();
-                return false;
-            }
-
-            if (!Util.isValidTime( about_profile_tv_wedStart.getText().toString(), about_profile_tv_wedEnd.getText().toString() )) {
-                Toast.makeText( this, "Please enter valid start and end time", Toast.LENGTH_SHORT ).show();
-=======
             } else if (!Util.isNotEmpaty( about_profile_tv_wedEnd.getText().toString() )) {
                 Toast.makeText( this, "Please enter wednesday work end time", Toast.LENGTH_SHORT ).show();
                 return false;
             } else if (!Util.isValidTime( about_profile_tv_wedStart.getText().toString(), about_profile_tv_wedEnd.getText().toString() )) {
                 Toast.makeText( this, "Please enter valid start and end time - wed", Toast.LENGTH_SHORT ).show();
->>>>>>> 2/26/2019
                 return false;
             }
         }
@@ -1314,22 +687,11 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
             if (!Util.isNotEmpaty( about_profile_tv_thuStart.getText().toString() )) {
                 Toast.makeText( this, "Please enter thursday work start time", Toast.LENGTH_SHORT ).show();
                 return false;
-<<<<<<< HEAD
-            }
-            if (!Util.isNotEmpaty( about_profile_tv_thuEnd.getText().toString() )) {
-                Toast.makeText( this, "Please enter thursday work end time", Toast.LENGTH_SHORT ).show();
-                return false;
-            }
-
-            if (!Util.isValidTime( about_profile_tv_thuStart.getText().toString(), about_profile_tv_thuEnd.getText().toString() )) {
-                Toast.makeText( this, "Please enter valid start and end time", Toast.LENGTH_SHORT ).show();
-=======
             } else if (!Util.isNotEmpaty( about_profile_tv_thuEnd.getText().toString() )) {
                 Toast.makeText( this, "Please enter thursday work end time", Toast.LENGTH_SHORT ).show();
                 return false;
             } else if (!Util.isValidTime( about_profile_tv_thuStart.getText().toString(), about_profile_tv_thuEnd.getText().toString() )) {
                 Toast.makeText( this, "Please enter valid start and end time - thu", Toast.LENGTH_SHORT ).show();
->>>>>>> 2/26/2019
                 return false;
             }
         }
@@ -1338,22 +700,11 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
             if (!Util.isNotEmpaty( about_profile_tv_friStart.getText().toString() )) {
                 Toast.makeText( this, "Please enter friday work start time", Toast.LENGTH_SHORT ).show();
                 return false;
-<<<<<<< HEAD
-            }
-            if (!Util.isNotEmpaty( about_profile_tv_friEnd.getText().toString() )) {
-                Toast.makeText( this, "Please enter friday work end time", Toast.LENGTH_SHORT ).show();
-                return false;
-            }
-
-            if (!Util.isValidTime( about_profile_tv_friStart.getText().toString(), about_profile_tv_friEnd.getText().toString() )) {
-                Toast.makeText( this, "Please enter valid start and end time", Toast.LENGTH_SHORT ).show();
-=======
             } else if (!Util.isNotEmpaty( about_profile_tv_friEnd.getText().toString() )) {
                 Toast.makeText( this, "Please enter friday work end time", Toast.LENGTH_SHORT ).show();
                 return false;
             } else if (!Util.isValidTime( about_profile_tv_friStart.getText().toString(), about_profile_tv_friEnd.getText().toString() )) {
                 Toast.makeText( this, "Please enter valid start and end time - fri", Toast.LENGTH_SHORT ).show();
->>>>>>> 2/26/2019
                 return false;
             }
         }
@@ -1362,22 +713,11 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
             if (!Util.isNotEmpaty( about_profile_tv_satStart.getText().toString() )) {
                 Toast.makeText( this, "Please enter saturday work start time", Toast.LENGTH_SHORT ).show();
                 return false;
-<<<<<<< HEAD
-            }
-            if (!Util.isNotEmpaty( about_profile_tv_satEnd.getText().toString() )) {
-                Toast.makeText( this, "Please enter saturday work end time", Toast.LENGTH_SHORT ).show();
-                return false;
-            }
-
-            if (!Util.isValidTime( about_profile_tv_satStart.getText().toString(), about_profile_tv_satEnd.getText().toString() )) {
-                Toast.makeText( this, "Please enter valid start and end time", Toast.LENGTH_SHORT ).show();
-=======
             } else if (!Util.isNotEmpaty( about_profile_tv_satEnd.getText().toString() )) {
                 Toast.makeText( this, "Please enter saturday work end time", Toast.LENGTH_SHORT ).show();
                 return false;
             } else if (!Util.isValidTime( about_profile_tv_satStart.getText().toString(), about_profile_tv_satEnd.getText().toString() )) {
                 Toast.makeText( this, "Please enter valid start and end time - sat", Toast.LENGTH_SHORT ).show();
->>>>>>> 2/26/2019
                 return false;
             }
         }
@@ -1386,22 +726,11 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
             if (!Util.isNotEmpaty( about_profile_tv_sunStart.getText().toString() )) {
                 Toast.makeText( this, "Please enter sunday work start time", Toast.LENGTH_SHORT ).show();
                 return false;
-<<<<<<< HEAD
-            }
-            if (!Util.isNotEmpaty( about_profile_tv_sunEnd.getText().toString() )) {
-                Toast.makeText( this, "Please enter sunday work end time", Toast.LENGTH_SHORT ).show();
-                return false;
-            }
-
-            if (!Util.isValidTime( about_profile_tv_sunStart.getText().toString(), about_profile_tv_sunEnd.getText().toString() )) {
-                Toast.makeText( this, "Please enter valid start and end time", Toast.LENGTH_SHORT ).show();
-=======
             } else if (!Util.isNotEmpaty( about_profile_tv_sunEnd.getText().toString() )) {
                 Toast.makeText( this, "Please enter sunday work end time", Toast.LENGTH_SHORT ).show();
                 return false;
             } else if (!Util.isValidTime( about_profile_tv_sunStart.getText().toString(), about_profile_tv_sunEnd.getText().toString() )) {
                 Toast.makeText( this, "Please enter valid start and end time - sun", Toast.LENGTH_SHORT ).show();
->>>>>>> 2/26/2019
                 return false;
             }
         }
@@ -1411,12 +740,7 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
             if (!Util.isNotEmpaty( about_profile_edt_nearMiles.getText().toString() )) {
                 Toast.makeText( this, "Please enter nearest miles", Toast.LENGTH_SHORT ).show();
                 return false;
-<<<<<<< HEAD
-            }
-            if (!Util.isNotEmpaty( about_profile_edt_nearOff.getText().toString() )) {
-=======
             } else if (!Util.isNotEmpaty( about_profile_edt_nearOff.getText().toString() )) {
->>>>>>> 2/26/2019
                 Toast.makeText( this, "Please enter nearest miles offers.", Toast.LENGTH_SHORT ).show();
                 return false;
             }
@@ -1426,22 +750,6 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
             if (!Util.isNotEmpaty( about_profile_tv_leisureDayStartDate.getText().toString() )) {
                 Toast.makeText( this, "Please enter leisure Start date", Toast.LENGTH_SHORT ).show();
                 return false;
-<<<<<<< HEAD
-            }
-            if (!Util.isNotEmpaty( about_profile_tv_leisureDayStartTime.getText().toString() )) {
-                Toast.makeText( this, "Please enter leisure date Start time", Toast.LENGTH_SHORT ).show();
-                return false;
-            }
-            if (!Util.isNotEmpaty( about_profile_tv_leisureDayEndDate.getText().toString() )) {
-                Toast.makeText( this, "Please enter leisure end date", Toast.LENGTH_SHORT ).show();
-                return false;
-            }
-            if (!Util.isNotEmpaty( about_profile_tv_leisureDayEndTime.getText().toString() )) {
-                Toast.makeText( this, "Please enter leisure end time", Toast.LENGTH_SHORT ).show();
-                return false;
-            }
-            if (!Util.isNotEmpaty( about_profile_edt_leisureDayOff.getText().toString() )) {
-=======
             } else if (!Util.isNotEmpaty( about_profile_tv_leisureDayStartTime.getText().toString() )) {
                 Toast.makeText( this, "Please enter leisure date Start time", Toast.LENGTH_SHORT ).show();
                 return false;
@@ -1456,7 +764,6 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
                 Toast.makeText( this, "Please enter leisure valida date and time ", Toast.LENGTH_SHORT ).show();
                 return false;
             } else if (!Util.isNotEmpaty( about_profile_edt_leisureDayOff.getText().toString() )) {
->>>>>>> 2/26/2019
                 Toast.makeText( this, "Please enter leisure day off %", Toast.LENGTH_SHORT ).show();
                 return false;
             }
@@ -1467,10 +774,6 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
     }
 
 
-<<<<<<< HEAD
->>>>>>> 2/25/2019
-=======
->>>>>>> 2/26/2019
     private void showDataDialog(int setPos) {
 
         calendar = Calendar.getInstance();
@@ -1519,29 +822,13 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
         }
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-    private void selectProfileImage(int post,int imageSize) {
-=======
     private void selectProfileImage(int post, int imageSize) {
->>>>>>> 2/25/2019
-=======
-    private void selectProfileImage(int post, int imageSize) {
->>>>>>> 2/26/2019
 
         Config config = new Config();
         config.setToolbarTitleRes( R.string.app_name );
         config.setSelectionMin( 1 );
         config.setSelectionLimit( imageSize );
-<<<<<<< HEAD
-<<<<<<< HEAD
-       config.setSelectedBottomColor( "#500b02" );
-=======
         config.setSelectedBottomColor( "#500b02" );
->>>>>>> 2/25/2019
-=======
-        config.setSelectedBottomColor( "#500b02" );
->>>>>>> 2/26/2019
         config.setTabBackgroundColor( "#D5D5D5" );
         config.setTabSelectionIndicatorColor( "#500b02" );
         config.setToolbarTitleColor( "#909090" );
@@ -1561,55 +848,14 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
         if (resultCode == Activity.RESULT_OK) {
             try {
                 if (requestCode == MAP_CODE) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-//
-//                    double strLatitude = (double) data.getExtras().get( "location_lat" );
-//                    double strLongitude = (double) data.getExtras().get( "location_lng" );
-//
-//                    AppLog.Log( "receive------- Latitude", strLatitude + "  ---------" );
-//                    AppLog.Log( "receive------- Longitude", strLongitude + "  ---------" );
-//
-//                    Geocoder geocoder;
-//                    List<Address> addresses;
-//                    geocoder = new Geocoder( this, Locale.getDefault() );
-//
-//                    addresses = geocoder.getFromLocation( strLatitude, strLongitude, 1 ); // Here 1 represent max location result to returned, by documents it recommended 1 to 5
-//
-//                    String address = addresses.get( 0 ).getAddressLine( 0 ); // If any additional address line present than only, check with max available address lines by getMaxAddressLineIndex()
-//                    String city = addresses.get( 0 ).getLocality();
-//                    String state = addresses.get( 0 ).getAdminArea();
-//                    strCountryName = addresses.get( 0 ).getCountryName().toLowerCase();
-//                    strCountryCode = addresses.get( 0 ).getCountryCode().toLowerCase();
-////                        strPostalCode = addresses.get(0).getPostalCode();
-////                        String knownName = addresses.get(0).getFeatureName(); // Only if available else return NULL
-//
-//
-//                    stBuilAddress.append( address );
-////                    stBuilAddress.append(", " + city);
-////                    stBuilAddress.append(", " + state);
-////                        stBuilAddress.append(", " + strCountryName);
-//                    tvLocation.setText( address );
-//                    strLat = String.valueOf( strLatitude );
-//                    strLong = String.valueOf( strLongitude );
-//
-//
-=======
-=======
->>>>>>> 2/26/2019
 
                     double strLatitude = (double) data.getExtras().get( "location_lat" );
                     double strLongitude = (double) data.getExtras().get( "location_lng" );
 
-<<<<<<< HEAD
-                    AppLog.Log( "receive------- Latitude", strLatitude + "  ---------" );
-                    AppLog.Log( "receive------- Longitude", strLongitude + "  ---------" );
-=======
                     selectedCodineters = new LatLng( strLatitude, strLongitude );
 
 //                    AppLog.Log( "receive------- Latitude", strLatitude + "  ---------" );
 //                    AppLog.Log( "receive------- Longitude", strLongitude + "  ---------" );
->>>>>>> 2/26/2019
 
                     Geocoder geocoder;
                     List<Address> addresses;
@@ -1622,17 +868,9 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
                     String state = addresses.get( 0 ).getAdminArea();
 //
                     about_profile_edt_area.setText( address );
-<<<<<<< HEAD
-//                    strLat = String.valueOf( strLatitude );
-//                    strLong = String.valueOf( strLongitude );
-
-                    selectedCoords = new LatLng(strLatitude, strLongitude  );
-                    mGoogleMap.animateCamera( CameraUpdateFactory.newLatLngZoom( selectedCoords, 17 ) );
-=======
 
                     selectedCoords = new LatLng( strLatitude, strLongitude );
                     mGoogleMap.animateCamera( CameraUpdateFactory.newLatLngZoom( selectedCoords, 18 ) );
->>>>>>> 2/26/2019
 
                     if (mGoogleMap != null) {
                         mGoogleMap.clear();
@@ -1643,13 +881,9 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 
                         mRadiusCircle = mGoogleMap.addCircle( new CircleOptions()
                                 .center( selectedCoords )
-<<<<<<< HEAD
-                                .radius(milesToMeters(mRadius) )
-=======
                                 .radius( milesToMeters( mRadius ) )
->>>>>>> 2/26/2019
-                                .strokeColor( ContextCompat.getColor( ProfileEditActivity.this, R.color.map_mRadius ) )
-                                .fillColor( ContextCompat.getColor( ProfileEditActivity.this, R.color.map_mRadius ) )
+                                .strokeColor( ContextCompat.getColor( ProfileAddActivity.this, R.color.map_mRadius ) )
+                                .fillColor( ContextCompat.getColor( ProfileAddActivity.this, R.color.map_mRadius ) )
                                 .strokeWidth( 0.1f ) );
 
 
@@ -1663,11 +897,6 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
                     }
 
 
-<<<<<<< HEAD
->>>>>>> 2/25/2019
-
-=======
->>>>>>> 2/26/2019
                 } else if (requestCode == 201) {
 
                     ArrayList<Uri> image_uris = data.getParcelableArrayListExtra( ImagePickerActivity.EXTRA_IMAGE_URIS );
@@ -1719,21 +948,9 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
         }
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-
-
-=======
-    public static double milesToMeters(double miles) {
-        return 0.0006213711 * miles;
-    }
->>>>>>> 2/25/2019
-=======
     public static double milesToMeters(double miles) {
         return 1609.34 * miles;
     }
->>>>>>> 2/26/2019
 
 
     private void setAllParmisan() {
@@ -1757,10 +974,7 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 
     }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 2/26/2019
     private boolean checkWriteExternalPermission(String permissionName) {
 
         String permission = permissionName;
@@ -1769,17 +983,8 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
     }
 
     @Override
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public void onRequestPermissionsResult(int permsRequestCode, String[] permissions, int[] grantResults) {
-=======
     public void onRequestPermissionsResult(int permsRequestCode, String[] permissions,
                                            int[] grantResults) {
->>>>>>> 2/25/2019
-=======
-    public void onRequestPermissionsResult(int permsRequestCode, String[] permissions,
-                                           int[] grantResults) {
->>>>>>> 2/26/2019
 //            case 200:
         if (permsRequestCode == 200) {
             boolean locationAccepted = grantResults[0] == PackageManager.PERMISSION_GRANTED;
@@ -1796,14 +1001,7 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 
     public static int SETTING_PERMISSION_CODE = 110;
     private AlertDialog dialog1;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> 2/25/2019
-=======
-
->>>>>>> 2/26/2019
     public void displayDialog() {
 
         dialog1 = new AlertDialog.Builder( this )
@@ -1817,7 +1015,7 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
                         dialog1.dismiss();
                         Intent intent = new Intent();
                         intent.setAction( Settings.ACTION_APPLICATION_DETAILS_SETTINGS );
-                        Uri uri = Uri.fromParts( "package", ProfileEditActivity.this.getPackageName(), null );
+                        Uri uri = Uri.fromParts( "package", ProfileAddActivity.this.getPackageName(), null );
                         intent.setData( uri );
                         startActivityForResult( intent, SETTING_PERMISSION_CODE );
                     }
@@ -1835,11 +1033,6 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 2/26/2019
     private void showTimePick(final TextViewEuphemiaUCASRegular about_profile_tv) {
 
         Calendar mcurrentTime = Calendar.getInstance();
@@ -1882,21 +1075,9 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
             Toast.makeText( this, "No location found", Toast.LENGTH_SHORT ).show();
 
         } else {
-<<<<<<< HEAD
-//            currentLatitude = location.getLatitude();
-//            currentLongitude = location.getLongitude();
-//            LatLng latLng = new LatLng(currentLatitude, currentLongitude);
-            LatLng latLng = new LatLng( application.getLatitude(), application.getLongitude() );
-
-            CameraPosition position = CameraPosition.builder().target( latLng ).zoom( 18f ).bearing( 0.0f ).tilt( 0.0f ).build();
-            mGoogleMap.animateCamera( CameraUpdateFactory.newCameraPosition( position ) );
-            // Log.d("latitude", String.valueOf(currentLatitude));
-//            Toast.makeText(this, currentLatitude + " WORKS " + currentLongitude + "", Toast.LENGTH_LONG).show();
-=======
             LatLng latLng = new LatLng( application.getLatitude(), application.getLongitude() );
             CameraPosition position = CameraPosition.builder().target( latLng ).zoom( 18f ).bearing( 0.0f ).tilt( 0.0f ).build();
             mGoogleMap.animateCamera( CameraUpdateFactory.newCameraPosition( position ) );
->>>>>>> 2/26/2019
         }
     }
 
@@ -1938,19 +1119,11 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
     }
 
     public int getZoomLevel(Circle circle) {
-<<<<<<< HEAD
-        int zoomLevel = 14;
-        if (circle != null) {
-            double radius = circle.getRadius();
-            double scale = radius / 200;
-            zoomLevel = (int) (14 - Math.log( scale ) / Math.log( 2 ));
-=======
         int zoomLevel = 16;
         if (circle != null) {
             double radius = circle.getRadius();
             double scale = radius / 200;
             zoomLevel = (int) (16 - Math.log( scale ) / Math.log( 2 ));
->>>>>>> 2/26/2019
         }
         return zoomLevel;
     }
@@ -1969,10 +1142,6 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
         }
     }
 
-<<<<<<< HEAD
->>>>>>> 2/25/2019
-
-=======
 
     public class uploadProfileInfoTask extends AsyncTask<Void, Void, String> {
 
@@ -2004,11 +1173,11 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
                 jsonObject.put( "sp_id", preferences.getString( "sp_id", "" ) );
                 jsonObject.put( "email", preferences.getString( "email", "" ) );
                 jsonObject.put( "phone", preferences.getString( "mobile_no", "" ) );
-                jsonObject.put( "profile_status", profileStatus );
+                jsonObject.put( "profile_status", "Not Verified" );
                 jsonObject.put( "about_sp_profile", about_profile_edt_about.getText().toString() );
-                jsonObject.put( "website", about_profile_edt_website.getText().toString()+"" );
-                jsonObject.put( "linkedin", about_profile_edt_linkedin.getText().toString()+"");
-                jsonObject.put( "service_area", about_profile_edt_area.getText().toString());
+                jsonObject.put( "website", about_profile_edt_website.getText().toString() );
+                jsonObject.put( "linkedin", about_profile_edt_linkedin.getText().toString() );
+                jsonObject.put( "service_area", about_profile_edt_area.getText().toString() );
                 jsonObject.put( "radius", about_profile_seekbar_radius.getProgress() );
 
                 JSONObject jsonObjectCoordinatePoint = new JSONObject();
@@ -2138,174 +1307,13 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 
             if (apiresponse.getStatus() == 1) {
                 Toast.makeText( mActivity, apiresponse.getMessage(), Toast.LENGTH_SHORT ).show();
+//                Intent intent = new Intent( this, BackgroundFormActivity.class );
+////            startActivity( intent );
+////            finish();
             } else {
                 Toast.makeText( mActivity, apiresponse.getMessage(), Toast.LENGTH_SHORT ).show();
             }
         }
     }
 
-
-    public class getProfileInfoTask extends AsyncTask<Void, Void, String> {
-
-        private ProgressDialog mDialog = null;
-        private Activity mActivity;
-
-
-        public getProfileInfoTask(Activity activity) {
-            mActivity = activity;
-            // TODO Auto-generated constructor stub
-        }
-
-        @Override
-        protected void onPreExecute() {
-            // TODO Auto-generated method stub
-            super.onPreExecute();
-
-            mDialog = ProgressDialog.show( mActivity, null, "Please wait....", true, true );
-            mDialog.getWindow().clearFlags( WindowManager.LayoutParams.FLAG_DIM_BEHIND );
-            mDialog.setCanceledOnTouchOutside( false );
-        }
-
-        @Override
-        protected String doInBackground(Void... params) {
-            // TODO Auto-generated method stub
-            try {
-
-                JSONObject jsonObject = new JSONObject();
-                jsonObject.put( "sp_id", preferences.getString( "sp_id", "" ) );
-                Log.e( "--------------Post", jsonObject.toString() );
-                String response = new WebUtil().postMethod( jsonObject.toString(), WebApi.URL_GET_WORK_PROFILE );
-                return response;
-            } catch (JSONException e) {
-                e.printStackTrace();
-                return "";
-            }
-        }
-
-        @Override
-        protected void onPostExecute(String response) {
-            // TODO Auto-generated method stub
-            super.onPostExecute( response );
-            if (mDialog.isShowing()) {
-                mDialog.dismiss();
-            }
-
-            Log.e( "------- Response ", "-------------" + response );
-            Gson gson = new Gson(); // Or use new GsonBuilder().create();
-            ProfileWorkApi profileWorkApi = gson.fromJson( response, ProfileWorkApi.class );
-
-            if (profileWorkApi.getStatus() == 1 && profileWorkApi.getData().size() > 0) {
-
-                ProfileWorkInfo infoData = profileWorkApi.getData().get( 0 );
-                about_profile_edt_about.setText( infoData.getAbout_sp_profile() );
-                about_profile_edt_website.setText( infoData.getWebsite()+"");
-                about_profile_edt_linkedin.setText( infoData.getLinkedin()+"");
-                about_profile_edt_area.setText( infoData.getService_area() );
-                about_profile_seekbar_radius.setProgress( Integer.valueOf( infoData.getRadius() ) );
-                mRadius = Integer.valueOf( infoData.getRadius() );
-                profileStatus = infoData.getProfile_status();
-
-                if (infoData.getLeisure_day_offer().equalsIgnoreCase( "ON" )) {
-                    about_profile_cb_leisureDay.setChecked( true );
-                    about_profile_edt_leisureDayOff.setText( infoData.getLeisure_day_offer_on().getLeisure_day_discount() );
-                    about_profile_tv_leisureDayStartDate.setText( infoData.getLeisure_day_offer_on().getStart_date() );
-                    about_profile_tv_leisureDayStartTime.setText( infoData.getLeisure_day_offer_on().getStart_time() );
-                    about_profile_tv_leisureDayEndDate.setText( infoData.getLeisure_day_offer_on().getEnd_date() );
-                    about_profile_tv_leisureDayEndTime.setText( infoData.getLeisure_day_offer_on().getEnd_time() );
-                }
-
-                if (infoData.getNear_offer_selected().equalsIgnoreCase( "ON" )) {
-                    about_profile_cb_nearByLastMin.setChecked( true );
-                    about_profile_edt_nearMiles.setText( infoData.getNear_offer_selected_on().getDistance() );
-                    about_profile_edt_nearOff.setText( infoData.getNear_offer_selected_on().getOffer() );
-                }
-
-                if (infoData.getWorking_hours_24_7().equalsIgnoreCase( "ON" )) {
-                    about_profile_rb_fullWeek.setChecked( true );
-                    about_profile_rb_workDay.setChecked( false );
-                }
-
-                if (infoData.getCustom_work_hours().equalsIgnoreCase( "ON" )) {
-                    about_profile_rb_fullWeek.setChecked( false );
-                    about_profile_rb_workDay.setChecked( true );
-
-                    ArrayList<CustomWorkPerDay> workPreDay = infoData.getCustom_work_per_day();
-
-                    for (int i = 0; i < workPreDay.size(); i++) {
-
-                        if (workPreDay.get( i ).getDayName().equalsIgnoreCase( "mon" )) {
-                            about_profile_cb_mon.setChecked(true);
-                            about_profile_tv_monStart.setText( workPreDay.get( i ).getStart_time() );
-                            about_profile_tv_monEnd.setText( workPreDay.get( i ).getEnd_time() );
-
-                        } else if (workPreDay.get( i ).getDayName().equalsIgnoreCase( "tue" )) {
-                            about_profile_cb_tue.setChecked(true);
-                            about_profile_tv_tueStart.setText( workPreDay.get( i ).getStart_time() );
-                            about_profile_tv_tueEnd.setText( workPreDay.get( i ).getEnd_time() );
-
-                        } else if (workPreDay.get( i ).getDayName().equalsIgnoreCase( "wed" )) {
-                            about_profile_cb_wed.setChecked(true);
-                            about_profile_tv_wedStart.setText( workPreDay.get( i ).getStart_time() );
-                            about_profile_tv_wedEnd.setText( workPreDay.get( i ).getEnd_time() );
-
-                        } else if (workPreDay.get( i ).getDayName().equalsIgnoreCase( "thu" )) {
-                            about_profile_cb_thu.setChecked(true);
-                            about_profile_tv_thuStart.setText( workPreDay.get( i ).getStart_time() );
-                            about_profile_tv_thuEnd.setText( workPreDay.get( i ).getEnd_time() );
-
-                        } else if (workPreDay.get( i ).getDayName().equalsIgnoreCase( "fri" )) {
-                            about_profile_cb_fri.setChecked(true);
-                            about_profile_tv_friStart.setText( workPreDay.get( i ).getStart_time() );
-                            about_profile_tv_friEnd.setText( workPreDay.get( i ).getEnd_time() );
-
-                        } else if (workPreDay.get( i ).getDayName().equalsIgnoreCase( "sat" )) {
-                            about_profile_cb_sat.setChecked(true);
-                            about_profile_tv_satStart.setText( workPreDay.get( i ).getStart_time() );
-                            about_profile_tv_satEnd.setText( workPreDay.get( i ).getEnd_time() );
-
-                        } else if (workPreDay.get( i ).getDayName().equalsIgnoreCase( "sun" )) {
-                            about_profile_cb_sun.setChecked(true);
-                            about_profile_tv_sunStart.setText( workPreDay.get( i ).getStart_time() );
-                            about_profile_tv_sunEnd.setText( workPreDay.get( i ).getEnd_time() );
-
-                        }
-                    }
-
-                }
-
-
-                selectedCoords = new LatLng( Double.parseDouble( infoData.getCoordinatePoint().getLatitude() ), Double.parseDouble( infoData.getCoordinatePoint().getLongitude() ) );
-                selectedCodineters = new LatLng( Double.parseDouble( infoData.getCoordinatePoint().getLatitude() ), Double.parseDouble( infoData.getCoordinatePoint().getLongitude() ) );
-                mGoogleMap.animateCamera( CameraUpdateFactory.newLatLngZoom( selectedCoords, 18 ) );
-
-                if (mGoogleMap != null) {
-                    mGoogleMap.clear();
-                    mGoogleMap.addMarker( new MarkerOptions()
-                            .position( selectedCoords )
-                            .anchor( .5f, .5f )
-                            .title( "My Location" ) );
-
-                    mRadiusCircle = mGoogleMap.addCircle( new CircleOptions()
-                            .center( selectedCoords )
-                            .radius( milesToMeters( mRadius ) )
-                            .strokeColor( ContextCompat.getColor( ProfileEditActivity.this, R.color.map_mRadius ) )
-                            .fillColor( ContextCompat.getColor( ProfileEditActivity.this, R.color.map_mRadius ) )
-                            .strokeWidth( 0.1f ) );
-
-
-                    if (mRadius > 0 && selectedCoords != null) {
-                        int zoom = getZoomLevel( mRadiusCircle );
-                        mGoogleMap.animateCamera( CameraUpdateFactory.newLatLngZoom( selectedCoords, zoom ) );
-                    } else {
-                        mGoogleMap.animateCamera( CameraUpdateFactory.newLatLngZoom( selectedCoords, 16 ) );
-                    }
-
-                }
-
-            } else {
-                Toast.makeText( mActivity, profileWorkApi.getMessage(), Toast.LENGTH_SHORT ).show();
-            }
-        }
-    }
->>>>>>> 2/26/2019
 }
