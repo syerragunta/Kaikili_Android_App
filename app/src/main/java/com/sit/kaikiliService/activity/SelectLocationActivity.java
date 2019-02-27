@@ -2,6 +2,7 @@ package com.sit.kaikiliService.activity;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.content.SharedPreferences;
 import android.os.Bundle;
 <<<<<<< HEAD
@@ -21,6 +22,8 @@ import android.support.design.widget.FloatingActionButton;
 =======
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -31,9 +34,12 @@ import android.location.Location;
 import android.os.AsyncTask;
 import android.os.Bundle;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.KeyEvent;
@@ -41,6 +47,7 @@ import android.view.View;
 import android.view.inputmethod.EditorInfo;
 import android.widget.AdapterView;
 import android.widget.ImageView;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 import android.widget.TextView;
@@ -126,6 +133,8 @@ import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 =======
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
@@ -155,14 +164,18 @@ import java.util.List;
 import java.util.Locale;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
 
 /**
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
  * Created by ketan patel on 25/1/2019.
@@ -172,25 +185,34 @@ import butterknife.ButterKnife;
 =======
  * Created by ketan patel on 25/2/2019.
 >>>>>>> 2/26/2019
+=======
+ * Created by ketan patel on 25/2/2019.
+>>>>>>> 2/27/2019
  * ketan_patel25@yahoo.com
  * Sharva Infotech PVT LTD
  */
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 public class SelectLocationActivity extends BaseActivity implements View.OnClickListener {
 =======
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
 public class SelectLocationActivity extends BaseActivity implements View.OnClickListener,
         com.google.android.gms.location.LocationListener,
         OnMapReadyCallback {
 
 //    private GoogleMap googleMap;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
 
     @Bind(R.id.top_back)
     ImageView top_back;
@@ -202,6 +224,7 @@ public class SelectLocationActivity extends BaseActivity implements View.OnClick
     @Bind(R.id.user_location_tv_setLocation)    TextViewEuphemiaUCASRegular user_location_tv_setLocation;
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -261,6 +284,8 @@ public class SelectLocationActivity extends BaseActivity implements View.OnClick
 =======
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
     private KaikiliApplication application;
     private SharedPreferences preferences;
     private static GoogleMap mGoogleMap;
@@ -272,9 +297,12 @@ public class SelectLocationActivity extends BaseActivity implements View.OnClick
     private Point poitn;
     private LocationSearchArrayAdapter mapPlaceAdapter;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
 
 
     @Override
@@ -283,6 +311,7 @@ public class SelectLocationActivity extends BaseActivity implements View.OnClick
         setContentView( R.layout.activity_user_location );
         ButterKnife.bind( this, this );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -362,6 +391,8 @@ public class SelectLocationActivity extends BaseActivity implements View.OnClick
 =======
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
         application = (KaikiliApplication) getApplicationContext();
         preferences = application.getSharedPreferences();
         LocationFinder locationFinder = new LocationFinder( this );
@@ -410,9 +441,12 @@ public class SelectLocationActivity extends BaseActivity implements View.OnClick
             }
         } );
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
 
 
         user_location_edt_search.setDrawableClickListener(
@@ -420,6 +454,7 @@ public class SelectLocationActivity extends BaseActivity implements View.OnClick
                     @Override
                     public void onClick(DrawablePosition target) {
                         if (target == DrawablePosition.RIGHT) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 //                            if (GPSLocation.getInstance().getStoredLatLng() == null) return;
@@ -434,6 +469,8 @@ public class SelectLocationActivity extends BaseActivity implements View.OnClick
 =======
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
                             Util.hideSoftKeyboard( SelectLocationActivity.this );
 //                            if (GPSLocation.getInstance().getStoredLatLng() == null) return;
                             mGoogleMap.clear();
@@ -445,9 +482,12 @@ public class SelectLocationActivity extends BaseActivity implements View.OnClick
                             //    hideKeyboard();
                             initCoordinates();
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
                             // etSearchLocation.setText("");
                         }
                         if (target == DrawablePosition.LEFT) {
@@ -457,9 +497,12 @@ public class SelectLocationActivity extends BaseActivity implements View.OnClick
                 } );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
 
         user_location_edt_search.setOnEditorActionListener( new TextView.OnEditorActionListener() {
             @Override
@@ -478,9 +521,12 @@ public class SelectLocationActivity extends BaseActivity implements View.OnClick
                 .findFragmentById( R.id.user_location_mapView );
         fm.getMapAsync( this );
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
     }
 
 
@@ -492,12 +538,15 @@ public class SelectLocationActivity extends BaseActivity implements View.OnClick
         }else if(view == user_location_tv_setLocation) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             finish();
         }
     }
 =======
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
             Intent intent = getIntent();
 
             AppLog.Log( "send------- Latitude", selectedCoords.latitude + "  ---------" );
@@ -670,7 +719,10 @@ public class SelectLocationActivity extends BaseActivity implements View.OnClick
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
 }

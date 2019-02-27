@@ -17,6 +17,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     android:background="@color/white"
 >>>>>>> 2/2/2019
@@ -59,6 +60,9 @@
 =======
     android:background="@color/white"
 >>>>>>> 2/26/2019
+=======
+    android:background="@color/white"
+>>>>>>> 2/27/2019
     android:layout_height="match_parent"
     >
 

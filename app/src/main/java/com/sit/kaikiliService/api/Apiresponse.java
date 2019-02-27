@@ -29,9 +29,12 @@ public class Apiresponse {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
     public int getCode() {
         return Code;
     }
@@ -56,8 +59,11 @@ public class Apiresponse {
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
 
 }

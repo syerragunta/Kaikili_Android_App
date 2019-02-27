@@ -90,15 +90,19 @@ public class BankViewDetailsActivity extends BaseActivity implements View.OnClic
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
         if(Boolean.parseBoolean(bankInfo.getIsUsed())){
             bank_info_tv_setAsDefault.setVisibility( View.GONE );
             bank_info_tv_deletCard.setVisibility( View.GONE );
         }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2/23/2019
@@ -106,6 +110,8 @@ public class BankViewDetailsActivity extends BaseActivity implements View.OnClic
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
     }
 
 
@@ -153,6 +159,7 @@ public class BankViewDetailsActivity extends BaseActivity implements View.OnClic
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 jsonObject.put( "sp_id", bankInfo.getSp_id() );
 =======
                 jsonObject.put( "sp_id",  preferences.getString( "sp_id","") );
@@ -163,6 +170,9 @@ public class BankViewDetailsActivity extends BaseActivity implements View.OnClic
 =======
                 jsonObject.put( "sp_id",  preferences.getString( "sp_id","") );
 >>>>>>> 2/26/2019
+=======
+                jsonObject.put( "sp_id",  preferences.getString( "sp_id","") );
+>>>>>>> 2/27/2019
                 jsonObject.put( "id", bankInfo.get_id() );
                 Log.e( "--------------Post", jsonObject.toString() );
                 if (post == 1) {
@@ -197,6 +207,7 @@ public class BankViewDetailsActivity extends BaseActivity implements View.OnClic
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 }else {
                         bank_info_tv_setAsDefault.setVisibility( View.GONE );
@@ -212,6 +223,11 @@ public class BankViewDetailsActivity extends BaseActivity implements View.OnClic
                         bank_info_tv_setAsDefault.setVisibility( View.GONE );
                         bank_info_tv_deletCard.setVisibility( View.GONE );
 >>>>>>> 2/26/2019
+=======
+                }else {
+                        bank_info_tv_setAsDefault.setVisibility( View.GONE );
+                        bank_info_tv_deletCard.setVisibility( View.GONE );
+>>>>>>> 2/27/2019
                 }
             } else {
                 Toast.makeText( mActivity, apiresponse.getMessage(), Toast.LENGTH_SHORT ).show();

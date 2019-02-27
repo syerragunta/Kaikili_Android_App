@@ -11,6 +11,7 @@ import android.widget.BaseAdapter;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import android.widget.ImageView;
 >>>>>>> 2/22/2019
@@ -23,6 +24,9 @@ import android.widget.ImageView;
 =======
 import android.widget.ImageView;
 >>>>>>> 2/26/2019
+=======
+import android.widget.ImageView;
+>>>>>>> 2/27/2019
 import android.widget.LinearLayout;
 
 import com.sit.kaikiliService.KaikiliApplication;
@@ -32,6 +36,7 @@ import com.sit.kaikiliService.activity.AddServiceDataActivity;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 
 =======
@@ -41,11 +46,14 @@ import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
 import com.sit.kaikiliService.activity.BankViewDetailsActivity;
 import com.sit.kaikiliService.api.BankInfo;
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 
 import java.io.Serializable;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -56,6 +64,8 @@ import java.io.Serializable;
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
 import java.util.ArrayList;
 
 
@@ -67,6 +77,7 @@ import java.util.ArrayList;
 
 public class BankDetailListAdapter extends BaseAdapter {
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -136,6 +147,8 @@ public class BankDetailListAdapter extends BaseAdapter {
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
     private Context mActivity;
     private LayoutInflater inflater;
     private ArrayList<BankInfo> bankList = new ArrayList<>();
@@ -206,6 +219,7 @@ public class BankDetailListAdapter extends BaseAdapter {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
@@ -213,11 +227,14 @@ public class BankDetailListAdapter extends BaseAdapter {
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
 
         return row;
     }
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -243,6 +260,8 @@ public class BankDetailListAdapter extends BaseAdapter {
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
     public void setList(ArrayList<BankInfo> bankList) {
         // TODO Auto-generated method stub
         this.bankList = bankList;
@@ -259,6 +278,7 @@ public class BankDetailListAdapter extends BaseAdapter {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
@@ -266,4 +286,6 @@ public class BankDetailListAdapter extends BaseAdapter {
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
 }

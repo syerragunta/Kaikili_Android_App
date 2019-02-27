@@ -17,6 +17,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     android:background="@color/white"
 >>>>>>> 2/2/2019
@@ -59,6 +60,9 @@
 =======
     android:background="@color/white"
 >>>>>>> 2/26/2019
+=======
+    android:background="@color/white"
+>>>>>>> 2/27/2019
     android:layout_height="match_parent"
 >
 
@@ -66,6 +70,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -158,6 +163,11 @@
 
     <include layout="@layout/activity_header" />
 >>>>>>> 2/26/2019
+=======
+   >
+
+    <include layout="@layout/activity_header" />
+>>>>>>> 2/27/2019
 
 
     <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
@@ -182,6 +192,7 @@
         android:gravity="left"
         android:inputType="number"
         android:textSize="@dimen/fontsize16"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -228,11 +239,14 @@
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
         android:textColor="@color/black_87"
         app:bottomLineHeight="1dp"
         app:bottomLineNormalColor="@color/black_87"
         app:bottomLineSelectedColor="@color/black_87"
         app:cursorColor="@color/black_87"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -273,6 +287,8 @@
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
         app:cursorWidth="@dimen/dim2"
         app:figures="4"
 
@@ -294,6 +310,7 @@
         android:layout_marginLeft="@dimen/dim20"
         android:orientation="vertical"
         >
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -342,6 +359,8 @@
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
 
         <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
             android:id="@+id/phone_code_tv_resendCode"
@@ -350,6 +369,7 @@
             android:text="Resend code"
             android:textColor="@color/accent"
             android:textSize="@dimen/fontsize16" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -390,11 +410,14 @@
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
 
     <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
         android:id="@+id/phone_code_tv_editNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -467,6 +490,10 @@
         android:textColor="@color/accent"
         android:textSize="@dimen/fontsize16"
 >>>>>>> 2/26/2019
+=======
+        android:textColor="@color/accent"
+        android:textSize="@dimen/fontsize16"
+>>>>>>> 2/27/2019
         android:layout_marginTop="@dimen/dim2"
         android:text="Edit my mobile number"/>
     </LinearLayout>

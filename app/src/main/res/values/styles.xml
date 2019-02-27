@@ -12,6 +12,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         <item name="ratingBarStyle">@style/MyRatingBar</item>
 >>>>>>> 2/21/2019
@@ -27,6 +28,9 @@
 =======
         <item name="ratingBarStyle">@style/MyRatingBar</item>
 >>>>>>> 2/26/2019
+=======
+        <item name="ratingBarStyle">@style/MyRatingBar</item>
+>>>>>>> 2/27/2019
 
     </style>
 
@@ -195,6 +199,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2/22/2019
@@ -204,11 +209,14 @@
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
 
     <style name="MyRatingBar" parent="Widget.AppCompat.RatingBar">
         <item name="colorAccent">@color/text_coloer</item>
         <item name="android:colorControlNormal">@color/black_54</item>
     </style>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -222,4 +230,6 @@
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
 </resources>

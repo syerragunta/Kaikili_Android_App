@@ -5,6 +5,10 @@ import android.app.AlertDialog;
 import android.app.DatePickerDialog;
 import android.app.ProgressDialog;
 import android.app.TimePickerDialog;
+<<<<<<< HEAD
+=======
+import android.content.Context;
+>>>>>>> 2/27/2019
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentSender;
@@ -22,6 +26,11 @@ import android.os.Build;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.support.v4.content.ContextCompat;
+<<<<<<< HEAD
+=======
+import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.widget.RecyclerView;
+>>>>>>> 2/27/2019
 import android.util.Log;
 import android.util.Patterns;
 import android.view.View;
@@ -52,11 +61,19 @@ import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.gson.Gson;
 import com.sit.kaikiliService.KaikiliApplication;
 import com.sit.kaikiliService.R;
+<<<<<<< HEAD
+=======
+import com.sit.kaikiliService.adapter.WorkImageEditAdapter;
+>>>>>>> 2/27/2019
 import com.sit.kaikiliService.api.Apiresponse;
 import com.sit.kaikiliService.api.WebApi;
 import com.sit.kaikiliService.api.WebUtil;
 import com.sit.kaikiliService.camera.Config;
 import com.sit.kaikiliService.camera.ImagePickerActivity;
+<<<<<<< HEAD
+=======
+import com.sit.kaikiliService.comman.AppLog;
+>>>>>>> 2/27/2019
 import com.sit.kaikiliService.comman.LocationFinder;
 import com.sit.kaikiliService.comman.Util;
 import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
@@ -86,7 +103,12 @@ import butterknife.ButterKnife;
 public class ProfileAddActivity extends BaseActivity implements View.OnClickListener,
         GoogleApiClient.OnConnectionFailedListener,
         GoogleApiClient.ConnectionCallbacks,
+<<<<<<< HEAD
         LocationListener, OnMapReadyCallback {
+=======
+        LocationListener, OnMapReadyCallback,
+        WorkImageEditAdapter.ItemClickListener{
+>>>>>>> 2/27/2019
 
     @Bind(R.id.top_back)
     ImageView top_back;
@@ -195,8 +217,11 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
     @Bind(R.id.about_profile_seekbar_radius)
     DiscreteSeekBar about_profile_seekbar_radius;
 
+<<<<<<< HEAD
     @Bind(R.id.about_profile_iv_newAdd)
     ImageView about_profile_iv_newAdd;
+=======
+>>>>>>> 2/27/2019
     @Bind(R.id.about_profile_civ_profile)
     ImageView about_profile_civ_profile;
 
@@ -212,6 +237,15 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
     RadioButton about_profile_rb_workDay;
 
 
+<<<<<<< HEAD
+=======
+    @Bind(R.id.about_profile_recyclerView_workImage)
+    RecyclerView about_profile_recyclerView_workImage;
+
+
+
+
+>>>>>>> 2/27/2019
     String[] perms = {"android.permission.CAMERA",
             "android.permission.WRITE_EXTERNAL_STORAGE",
             "android.permission.READ_EXTERNAL_STORAGE"};
@@ -235,6 +269,11 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
     private Circle mRadiusCircle;
     public LatLng selectedCoords = null;
     public LatLng selectedCodineters = null;
+<<<<<<< HEAD
+=======
+    private WorkImageEditAdapter adapter;
+    private ArrayList<Uri> imageSet;
+>>>>>>> 2/27/2019
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -251,6 +290,11 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
         application = (KaikiliApplication) getApplicationContext();
         preferences = application.getSharedPreferences();
 
+<<<<<<< HEAD
+=======
+        imageSet = new ArrayList<>();
+
+>>>>>>> 2/27/2019
         imgPicturePath1 = null;
         imgPicturePath2 = null;
 
@@ -260,7 +304,19 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
         about_profile_tv_leisureDayStartDate.setOnClickListener( this );
         about_profile_tv_leisureDayEndDate.setOnClickListener( this );
         about_profile_civ_profile.setOnClickListener( this );
+<<<<<<< HEAD
         about_profile_iv_newAdd.setOnClickListener( this );
+=======
+
+
+        int numberOfColumns = 3;
+        about_profile_recyclerView_workImage.setLayoutManager(new GridLayoutManager(this, numberOfColumns));
+        adapter = new WorkImageEditAdapter(this);
+        adapter.setClickListener(this);
+        about_profile_recyclerView_workImage.setAdapter(adapter);
+        about_profile_recyclerView_workImage.setNestedScrollingEnabled(false);
+        adapter.setData(imageSet);
+>>>>>>> 2/27/2019
 
         about_profile_tv_monStart.setOnClickListener( this );
         about_profile_tv_tueStart.setOnClickListener( this );
@@ -290,7 +346,11 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
         about_profile_tv_leisureDayStartTime.setOnClickListener( this );
         about_profile_tv_leisureDayEndTime.setOnClickListener( this );
 
+<<<<<<< HEAD
         about_profile_tv_userName.setText(preferences.getString( "first_name", "" )+" "+preferences.getString( "last_name", "" ));
+=======
+        about_profile_tv_userName.setText( preferences.getString( "first_name", "" ) + " " + preferences.getString( "last_name", "" ) );
+>>>>>>> 2/27/2019
 
 
         about_profile_seekbar_radius.setNumericTransformer( new DiscreteSeekBar.NumericTransformer() {
@@ -405,8 +465,13 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
                 if (!((CheckBox) v).isChecked()) {
                     about_profile_tv_monStart.setText( "" );
                     about_profile_tv_monEnd.setText( "" );
+<<<<<<< HEAD
                 }else {
                         about_profile_rb_workDay.setClickable(true);
+=======
+                } else {
+                    about_profile_rb_workDay.setClickable( true );
+>>>>>>> 2/27/2019
                 }
             }
         } );
@@ -506,6 +571,12 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
         SupportMapFragment fm = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById( R.id.about_profile_mapView );
         fm.getMapAsync( this );
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 2/27/2019
     }
 
 
@@ -547,7 +618,10 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
             if (valideDataInfo()) {
                 new uploadProfileInfoTask( this ).execute();
             }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2/27/2019
 //
 
         } else if (about_profile_tv_leisureDayStartDate == view) {
@@ -558,12 +632,15 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
             } else {
                 setAllParmisan();
             }
+<<<<<<< HEAD
         } else if (about_profile_iv_newAdd == view) {
             if (checkAllParmisan()) {
                 selectProfileImage( 205, 5 );
             } else {
                 setAllParmisan();
             }
+=======
+>>>>>>> 2/27/2019
 
         } else if (about_profile_tv_leisureDayEndDate == view) {
             showDataDialog( 2 );
@@ -612,10 +689,40 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
             showTimePick( about_profile_tv_leisureDayEndTime );
 
         }
+<<<<<<< HEAD
 
 
     }
 
+=======
+    }
+
+    @Override
+    public void onItemClick(View view, int position) {
+
+    }
+
+    public void ImageAdd() {
+        if (checkAllParmisan()) {
+            Log.e( "-------------------","Size off images =======  "+imageSet.size() );
+            selectProfileImage( 205, 6-imageSet.size() );
+        } else {
+            setAllParmisan();
+        }
+    }
+
+    public void ImageDelete(int pos) {
+        imageSet.remove(pos);
+        adapter.setData(imageSet);
+
+    }
+
+
+
+
+
+
+>>>>>>> 2/27/2019
     private boolean valideDataInfo() {
         if (!Util.isNotEmpaty( about_profile_edt_about.getText().toString() )) {
             Toast.makeText( this, "Please Enter about of your work", Toast.LENGTH_SHORT ).show();
@@ -854,9 +961,12 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
 
                     selectedCodineters = new LatLng( strLatitude, strLongitude );
 
+<<<<<<< HEAD
 //                    AppLog.Log( "receive------- Latitude", strLatitude + "  ---------" );
 //                    AppLog.Log( "receive------- Longitude", strLongitude + "  ---------" );
 
+=======
+>>>>>>> 2/27/2019
                     Geocoder geocoder;
                     List<Address> addresses;
                     geocoder = new Geocoder( this, Locale.getDefault() );
@@ -912,6 +1022,7 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
                         }
                     }
                 } else if (requestCode == 205) {
+<<<<<<< HEAD
 
                     if (imgPicturePath1 == null) {
                         ArrayList<Uri> image_uris = data.getParcelableArrayListExtra( ImagePickerActivity.EXTRA_IMAGE_URIS );
@@ -927,6 +1038,11 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
 //                            }
 //                        }
                     }
+=======
+                        ArrayList<Uri> image_uris = data.getParcelableArrayListExtra( ImagePickerActivity.EXTRA_IMAGE_URIS );
+                        imageSet.addAll(image_uris);
+                        adapter.setData(imageSet);
+>>>>>>> 2/27/2019
                 }
 
                 if (requestCode == SETTING_PERMISSION_CODE) {
@@ -1143,6 +1259,10 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
     }
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2/27/2019
     public class uploadProfileInfoTask extends AsyncTask<Void, Void, String> {
 
         private ProgressDialog mDialog = null;
@@ -1174,6 +1294,11 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
                 jsonObject.put( "email", preferences.getString( "email", "" ) );
                 jsonObject.put( "phone", preferences.getString( "mobile_no", "" ) );
                 jsonObject.put( "profile_status", "Not Verified" );
+<<<<<<< HEAD
+=======
+                jsonObject.put( "profile_image", "" );
+                jsonObject.put( "workImages", new JSONArray() );
+>>>>>>> 2/27/2019
                 jsonObject.put( "about_sp_profile", about_profile_edt_about.getText().toString() );
                 jsonObject.put( "website", about_profile_edt_website.getText().toString() );
                 jsonObject.put( "linkedin", about_profile_edt_linkedin.getText().toString() );
@@ -1306,14 +1431,146 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
             Apiresponse apiresponse = gson.fromJson( response, Apiresponse.class );
 
             if (apiresponse.getStatus() == 1) {
+<<<<<<< HEAD
                 Toast.makeText( mActivity, apiresponse.getMessage(), Toast.LENGTH_SHORT ).show();
 //                Intent intent = new Intent( this, BackgroundFormActivity.class );
 ////            startActivity( intent );
 ////            finish();
+=======
+//                Toast.makeText( mActivity, apiresponse.getMessage(), Toast.LENGTH_SHORT ).show();
+
+                if(imageSet.size()>0){
+                    new WSCreateWorkProfileUploadImage(mActivity,imageSet).execute( );
+                }else if(imgPicturePath1 != null) {
+                    new WSCreateProfileUploadImage( mActivity, imgPicturePath1 ).execute();
+                }else {
+                    Toast.makeText( mActivity, apiresponse.getMessage(), Toast.LENGTH_SHORT ).show();
+                    Intent intent = new Intent( mActivity, BackgroundFormActivity.class );
+                    startActivity( intent );
+                    mActivity.finish();
+                }
+//
             } else {
                 Toast.makeText( mActivity, apiresponse.getMessage(), Toast.LENGTH_SHORT ).show();
             }
         }
     }
 
+
+    public class WSCreateWorkProfileUploadImage extends AsyncTask<Void, String , String> {
+
+        private ProgressDialog mDialog = null;
+        private Activity mActivity;
+        private ArrayList<Uri> fileList;
+
+
+        public WSCreateWorkProfileUploadImage(Activity activity,ArrayList<Uri> fileData) {
+            mActivity = activity;
+            this.fileList = fileData;
+            // TODO Auto-generated constructor stub
+        }
+
+        @Override
+        protected void onPreExecute() {
+            // TODO Auto-generated method stub
+            super.onPreExecute();
+
+            mDialog = ProgressDialog.show( mActivity, null, "Please wait....", true, true );
+            mDialog.getWindow().clearFlags( WindowManager.LayoutParams.FLAG_DIM_BEHIND );
+            mDialog.setCanceledOnTouchOutside( false );
+        }
+
+        @Override
+        protected String doInBackground(Void... params) {
+            // TODO Auto-generated method stub
+            String response = new WebUtil().postImagesInServer( WebApi.URL_SP_WORK_IMAGE_UPLOAD+"/"+ preferences.getString( "sp_id", "" ), fileList );
+            return response;
+        }
+
+        @Override
+        protected void onPostExecute(String response) {
+            // TODO Auto-generated method stub
+            super.onPostExecute( response );
+            if (mDialog.isShowing()) {
+                mDialog.dismiss();
+            }
+
+            Log.e( "------- Response ", "-------------" + response );
+            Gson gson = new Gson(); // Or use new GsonBuilder().create();
+            Apiresponse apiresponse = gson.fromJson( response, Apiresponse.class );
+            Log.e( "------- Response ", "------------- 0000000000000000" + apiresponse.getMessage() );
+            if (apiresponse.getStatus() == 1) {
+
+                if (imgPicturePath1 != null) {
+                    new WSCreateProfileUploadImage( mActivity, imgPicturePath1 ).execute();
+                }else {
+                    Toast.makeText( mActivity, apiresponse.getMessage(), Toast.LENGTH_SHORT ).show();
+                    Intent intent = new Intent( mActivity, BackgroundFormActivity.class );
+                    startActivity( intent );
+                    mActivity.finish();
+                }
+            } else {
+                Toast.makeText( mActivity, apiresponse.getMessage(), Toast.LENGTH_SHORT ).show();
+            }
+        }
+    }
+
+    public class WSCreateProfileUploadImage extends AsyncTask<Void, String, String> {
+
+        private ProgressDialog mDialog = null;
+        private Activity mActivity;
+        private String fileList;
+
+
+        public WSCreateProfileUploadImage(Activity activity,String fileData) {
+            mActivity = activity;
+            this.fileList = fileData;
+            // TODO Auto-generated constructor stub
+        }
+
+        @Override
+        protected void onPreExecute() {
+            // TODO Auto-generated method stub
+            super.onPreExecute();
+
+            mDialog = ProgressDialog.show( mActivity, null, "Please wait....", true, true );
+            mDialog.getWindow().clearFlags( WindowManager.LayoutParams.FLAG_DIM_BEHIND );
+            mDialog.setCanceledOnTouchOutside( false );
+        }
+
+        @Override
+        protected String  doInBackground(Void... params) {
+            // TODO Auto-generated method stub
+            String  response = new WebUtil().postProfileImagesInServer( WebApi.URL_SP_PROFILE_IMAGE_UPLOAD+"/"+ preferences.getString( "sp_id", "" ), fileList );
+            return response;
+        }
+
+        @Override
+        protected void onPostExecute(String response) {
+            // TODO Auto-generated method stub
+            super.onPostExecute( response );
+            if (mDialog.isShowing()) {
+                mDialog.dismiss();
+            }
+
+            Log.e( "------- Response ", "-------------" + response );
+            Gson gson = new Gson(); // Or use new GsonBuilder().create();
+            Apiresponse apiresponse = gson.fromJson( response, Apiresponse.class );
+            Log.e( "------- Response ", "------------- 22222222222222" + apiresponse.getMessage() );
+            if (apiresponse.getStatus() == 1) {
+                Toast.makeText( mActivity, apiresponse.getMessage(), Toast.LENGTH_SHORT ).show();
+                Intent intent = new Intent( mActivity, BackgroundFormActivity.class );
+                startActivity( intent );
+                mActivity.finish();
+>>>>>>> 2/27/2019
+            } else {
+                Toast.makeText( mActivity, apiresponse.getMessage(), Toast.LENGTH_SHORT ).show();
+            }
+        }
+    }
+
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2/27/2019
 }

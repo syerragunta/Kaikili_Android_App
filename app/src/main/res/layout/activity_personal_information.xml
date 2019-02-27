@@ -17,6 +17,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     android:background="@color/white"
 >>>>>>> 2/2/2019
@@ -59,11 +60,15 @@
 =======
     android:background="@color/white"
 >>>>>>> 2/26/2019
+=======
+    android:background="@color/white"
+>>>>>>> 2/27/2019
     android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -113,6 +118,8 @@
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
         android:orientation="vertical">
 
         <include layout="@layout/activity_header" />
@@ -120,6 +127,7 @@
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -160,6 +168,8 @@
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -185,6 +195,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 android:textColor="@color/black_87"
 >>>>>>> 2/2/2019
@@ -227,6 +238,9 @@
 =======
                 android:textColor="@color/black_87"
 >>>>>>> 2/26/2019
+=======
+                android:textColor="@color/black_87"
+>>>>>>> 2/27/2019
                 android:layout_marginLeft="@dimen/dim30"
                 android:layout_marginRight="@dimen/dim30">
 
@@ -235,6 +249,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="First"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -278,10 +293,13 @@
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
                     android:textSize="@dimen/fontsize16"
                     android:inputType="textPersonName|textNoSuggestions"
                     android:maxLength="50"
                     android:textColor="@color/black_87"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -322,6 +340,8 @@
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
                     android:singleLine="true" />
             </android.support.design.widget.TextInputLayout>
 
@@ -345,6 +365,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 android:textColor="@color/black_87"
 >>>>>>> 2/2/2019
@@ -387,6 +408,9 @@
 =======
                 android:textColor="@color/black_87"
 >>>>>>> 2/26/2019
+=======
+                android:textColor="@color/black_87"
+>>>>>>> 2/27/2019
                 android:layout_marginRight="@dimen/dim30">
 
                 <com.sit.kaikiliService.font.EditTextEupheminUCASRegular
@@ -394,6 +418,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Last"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -437,10 +462,13 @@
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
                     android:inputType="textPersonName|textNoSuggestions"
                     android:textSize="@dimen/fontsize16"
                     android:maxLength="50"
                     android:textColor="@color/black_87"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -481,6 +509,8 @@
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
                     android:singleLine="true" />
             </android.support.design.widget.TextInputLayout>
 
@@ -503,6 +533,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 android:textColor="@color/black_87"
                 android:inputType="textPersonName"
@@ -559,6 +590,10 @@
                 android:textColor="@color/black_87"
                 android:inputType="textPersonName"
 >>>>>>> 2/26/2019
+=======
+                android:textColor="@color/black_87"
+                android:inputType="textPersonName"
+>>>>>>> 2/27/2019
                 android:layout_marginTop="@dimen/dim8"
                 android:layout_marginRight="@dimen/dim30">
 
@@ -567,6 +602,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Email"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -610,10 +646,13 @@
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
                     android:inputType="textEmailAddress|textNoSuggestions"
                     android:textSize="@dimen/fontsize16"
                     android:maxLength="100"
                     android:textColor="@color/black_87"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -654,10 +693,13 @@
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
                     android:singleLine="true" />
             </android.support.design.widget.TextInputLayout>
 
             <LinearLayout
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -715,6 +757,9 @@
 =======
                 android:layout_width="match_parent"
 >>>>>>> 2/26/2019
+=======
+                android:layout_width="match_parent"
+>>>>>>> 2/27/2019
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
@@ -734,6 +779,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/dim30"
@@ -764,10 +810,13 @@
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/dim30"
                 android:textColor="@color/black_87"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -808,6 +857,8 @@
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
                 android:layout_marginTop="@dimen/dim8"
                 android:layout_marginRight="@dimen/dim30">
 
@@ -815,6 +866,7 @@
                     android:id="@+id/personal_info_edit_dob"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -861,10 +913,13 @@
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
+=======
+>>>>>>> 2/27/2019
                     android:hint="DOB (MM/DD/YYYY)"
                     android:singleLine="true"
                     android:textColor="@color/black_87"
                     android:inputType="date"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -930,6 +985,10 @@
                     android:maxLength="10"
                     android:textSize="@dimen/fontsize16" />
 >>>>>>> 2/26/2019
+=======
+                    android:maxLength="10"
+                    android:textSize="@dimen/fontsize16" />
+>>>>>>> 2/27/2019
             </android.support.design.widget.TextInputLayout>
 
 
@@ -952,6 +1011,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 android:textColor="@color/black_87"
 >>>>>>> 2/2/2019
@@ -994,6 +1054,9 @@
 =======
                 android:textColor="@color/black_87"
 >>>>>>> 2/26/2019
+=======
+                android:textColor="@color/black_87"
+>>>>>>> 2/27/2019
                 android:layout_marginLeft="@dimen/dim30"
                 android:layout_marginTop="@dimen/dim8"
                 android:layout_marginRight="@dimen/dim30">
@@ -1006,6 +1069,7 @@
                     android:layout_marginBottom="@dimen/dim2"
                     android:hint="Gender  "
                     android:singleLine="true"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1092,12 +1156,18 @@
                     android:textSize="@dimen/fontsize16"
                     />
 >>>>>>> 2/26/2019
+=======
+                    android:textColor="@color/black_87"
+                    android:textSize="@dimen/fontsize16"
+                    />
+>>>>>>> 2/27/2019
 
 
     </android.support.design.widget.TextInputLayout>
             </LinearLayout>
 
         </LinearLayout>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1154,6 +1224,9 @@
 =======
         </ScrollView>
 >>>>>>> 2/26/2019
+=======
+        </ScrollView>
+>>>>>>> 2/27/2019
     </LinearLayout>
 
 
