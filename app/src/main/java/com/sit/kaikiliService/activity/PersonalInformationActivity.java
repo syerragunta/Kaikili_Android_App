@@ -13,6 +13,7 @@ package com.sit.kaikiliService.activity;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -78,6 +79,8 @@ import com.sit.kaikiliService.R;
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 import android.app.Activity;
 import android.app.DatePickerDialog;
 import android.app.ProgressDialog;
@@ -103,6 +106,7 @@ import com.sit.kaikiliService.api.Apiresponse;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import com.sit.kaikiliService.api.WebApi;
 import com.sit.kaikiliService.api.WebUtil;
 <<<<<<< HEAD
@@ -150,6 +154,11 @@ import com.sit.kaikiliService.api.UserCreateAPI;
 import com.sit.kaikiliService.api.WebApi;
 import com.sit.kaikiliService.api.WebUtil;
 >>>>>>> 2/27/2019
+=======
+import com.sit.kaikiliService.api.UserCreateAPI;
+import com.sit.kaikiliService.api.WebApi;
+import com.sit.kaikiliService.api.WebUtil;
+>>>>>>> 2/28/2019
 import com.sit.kaikiliService.comman.BetterSpinner;
 import com.sit.kaikiliService.comman.Util;
 import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
@@ -168,6 +177,7 @@ import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -233,6 +243,11 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 >>>>>>> 2/27/2019
+=======
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+>>>>>>> 2/28/2019
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
@@ -267,6 +282,7 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
     @Bind(R.id.personal_info_fb_next)
     FloatingActionButton personal_info_fb_next;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -332,6 +348,9 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 =======
     private KaikiliApplication application;
 >>>>>>> 2/27/2019
+=======
+    private KaikiliApplication application;
+>>>>>>> 2/28/2019
     private SharedPreferences preferences;
 
     private Calendar calendar;
@@ -347,6 +366,7 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
         setContentView( R.layout.activity_personal_information );
         ButterKnife.bind( this, this );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -412,6 +432,9 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 =======
         application = (KaikiliApplication) getApplicationContext();
 >>>>>>> 2/27/2019
+=======
+        application = (KaikiliApplication) getApplicationContext();
+>>>>>>> 2/28/2019
         preferences = application.getSharedPreferences();
 
         top_title.setText( "Enter Personal Information" );
@@ -424,6 +447,7 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 
         top_back.setOnClickListener( this );
         personal_info_fb_next.setOnClickListener( this );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -485,6 +509,9 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 =======
 //        personal_info_edit_dob.setOnClickListener( this );
 >>>>>>> 2/27/2019
+=======
+//        personal_info_edit_dob.setOnClickListener( this );
+>>>>>>> 2/28/2019
 
         List<String> nameList = new ArrayList<>();
         nameList.add( "Male" );
@@ -537,6 +564,7 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             Intent intent = new Intent( this, TermsConditionsActivity.class );
             startActivity( intent );
             finish();
@@ -565,10 +593,13 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
             if (isValidData()) {
                 savedata();
             }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -606,6 +637,8 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
         } else if (view == personal_info_edit_dob) {
             DatePickerDialog datePickerDialog = new DatePickerDialog( this, myDateListener, year, month, day );
             //datePickerDialog.getDatePicker().setMaxDate(new Date().getTime());
@@ -619,6 +652,7 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
             datePickerDialog.getButton( DatePickerDialog.BUTTON_POSITIVE ).setTextColor( Color.RED );
         }
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -657,6 +691,8 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 
     private boolean isValidData() {
         if (!Util.isNotEmpaty( personal_info_edit_first.getText().toString() )) {
@@ -678,6 +714,7 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         }else {
 =======
         } else {
@@ -691,6 +728,9 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 =======
         } else {
 >>>>>>> 2/27/2019
+=======
+        } else {
+>>>>>>> 2/28/2019
             return true;
         }
     }
@@ -700,6 +740,7 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
         try {
 
             JSONObject jsonObject = new JSONObject();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -720,6 +761,8 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
             jsonObject.put( "first_name", personal_info_edit_first.getText().toString() );
             jsonObject.put( "last_name", personal_info_edit_last.getText().toString() );
             jsonObject.put( "email", personal_info_edit_email.getText().toString() );
@@ -731,6 +774,7 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/23/2019
 =======
 >>>>>>> 2/25/2019
@@ -738,6 +782,8 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
             new PostApiTask( this, jsonObject.toString() ).execute();
 
         } catch (Exception e) {
@@ -786,6 +832,7 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             String response = new WebUtil().postMethod( body, WebApi.URL_ADD_NEW_USER );
 =======
             String response = new WebUtil().postMethod( body, WebApi.URL_ADD_SERVICE_TEST );
@@ -827,6 +874,10 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
             Log.e( "----------",WebApi.URL_ADD_NEW_USER );
             String response = new WebUtil().postMethod( body, WebApi.URL_ADD_NEW_USER );
 >>>>>>> 2/27/2019
+=======
+            Log.e( "----------",WebApi.URL_ADD_NEW_USER );
+            String response = new WebUtil().postMethod( body, WebApi.URL_ADD_NEW_USER );
+>>>>>>> 2/28/2019
             return response;
         }
 
@@ -837,6 +888,7 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
             if (mDialog.isShowing()) {
                 mDialog.dismiss();
             }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -862,6 +914,8 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
             Log.e( "----------",response);
             Gson gson = new Gson(); // Or use new GsonBuilder().create();
             UserCreateAPI target2 = gson.fromJson( response, UserCreateAPI.class );
@@ -888,6 +942,7 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/23/2019
 =======
 >>>>>>> 2/25/2019
@@ -895,10 +950,13 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
             }
 
         }
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -936,4 +994,6 @@ public class PersonalInformationActivity extends BaseActivity implements View.On
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 }

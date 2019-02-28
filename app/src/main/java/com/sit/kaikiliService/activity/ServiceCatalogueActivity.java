@@ -9,6 +9,7 @@ package com.sit.kaikiliService.activity;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.content.SharedPreferences;
 import android.os.Bundle;
 <<<<<<< HEAD
@@ -105,6 +106,8 @@ import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.SharedPreferences;
@@ -138,6 +141,7 @@ import org.json.JSONObject;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/16/2019 V2
 =======
 >>>>>>> 2/16/2019
@@ -155,6 +159,8 @@ import org.json.JSONObject;
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 import java.util.ArrayList;
 
 import butterknife.Bind;
@@ -168,6 +174,7 @@ import butterknife.ButterKnife;
  */
 
 public class ServiceCatalogueActivity extends BaseActivity implements View.OnClickListener {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -238,6 +245,8 @@ public class ServiceCatalogueActivity extends BaseActivity implements View.OnCli
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
     @Bind(R.id.top_back)
     ImageView top_back;
     @Bind(R.id.top_title)
@@ -251,6 +260,7 @@ public class ServiceCatalogueActivity extends BaseActivity implements View.OnCli
     private ArrayList<ServiceInfo> serviceList;
     private ServiceCatalogueListAdapter adapter;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -277,6 +287,8 @@ public class ServiceCatalogueActivity extends BaseActivity implements View.OnCli
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 
 
     @Override
@@ -285,6 +297,7 @@ public class ServiceCatalogueActivity extends BaseActivity implements View.OnCli
         setContentView( R.layout.activity_srevice_catalogue );
         ButterKnife.bind( this, this );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -350,6 +363,9 @@ public class ServiceCatalogueActivity extends BaseActivity implements View.OnCli
 =======
         application = (KaikiliApplication) getApplicationContext();
 >>>>>>> 2/27/2019
+=======
+        application = (KaikiliApplication) getApplicationContext();
+>>>>>>> 2/28/2019
         preferences = application.getSharedPreferences();
 
         top_title.setText( "Service Catalogue" );
@@ -357,6 +373,7 @@ public class ServiceCatalogueActivity extends BaseActivity implements View.OnCli
 
 
         serviceList = new ArrayList<>();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -400,6 +417,8 @@ public class ServiceCatalogueActivity extends BaseActivity implements View.OnCli
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
         adapter = new ServiceCatalogueListAdapter( this );
         service_catalogue_listView.setAdapter( adapter );
 
@@ -412,6 +431,7 @@ public class ServiceCatalogueActivity extends BaseActivity implements View.OnCli
         super.onResume();
         new GetServiceCatalogueTask(this).execute();
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -437,6 +457,8 @@ public class ServiceCatalogueActivity extends BaseActivity implements View.OnCli
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 
     @Override
     public void onClick(View view) {
@@ -446,6 +468,7 @@ public class ServiceCatalogueActivity extends BaseActivity implements View.OnCli
 
         }
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -472,6 +495,8 @@ public class ServiceCatalogueActivity extends BaseActivity implements View.OnCli
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 
 
     public class GetServiceCatalogueTask extends AsyncTask<Void, Void, String> {
@@ -505,6 +530,7 @@ public class ServiceCatalogueActivity extends BaseActivity implements View.OnCli
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 jsonObject.put( "sp_id", SP_ID );
 =======
                 jsonObject.put( "sp_id",  preferences.getString( "sp_id","") );
@@ -518,6 +544,9 @@ public class ServiceCatalogueActivity extends BaseActivity implements View.OnCli
 =======
                 jsonObject.put( "sp_id",  preferences.getString( "sp_id","") );
 >>>>>>> 2/27/2019
+=======
+                jsonObject.put( "sp_id",  preferences.getString( "sp_id","") );
+>>>>>>> 2/28/2019
                 Log.e( "--------------Post", jsonObject.toString() );
                 String response = new WebUtil().postMethod( jsonObject.toString(), WebApi.URL_USER_SERVICE_CATALOG );
                 return response;
@@ -559,6 +588,7 @@ public class ServiceCatalogueActivity extends BaseActivity implements View.OnCli
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/16/2019 V2
 =======
 >>>>>>> 2/16/2019
@@ -576,4 +606,6 @@ public class ServiceCatalogueActivity extends BaseActivity implements View.OnCli
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 }

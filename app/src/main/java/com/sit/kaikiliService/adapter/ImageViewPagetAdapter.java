@@ -27,10 +27,17 @@ public class ImageViewPagetAdapter extends PagerAdapter {
     private ArrayList<String> multipaleDataList;
 
 
+<<<<<<< HEAD
     public ImageViewPagetAdapter(Context act, ArrayList<String> multipaleDataList) {
 
         this.context = act;
         this.multipaleDataList = multipaleDataList;
+=======
+    public ImageViewPagetAdapter(Context act) {
+
+        this.context = act;
+        this.multipaleDataList = new ArrayList<>(  );
+>>>>>>> 2/28/2019
 
 //        Log.e("-------------------", multipaleDataList.size() + "  size");
     }
@@ -80,6 +87,14 @@ public class ImageViewPagetAdapter extends PagerAdapter {
         ((ViewPager) arg0).removeView((View) arg2);
     }
 
+<<<<<<< HEAD
+=======
+    public void setData(ArrayList<String> list) {
+        multipaleDataList = list;
+        notifyDataSetChanged();
+    }
+
+>>>>>>> 2/28/2019
     @Override
     public boolean isViewFromObject(View arg0, Object arg1) {
         return arg0 == ((View) arg1);

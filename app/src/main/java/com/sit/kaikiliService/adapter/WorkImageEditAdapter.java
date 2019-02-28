@@ -12,6 +12,10 @@ import android.widget.TextView;
 
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.activity.ProfileAddActivity;
+<<<<<<< HEAD
+=======
+import com.sit.kaikiliService.activity.ProfileEditActivity;
+>>>>>>> 2/28/2019
 import com.sit.kaikiliService.comman.Util;
 import com.squareup.picasso.Picasso;
 
@@ -21,7 +25,11 @@ public class WorkImageEditAdapter extends RecyclerView.Adapter<WorkImageEditAdap
 
     private LayoutInflater mInflater;
     private ItemClickListener mClickListener;
+<<<<<<< HEAD
     private ArrayList<Uri> fileList;
+=======
+    private ArrayList<String > fileList;
+>>>>>>> 2/28/2019
     private Context mContext;
 
     // data is passed into the constructor
@@ -57,7 +65,11 @@ public class WorkImageEditAdapter extends RecyclerView.Adapter<WorkImageEditAdap
             holder.ivDelete.setVisibility( View.VISIBLE );
         } else {
             holder.ivImages.setTag( 0 );
+<<<<<<< HEAD
             holder.ivImages.setImageDrawable(mContext.getDrawable(R.drawable.ic_add_photo_black_24dp) );
+=======
+            holder.ivImages.setImageDrawable( mContext.getDrawable( R.drawable.ic_add_photo_black_24dp ) );
+>>>>>>> 2/28/2019
             holder.ivDelete.setVisibility( View.GONE );
         }
 
@@ -66,7 +78,15 @@ public class WorkImageEditAdapter extends RecyclerView.Adapter<WorkImageEditAdap
             public void onClick(View view) {
                 int poi = Integer.parseInt( view.getTag().toString() );
                 if (poi == 0) {
+<<<<<<< HEAD
                     ((ProfileAddActivity) mContext).ImageAdd();
+=======
+                    if (mContext instanceof ProfileAddActivity) {
+                        ((ProfileAddActivity) mContext).ImageAdd();
+                    }else if(mContext instanceof ProfileEditActivity){
+                        ((ProfileEditActivity) mContext).ImageAdd();
+                    }
+>>>>>>> 2/28/2019
                 }
             }
         } );
@@ -75,7 +95,16 @@ public class WorkImageEditAdapter extends RecyclerView.Adapter<WorkImageEditAdap
             @Override
             public void onClick(View view) {
                 int poi = Integer.parseInt( view.getTag().toString() );
+<<<<<<< HEAD
                 ((ProfileAddActivity) mContext).ImageDelete( poi );
+=======
+
+                if (mContext instanceof ProfileAddActivity) {
+                    ((ProfileAddActivity) mContext).ImageDelete( poi );
+                }else if(mContext instanceof ProfileEditActivity){
+                    ((ProfileEditActivity) mContext).ImageDelete( poi );
+                }
+>>>>>>> 2/28/2019
             }
         } );
 
@@ -123,12 +152,21 @@ public class WorkImageEditAdapter extends RecyclerView.Adapter<WorkImageEditAdap
     }
 
     // parent activity will implement this method to respond to click events
+<<<<<<< HEAD
     public void setData(ArrayList<Uri> fileList) {
         this.fileList.clear();
         this.fileList.addAll( fileList );
         if (fileList.size() < 6) {
             Uri myUri = Uri.parse( "no" );
             this.fileList.add( myUri );
+=======
+    public void setData(ArrayList<String> fileList) {
+        this.fileList.clear();
+        this.fileList.addAll( fileList );
+        if (fileList.size() < 6) {
+//            Uri myUri = Uri.parse( "no" );
+            this.fileList.add("no");
+>>>>>>> 2/28/2019
         }
         notifyDataSetChanged();
     }

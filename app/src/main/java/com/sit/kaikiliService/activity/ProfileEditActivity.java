@@ -19,6 +19,7 @@ import android.app.DatePickerDialog;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import android.content.Context;
 =======
 >>>>>>> 2/1/2019
@@ -58,20 +59,26 @@ import android.content.IntentSender;
 =======
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 import android.app.ProgressDialog;
 import android.app.TimePickerDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentSender;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -191,6 +198,8 @@ import com.sit.kaikiliService.comman.AppLog;
 =======
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 import android.location.Address;
 import android.location.Geocoder;
 import android.location.Location;
@@ -200,6 +209,11 @@ import android.os.Build;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.support.v4.content.ContextCompat;
+<<<<<<< HEAD
+=======
+import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.widget.RecyclerView;
+>>>>>>> 2/28/2019
 import android.util.Log;
 import android.util.Patterns;
 import android.view.View;
@@ -208,9 +222,12 @@ import android.widget.CheckBox;
 import android.widget.DatePicker;
 import android.widget.ImageView;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TimePicker;
@@ -227,17 +244,21 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import com.google.android.gms.maps.model.BitmapDescriptor;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 =======
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.Circle;
 import com.google.android.gms.maps.model.CircleOptions;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.LatLngBounds;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 import com.google.android.gms.maps.model.Marker;
@@ -291,10 +312,16 @@ import com.sit.kaikiliService.comman.AppLog;
 =======
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.gson.Gson;
 import com.sit.kaikiliService.KaikiliApplication;
 import com.sit.kaikiliService.R;
+<<<<<<< HEAD
+=======
+import com.sit.kaikiliService.adapter.WorkImageEditAdapter;
+>>>>>>> 2/28/2019
 import com.sit.kaikiliService.api.Apiresponse;
 import com.sit.kaikiliService.api.CustomWorkPerDay;
 import com.sit.kaikiliService.api.ProfileInfo;
@@ -305,6 +332,7 @@ import com.sit.kaikiliService.api.WebUtil;
 import com.sit.kaikiliService.camera.Config;
 import com.sit.kaikiliService.camera.ImagePickerActivity;
 import com.sit.kaikiliService.comman.LocationFinder;
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2/26/2019
 =======
@@ -326,10 +354,22 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 >>>>>>> 2/27/2019
+=======
+import com.sit.kaikiliService.comman.Util;
+import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
+import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
+import com.squareup.picasso.Picasso;
+
+import org.adw.library.widgets.discreteseekbar.DiscreteSeekBar;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+>>>>>>> 2/28/2019
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Calendar;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -386,6 +426,10 @@ import java.util.Locale;
 import java.util.List;
 import java.util.Locale;
 >>>>>>> 2/27/2019
+=======
+import java.util.List;
+import java.util.Locale;
+>>>>>>> 2/28/2019
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -397,6 +441,7 @@ import butterknife.ButterKnife;
  * Sharva Infotech PVT LTD
  */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -417,6 +462,13 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+public class ProfileEditActivity extends BaseActivity implements View.OnClickListener,
+        GoogleApiClient.OnConnectionFailedListener,
+        GoogleApiClient.ConnectionCallbacks,
+        LocationListener, OnMapReadyCallback,
+        WorkImageEditAdapter.ItemClickListener {
+>>>>>>> 2/28/2019
 
     @Bind(R.id.top_back)
     ImageView top_back;
@@ -521,18 +573,22 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
     @Bind(R.id.about_profile_tv_backgroundCheck)
     TextViewEuphemiaUCASRegular about_profile_tv_backgroundCheck;
 =======
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
     @Bind(R.id.about_profile_tv_backgroundCheck)
     TextViewEuphemiaUCASRegular about_profile_tv_backgroundCheck;
 
     @Bind(R.id.about_profile_tv_userName)
     TextViewEuphemiaUCASRegular about_profile_tv_userName;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2/26/2019
     @Bind(R.id.about_profile_seekbar_radius)
@@ -545,10 +601,16 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
     DiscreteSeekBar about_profile_seekbar_radius;
 
 >>>>>>> 2/27/2019
+=======
+    @Bind(R.id.about_profile_seekbar_radius)
+    DiscreteSeekBar about_profile_seekbar_radius;
+
+>>>>>>> 2/28/2019
     @Bind(R.id.about_profile_civ_profile)
     ImageView about_profile_civ_profile;
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -557,6 +619,8 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
     @Bind(R.id.about_profile_radioGroup_work)
     RadioGroup about_profile_radioGroup_work;
 
@@ -565,6 +629,7 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
     @Bind(R.id.about_profile_rb_workDay)
     RadioButton about_profile_rb_workDay;
 
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -573,10 +638,17 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+    @Bind(R.id.about_profile_recyclerView_workImage)
+    RecyclerView about_profile_recyclerView_workImage;
+
+
+>>>>>>> 2/28/2019
     String[] perms = {"android.permission.CAMERA",
             "android.permission.WRITE_EXTERNAL_STORAGE",
             "android.permission.READ_EXTERNAL_STORAGE"};
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -645,11 +717,16 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 
     private KaikiliApplication application;
 >>>>>>> 2/27/2019
+=======
+
+    private KaikiliApplication application;
+>>>>>>> 2/28/2019
     private SharedPreferences preferences;
     private Calendar calendar;
     private int year, month, day;
     private String date;
     private int setDatePos = 0;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     protected int mRadius = 10;
@@ -661,14 +738,19 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 =======
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
     protected int mRadius = 1;
     private int MAP_CODE = 120;
     private static final int PERMISSION_REQUEST_CODE = 200;
     private String imgPicturePath1, imgPicturePath2;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
     private final static int CONNECTION_FAILURE_RESOLUTION_REQUEST = 9000;
 
     private static GoogleMap mGoogleMap;
@@ -676,6 +758,7 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
     private LocationRequest mLocationRequest = new LocationRequest();
     private Circle mRadiusCircle;
     public LatLng selectedCoords = null;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2/25/2019
@@ -687,6 +770,13 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
     public LatLng selectedCodineters = null;
     private String profileStatus = "";
 >>>>>>> 2/27/2019
+=======
+    public LatLng selectedCodineters = null;
+    private String profileStatus = "";
+    private WorkImageEditAdapter adapter;
+    private ArrayList<String > imageSet;
+    private ArrayList<String > deletedImageList;
+>>>>>>> 2/28/2019
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -695,18 +785,23 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
         ButterKnife.bind( this, this );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         new LocationFinder( this );
 >>>>>>> 2/26/2019
 =======
         new LocationFinder( this );
 >>>>>>> 2/27/2019
+=======
+        new LocationFinder( this );
+>>>>>>> 2/28/2019
 
         calendar = Calendar.getInstance();
         year = calendar.get( Calendar.YEAR );
         month = calendar.get( Calendar.MONTH );
         day = calendar.get( Calendar.DAY_OF_MONTH );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -787,10 +882,25 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
         top_title.setText( "Edit Work Profile" );
 >>>>>>> 2/27/2019
         top_back.setOnClickListener( this );
+=======
+        application = (KaikiliApplication) getApplicationContext();
+        preferences = application.getSharedPreferences();
+
+        imageSet = new ArrayList<>();
+        deletedImageList = new ArrayList<>();
+
+        imgPicturePath1 = null;
+        imgPicturePath2 = null;
+
+        top_title.setText( "Edit Work Profile" );
+        top_back.setOnClickListener( this );
+        about_profile_tv_backgroundCheck.setText( "SAVE" );
+>>>>>>> 2/28/2019
         about_profile_tv_backgroundCheck.setOnClickListener( this );
         about_profile_tv_leisureDayStartDate.setOnClickListener( this );
         about_profile_tv_leisureDayEndDate.setOnClickListener( this );
         about_profile_civ_profile.setOnClickListener( this );
+<<<<<<< HEAD
 <<<<<<< HEAD
         about_profile_iv_newAdd.setOnClickListener( this );
 
@@ -802,6 +912,17 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 =======
 
 >>>>>>> 2/27/2019
+=======
+
+        int numberOfColumns = 3;
+        about_profile_recyclerView_workImage.setLayoutManager( new GridLayoutManager( this, numberOfColumns ) );
+        adapter = new WorkImageEditAdapter( this );
+        adapter.setClickListener( this );
+        about_profile_recyclerView_workImage.setAdapter( adapter );
+        about_profile_recyclerView_workImage.setNestedScrollingEnabled( false );
+        adapter.setData( imageSet );
+
+>>>>>>> 2/28/2019
         about_profile_tv_monStart.setOnClickListener( this );
         about_profile_tv_tueStart.setOnClickListener( this );
         about_profile_tv_wedStart.setOnClickListener( this );
@@ -832,6 +953,7 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 >>>>>>> 2/25/2019
         about_profile_seekbar_radius.setNumericTransformer( new DiscreteSeekBar.NumericTransformer() {
@@ -842,6 +964,9 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 =======
 >>>>>>> 2/27/2019
         about_profile_tv_userName.setText(preferences.getString( "first_name", "" )+" "+preferences.getString( "last_name", "" ));
+=======
+        about_profile_tv_userName.setText( preferences.getString( "first_name", "" ) + " " + preferences.getString( "last_name", "" ) );
+>>>>>>> 2/28/2019
 
 
         about_profile_seekbar_radius.setNumericTransformer( new DiscreteSeekBar.NumericTransformer() {
@@ -849,9 +974,12 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
             public int transform(int value) {
                 return value * 1;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
             }
         } );
         about_profile_tv_radius.setText( Util.fromHtml( String.format( "Radius: %s Miles", mRadius ) ) );
@@ -859,11 +987,14 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 
         if (mGoogleApiClient == null) {
             mGoogleApiClient = new GoogleApiClient.Builder( this )
@@ -875,6 +1006,7 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
         }
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2/25/2019
@@ -903,6 +1035,8 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 =======
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
         about_profile_seekbar_radius.setOnProgressChangeListener( new DiscreteSeekBar.OnProgressChangeListener() {
             @Override
             public void onProgressChanged(DiscreteSeekBar seekBar, int value, boolean fromUser) {
@@ -922,9 +1056,12 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
                             .strokeWidth( 0.1f ) );
                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
                 if (mRadius > 0 && selectedCoords != null) {
                     int zoom = getZoomLevel( mRadiusCircle );
                     mGoogleMap.animateCamera( CameraUpdateFactory.newLatLngZoom( selectedCoords, zoom ) );
@@ -933,11 +1070,14 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
                 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
             }
 
             @Override
@@ -955,11 +1095,14 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
         about_profile_radioGroup_work.setOnCheckedChangeListener( new RadioGroup.OnCheckedChangeListener() {
 
             @Override
@@ -996,6 +1139,7 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
                 } else if (checkedId == R.id.about_profile_rb_workDay) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     about_profile_cb_mon.setChecked( true );
                     about_profile_cb_tue.setChecked( true );
                     about_profile_cb_wed.setChecked( true );
@@ -1006,6 +1150,8 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 =======
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 //                    about_profile_cb_mon.setChecked( true );
 //                    about_profile_cb_tue.setChecked( true );
 //                    about_profile_cb_wed.setChecked( true );
@@ -1014,9 +1160,12 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 //                    about_profile_cb_sat.setChecked( true );
 //                    about_profile_cb_sun.setChecked( true );
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 
                 }
             }
@@ -1033,6 +1182,7 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
                     about_profile_tv_monEnd.setText( "" );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 } else {
                     about_profile_rb_workDay.setClickable( true );
@@ -1041,6 +1191,10 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
                 } else {
                     about_profile_rb_workDay.setClickable( true );
 >>>>>>> 2/27/2019
+=======
+                } else {
+                    about_profile_rb_workDay.setClickable( true );
+>>>>>>> 2/28/2019
                 }
             }
         } );
@@ -1142,6 +1296,7 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
         fm.getMapAsync( this );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
         new getProfileInfoTask(this).execute();
@@ -1150,6 +1305,10 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 
         new getProfileInfoTask(this).execute();
 >>>>>>> 2/27/2019
+=======
+
+        new getProfileInfoTask( this ).execute();
+>>>>>>> 2/28/2019
     }
 
 
@@ -1161,6 +1320,7 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
         mGoogleMap.getUiSettings().setCompassEnabled( false );
 
         mGoogleMap.clear();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 //        mGoogleMap.addMarker( new MarkerOptions()
@@ -1179,6 +1339,8 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 =======
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 
         LatLng latLng = new LatLng( application.getLatitude(), application.getLongitude() );
 
@@ -1188,13 +1350,17 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
     }
 
 
     public void setLocation(View view) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1205,10 +1371,13 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
         Intent intent = new Intent( getApplicationContext(), SelectLocationActivity.class );
         intent.setFlags( Intent.FLAG_ACTIVITY_CLEAR_TOP );
         intent.putExtra( "lastLocation", about_profile_edt_area.getText().toString() );
         startActivityForResult( intent, MAP_CODE );
+<<<<<<< HEAD
 
 
 <<<<<<< HEAD
@@ -1218,6 +1387,8 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
     }
 
     @Override
@@ -1226,6 +1397,7 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
         if (view == top_back) {
             finish();
         } else if (view == about_profile_tv_backgroundCheck) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1245,20 +1417,26 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 =======
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 
             if (valideDataInfo()) {
                 new uploadProfileInfoTask( this ).execute();
             }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 
         } else if (about_profile_tv_leisureDayStartDate == view) {
             showDataDialog( 1 );
         } else if (about_profile_civ_profile == view) {
             if (checkAllParmisan()) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1312,6 +1490,15 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
         } else if (about_profile_tv_leisureDayEndDate == view) {
             showDataDialog( 2 );
 >>>>>>> 2/27/2019
+=======
+                selectProfileImage( 201, 1 );
+            } else {
+                setAllParmisan();
+            }
+//
+        } else if (about_profile_tv_leisureDayEndDate == view) {
+            showDataDialog( 2 );
+>>>>>>> 2/28/2019
 
         } else if (about_profile_tv_monStart == view) {
             showTimePick( about_profile_tv_monStart );
@@ -1357,7 +1544,30 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
             showTimePick( about_profile_tv_leisureDayEndTime );
 
         }
+<<<<<<< HEAD
 
+=======
+    }
+
+    @Override
+    public void onItemClick(View view, int position) {
+
+    }
+
+    public void ImageAdd() {
+        if (checkAllParmisan()) {
+            Log.e( "-------------------", "Size off images =======  " + imageSet.size() );
+            selectProfileImage( 205, 6 - imageSet.size() );
+        } else {
+            setAllParmisan();
+        }
+    }
+
+    public void ImageDelete(int pos) {
+        deletedImageList.add(imageSet.get(pos));
+        imageSet.remove( pos );
+        adapter.setData( imageSet );
+>>>>>>> 2/28/2019
 
     }
 
@@ -1394,6 +1604,7 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
                 return false;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             }
 
             if (!Util.isNotEmpaty( about_profile_tv_monEnd.getText().toString() )) {
@@ -1410,6 +1621,8 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 =======
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
             } else if (!Util.isNotEmpaty( about_profile_tv_monEnd.getText().toString() )) {
                 Toast.makeText( this, "Please enter monday work end time", Toast.LENGTH_SHORT ).show();
                 return false;
@@ -1418,15 +1631,19 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
                 return false;
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
         }
 
         if (about_profile_cb_tue.isChecked()) {
             if (!Util.isNotEmpaty( about_profile_tv_tueStart.getText().toString() )) {
                 Toast.makeText( this, "Please enter tuesday work start time", Toast.LENGTH_SHORT ).show();
                 return false;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             }
@@ -1440,15 +1657,20 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 =======
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
             } else if (!Util.isNotEmpaty( about_profile_tv_tueEnd.getText().toString() )) {
                 Toast.makeText( this, "Please enter tuesday work end time", Toast.LENGTH_SHORT ).show();
                 return false;
             } else if (!Util.isValidTime( about_profile_tv_tueStart.getText().toString(), about_profile_tv_tueEnd.getText().toString() )) {
                 Toast.makeText( this, "Please enter valid start and end time - tue", Toast.LENGTH_SHORT ).show();
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
                 return false;
             }
 
@@ -1458,6 +1680,7 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
             if (!Util.isNotEmpaty( about_profile_tv_wedStart.getText().toString() )) {
                 Toast.makeText( this, "Please enter wednesday work start time", Toast.LENGTH_SHORT ).show();
                 return false;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             }
@@ -1471,15 +1694,20 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 =======
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
             } else if (!Util.isNotEmpaty( about_profile_tv_wedEnd.getText().toString() )) {
                 Toast.makeText( this, "Please enter wednesday work end time", Toast.LENGTH_SHORT ).show();
                 return false;
             } else if (!Util.isValidTime( about_profile_tv_wedStart.getText().toString(), about_profile_tv_wedEnd.getText().toString() )) {
                 Toast.makeText( this, "Please enter valid start and end time - wed", Toast.LENGTH_SHORT ).show();
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
                 return false;
             }
         }
@@ -1488,6 +1716,7 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
             if (!Util.isNotEmpaty( about_profile_tv_thuStart.getText().toString() )) {
                 Toast.makeText( this, "Please enter thursday work start time", Toast.LENGTH_SHORT ).show();
                 return false;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             }
@@ -1501,15 +1730,20 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 =======
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
             } else if (!Util.isNotEmpaty( about_profile_tv_thuEnd.getText().toString() )) {
                 Toast.makeText( this, "Please enter thursday work end time", Toast.LENGTH_SHORT ).show();
                 return false;
             } else if (!Util.isValidTime( about_profile_tv_thuStart.getText().toString(), about_profile_tv_thuEnd.getText().toString() )) {
                 Toast.makeText( this, "Please enter valid start and end time - thu", Toast.LENGTH_SHORT ).show();
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
                 return false;
             }
         }
@@ -1518,6 +1752,7 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
             if (!Util.isNotEmpaty( about_profile_tv_friStart.getText().toString() )) {
                 Toast.makeText( this, "Please enter friday work start time", Toast.LENGTH_SHORT ).show();
                 return false;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             }
@@ -1531,15 +1766,20 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 =======
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
             } else if (!Util.isNotEmpaty( about_profile_tv_friEnd.getText().toString() )) {
                 Toast.makeText( this, "Please enter friday work end time", Toast.LENGTH_SHORT ).show();
                 return false;
             } else if (!Util.isValidTime( about_profile_tv_friStart.getText().toString(), about_profile_tv_friEnd.getText().toString() )) {
                 Toast.makeText( this, "Please enter valid start and end time - fri", Toast.LENGTH_SHORT ).show();
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
                 return false;
             }
         }
@@ -1548,6 +1788,7 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
             if (!Util.isNotEmpaty( about_profile_tv_satStart.getText().toString() )) {
                 Toast.makeText( this, "Please enter saturday work start time", Toast.LENGTH_SHORT ).show();
                 return false;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             }
@@ -1561,15 +1802,20 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 =======
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
             } else if (!Util.isNotEmpaty( about_profile_tv_satEnd.getText().toString() )) {
                 Toast.makeText( this, "Please enter saturday work end time", Toast.LENGTH_SHORT ).show();
                 return false;
             } else if (!Util.isValidTime( about_profile_tv_satStart.getText().toString(), about_profile_tv_satEnd.getText().toString() )) {
                 Toast.makeText( this, "Please enter valid start and end time - sat", Toast.LENGTH_SHORT ).show();
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
                 return false;
             }
         }
@@ -1578,6 +1824,7 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
             if (!Util.isNotEmpaty( about_profile_tv_sunStart.getText().toString() )) {
                 Toast.makeText( this, "Please enter sunday work start time", Toast.LENGTH_SHORT ).show();
                 return false;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             }
@@ -1591,15 +1838,20 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 =======
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
             } else if (!Util.isNotEmpaty( about_profile_tv_sunEnd.getText().toString() )) {
                 Toast.makeText( this, "Please enter sunday work end time", Toast.LENGTH_SHORT ).show();
                 return false;
             } else if (!Util.isValidTime( about_profile_tv_sunStart.getText().toString(), about_profile_tv_sunEnd.getText().toString() )) {
                 Toast.makeText( this, "Please enter valid start and end time - sun", Toast.LENGTH_SHORT ).show();
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
                 return false;
             }
         }
@@ -1611,6 +1863,7 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
                 return false;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             }
             if (!Util.isNotEmpaty( about_profile_edt_nearOff.getText().toString() )) {
 =======
@@ -1619,6 +1872,9 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 =======
             } else if (!Util.isNotEmpaty( about_profile_edt_nearOff.getText().toString() )) {
 >>>>>>> 2/27/2019
+=======
+            } else if (!Util.isNotEmpaty( about_profile_edt_nearOff.getText().toString() )) {
+>>>>>>> 2/28/2019
                 Toast.makeText( this, "Please enter nearest miles offers.", Toast.LENGTH_SHORT ).show();
                 return false;
             }
@@ -1628,6 +1884,7 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
             if (!Util.isNotEmpaty( about_profile_tv_leisureDayStartDate.getText().toString() )) {
                 Toast.makeText( this, "Please enter leisure Start date", Toast.LENGTH_SHORT ).show();
                 return false;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             }
@@ -1647,6 +1904,8 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 =======
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
             } else if (!Util.isNotEmpaty( about_profile_tv_leisureDayStartTime.getText().toString() )) {
                 Toast.makeText( this, "Please enter leisure date Start time", Toast.LENGTH_SHORT ).show();
                 return false;
@@ -1662,9 +1921,12 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
                 return false;
             } else if (!Util.isNotEmpaty( about_profile_edt_leisureDayOff.getText().toString() )) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
                 Toast.makeText( this, "Please enter leisure day off %", Toast.LENGTH_SHORT ).show();
                 return false;
             }
@@ -1677,11 +1939,14 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
     private void showDataDialog(int setPos) {
 
         calendar = Calendar.getInstance();
@@ -1733,6 +1998,7 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     private void selectProfileImage(int post,int imageSize) {
 =======
     private void selectProfileImage(int post, int imageSize) {
@@ -1743,11 +2009,15 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 =======
     private void selectProfileImage(int post, int imageSize) {
 >>>>>>> 2/27/2019
+=======
+    private void selectProfileImage(int post, int imageSize) {
+>>>>>>> 2/28/2019
 
         Config config = new Config();
         config.setToolbarTitleRes( R.string.app_name );
         config.setSelectionMin( 1 );
         config.setSelectionLimit( imageSize );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1761,6 +2031,9 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 =======
         config.setSelectedBottomColor( "#500b02" );
 >>>>>>> 2/27/2019
+=======
+        config.setSelectedBottomColor( "#500b02" );
+>>>>>>> 2/28/2019
         config.setTabBackgroundColor( "#D5D5D5" );
         config.setTabSelectionIndicatorColor( "#500b02" );
         config.setToolbarTitleColor( "#909090" );
@@ -1780,6 +2053,7 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
         if (resultCode == Activity.RESULT_OK) {
             try {
                 if (requestCode == MAP_CODE) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1819,10 +2093,13 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 
                     double strLatitude = (double) data.getExtras().get( "location_lat" );
                     double strLongitude = (double) data.getExtras().get( "location_lng" );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
                     AppLog.Log( "receive------- Latitude", strLatitude + "  ---------" );
@@ -1839,6 +2116,10 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 =======
 >>>>>>> 2/27/2019
 
+=======
+                    selectedCodineters = new LatLng( strLatitude, strLongitude );
+
+>>>>>>> 2/28/2019
                     Geocoder geocoder;
                     List<Address> addresses;
                     geocoder = new Geocoder( this, Locale.getDefault() );
@@ -1850,6 +2131,7 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
                     String state = addresses.get( 0 ).getAdminArea();
 //
                     about_profile_edt_area.setText( address );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 //                    strLat = String.valueOf( strLatitude );
@@ -1867,6 +2149,11 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
                     selectedCoords = new LatLng( strLatitude, strLongitude );
                     mGoogleMap.animateCamera( CameraUpdateFactory.newLatLngZoom( selectedCoords, 18 ) );
 >>>>>>> 2/27/2019
+=======
+
+                    selectedCoords = new LatLng( strLatitude, strLongitude );
+                    mGoogleMap.animateCamera( CameraUpdateFactory.newLatLngZoom( selectedCoords, 18 ) );
+>>>>>>> 2/28/2019
 
                     if (mGoogleMap != null) {
                         mGoogleMap.clear();
@@ -1879,6 +2166,7 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
                                 .center( selectedCoords )
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                 .radius(milesToMeters(mRadius) )
 =======
                                 .radius( milesToMeters( mRadius ) )
@@ -1886,6 +2174,9 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 =======
                                 .radius( milesToMeters( mRadius ) )
 >>>>>>> 2/27/2019
+=======
+                                .radius( milesToMeters( mRadius ) )
+>>>>>>> 2/28/2019
                                 .strokeColor( ContextCompat.getColor( ProfileEditActivity.this, R.color.map_mRadius ) )
                                 .fillColor( ContextCompat.getColor( ProfileEditActivity.this, R.color.map_mRadius ) )
                                 .strokeWidth( 0.1f ) );
@@ -1903,12 +2194,15 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
 
 =======
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
                 } else if (requestCode == 201) {
 
                     ArrayList<Uri> image_uris = data.getParcelableArrayListExtra( ImagePickerActivity.EXTRA_IMAGE_URIS );
@@ -1925,6 +2219,7 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
                     }
                 } else if (requestCode == 205) {
 
+<<<<<<< HEAD
                     if (imgPicturePath1 == null) {
                         ArrayList<Uri> image_uris = data.getParcelableArrayListExtra( ImagePickerActivity.EXTRA_IMAGE_URIS );
 //                        imgPicturePath2 = image_uris.get( 0 ).toString();
@@ -1939,6 +2234,16 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 //                            }
 //                        }
                     }
+=======
+                    ArrayList<Uri> image_uris = data.getParcelableArrayListExtra( ImagePickerActivity.EXTRA_IMAGE_URIS );
+                    ArrayList<String> newList = new ArrayList<>();
+                    for (int i = 0;i<image_uris.size();i++){
+                        newList.add(image_uris.get(i).toString());
+                    }
+
+                    imageSet.addAll(newList );
+                    adapter.setData( imageSet );
+>>>>>>> 2/28/2019
                 }
 
                 if (requestCode == SETTING_PERMISSION_CODE) {
@@ -1963,6 +2268,7 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
@@ -1981,6 +2287,11 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
         return 1609.34 * miles;
     }
 >>>>>>> 2/27/2019
+=======
+    public static double milesToMeters(double miles) {
+        return 1609.34 * miles;
+    }
+>>>>>>> 2/28/2019
 
 
     private void setAllParmisan() {
@@ -2006,11 +2317,14 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
     private boolean checkWriteExternalPermission(String permissionName) {
 
         String permission = permissionName;
@@ -2019,6 +2333,7 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
     }
 
     @Override
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2035,6 +2350,10 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
     public void onRequestPermissionsResult(int permsRequestCode, String[] permissions,
                                            int[] grantResults) {
 >>>>>>> 2/27/2019
+=======
+    public void onRequestPermissionsResult(int permsRequestCode, String[] permissions,
+                                           int[] grantResults) {
+>>>>>>> 2/28/2019
 //            case 200:
         if (permsRequestCode == 200) {
             boolean locationAccepted = grantResults[0] == PackageManager.PERMISSION_GRANTED;
@@ -2054,6 +2373,7 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 2/25/2019
@@ -2063,6 +2383,9 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 =======
 
 >>>>>>> 2/27/2019
+=======
+
+>>>>>>> 2/28/2019
     public void displayDialog() {
 
         dialog1 = new AlertDialog.Builder( this )
@@ -2097,11 +2420,14 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
     private void showTimePick(final TextViewEuphemiaUCASRegular about_profile_tv) {
 
         Calendar mcurrentTime = Calendar.getInstance();
@@ -2146,6 +2472,7 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
         } else {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //            currentLatitude = location.getLatitude();
 //            currentLongitude = location.getLongitude();
 //            LatLng latLng = new LatLng(currentLatitude, currentLongitude);
@@ -2165,6 +2492,11 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
             CameraPosition position = CameraPosition.builder().target( latLng ).zoom( 18f ).bearing( 0.0f ).tilt( 0.0f ).build();
             mGoogleMap.animateCamera( CameraUpdateFactory.newCameraPosition( position ) );
 >>>>>>> 2/27/2019
+=======
+            LatLng latLng = new LatLng( application.getLatitude(), application.getLongitude() );
+            CameraPosition position = CameraPosition.builder().target( latLng ).zoom( 18f ).bearing( 0.0f ).tilt( 0.0f ).build();
+            mGoogleMap.animateCamera( CameraUpdateFactory.newCameraPosition( position ) );
+>>>>>>> 2/28/2019
         }
     }
 
@@ -2208,6 +2540,7 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
     public int getZoomLevel(Circle circle) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         int zoomLevel = 14;
         if (circle != null) {
             double radius = circle.getRadius();
@@ -2216,15 +2549,20 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 =======
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
         int zoomLevel = 16;
         if (circle != null) {
             double radius = circle.getRadius();
             double scale = radius / 200;
             zoomLevel = (int) (16 - Math.log( scale ) / Math.log( 2 ));
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
         }
         return zoomLevel;
     }
@@ -2245,11 +2583,14 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
 
 =======
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 
     public class uploadProfileInfoTask extends AsyncTask<Void, Void, String> {
 
@@ -2277,15 +2618,33 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
             // TODO Auto-generated method stub
             try {
 
+<<<<<<< HEAD
+=======
+                JSONArray jsonImages = new JSONArray();
+                for (int i=0;i<imageSet.size();i++){
+                    if(imageSet.get(i).contains("http")){
+                        jsonImages.put(imageSet.get(i));
+                    }
+                }
+
+>>>>>>> 2/28/2019
                 JSONObject jsonObject = new JSONObject();
                 jsonObject.put( "sp_id", preferences.getString( "sp_id", "" ) );
                 jsonObject.put( "email", preferences.getString( "email", "" ) );
                 jsonObject.put( "phone", preferences.getString( "mobile_no", "" ) );
+<<<<<<< HEAD
                 jsonObject.put( "profile_status", profileStatus );
                 jsonObject.put( "about_sp_profile", about_profile_edt_about.getText().toString() );
                 jsonObject.put( "website", about_profile_edt_website.getText().toString()+"" );
                 jsonObject.put( "linkedin", about_profile_edt_linkedin.getText().toString()+"");
                 jsonObject.put( "service_area", about_profile_edt_area.getText().toString());
+=======
+                jsonObject.put( "workImages", jsonImages );
+                jsonObject.put( "about_sp_profile", about_profile_edt_about.getText().toString() );
+                jsonObject.put( "website", about_profile_edt_website.getText().toString() + "" );
+                jsonObject.put( "linkedin", about_profile_edt_linkedin.getText().toString() + "" );
+                jsonObject.put( "service_area", about_profile_edt_area.getText().toString() );
+>>>>>>> 2/28/2019
                 jsonObject.put( "radius", about_profile_seekbar_radius.getProgress() );
 
                 JSONObject jsonObjectCoordinatePoint = new JSONObject();
@@ -2414,7 +2773,21 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
             Apiresponse apiresponse = gson.fromJson( response, Apiresponse.class );
 
             if (apiresponse.getStatus() == 1) {
+<<<<<<< HEAD
                 Toast.makeText( mActivity, apiresponse.getMessage(), Toast.LENGTH_SHORT ).show();
+=======
+
+                if (imageSet.size() > 0) {
+                    new WSCreateWorkProfileUploadImage( mActivity, imageSet ).execute();
+                } else if (imgPicturePath1 != null && !imgPicturePath1.contains( "http" )) {
+                    new WSCreateProfileUploadImage( mActivity, imgPicturePath1 ).execute();
+                } else {
+                    Toast.makeText( mActivity, apiresponse.getMessage(), Toast.LENGTH_SHORT ).show();
+                    Intent intent = new Intent( mActivity, BackgroundFormActivity.class );
+                    startActivity( intent );
+                    mActivity.finish();
+                }
+>>>>>>> 2/28/2019
             } else {
                 Toast.makeText( mActivity, apiresponse.getMessage(), Toast.LENGTH_SHORT ).show();
             }
@@ -2475,11 +2848,27 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
 
                 ProfileWorkInfo infoData = profileWorkApi.getData().get( 0 );
                 about_profile_edt_about.setText( infoData.getAbout_sp_profile() );
+<<<<<<< HEAD
                 about_profile_edt_website.setText( infoData.getWebsite()+"");
                 about_profile_edt_linkedin.setText( infoData.getLinkedin()+"");
                 about_profile_edt_area.setText( infoData.getService_area() );
                 about_profile_seekbar_radius.setProgress( Integer.valueOf( infoData.getRadius() ) );
                 mRadius = Integer.valueOf( infoData.getRadius() );
+=======
+                about_profile_edt_website.setText( infoData.getWebsite() + "" );
+                about_profile_edt_linkedin.setText( infoData.getLinkedin() + "" );
+                about_profile_edt_area.setText( infoData.getService_area() );
+                about_profile_seekbar_radius.setProgress( Integer.valueOf( infoData.getRadius() ) );
+                mRadius = Integer.valueOf( infoData.getRadius() );
+
+                imageSet = infoData.getWorkImages();
+                adapter.setData(imageSet);
+                if (Util.isNotEmpaty( infoData.getProfile_image() )) {
+                    Picasso.with( mActivity ).load( infoData.getProfile_image() )
+                            .into( about_profile_civ_profile );
+                }
+
+>>>>>>> 2/28/2019
                 profileStatus = infoData.getProfile_status();
 
                 if (infoData.getLeisure_day_offer().equalsIgnoreCase( "ON" )) {
@@ -2511,37 +2900,65 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
                     for (int i = 0; i < workPreDay.size(); i++) {
 
                         if (workPreDay.get( i ).getDayName().equalsIgnoreCase( "mon" )) {
+<<<<<<< HEAD
                             about_profile_cb_mon.setChecked(true);
+=======
+                            about_profile_cb_mon.setChecked( true );
+>>>>>>> 2/28/2019
                             about_profile_tv_monStart.setText( workPreDay.get( i ).getStart_time() );
                             about_profile_tv_monEnd.setText( workPreDay.get( i ).getEnd_time() );
 
                         } else if (workPreDay.get( i ).getDayName().equalsIgnoreCase( "tue" )) {
+<<<<<<< HEAD
                             about_profile_cb_tue.setChecked(true);
+=======
+                            about_profile_cb_tue.setChecked( true );
+>>>>>>> 2/28/2019
                             about_profile_tv_tueStart.setText( workPreDay.get( i ).getStart_time() );
                             about_profile_tv_tueEnd.setText( workPreDay.get( i ).getEnd_time() );
 
                         } else if (workPreDay.get( i ).getDayName().equalsIgnoreCase( "wed" )) {
+<<<<<<< HEAD
                             about_profile_cb_wed.setChecked(true);
+=======
+                            about_profile_cb_wed.setChecked( true );
+>>>>>>> 2/28/2019
                             about_profile_tv_wedStart.setText( workPreDay.get( i ).getStart_time() );
                             about_profile_tv_wedEnd.setText( workPreDay.get( i ).getEnd_time() );
 
                         } else if (workPreDay.get( i ).getDayName().equalsIgnoreCase( "thu" )) {
+<<<<<<< HEAD
                             about_profile_cb_thu.setChecked(true);
+=======
+                            about_profile_cb_thu.setChecked( true );
+>>>>>>> 2/28/2019
                             about_profile_tv_thuStart.setText( workPreDay.get( i ).getStart_time() );
                             about_profile_tv_thuEnd.setText( workPreDay.get( i ).getEnd_time() );
 
                         } else if (workPreDay.get( i ).getDayName().equalsIgnoreCase( "fri" )) {
+<<<<<<< HEAD
                             about_profile_cb_fri.setChecked(true);
+=======
+                            about_profile_cb_fri.setChecked( true );
+>>>>>>> 2/28/2019
                             about_profile_tv_friStart.setText( workPreDay.get( i ).getStart_time() );
                             about_profile_tv_friEnd.setText( workPreDay.get( i ).getEnd_time() );
 
                         } else if (workPreDay.get( i ).getDayName().equalsIgnoreCase( "sat" )) {
+<<<<<<< HEAD
                             about_profile_cb_sat.setChecked(true);
+=======
+                            about_profile_cb_sat.setChecked( true );
+>>>>>>> 2/28/2019
                             about_profile_tv_satStart.setText( workPreDay.get( i ).getStart_time() );
                             about_profile_tv_satEnd.setText( workPreDay.get( i ).getEnd_time() );
 
                         } else if (workPreDay.get( i ).getDayName().equalsIgnoreCase( "sun" )) {
+<<<<<<< HEAD
                             about_profile_cb_sun.setChecked(true);
+=======
+                            about_profile_cb_sun.setChecked( true );
+>>>>>>> 2/28/2019
                             about_profile_tv_sunStart.setText( workPreDay.get( i ).getStart_time() );
                             about_profile_tv_sunEnd.setText( workPreDay.get( i ).getEnd_time() );
 
@@ -2576,7 +2993,10 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
                     } else {
                         mGoogleMap.animateCamera( CameraUpdateFactory.newLatLngZoom( selectedCoords, 16 ) );
                     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2/28/2019
                 }
 
             } else {
@@ -2585,7 +3005,129 @@ public class ProfileEditActivity extends BaseActivity implements View.OnClickLis
         }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+
+    public class WSCreateWorkProfileUploadImage extends AsyncTask<Void, String, String> {
+
+        private ProgressDialog mDialog = null;
+        private Activity mActivity;
+        private ArrayList<String> fileList;
+
+
+        public WSCreateWorkProfileUploadImage(Activity activity, ArrayList<String> fileData) {
+            mActivity = activity;
+            this.fileList = fileData;
+            // TODO Auto-generated constructor stub
+        }
+
+        @Override
+        protected void onPreExecute() {
+            // TODO Auto-generated method stub
+            super.onPreExecute();
+
+            mDialog = ProgressDialog.show( mActivity, null, "Please wait....", true, true );
+            mDialog.getWindow().clearFlags( WindowManager.LayoutParams.FLAG_DIM_BEHIND );
+            mDialog.setCanceledOnTouchOutside( false );
+        }
+
+        @Override
+        protected String doInBackground(Void... params) {
+            // TODO Auto-generated method stub
+            ArrayList<String> newList = new ArrayList<>();
+            for (int i=0;i<fileList.size();i++){
+                if(!fileList.get( i ).toString().contains( "http" )){
+                    newList.add( fileList.get(i));
+                }
+            }
+            Log.e( "------------- imag",newList.toString());
+            String response;
+            if(newList.size()>0){
+                 response = new WebUtil().postImagesInServer( WebApi.URL_SP_WORK_IMAGE_UPLOAD + "/" + preferences.getString( "sp_id", "" ), newList );
+            }else {
+                response =  "{\"status\":1,\"message\":\"Successfully data uploading\"}";
+            }
+
+            return response;
+        }
+
+        @Override
+        protected void onPostExecute(String response) {
+            // TODO Auto-generated method stub
+            super.onPostExecute( response );
+            if (mDialog.isShowing()) {
+                mDialog.dismiss();
+            }
+
+            Log.e( "------- Response ", "-------------" + response );
+            Gson gson = new Gson(); // Or use new GsonBuilder().create();
+            Apiresponse apiresponse = gson.fromJson( response, Apiresponse.class );
+            Log.e( "------- Response ", "------------- 0000000000000000" + apiresponse.getMessage() );
+            if (apiresponse.getStatus() == 1) {
+
+                if (imgPicturePath1 != null && !imgPicturePath1.contains( "http" )) {
+                    new WSCreateProfileUploadImage( mActivity, imgPicturePath1 ).execute();
+                } else {
+                    Toast.makeText( mActivity, apiresponse.getMessage(), Toast.LENGTH_SHORT ).show();
+                }
+            } else {
+                Toast.makeText( mActivity, apiresponse.getMessage(), Toast.LENGTH_SHORT ).show();
+            }
+        }
+    }
+
+    public class WSCreateProfileUploadImage extends AsyncTask<Void, String, String> {
+
+        private ProgressDialog mDialog = null;
+        private Activity mActivity;
+        private String fileList;
+
+
+        public WSCreateProfileUploadImage(Activity activity, String fileData) {
+            mActivity = activity;
+            this.fileList = fileData;
+            // TODO Auto-generated constructor stub
+        }
+
+        @Override
+        protected void onPreExecute() {
+            // TODO Auto-generated method stub
+            super.onPreExecute();
+
+            mDialog = ProgressDialog.show( mActivity, null, "Please wait....", true, true );
+            mDialog.getWindow().clearFlags( WindowManager.LayoutParams.FLAG_DIM_BEHIND );
+            mDialog.setCanceledOnTouchOutside( false );
+        }
+
+        @Override
+        protected String doInBackground(Void... params) {
+            // TODO Auto-generated method stub
+            String response = new WebUtil().postProfileImagesInServer( WebApi.URL_SP_PROFILE_IMAGE_UPLOAD + "/" + preferences.getString( "sp_id", "" ), fileList );
+            return response;
+        }
+
+        @Override
+        protected void onPostExecute(String response) {
+            // TODO Auto-generated method stub
+            super.onPostExecute( response );
+            if (mDialog.isShowing()) {
+                mDialog.dismiss();
+            }
+
+            Log.e( "------- Response ", "-------------" + response );
+            Gson gson = new Gson(); // Or use new GsonBuilder().create();
+            Apiresponse apiresponse = gson.fromJson( response, Apiresponse.class );
+            Log.e( "------- Response ", "------------- 22222222222222" + apiresponse.getMessage() );
+            if (apiresponse.getStatus() == 1) {
+                Toast.makeText( mActivity, apiresponse.getMessage(), Toast.LENGTH_SHORT ).show();
+            } else {
+                Toast.makeText( mActivity, apiresponse.getMessage(), Toast.LENGTH_SHORT ).show();
+            }
+        }
+    }
+
+>>>>>>> 2/28/2019
 }

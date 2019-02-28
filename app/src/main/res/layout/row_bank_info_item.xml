@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     android:layout_height="match_parent"
     android:orientation="vertical">
 
@@ -21,6 +22,8 @@
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
     android:layout_height="wrap_content"
     android:gravity="center"
     android:orientation="horizontal">
@@ -40,6 +43,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/22/2019
 =======
 >>>>>>> 2/23/2019
@@ -49,6 +53,8 @@
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
         android:layout_marginTop="@dimen/dim2"
         android:layout_width="match_parent"
         android:layout_gravity="center"
@@ -69,6 +75,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 android:id="@+id/row_bank_info_tv_name"
 >>>>>>> 2/22/2019
@@ -84,6 +91,9 @@
 =======
                 android:id="@+id/row_bank_info_tv_name"
 >>>>>>> 2/27/2019
+=======
+                android:id="@+id/row_bank_info_tv_name"
+>>>>>>> 2/28/2019
             android:layout_height="wrap_content"
             android:gravity="left"
             android:text="Chase Debit Card"
@@ -98,6 +108,7 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="30dp"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -119,11 +130,15 @@
 =======
                     android:src="@drawable/visa_new"/>
 >>>>>>> 2/27/2019
+=======
+                    android:src="@drawable/visa_new"/>
+>>>>>>> 2/28/2019
                 <com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular
                     android:layout_width="wrap_content"
                     android:layout_marginLeft="@dimen/dim10"
                     android:layout_height="wrap_content"
                     android:gravity="left"
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -144,6 +159,9 @@
 =======
                     android:id="@+id/row_bank_info_tv_card"
 >>>>>>> 2/27/2019
+=======
+                    android:id="@+id/row_bank_info_tv_card"
+>>>>>>> 2/28/2019
                     android:text="XXXX XXXX XXXX 1234"
                     android:textColor="@color/black_54"
                     android:textSize="@dimen/fontsize18" />

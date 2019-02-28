@@ -9,6 +9,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2/16/2019 V1
@@ -20,6 +21,8 @@
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
         <entry key="imageWizard">
           <value>
             <PersistentState>
@@ -102,6 +105,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/2/2019
 =======
 >>>>>>> 2/16/2019 V1
@@ -113,6 +117,8 @@
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
         <entry key="vectorWizard">
           <value>
             <PersistentState>
@@ -121,6 +127,7 @@
                   <entry key="vectorAssetStep">
                     <value>
                       <PersistentState>
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -143,6 +150,8 @@
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
                         <option name="children">
                           <map>
                             <entry key="clipartAsset">
@@ -151,10 +160,14 @@
                                   <option name="values">
                                     <map>
 <<<<<<< HEAD
+<<<<<<< HEAD
                                       <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/navigation/ic_expand_more_black_24dp.xml" />
 =======
                                       <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/image/ic_add_a_photo_black_24dp.xml" />
 >>>>>>> 2/27/2019
+=======
+                                      <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/image/ic_add_a_photo_black_24dp.xml" />
+>>>>>>> 2/28/2019
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -164,6 +177,7 @@
                         </option>
                         <option name="values">
                           <map>
+<<<<<<< HEAD
 <<<<<<< HEAD
                             <entry key="assetSourceType" value="FILE" />
                             <entry key="color" value="450b02" />
@@ -187,6 +201,11 @@
                             <entry key="outputName" value="ic_add_photo_black_24dp" />
                             <entry key="sourceFile" value="C:\Users\Administrator\Desktop\New folder (3)\service_catalogue.svg" />
 >>>>>>> 2/27/2019
+=======
+                            <entry key="color" value="450b02" />
+                            <entry key="outputName" value="ic_add_photo_black_24dp" />
+                            <entry key="sourceFile" value="C:\Users\Administrator\Desktop\New folder (3)\service_catalogue.svg" />
+>>>>>>> 2/28/2019
                           </map>
                         </option>
                       </PersistentState>

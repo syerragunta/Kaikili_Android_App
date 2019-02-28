@@ -8,6 +8,10 @@
     <com.sit.kaikiliService.font.TouchImageView
         android:id="@+id/zoom_imageview"
         android:layout_width="match_parent"
+<<<<<<< HEAD
+=======
+        android:scaleType="centerCrop"
+>>>>>>> 2/28/2019
         android:layout_height="match_parent"
         android:layout_gravity="center"
         />

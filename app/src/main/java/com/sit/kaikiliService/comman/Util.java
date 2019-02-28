@@ -55,6 +55,7 @@ import android.widget.Toast;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import com.sit.kaikiliService.KetanApplication;
 =======
 import com.sit.kaikiliService.KaikiliApplication;
@@ -104,6 +105,9 @@ import com.sit.kaikiliService.KaikiliApplication;
 =======
 import com.sit.kaikiliService.KaikiliApplication;
 >>>>>>> 2/27/2019
+=======
+import com.sit.kaikiliService.KaikiliApplication;
+>>>>>>> 2/28/2019
 import com.sit.kaikiliService.R;
 
 import java.io.ByteArrayOutputStream;
@@ -130,6 +134,7 @@ import java.util.regex.Pattern;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
  */
 
@@ -145,6 +150,8 @@ public class Util {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
  */
 
 
@@ -155,17 +162,21 @@ public class Util {
     public static String DATEFORMAT = "yyyy-MM-dd HH:mm aa";
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
     private static ProgressDialog mProgressDialog;
     private static Dialog mDialog;
     private static OnProgressCancelListener progressCancelListener;
     public static final int PROFILE_CAMERA_IMAGE = 101, PROFILE_GALLERY_IMAGE = 102;
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -241,12 +252,18 @@ public class Util {
 
         KaikiliApplication application = (KaikiliApplication) context.getApplicationContext();
 >>>>>>> 2/27/2019
+=======
+    public static void displayDialog(String title, String msg, final Context context, final boolean isFinsActivity) {
+
+        KaikiliApplication application = (KaikiliApplication) context.getApplicationContext();
+>>>>>>> 2/28/2019
         SharedPreferences preferences = application.getSharedPreferences();
 
 
         AlertDialog.Builder builder;
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -261,6 +278,8 @@ public class Util {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
         builder = new AlertDialog.Builder( context );
         builder.setTitle( title );
         //Setting message manually and performing action on button click
@@ -269,11 +288,14 @@ public class Util {
                 .setPositiveButton( "Ok", new DialogInterface.OnClickListener() {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
                     public void onClick(DialogInterface dialog, int id) {
                         dialog.cancel();
                         if (isFinsActivity) {
@@ -281,6 +303,7 @@ public class Util {
                         }
 
                     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -294,6 +317,9 @@ public class Util {
 =======
                 } );
 >>>>>>> 2/27/2019
+=======
+                } );
+>>>>>>> 2/28/2019
 
         //Creating dialog box
         AlertDialog alert = builder.create();
@@ -308,6 +334,7 @@ public class Util {
 
 
     public static int getScreenWidth(Context ctx) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -329,6 +356,11 @@ public class Util {
         DisplayMetrics dm = new DisplayMetrics();
         wm.getDefaultDisplay().getMetrics( dm );
 >>>>>>> 2/27/2019
+=======
+        WindowManager wm = (WindowManager) ctx.getSystemService( Context.WINDOW_SERVICE );
+        DisplayMetrics dm = new DisplayMetrics();
+        wm.getDefaultDisplay().getMetrics( dm );
+>>>>>>> 2/28/2019
         return dm.widthPixels;
     }
 
@@ -339,6 +371,7 @@ public class Util {
     }
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -435,6 +468,8 @@ public class Util {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
     public static String setPadding(int data) {
         String result = "";
         if (data < 10)
@@ -519,15 +554,19 @@ public class Util {
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 
 
     public static Calendar getCalendarData(String date) {
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -555,6 +594,8 @@ public class Util {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
         Calendar cal = Calendar.getInstance();
 
         cal.setFirstDayOfWeek( Calendar.MONDAY );
@@ -576,11 +617,14 @@ public class Util {
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 
     public static boolean isLacationValid(String email) {
         boolean isValid = false;
@@ -590,6 +634,7 @@ public class Util {
         String expression = "[0-9].,";
         CharSequence inputStr = email;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -607,12 +652,17 @@ public class Util {
         Pattern pattern = Pattern.compile( expression, Pattern.CASE_INSENSITIVE );
         Matcher matcher = pattern.matcher( inputStr );
 >>>>>>> 2/27/2019
+=======
+        Pattern pattern = Pattern.compile( expression, Pattern.CASE_INSENSITIVE );
+        Matcher matcher = pattern.matcher( inputStr );
+>>>>>>> 2/28/2019
         if (matcher.matches()) {
             isValid = true;
         }
         return isValid;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -628,10 +678,13 @@ public class Util {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
     public boolean isValidLatLng(double lat, double lng) {
         if (lat < -90 || lat > 90) {
             return false;
         } else if (lng < -180 || lng > 180) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2/25/2019
@@ -639,12 +692,15 @@ public class Util {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
             return false;
         }
         return true;
     }
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -703,6 +759,8 @@ public class Util {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
     /**
      * Function is use for Email Id Valid.
      */
@@ -725,11 +783,14 @@ public class Util {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 
     public static boolean isDateValid(String date) {
         boolean isValid = false;
@@ -739,6 +800,7 @@ public class Util {
         String expression = "([0-9]{2})/([0-9]{2})/([0-9]{4})";
         CharSequence inputStr = date;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -756,6 +818,10 @@ public class Util {
         Pattern pattern = Pattern.compile( expression, Pattern.CASE_INSENSITIVE );
         Matcher matcher = pattern.matcher( inputStr );
 >>>>>>> 2/27/2019
+=======
+        Pattern pattern = Pattern.compile( expression, Pattern.CASE_INSENSITIVE );
+        Matcher matcher = pattern.matcher( inputStr );
+>>>>>>> 2/28/2019
         if (matcher.matches()) {
             isValid = true;
         }
@@ -770,6 +836,7 @@ public class Util {
 //    checkFormat=false;
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -891,6 +958,8 @@ public class Util {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
     public static boolean isNumberValid(String valus) {
         boolean isValid = false;
 
@@ -946,11 +1015,14 @@ public class Util {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         try {
             DateFormat formatter = new SimpleDateFormat( DATEFORMAT );// 2015-02-10 00:00:00 yyyy-MM-dd 00:00:00
 =======
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 //
 //        Log.e( "-------------------", frome);
 //        Log.e( "-------------------", to);
@@ -959,15 +1031,19 @@ public class Util {
         try {
             DateFormat formatter = new SimpleDateFormat( "MM/dd/yyyy hh:mm a");// 2015-02-10 00:00:00 yyyy-MM-dd 00:00:00
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 
             Calendar c = Calendar.getInstance();
             String strCurrent = formatter.format( c.getTime() );
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 //               Log.e( "-------------------", (formatter.parse( frome )).after( formatter.parse( strCurrent ) )+"  "+ (formatter.parse( to )).after( formatter.parse( frome ) )+" -----------");
@@ -979,6 +1055,11 @@ public class Util {
 //               Log.e( "-------------------",  formatter.parse( to )+" -----------");
 //               Log.e( "-------------------",  formatter.parse( frome ) +" -----------");
 >>>>>>> 2/27/2019
+=======
+//               Log.e( "-------------------", (formatter.parse( frome )).after( formatter.parse( strCurrent ) )+"  "+ (formatter.parse( to )).after( formatter.parse( frome ) )+" -----------");
+//               Log.e( "-------------------",  formatter.parse( to )+" -----------");
+//               Log.e( "-------------------",  formatter.parse( frome ) +" -----------");
+>>>>>>> 2/28/2019
             if ((formatter.parse( frome )).after( formatter.parse( strCurrent ) ) && (formatter.parse( to )).after( formatter.parse( frome ) )) {
                 return true;
             } else {
@@ -996,16 +1077,20 @@ public class Util {
     public static boolean checkStartDate(String setDate) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 
         try {
 
             Calendar c = Calendar.getInstance();
             Calendar calendar = Calendar.getInstance();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1023,6 +1108,8 @@ public class Util {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
             SimpleDateFormat format = new SimpleDateFormat( Util.DATEFORMAT );
 
             Date date = format.parse( setDate );
@@ -1033,11 +1120,14 @@ public class Util {
             } else {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
                 return false;
             }
         } catch (Exception e) {
@@ -1045,6 +1135,7 @@ public class Util {
         }
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1071,6 +1162,8 @@ public class Util {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
     public static String setDateFormat(String strDate) {
 
         String setFormatDate = "", setFormatTime = "";
@@ -1091,16 +1184,20 @@ public class Util {
             setFormatTime = showTime.format( date );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 
         } catch (Exception e) {
         }
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1113,12 +1210,15 @@ public class Util {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
         return setFormatDate + " " + setFormatTime;
 
     }
 
 
     public static boolean isValidTime(String startTime, String endTime) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         SimpleDateFormat sdf = new SimpleDateFormat( "HH:mm aa" );
@@ -1128,10 +1228,14 @@ public class Util {
 =======
         SimpleDateFormat sdf = new SimpleDateFormat( "hh:mm a" );
 >>>>>>> 2/27/2019
+=======
+        SimpleDateFormat sdf = new SimpleDateFormat( "hh:mm a" );
+>>>>>>> 2/28/2019
         try {
             Date inTime = sdf.parse( startTime );
             Date outTime = sdf.parse( endTime );
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             if (outTime.before( inTime )) { //Same way you can check with after() method also.
@@ -1141,6 +1245,8 @@ public class Util {
 =======
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
             Calendar selectedDate1 = Calendar.getInstance();
             selectedDate1.setTime(inTime);
             Calendar selectedDate2 = Calendar.getInstance();
@@ -1152,9 +1258,12 @@ public class Util {
             } else {
                 return false;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
             }
         } catch (Exception e) {
             return false;
@@ -1164,17 +1273,21 @@ public class Util {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
     private static final int MINUTES_IN_AN_HOUR = 60;
     private static final int SECONDS_IN_A_MINUTE = 60;
 
 
     public static String timeConversion(int totalSeconds) {
         int hours = totalSeconds / MINUTES_IN_AN_HOUR / SECONDS_IN_A_MINUTE;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1194,6 +1307,8 @@ public class Util {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
         int minutes = (totalSeconds - (hoursToSeconds( hours )))
                 / SECONDS_IN_A_MINUTE;
         int seconds = totalSeconds
@@ -1207,11 +1322,14 @@ public class Util {
         } else {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
             return seconds + " seconds";
 
         }
@@ -1221,6 +1339,7 @@ public class Util {
     public static Spanned fromHtml(String html) {
         Spanned result;
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1242,6 +1361,11 @@ public class Util {
         } else {
             result = Html.fromHtml( html );
 >>>>>>> 2/27/2019
+=======
+            result = Html.fromHtml( html, Html.FROM_HTML_MODE_LEGACY );
+        } else {
+            result = Html.fromHtml( html );
+>>>>>>> 2/28/2019
         }
         return result;
     }
@@ -1258,6 +1382,7 @@ public class Util {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public static boolean isMyServiceRunning(Class<?> serviceClass,Context context) {
         ActivityManager manager = (ActivityManager)context.getSystemService(Context.ACTIVITY_SERVICE);
         for (ActivityManager.RunningServiceInfo service : manager.getRunningServices(Integer.MAX_VALUE)) {
@@ -1267,10 +1392,13 @@ public class Util {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
     public static boolean isMyServiceRunning(Class<?> serviceClass, Context context) {
         ActivityManager manager = (ActivityManager) context.getSystemService( Context.ACTIVITY_SERVICE );
         for (ActivityManager.RunningServiceInfo service : manager.getRunningServices( Integer.MAX_VALUE )) {
             if (serviceClass.getName().equals( service.service.getClassName() )) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2/25/2019
@@ -1278,6 +1406,8 @@ public class Util {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
                 return true;
             }
         }
@@ -1285,6 +1415,7 @@ public class Util {
     }
 
     public static String getDateTime() {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1307,6 +1438,8 @@ public class Util {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
         DateFormat dateFormat = new SimpleDateFormat( "yyyy-MM-dd" );
         Date date = new Date();
         return dateFormat.format( date );
@@ -1322,15 +1455,19 @@ public class Util {
         if (!isNotEmpaty( appTheme )) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
             appTheme = "#ff80ff";
         }
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1352,6 +1489,11 @@ public class Util {
         gd.setColor( Color.parseColor( appTheme ) );
         gd.setCornerRadii( new float[]{10, 10, 10, 10, 10, 10, 10, 10} );
 >>>>>>> 2/27/2019
+=======
+        GradientDrawable gd = new GradientDrawable();
+        gd.setColor( Color.parseColor( appTheme ) );
+        gd.setCornerRadii( new float[]{10, 10, 10, 10, 10, 10, 10, 10} );
+>>>>>>> 2/28/2019
 //        gd.setStroke(2, Color.parseColor("#00FFFF"), 5, 6);
 
         return gd;
@@ -1359,6 +1501,7 @@ public class Util {
 
 
     public static Drawable getRaoundButtonTheme(String appTheme) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1380,6 +1523,11 @@ public class Util {
         gd.setColor( Color.parseColor( appTheme ) );
         gd.setCornerRadii( new float[]{50, 50, 50, 50, 50, 50, 50, 50} );
 >>>>>>> 2/27/2019
+=======
+        GradientDrawable gd = new GradientDrawable();
+        gd.setColor( Color.parseColor( appTheme ) );
+        gd.setCornerRadii( new float[]{50, 50, 50, 50, 50, 50, 50, 50} );
+>>>>>>> 2/28/2019
 //        gd.setStroke(2, Color.parseColor("#00FFFF"), 5, 6);
 
         return gd;
@@ -1387,6 +1535,7 @@ public class Util {
 
 
     public static Bitmap getBitmap(String appTheme) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1404,10 +1553,15 @@ public class Util {
         byte[] decodedString = Base64.decode( appTheme, Base64.DEFAULT );
         Bitmap decodedByte = BitmapFactory.decodeByteArray( decodedString, 0, decodedString.length );
 >>>>>>> 2/27/2019
+=======
+        byte[] decodedString = Base64.decode( appTheme, Base64.DEFAULT );
+        Bitmap decodedByte = BitmapFactory.decodeByteArray( decodedString, 0, decodedString.length );
+>>>>>>> 2/28/2019
         return decodedByte;
     }
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1434,6 +1588,8 @@ public class Util {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
     public static String getDate(String dateString) {
         SimpleDateFormat formatter = new SimpleDateFormat( "yyyy-MM-dd'T'HH:mm:ss" );
         formatter.setTimeZone( TimeZone.getTimeZone( "UTC" ) );
@@ -1448,16 +1604,20 @@ public class Util {
         String dt = dateFormatter.format( value );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 
         return dt;
     }
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1480,6 +1640,8 @@ public class Util {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
     public static String getDateNew(String dateString) {
         SimpleDateFormat formatter = new SimpleDateFormat( "yyyy-MM-dd'T'HH:mm:ss" );
         formatter.setTimeZone( TimeZone.getTimeZone( "UTC" ) );
@@ -1494,11 +1656,14 @@ public class Util {
         String dt = dateFormatter.format( value );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 
         return dt;
     }
@@ -1515,6 +1680,7 @@ public class Util {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         double t1 = Math.cos(a1) * Math.cos(a2) * Math.cos(b1) * Math.cos(b2);
         double t2 = Math.cos(a1) * Math.sin(a2) * Math.cos(b1) * Math.sin(b2);
         double t3 = Math.sin(a1) * Math.sin(b1);
@@ -1524,10 +1690,13 @@ public class Util {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
         double t1 = Math.cos( a1 ) * Math.cos( a2 ) * Math.cos( b1 ) * Math.cos( b2 );
         double t2 = Math.cos( a1 ) * Math.sin( a2 ) * Math.cos( b1 ) * Math.sin( b2 );
         double t3 = Math.sin( a1 ) * Math.sin( b1 );
         double tt = Math.acos( t1 + t2 + t3 );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2/25/2019
@@ -1535,6 +1704,8 @@ public class Util {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 
         return 6366000 * tt;
     }
@@ -1542,6 +1713,7 @@ public class Util {
 
     public static String getEncoded64ImageStringFromBitmap(Bitmap bitmap) {
         ByteArrayOutputStream stream = new ByteArrayOutputStream();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1554,10 +1726,13 @@ public class Util {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
         bitmap.compress( Bitmap.CompressFormat.JPEG, 40, stream );
         byte[] byteFormat = stream.toByteArray();
         // get the base 64 string
         String imgString = Base64.encodeToString( byteFormat, Base64.NO_WRAP );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2/25/2019
@@ -1565,11 +1740,14 @@ public class Util {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 
         return imgString;
     }
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1583,10 +1761,13 @@ public class Util {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
     public static boolean isMyServiceRunning(Context context) {
         ActivityManager manager = (ActivityManager) context.getSystemService( Context.ACTIVITY_SERVICE );
         for (ActivityManager.RunningServiceInfo service : manager.getRunningServices( Integer.MAX_VALUE )) {
             if ("com.transcan.webservice.DataUploadService".equals( service.service.getClassName() )) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2/25/2019
@@ -1594,6 +1775,8 @@ public class Util {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
                 return true;
             }
         }
@@ -1601,6 +1784,7 @@ public class Util {
     }
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1616,6 +1800,8 @@ public class Util {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
     public static String stringDecode(String string) {
 
         try {
@@ -1625,16 +1811,20 @@ public class Util {
         } catch (Exception e) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
             return "";
         }
     }
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1650,6 +1840,8 @@ public class Util {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 //    String s = ;
 
     public static boolean isUpdateAssignmentRunning(Context context) {
@@ -1658,11 +1850,14 @@ public class Util {
             if ("com.transcan.webservice.UpdateAssignmentService".equals( service.service.getClassName() )) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
                 return true;
             }
         }
@@ -1670,6 +1865,7 @@ public class Util {
     }
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1692,6 +1888,8 @@ public class Util {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
     public static int isCalculatingDaysBetweenTwoDates(String updateOn) {
 
         final SimpleDateFormat sdf = new SimpleDateFormat( "yyyy-MM-dd'T'HH:mm:ss.SSS" );
@@ -1708,11 +1906,14 @@ public class Util {
             return (int) count;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
         } catch (ParseException e) {
             e.printStackTrace();
             return 0;
@@ -1721,6 +1922,7 @@ public class Util {
     }
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1789,6 +1991,8 @@ public class Util {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
     public static void ClearAllNotification(Context context) {
 
         KaikiliApplication application = (KaikiliApplication) context.getApplicationContext();
@@ -1798,15 +2002,19 @@ public class Util {
         nMgr.cancel( 0 );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 
     }
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1883,6 +2091,11 @@ public class Util {
 //
 //        KaikiliApplication application = (KaikiliApplication)context.getApplicationContext();
 >>>>>>> 2/27/2019
+=======
+//    public static void displayDialog(String url, final Context context) {
+//
+//        KaikiliApplication application = (KaikiliApplication)context.getApplicationContext();
+>>>>>>> 2/28/2019
 //        SharedPreferences preferences = application.getSharedPreferences();
 //
 //        final Dialog dialog = new Dialog(context, R.style.TransparantBlackDialog);
@@ -1900,6 +2113,7 @@ public class Util {
 //    }
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1921,6 +2135,11 @@ public class Util {
 
         String filePath = getRealPathFromURI( imageUri, mActivity );
 >>>>>>> 2/27/2019
+=======
+    public static String compressImage(String imageUri, Activity mActivity) {
+
+        String filePath = getRealPathFromURI( imageUri, mActivity );
+>>>>>>> 2/28/2019
         Bitmap scaledBitmap = null;
 
         BitmapFactory.Options options = new BitmapFactory.Options();
@@ -1928,6 +2147,7 @@ public class Util {
 //      by setting this field as true, the actual bitmap pixels are not loaded in the memory. Just the bounds are loaded. If
 //      you try the use the bitmap here, you will get null.
         options.inJustDecodeBounds = true;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1941,6 +2161,9 @@ public class Util {
 =======
         Bitmap bmp = BitmapFactory.decodeFile( filePath, options );
 >>>>>>> 2/27/2019
+=======
+        Bitmap bmp = BitmapFactory.decodeFile( filePath, options );
+>>>>>>> 2/28/2019
 
         int actualHeight = options.outHeight;
         int actualWidth = options.outWidth;
@@ -1975,6 +2198,7 @@ public class Util {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         options.inSampleSize = calculateInSampleSize(options, actualWidth, actualHeight);
 =======
         options.inSampleSize = calculateInSampleSize( options, actualWidth, actualHeight );
@@ -1985,6 +2209,9 @@ public class Util {
 =======
         options.inSampleSize = calculateInSampleSize( options, actualWidth, actualHeight );
 >>>>>>> 2/27/2019
+=======
+        options.inSampleSize = calculateInSampleSize( options, actualWidth, actualHeight );
+>>>>>>> 2/28/2019
 
 //      inJustDecodeBounds set to false to load the actual bitmap
         options.inJustDecodeBounds = false;
@@ -1999,6 +2226,7 @@ public class Util {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             bmp = BitmapFactory.decodeFile(filePath, options);
 =======
             bmp = BitmapFactory.decodeFile( filePath, options );
@@ -2009,11 +2237,15 @@ public class Util {
 =======
             bmp = BitmapFactory.decodeFile( filePath, options );
 >>>>>>> 2/27/2019
+=======
+            bmp = BitmapFactory.decodeFile( filePath, options );
+>>>>>>> 2/28/2019
         } catch (OutOfMemoryError exception) {
             exception.printStackTrace();
 
         }
         try {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2027,6 +2259,9 @@ public class Util {
 =======
             scaledBitmap = Bitmap.createBitmap( actualWidth, actualHeight, Bitmap.Config.ARGB_8888 );
 >>>>>>> 2/27/2019
+=======
+            scaledBitmap = Bitmap.createBitmap( actualWidth, actualHeight, Bitmap.Config.ARGB_8888 );
+>>>>>>> 2/28/2019
         } catch (OutOfMemoryError exception) {
             exception.printStackTrace();
         }
@@ -2040,6 +2275,7 @@ public class Util {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         scaleMatrix.setScale(ratioX, ratioY, middleX, middleY);
 
         Canvas canvas = new Canvas(scaledBitmap);
@@ -2050,6 +2286,8 @@ public class Util {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
         scaleMatrix.setScale( ratioX, ratioY, middleX, middleY );
 
         Canvas canvas = new Canvas( scaledBitmap );
@@ -2057,15 +2295,19 @@ public class Util {
         canvas.drawBitmap( bmp, middleX - bmp.getWidth() / 2, middleY - bmp.getHeight() / 2, new Paint( Paint.FILTER_BITMAP_FLAG ) );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 
 //      check the rotation of the image and display it properly
         ExifInterface exif;
         try {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2093,6 +2335,8 @@ public class Util {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
             exif = new ExifInterface( filePath );
 
             int orientation = exif.getAttributeInt(
@@ -2114,11 +2358,14 @@ public class Util {
                     true );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -2126,6 +2373,7 @@ public class Util {
         FileOutputStream out = null;
         String filename = getFilename();
         try {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2138,10 +2386,13 @@ public class Util {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
             out = new FileOutputStream( filename );
 
 //          write the compressed bitmap at the destination specified by filename.
             scaledBitmap.compress( Bitmap.CompressFormat.JPEG, 80, out );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2/25/2019
@@ -2149,6 +2400,8 @@ public class Util {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -2162,6 +2415,7 @@ public class Util {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         File file = new File( Environment.getExternalStorageDirectory().getPath(), "MyFolder/Images");
 =======
         File file = new File( Environment.getExternalStorageDirectory().getPath(), "MyFolder/Images" );
@@ -2172,6 +2426,9 @@ public class Util {
 =======
         File file = new File( Environment.getExternalStorageDirectory().getPath(), "MyFolder/Images" );
 >>>>>>> 2/27/2019
+=======
+        File file = new File( Environment.getExternalStorageDirectory().getPath(), "MyFolder/Images" );
+>>>>>>> 2/28/2019
         if (!file.exists()) {
             file.mkdirs();
         }
@@ -2180,6 +2437,7 @@ public class Util {
 
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2201,10 +2459,16 @@ public class Util {
         Uri contentUri = Uri.parse( contentURI );
         Cursor cursor = mActivity.getApplicationContext().getContentResolver().query( contentUri, null, null, null, null );
 >>>>>>> 2/27/2019
+=======
+    public static String getRealPathFromURI(String contentURI, Activity mActivity) {
+        Uri contentUri = Uri.parse( contentURI );
+        Cursor cursor = mActivity.getApplicationContext().getContentResolver().query( contentUri, null, null, null, null );
+>>>>>>> 2/28/2019
         if (cursor == null) {
             return contentUri.getPath();
         } else {
             cursor.moveToFirst();
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2222,6 +2486,10 @@ public class Util {
             int index = cursor.getColumnIndex( MediaStore.Images.ImageColumns.DATA );
             return cursor.getString( index );
 >>>>>>> 2/27/2019
+=======
+            int index = cursor.getColumnIndex( MediaStore.Images.ImageColumns.DATA );
+            return cursor.getString( index );
+>>>>>>> 2/28/2019
         }
     }
 
@@ -2231,6 +2499,7 @@ public class Util {
         int inSampleSize = 1;
 
         if (height > reqHeight || width > reqWidth) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2248,6 +2517,10 @@ public class Util {
             final int heightRatio = Math.round( (float) height / (float) reqHeight );
             final int widthRatio = Math.round( (float) width / (float) reqWidth );
 >>>>>>> 2/27/2019
+=======
+            final int heightRatio = Math.round( (float) height / (float) reqHeight );
+            final int widthRatio = Math.round( (float) width / (float) reqWidth );
+>>>>>>> 2/28/2019
             inSampleSize = heightRatio < widthRatio ? heightRatio : widthRatio;
         }
         final float totalPixels = width * height;
@@ -2265,6 +2538,7 @@ public class Util {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             SimpleDateFormat formatter = new SimpleDateFormat(currentFormate);
             Date utilDate = formatter.parse(date);
             SimpleDateFormat formatter1 = new SimpleDateFormat(requireFormate);
@@ -2274,10 +2548,13 @@ public class Util {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
             SimpleDateFormat formatter = new SimpleDateFormat( currentFormate );
             Date utilDate = formatter.parse( date );
             SimpleDateFormat formatter1 = new SimpleDateFormat( requireFormate );
             final_date = formatter1.format( utilDate );
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> 2/25/2019
@@ -2285,12 +2562,15 @@ public class Util {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
         } catch (Exception e) {
             e.printStackTrace();
         }
         return final_date;
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2304,11 +2584,15 @@ public class Util {
 =======
     public static void showCustomProgressDialog(Context context, String title, boolean iscancelable,
 >>>>>>> 2/27/2019
+=======
+    public static void showCustomProgressDialog(Context context, String title, boolean iscancelable,
+>>>>>>> 2/28/2019
                                                 OnProgressCancelListener progressCancelListener) {
         if (mDialog != null && mDialog.isShowing())
             return;
         Util.progressCancelListener = progressCancelListener;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2328,6 +2612,8 @@ public class Util {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
         mDialog = new Dialog( context, R.style.MyDialog );
         mDialog.requestWindowFeature( Window.FEATURE_NO_TITLE );
         mDialog.getWindow().setBackgroundDrawable( new ColorDrawable( Color.TRANSPARENT ) );
@@ -2341,11 +2627,14 @@ public class Util {
         mDialog.setCancelable( iscancelable );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
         mDialog.show();
     }
 
@@ -2373,6 +2662,7 @@ public class Util {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             mProgressHUD = ProgressHUD.show(mContext,
                     "Loading...", false, false, null);
         } else {
@@ -2384,6 +2674,8 @@ public class Util {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
             mProgressHUD = ProgressHUD.show( mContext,
                     "Loading...", false, false, null );
         } else {
@@ -2392,11 +2684,14 @@ public class Util {
                         "Loading...", false, false, null );
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
             }
         }
     }

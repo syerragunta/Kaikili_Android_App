@@ -9,6 +9,7 @@ import android.widget.ImageView;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -67,11 +68,14 @@ import com.sit.kaikiliService.R;
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 import android.widget.Toast;
 
 import com.sit.kaikiliService.KaikiliApplication;
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.comman.Util;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -82,6 +86,8 @@ import com.sit.kaikiliService.comman.Util;
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 import com.sit.kaikiliService.font.TextViewEuphemiaUCASRegular;
 
 import butterknife.Bind;
@@ -93,17 +99,21 @@ import butterknife.ButterKnife;
  * Sharva Infotech PVT LTD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  *
 =======
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
  */
 
 
 public class RegistrationActivity extends BaseActivity implements View.OnClickListener {
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     @Bind(R.id.reg_iv_addServices) ImageView reg_iv_addServices;
@@ -179,6 +189,8 @@ public class RegistrationActivity extends BaseActivity implements View.OnClickLi
 =======
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
     @Bind(R.id.reg_iv_addServices)
     ImageView reg_iv_addServices;
     @Bind(R.id.reg_iv_bankDetails)
@@ -205,14 +217,18 @@ public class RegistrationActivity extends BaseActivity implements View.OnClickLi
 
     private KaikiliApplication application;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
     private SharedPreferences preferences;
 
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         super.onCreate(savedInstanceState);
@@ -278,14 +294,19 @@ public class RegistrationActivity extends BaseActivity implements View.OnClickLi
 =======
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_registration );
         ButterKnife.bind( this, this );
         application = (KaikiliApplication) getApplicationContext();
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
         preferences = application.getSharedPreferences();
 
         reg_tv_addServices.setOnClickListener( this );
@@ -301,6 +322,7 @@ public class RegistrationActivity extends BaseActivity implements View.OnClickLi
     @Override
     public void onClick(View view) {
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         if(view == reg_tv_phoneVerification){
@@ -343,6 +365,8 @@ public class RegistrationActivity extends BaseActivity implements View.OnClickLi
 =======
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
         if (view == reg_tv_phoneVerification) {
             Intent intent = new Intent( this, PhoneNoValidationActivity.class );
             startActivity( intent );
@@ -381,9 +405,12 @@ public class RegistrationActivity extends BaseActivity implements View.OnClickLi
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
         }
 
     }

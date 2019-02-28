@@ -21,6 +21,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     android:background="@color/white"
 >>>>>>> 2/2/2019
@@ -66,6 +67,9 @@
 =======
     android:background="@color/white"
 >>>>>>> 2/27/2019
+=======
+    android:background="@color/white"
+>>>>>>> 2/28/2019
     android:fitsSystemWindows="true"
     tools:openDrawer="start">
 

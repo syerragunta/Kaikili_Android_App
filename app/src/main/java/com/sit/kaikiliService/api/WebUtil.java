@@ -1,8 +1,11 @@
 package com.sit.kaikiliService.api;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import java.io.IOException;
 =======
+=======
+>>>>>>> 2/28/2019
 import android.net.Uri;
 
 import com.sit.kaikiliService.comman.AppLog;
@@ -10,15 +13,22 @@ import com.sit.kaikiliService.comman.AppLog;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+<<<<<<< HEAD
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 import java.util.concurrent.TimeUnit;
 
 import okhttp3.Credentials;
 import okhttp3.MediaType;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import okhttp3.MultipartBody;
 >>>>>>> 2/27/2019
+=======
+import okhttp3.MultipartBody;
+>>>>>>> 2/28/2019
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.RequestBody;
@@ -70,11 +80,14 @@ public class WebUtil {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
     public static Apiresponse getJSONFromUrl(String url) {
 
         Apiresponse model = new Apiresponse();
@@ -109,6 +122,7 @@ public class WebUtil {
     }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/25/2019
 =======
 >>>>>>> 2/26/2019
@@ -120,6 +134,12 @@ public class WebUtil {
 
 
     public String postImagesInServer(String url, ArrayList<Uri> images) {
+=======
+
+
+
+    public String postImagesInServer(String url, ArrayList<String> images) {
+>>>>>>> 2/28/2019
 
         RequestBody requestBody = null;
 
@@ -260,7 +280,10 @@ public class WebUtil {
         }
     }
 
+<<<<<<< HEAD
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 
 
 }

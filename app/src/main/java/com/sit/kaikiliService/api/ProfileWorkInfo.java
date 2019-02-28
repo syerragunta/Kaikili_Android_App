@@ -64,8 +64,35 @@ public class ProfileWorkInfo {
     private NearOfferData near_offer_selected_on;
 
     @JsonField
+<<<<<<< HEAD
     private ArrayList<CustomWorkPerDay> custom_work_per_day;
 
+=======
+    private String profile_image;
+
+    @JsonField
+    private ArrayList<CustomWorkPerDay> custom_work_per_day;
+
+    @JsonField
+    private ArrayList<String> workImages;
+
+    public String getProfile_image() {
+        return profile_image;
+    }
+
+    public void setProfile_image(String profile_image) {
+        this.profile_image = profile_image;
+    }
+
+    public ArrayList<String> getWorkImages() {
+        return workImages;
+    }
+
+    public void setWorkImages(ArrayList<String> workImages) {
+        this.workImages = workImages;
+    }
+
+>>>>>>> 2/28/2019
     public String get_id() {
         return _id;
     }

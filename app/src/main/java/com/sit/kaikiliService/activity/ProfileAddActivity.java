@@ -6,9 +6,13 @@ import android.app.DatePickerDialog;
 import android.app.ProgressDialog;
 import android.app.TimePickerDialog;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import android.content.Context;
 >>>>>>> 2/27/2019
+=======
+import android.content.Context;
+>>>>>>> 2/28/2019
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentSender;
@@ -27,10 +31,15 @@ import android.os.Bundle;
 import android.provider.Settings;
 import android.support.v4.content.ContextCompat;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 >>>>>>> 2/27/2019
+=======
+import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.widget.RecyclerView;
+>>>>>>> 2/28/2019
 import android.util.Log;
 import android.util.Patterns;
 import android.view.View;
@@ -62,18 +71,26 @@ import com.google.gson.Gson;
 import com.sit.kaikiliService.KaikiliApplication;
 import com.sit.kaikiliService.R;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import com.sit.kaikiliService.adapter.WorkImageEditAdapter;
 >>>>>>> 2/27/2019
+=======
+import com.sit.kaikiliService.adapter.WorkImageEditAdapter;
+>>>>>>> 2/28/2019
 import com.sit.kaikiliService.api.Apiresponse;
 import com.sit.kaikiliService.api.WebApi;
 import com.sit.kaikiliService.api.WebUtil;
 import com.sit.kaikiliService.camera.Config;
 import com.sit.kaikiliService.camera.ImagePickerActivity;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 import com.sit.kaikiliService.comman.AppLog;
 >>>>>>> 2/27/2019
+=======
+import com.sit.kaikiliService.comman.AppLog;
+>>>>>>> 2/28/2019
 import com.sit.kaikiliService.comman.LocationFinder;
 import com.sit.kaikiliService.comman.Util;
 import com.sit.kaikiliService.font.EditTextEupheminUCASRegular;
@@ -104,11 +121,16 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
         GoogleApiClient.OnConnectionFailedListener,
         GoogleApiClient.ConnectionCallbacks,
 <<<<<<< HEAD
+<<<<<<< HEAD
         LocationListener, OnMapReadyCallback {
 =======
         LocationListener, OnMapReadyCallback,
         WorkImageEditAdapter.ItemClickListener{
 >>>>>>> 2/27/2019
+=======
+        LocationListener, OnMapReadyCallback,
+        WorkImageEditAdapter.ItemClickListener{
+>>>>>>> 2/28/2019
 
     @Bind(R.id.top_back)
     ImageView top_back;
@@ -218,10 +240,13 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
     DiscreteSeekBar about_profile_seekbar_radius;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     @Bind(R.id.about_profile_iv_newAdd)
     ImageView about_profile_iv_newAdd;
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
     @Bind(R.id.about_profile_civ_profile)
     ImageView about_profile_civ_profile;
 
@@ -238,14 +263,20 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 2/28/2019
     @Bind(R.id.about_profile_recyclerView_workImage)
     RecyclerView about_profile_recyclerView_workImage;
 
 
 
 
+<<<<<<< HEAD
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
     String[] perms = {"android.permission.CAMERA",
             "android.permission.WRITE_EXTERNAL_STORAGE",
             "android.permission.READ_EXTERNAL_STORAGE"};
@@ -270,10 +301,15 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
     public LatLng selectedCoords = null;
     public LatLng selectedCodineters = null;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     private WorkImageEditAdapter adapter;
     private ArrayList<Uri> imageSet;
 >>>>>>> 2/27/2019
+=======
+    private WorkImageEditAdapter adapter;
+    private ArrayList<String> imageSet;
+>>>>>>> 2/28/2019
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -291,10 +327,15 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
         preferences = application.getSharedPreferences();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         imageSet = new ArrayList<>();
 
 >>>>>>> 2/27/2019
+=======
+        imageSet = new ArrayList<>();
+
+>>>>>>> 2/28/2019
         imgPicturePath1 = null;
         imgPicturePath2 = null;
 
@@ -305,8 +346,11 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
         about_profile_tv_leisureDayEndDate.setOnClickListener( this );
         about_profile_civ_profile.setOnClickListener( this );
 <<<<<<< HEAD
+<<<<<<< HEAD
         about_profile_iv_newAdd.setOnClickListener( this );
 =======
+=======
+>>>>>>> 2/28/2019
 
 
         int numberOfColumns = 3;
@@ -316,7 +360,10 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
         about_profile_recyclerView_workImage.setAdapter(adapter);
         about_profile_recyclerView_workImage.setNestedScrollingEnabled(false);
         adapter.setData(imageSet);
+<<<<<<< HEAD
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 
         about_profile_tv_monStart.setOnClickListener( this );
         about_profile_tv_tueStart.setOnClickListener( this );
@@ -347,10 +394,14 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
         about_profile_tv_leisureDayEndTime.setOnClickListener( this );
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         about_profile_tv_userName.setText(preferences.getString( "first_name", "" )+" "+preferences.getString( "last_name", "" ));
 =======
         about_profile_tv_userName.setText( preferences.getString( "first_name", "" ) + " " + preferences.getString( "last_name", "" ) );
 >>>>>>> 2/27/2019
+=======
+        about_profile_tv_userName.setText( preferences.getString( "first_name", "" ) + " " + preferences.getString( "last_name", "" ) );
+>>>>>>> 2/28/2019
 
 
         about_profile_seekbar_radius.setNumericTransformer( new DiscreteSeekBar.NumericTransformer() {
@@ -466,12 +517,17 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
                     about_profile_tv_monStart.setText( "" );
                     about_profile_tv_monEnd.setText( "" );
 <<<<<<< HEAD
+<<<<<<< HEAD
                 }else {
                         about_profile_rb_workDay.setClickable(true);
 =======
                 } else {
                     about_profile_rb_workDay.setClickable( true );
 >>>>>>> 2/27/2019
+=======
+                } else {
+                    about_profile_rb_workDay.setClickable( true );
+>>>>>>> 2/28/2019
                 }
             }
         } );
@@ -572,11 +628,17 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
                 .findFragmentById( R.id.about_profile_mapView );
         fm.getMapAsync( this );
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
 
 >>>>>>> 2/27/2019
+=======
+
+
+
+>>>>>>> 2/28/2019
     }
 
 
@@ -619,9 +681,12 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
                 new uploadProfileInfoTask( this ).execute();
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 //
 
         } else if (about_profile_tv_leisureDayStartDate == view) {
@@ -633,6 +698,7 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
                 setAllParmisan();
             }
 <<<<<<< HEAD
+<<<<<<< HEAD
         } else if (about_profile_iv_newAdd == view) {
             if (checkAllParmisan()) {
                 selectProfileImage( 205, 5 );
@@ -641,6 +707,8 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
             }
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 
         } else if (about_profile_tv_leisureDayEndDate == view) {
             showDataDialog( 2 );
@@ -690,11 +758,14 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
 
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
     }
 
 =======
+=======
+>>>>>>> 2/28/2019
     }
 
     @Override
@@ -722,7 +793,10 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
 
 
 
+<<<<<<< HEAD
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
     private boolean valideDataInfo() {
         if (!Util.isNotEmpaty( about_profile_edt_about.getText().toString() )) {
             Toast.makeText( this, "Please Enter about of your work", Toast.LENGTH_SHORT ).show();
@@ -962,11 +1036,14 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
                     selectedCodineters = new LatLng( strLatitude, strLongitude );
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 //                    AppLog.Log( "receive------- Latitude", strLatitude + "  ---------" );
 //                    AppLog.Log( "receive------- Longitude", strLongitude + "  ---------" );
 
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
                     Geocoder geocoder;
                     List<Address> addresses;
                     geocoder = new Geocoder( this, Locale.getDefault() );
@@ -1023,6 +1100,7 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
                     }
                 } else if (requestCode == 205) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 
                     if (imgPicturePath1 == null) {
                         ArrayList<Uri> image_uris = data.getParcelableArrayListExtra( ImagePickerActivity.EXTRA_IMAGE_URIS );
@@ -1043,6 +1121,16 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
                         imageSet.addAll(image_uris);
                         adapter.setData(imageSet);
 >>>>>>> 2/27/2019
+=======
+                    ArrayList<Uri> image_uris = data.getParcelableArrayListExtra( ImagePickerActivity.EXTRA_IMAGE_URIS );
+                    ArrayList<String> newList = new ArrayList<>();
+                    for (int i = 0;i<image_uris.size();i++){
+                        newList.add(image_uris.get(i).toString());
+                    }
+
+                    imageSet.addAll(newList );
+                    adapter.setData( imageSet );
+>>>>>>> 2/28/2019
                 }
 
                 if (requestCode == SETTING_PERMISSION_CODE) {
@@ -1260,9 +1348,13 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 2/27/2019
+=======
+
+>>>>>>> 2/28/2019
     public class uploadProfileInfoTask extends AsyncTask<Void, Void, String> {
 
         private ProgressDialog mDialog = null;
@@ -1295,10 +1387,15 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
                 jsonObject.put( "phone", preferences.getString( "mobile_no", "" ) );
                 jsonObject.put( "profile_status", "Not Verified" );
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
                 jsonObject.put( "profile_image", "" );
                 jsonObject.put( "workImages", new JSONArray() );
 >>>>>>> 2/27/2019
+=======
+                jsonObject.put( "profile_image", "" );
+                jsonObject.put( "workImages", new JSONArray() );
+>>>>>>> 2/28/2019
                 jsonObject.put( "about_sp_profile", about_profile_edt_about.getText().toString() );
                 jsonObject.put( "website", about_profile_edt_website.getText().toString() );
                 jsonObject.put( "linkedin", about_profile_edt_linkedin.getText().toString() );
@@ -1432,11 +1529,14 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
 
             if (apiresponse.getStatus() == 1) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 Toast.makeText( mActivity, apiresponse.getMessage(), Toast.LENGTH_SHORT ).show();
 //                Intent intent = new Intent( this, BackgroundFormActivity.class );
 ////            startActivity( intent );
 ////            finish();
 =======
+=======
+>>>>>>> 2/28/2019
 //                Toast.makeText( mActivity, apiresponse.getMessage(), Toast.LENGTH_SHORT ).show();
 
                 if(imageSet.size()>0){
@@ -1461,10 +1561,17 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
 
         private ProgressDialog mDialog = null;
         private Activity mActivity;
+<<<<<<< HEAD
         private ArrayList<Uri> fileList;
 
 
         public WSCreateWorkProfileUploadImage(Activity activity,ArrayList<Uri> fileData) {
+=======
+        private ArrayList<String> fileList;
+
+
+        public WSCreateWorkProfileUploadImage(Activity activity,ArrayList<String> fileData) {
+>>>>>>> 2/28/2019
             mActivity = activity;
             this.fileList = fileData;
             // TODO Auto-generated constructor stub
@@ -1562,7 +1669,10 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
                 Intent intent = new Intent( mActivity, BackgroundFormActivity.class );
                 startActivity( intent );
                 mActivity.finish();
+<<<<<<< HEAD
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
             } else {
                 Toast.makeText( mActivity, apiresponse.getMessage(), Toast.LENGTH_SHORT ).show();
             }
@@ -1570,7 +1680,11 @@ public class ProfileAddActivity extends BaseActivity implements View.OnClickList
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 2/27/2019
+=======
+
+>>>>>>> 2/28/2019
 }

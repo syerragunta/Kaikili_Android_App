@@ -17,6 +17,7 @@ import android.provider.Settings;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
@@ -76,11 +77,14 @@ import com.sit.kaikiliService.KaikiliApplication;
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
 import com.sit.kaikiliService.KaikiliApplication;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -91,6 +95,8 @@ import com.sit.kaikiliService.KaikiliApplication;
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 import com.sit.kaikiliService.R;
 import com.sit.kaikiliService.comman.AppLog;
 import com.sit.kaikiliService.comman.Util;
@@ -106,6 +112,7 @@ import com.sit.kaikiliService.comman.Util;
 public class SplashActivity extends BaseActivity {
     private static final short SPLASH_TIME = 2000;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -205,6 +212,11 @@ public class SplashActivity extends BaseActivity {
     private ProgressDialog mDialog = null;
     private KaikiliApplication application;
 >>>>>>> 2/27/2019
+=======
+//    private KaikiliApplication application;
+    private ProgressDialog mDialog = null;
+    private KaikiliApplication application;
+>>>>>>> 2/28/2019
     private SharedPreferences preferences;
     private String gcmRegistrationId = "";
     private static final int PERMISSION_REQUEST_CODE = 200;
@@ -226,6 +238,7 @@ public class SplashActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -291,6 +304,9 @@ public class SplashActivity extends BaseActivity {
 =======
         application = (KaikiliApplication) getApplicationContext();
 >>>>>>> 2/27/2019
+=======
+        application = (KaikiliApplication) getApplicationContext();
+>>>>>>> 2/28/2019
         preferences = application.getSharedPreferences();
 
         if(checkPlayServices()) {
@@ -474,6 +490,7 @@ public class SplashActivity extends BaseActivity {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             Intent intent = new Intent(this,PhoneNoValidationActivity.class);
 //        Intent intent = new Intent(SplashActivity.this, RegistrationActivity.class);
 //            intent.putExtra("GoTo", "Driver");
@@ -500,15 +517,20 @@ public class SplashActivity extends BaseActivity {
 =======
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 //        Intent intent = new Intent(this,ProfileAddActivity.class);
 //        startActivity(intent);
 //        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_left);
 //        finish();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
         if(Util.isNotEmpaty(preferences.getString( "sp_id",""))){
             Intent intent = new Intent(this,HomeScreenActivity.class);
             startActivity(intent);
@@ -522,6 +544,7 @@ public class SplashActivity extends BaseActivity {
             finish();
         }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -553,6 +576,8 @@ public class SplashActivity extends BaseActivity {
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
     }
 
 

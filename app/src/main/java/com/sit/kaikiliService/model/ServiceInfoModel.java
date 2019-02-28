@@ -8,6 +8,7 @@ package com.sit.kaikiliService.model;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 2/18/2019
@@ -23,12 +24,15 @@ package com.sit.kaikiliService.model;
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 /**
  * Created by ketan patel on 30/1/2019.
  * ketan_patel25@yahoo.com
  * Sharva Infotech PVT LTD
  */
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -51,6 +55,8 @@ package com.sit.kaikiliService.model;
 >>>>>>> 2/26/2019
 =======
 >>>>>>> 2/27/2019
+=======
+>>>>>>> 2/28/2019
 public class ServiceInfoModel {
     public String getName() {
         return name;
